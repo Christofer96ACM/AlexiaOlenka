@@ -1,0 +1,15 @@
+D:\Christofer\PRUEBA\ERPAlexia\BusinessRules\bin\x86\Debug\BusinessRules.dll
+D:\Christofer\PRUEBA\ERPAlexia\BusinessRules\bin\x86\Debug\BusinessRules.pdb
+D:\Christofer\PRUEBA\ERPAlexia\BusinessRules\bin\x86\Debug\BusinessEntities.dll
+D:\Christofer\PRUEBA\ERPAlexia\BusinessRules\bin\x86\Debug\DataAccess.dll
+D:\Christofer\PRUEBA\ERPAlexia\BusinessRules\bin\x86\Debug\ResultSetMappers.dll
+D:\Christofer\PRUEBA\ERPAlexia\BusinessRules\bin\x86\Debug\Microsoft.Practices.EnterpriseLibrary.Data.dll
+D:\Christofer\PRUEBA\ERPAlexia\BusinessRules\bin\x86\Debug\Microsoft.Practices.EnterpriseLibrary.Common.dll
+D:\Christofer\PRUEBA\ERPAlexia\BusinessRules\bin\x86\Debug\Microsoft.Practices.ServiceLocation.dll
+D:\Christofer\PRUEBA\ERPAlexia\BusinessRules\bin\x86\Debug\Microsoft.Practices.Unity.dll
+D:\Christofer\PRUEBA\ERPAlexia\BusinessRules\bin\x86\Debug\Microsoft.Practices.Unity.Interception.dll
+D:\Christofer\PRUEBA\ERPAlexia\BusinessRules\bin\x86\Debug\BusinessEntities.pdb
+D:\Christofer\PRUEBA\ERPAlexia\BusinessRules\bin\x86\Debug\DataAccess.pdb
+D:\Christofer\PRUEBA\ERPAlexia\BusinessRules\obj\x86\Debug\BusinessRules.csprojResolveAssemblyReference.cache
+D:\Christofer\PRUEBA\ERPAlexia\BusinessRules\obj\x86\Debug\BusinessRules.dll
+D:\Christofer\PRUEBA\ERPAlexia\BusinessRules\obj\x86\Debug\BusinessRules.pdb

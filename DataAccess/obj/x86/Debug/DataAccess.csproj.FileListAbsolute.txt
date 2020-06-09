@@ -1,0 +1,14 @@
+D:\Christofer\PRUEBA\ERPAlexia\DataAccess\bin\x86\Debug\DataAccess.dll
+D:\Christofer\PRUEBA\ERPAlexia\DataAccess\bin\x86\Debug\DataAccess.pdb
+D:\Christofer\PRUEBA\ERPAlexia\DataAccess\bin\x86\Debug\BusinessEntities.dll
+D:\Christofer\PRUEBA\ERPAlexia\DataAccess\bin\x86\Debug\Microsoft.Practices.EnterpriseLibrary.Common.dll
+D:\Christofer\PRUEBA\ERPAlexia\DataAccess\bin\x86\Debug\Microsoft.Practices.EnterpriseLibrary.Data.dll
+D:\Christofer\PRUEBA\ERPAlexia\DataAccess\bin\x86\Debug\Microsoft.Practices.ServiceLocation.dll
+D:\Christofer\PRUEBA\ERPAlexia\DataAccess\bin\x86\Debug\Microsoft.Practices.Unity.dll
+D:\Christofer\PRUEBA\ERPAlexia\DataAccess\bin\x86\Debug\Microsoft.Practices.Unity.Interception.dll
+D:\Christofer\PRUEBA\ERPAlexia\DataAccess\bin\x86\Debug\BusinessEntities.pdb
+D:\Christofer\PRUEBA\ERPAlexia\DataAccess\obj\x86\Debug\DataAccess.csprojResolveAssemblyReference.cache
+D:\Christofer\PRUEBA\ERPAlexia\DataAccess\obj\x86\Debug\Interop.SAPbobsCOM.dll
+D:\Christofer\PRUEBA\ERPAlexia\DataAccess\obj\x86\Debug\DataAccess.csproj.ResolveComReference.cache
+D:\Christofer\PRUEBA\ERPAlexia\DataAccess\obj\x86\Debug\DataAccess.dll
+D:\Christofer\PRUEBA\ERPAlexia\DataAccess\obj\x86\Debug\DataAccess.pdb

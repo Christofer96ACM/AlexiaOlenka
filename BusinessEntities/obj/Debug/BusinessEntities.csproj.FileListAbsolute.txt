@@ -1,0 +1,95 @@
+E:\Migration Apps Dev13.1.5\Commerce\OneCommerce\BusinessEntities\bin\Debug\BusinessEntities.dll
+E:\Migration Apps Dev13.1.5\Commerce\OneCommerce\BusinessEntities\bin\Debug\BusinessEntities.pdb
+E:\Migration Apps Dev13.1.5\Commerce\OneCommerce\BusinessEntities\obj\Debug\BusinessEntities.dll
+E:\Migration Apps Dev13.1.5\Commerce\OneCommerce\BusinessEntities\obj\Debug\BusinessEntities.pdb
+E:\Migration Apps Dev13.1.5\Commerce\OneCommerce\BusinessEntities\obj\Debug\BusinessEntities.csprojResolveAssemblyReference.cache
+C:\Users\mpuelles\Desktop\Commerce\OneCommerce\BusinessEntities\bin\Debug\BusinessEntities.dll
+C:\Users\mpuelles\Desktop\Commerce\OneCommerce\BusinessEntities\bin\Debug\BusinessEntities.pdb
+C:\Users\mpuelles\Desktop\Commerce\OneCommerce\BusinessEntities\obj\Debug\BusinessEntities.csprojResolveAssemblyReference.cache
+C:\Users\mpuelles\Desktop\Commerce\OneCommerce\BusinessEntities\obj\Debug\BusinessEntities.dll
+C:\Users\mpuelles\Desktop\Commerce\OneCommerce\BusinessEntities\obj\Debug\BusinessEntities.pdb
+C:\Users\jcardenas\Desktop\JOSE - copia\desarrollando\Commerce-copia\OneCommerce\BusinessEntities\bin\Debug\BusinessEntities.dll
+C:\Users\jcardenas\Desktop\JOSE - copia\desarrollando\Commerce-copia\OneCommerce\BusinessEntities\bin\Debug\BusinessEntities.pdb
+C:\Users\jcardenas\Desktop\JOSE - copia\desarrollando\Commerce-copia\OneCommerce\BusinessEntities\obj\Debug\BusinessEntities.csprojResolveAssemblyReference.cache
+C:\Users\jcardenas\Desktop\JOSE - copia\desarrollando\Commerce-copia\OneCommerce\BusinessEntities\obj\Debug\BusinessEntities.dll
+C:\Users\jcardenas\Desktop\JOSE - copia\desarrollando\Commerce-copia\OneCommerce\BusinessEntities\obj\Debug\BusinessEntities.pdb
+D:\Jose Cardenas\Escritorio\JOSE - copia\desarrollando\Commerce-copia\OneCommerce\BusinessEntities\bin\Debug\BusinessEntities.dll
+D:\Jose Cardenas\Escritorio\JOSE - copia\desarrollando\Commerce-copia\OneCommerce\BusinessEntities\bin\Debug\BusinessEntities.pdb
+D:\Jose Cardenas\Escritorio\JOSE - copia\desarrollando\Commerce-copia\OneCommerce\BusinessEntities\obj\Debug\BusinessEntities.dll
+D:\Jose Cardenas\Escritorio\JOSE - copia\desarrollando\Commerce-copia\OneCommerce\BusinessEntities\obj\Debug\BusinessEntities.pdb
+D:\Jose Cardenas\Escritorio\JOSE - copia\desarrollando\Commerce-copia\OneCommerce\BusinessEntities\obj\Debug\BusinessEntities.csprojResolveAssemblyReference.cache
+D:\Commerce-copia\OneCommerce\BusinessEntities\bin\Debug\BusinessEntities.dll
+D:\Commerce-copia\OneCommerce\BusinessEntities\bin\Debug\BusinessEntities.pdb
+D:\Commerce-copia\OneCommerce\BusinessEntities\obj\Debug\BusinessEntities.dll
+D:\Commerce-copia\OneCommerce\BusinessEntities\obj\Debug\BusinessEntities.pdb
+D:\Commerce-copia\OneCommerce\BusinessEntities\obj\Debug\BusinessEntities.csprojResolveAssemblyReference.cache
+D:\Fuentes de Aplicaciones Modificadas\Commerce-copia\OneCommerce\BusinessEntities\bin\Debug\BusinessEntities.dll
+D:\Fuentes de Aplicaciones Modificadas\Commerce-copia\OneCommerce\BusinessEntities\bin\Debug\BusinessEntities.pdb
+D:\Fuentes de Aplicaciones Modificadas\Commerce-copia\OneCommerce\BusinessEntities\obj\Debug\BusinessEntities.dll
+D:\Fuentes de Aplicaciones Modificadas\Commerce-copia\OneCommerce\BusinessEntities\obj\Debug\BusinessEntities.pdb
+D:\Fuentes de Aplicaciones Modificadas\Commerce-copia\OneCommerce\BusinessEntities\obj\Debug\BusinessEntities.csprojResolveAssemblyReference.cache
+E:\Ultimas fuentes\Commerce\OneCommerce\BusinessEntities\bin\Debug\BusinessEntities.dll
+E:\Ultimas fuentes\Commerce\OneCommerce\BusinessEntities\bin\Debug\BusinessEntities.pdb
+E:\Ultimas fuentes\Commerce\OneCommerce\BusinessEntities\obj\Debug\BusinessEntities.csprojResolveAssemblyReference.cache
+E:\Ultimas fuentes\Commerce\OneCommerce\BusinessEntities\obj\Debug\BusinessEntities.dll
+E:\Ultimas fuentes\Commerce\OneCommerce\BusinessEntities\obj\Debug\BusinessEntities.pdb
+C:\Users\williamsga\Desktop\Commerce\OneCommerce\BusinessEntities\bin\Debug\BusinessEntities.dll
+C:\Users\williamsga\Desktop\Commerce\OneCommerce\BusinessEntities\bin\Debug\BusinessEntities.pdb
+C:\Users\williamsga\Desktop\Commerce\OneCommerce\BusinessEntities\obj\Debug\BusinessEntities.dll
+C:\Users\williamsga\Desktop\Commerce\OneCommerce\BusinessEntities\obj\Debug\BusinessEntities.pdb
+\\tsclient\D\Trabajo BF\BF\Fuente de las APPS\Ultimas fuentes\Commerce\OneCommerce\BusinessEntities\bin\Debug\BusinessEntities.dll
+\\tsclient\D\Trabajo BF\BF\Fuente de las APPS\Ultimas fuentes\Commerce\OneCommerce\BusinessEntities\bin\Debug\BusinessEntities.pdb
+\\tsclient\D\Trabajo BF\BF\Fuente de las APPS\Ultimas fuentes\Commerce\OneCommerce\BusinessEntities\obj\Debug\BusinessEntities.dll
+\\tsclient\D\Trabajo BF\BF\Fuente de las APPS\Ultimas fuentes\Commerce\OneCommerce\BusinessEntities\obj\Debug\BusinessEntities.pdb
+\\tsclient\D\Trabajo BF\BF\Fuente de las APPS\Ultimas fuentes\Commerce\OneCommerce\BusinessEntities\obj\Debug\BusinessEntities.csprojResolveAssemblyReference.cache
+D:\Trabajo BF\BF\Fuente de las APPS\Ultimas fuentes\Commerce\OneCommerce\BusinessEntities\bin\Debug\BusinessEntities.dll
+D:\Trabajo BF\BF\Fuente de las APPS\Ultimas fuentes\Commerce\OneCommerce\BusinessEntities\bin\Debug\BusinessEntities.pdb
+D:\Trabajo BF\BF\Fuente de las APPS\Ultimas fuentes\Commerce\OneCommerce\BusinessEntities\obj\Debug\BusinessEntities.csprojResolveAssemblyReference.cache
+D:\Trabajo BF\BF\Fuente de las APPS\Ultimas fuentes\Commerce\OneCommerce\BusinessEntities\obj\Debug\BusinessEntities.dll
+D:\Trabajo BF\BF\Fuente de las APPS\Ultimas fuentes\Commerce\OneCommerce\BusinessEntities\obj\Debug\BusinessEntities.pdb
+D:\OneCommerce\BusinessEntities\bin\Debug\BusinessEntities.dll
+D:\OneCommerce\BusinessEntities\bin\Debug\BusinessEntities.pdb
+D:\OneCommerce\BusinessEntities\obj\Debug\BusinessEntities.csprojResolveAssemblyReference.cache
+D:\OneCommerce\BusinessEntities\obj\Debug\BusinessEntities.dll
+D:\OneCommerce\BusinessEntities\obj\Debug\BusinessEntities.pdb
+D:\Christofer\OneCommerce\BusinessEntities\bin\Debug\BusinessEntities.dll
+D:\Christofer\OneCommerce\BusinessEntities\bin\Debug\BusinessEntities.pdb
+D:\Christofer\OneCommerce\BusinessEntities\obj\Debug\BusinessEntities.csprojResolveAssemblyReference.cache
+D:\Christofer\OneCommerce\BusinessEntities\obj\Debug\BusinessEntities.dll
+D:\Christofer\OneCommerce\BusinessEntities\obj\Debug\BusinessEntities.pdb
+D:\Christofer\OneCommerce\ERPAlexia\BusinessEntities\bin\Debug\BusinessEntities.dll
+D:\Christofer\OneCommerce\ERPAlexia\BusinessEntities\bin\Debug\BusinessEntities.pdb
+D:\Christofer\OneCommerce\ERPAlexia\BusinessEntities\obj\Debug\BusinessEntities.dll
+D:\Christofer\OneCommerce\ERPAlexia\BusinessEntities\obj\Debug\BusinessEntities.pdb
+D:\OLE_FINAL\ERPAlexia\BusinessEntities\bin\Debug\BusinessEntities.dll
+D:\OLE_FINAL\ERPAlexia\BusinessEntities\bin\Debug\BusinessEntities.pdb
+D:\OLE_FINAL\ERPAlexia\BusinessEntities\obj\Debug\BusinessEntities.dll
+D:\OLE_FINAL\ERPAlexia\BusinessEntities\obj\Debug\BusinessEntities.pdb
+D:\Christofer\OC OLENKA\ERPAlexia\BusinessEntities\bin\Debug\BusinessEntities.dll
+D:\Christofer\OC OLENKA\ERPAlexia\BusinessEntities\bin\Debug\BusinessEntities.pdb
+D:\Christofer\OC OLENKA\ERPAlexia\BusinessEntities\obj\Debug\BusinessEntities.dll
+D:\Christofer\OC OLENKA\ERPAlexia\BusinessEntities\obj\Debug\BusinessEntities.pdb
+D:\Christofer2.0\ERPAlexia\ERPAlexia\BusinessEntities\bin\Debug\BusinessEntities.dll
+D:\Christofer2.0\ERPAlexia\ERPAlexia\BusinessEntities\bin\Debug\BusinessEntities.pdb
+D:\Christofer2.0\ERPAlexia\ERPAlexia\BusinessEntities\obj\Debug\BusinessEntities.csprojResolveAssemblyReference.cache
+D:\Christofer2.0\ERPAlexia\ERPAlexia\BusinessEntities\obj\Debug\BusinessEntities.dll
+D:\Christofer2.0\ERPAlexia\ERPAlexia\BusinessEntities\obj\Debug\BusinessEntities.pdb
+D:\Christofer\PRUEBA\ERPAlexia\BusinessEntities\bin\Debug\BusinessEntities.dll
+D:\Christofer\PRUEBA\ERPAlexia\BusinessEntities\bin\Debug\BusinessEntities.pdb
+D:\Christofer\PRUEBA\ERPAlexia\BusinessEntities\obj\Debug\BusinessEntities.dll
+D:\Christofer\PRUEBA\ERPAlexia\BusinessEntities\obj\Debug\BusinessEntities.pdb
+D:\Olenka\ULTIMA VERSION\ERPAlexia\BusinessEntities\bin\Debug\BusinessEntities.dll
+D:\Olenka\ULTIMA VERSION\ERPAlexia\BusinessEntities\bin\Debug\BusinessEntities.pdb
+D:\Olenka\ULTIMA VERSION\ERPAlexia\BusinessEntities\obj\Debug\BusinessEntities.csprojResolveAssemblyReference.cache
+D:\Olenka\ULTIMA VERSION\ERPAlexia\BusinessEntities\obj\Debug\BusinessEntities.dll
+D:\Olenka\ULTIMA VERSION\ERPAlexia\BusinessEntities\obj\Debug\BusinessEntities.pdb
+D:\ORIGINALES OLENKA\GRAFI\ERPAlexia\BusinessEntities\bin\Debug\BusinessEntities.dll
+D:\ORIGINALES OLENKA\GRAFI\ERPAlexia\BusinessEntities\bin\Debug\BusinessEntities.pdb
+D:\ORIGINALES OLENKA\GRAFI\ERPAlexia\BusinessEntities\obj\Debug\BusinessEntities.csprojResolveAssemblyReference.cache
+D:\ORIGINALES OLENKA\GRAFI\ERPAlexia\BusinessEntities\obj\Debug\BusinessEntities.dll
+D:\ORIGINALES OLENKA\GRAFI\ERPAlexia\BusinessEntities\obj\Debug\BusinessEntities.pdb
+D:\Olenka\GRF LIST\ERPAlexia\BusinessEntities\bin\Debug\BusinessEntities.dll
+D:\Olenka\GRF LIST\ERPAlexia\BusinessEntities\bin\Debug\BusinessEntities.pdb
+D:\Olenka\GRF LIST\ERPAlexia\BusinessEntities\obj\Debug\BusinessEntities.csprojResolveAssemblyReference.cache
+D:\Olenka\GRF LIST\ERPAlexia\BusinessEntities\obj\Debug\BusinessEntities.dll
+D:\Olenka\GRF LIST\ERPAlexia\BusinessEntities\obj\Debug\BusinessEntities.pdb

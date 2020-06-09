@@ -1,0 +1,43 @@
+﻿.amenucrearclie{
+    text-decoration: none;
+	border:1px groove white;
+  	font-size: 16px;
+  	text-align: center;
+ 	width: 120px;
+    height: 40px;
+    padding-top: 20px;  
+    float:left;
+    text-indent:inherit;
+}
+#tablaprincdecrearclie{
+     float:left ;
+}
+#tab1tabla1{
+    float:left;
+    margin-left: 25px;
+}
+#lblEstadoCrC{
+    float:left;
+    margin-left: 100px;
+    background-color:red;
+}
+.sectablas{
+    width:700px; height:300px;
+}
+#direccionesdatos{
+    width:400px; height:280px;
+    float:left;
+    margin: 10px 11px;
+}
+#direccioneslista{
+    width:250px; height:280px;
+    float:left;
+    margin: 10px 11px;
+}
+#tab1zonas{
+    float:left;
+}
+#tab2zonas{
+    float:left;
+    border: 2px groove black;
+}

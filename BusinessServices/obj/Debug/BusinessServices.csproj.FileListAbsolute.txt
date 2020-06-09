@@ -1,0 +1,305 @@
+E:\Migration Apps Dev13.1.5\Commerce\OneCommerce\BusinessServices\bin\Debug\BusinessServices.dll
+E:\Migration Apps Dev13.1.5\Commerce\OneCommerce\BusinessServices\bin\Debug\BusinessServices.pdb
+E:\Migration Apps Dev13.1.5\Commerce\OneCommerce\BusinessServices\obj\Debug\BusinessServices.dll
+E:\Migration Apps Dev13.1.5\Commerce\OneCommerce\BusinessServices\obj\Debug\BusinessServices.pdb
+E:\Migration Apps Dev13.1.5\Commerce\OneCommerce\BusinessServices\obj\Debug\BusinessServices.csprojResolveAssemblyReference.cache
+C:\Users\mpuelles\Desktop\Commerce\OneCommerce\BusinessServices\bin\Debug\BusinessServices.dll
+C:\Users\mpuelles\Desktop\Commerce\OneCommerce\BusinessServices\bin\Debug\BusinessServices.pdb
+C:\Users\mpuelles\Desktop\Commerce\OneCommerce\BusinessServices\obj\Debug\BusinessServices.csprojResolveAssemblyReference.cache
+C:\Users\mpuelles\Desktop\Commerce\OneCommerce\BusinessServices\obj\Debug\BusinessServices.dll
+C:\Users\mpuelles\Desktop\Commerce\OneCommerce\BusinessServices\obj\Debug\BusinessServices.pdb
+E:\Migration Apps Dev13.1.5\Commerce\OneCommerce\BusinessServices\bin\Debug\BusinessEntities.dll
+E:\Migration Apps Dev13.1.5\Commerce\OneCommerce\BusinessServices\bin\Debug\BusinessEntities.pdb
+C:\Users\jcardenas\Desktop\JOSE - copia\desarrollando\Commerce-copia\OneCommerce\BusinessServices\bin\Debug\BusinessServices.dll
+C:\Users\jcardenas\Desktop\JOSE - copia\desarrollando\Commerce-copia\OneCommerce\BusinessServices\bin\Debug\BusinessServices.pdb
+C:\Users\jcardenas\Desktop\JOSE - copia\desarrollando\Commerce-copia\OneCommerce\BusinessServices\bin\Debug\BusinessEntities.dll
+C:\Users\jcardenas\Desktop\JOSE - copia\desarrollando\Commerce-copia\OneCommerce\BusinessServices\bin\Debug\BusinessEntities.pdb
+C:\Users\jcardenas\Desktop\JOSE - copia\desarrollando\Commerce-copia\OneCommerce\BusinessServices\obj\Debug\BusinessServices.csprojResolveAssemblyReference.cache
+C:\Users\jcardenas\Desktop\JOSE - copia\desarrollando\Commerce-copia\OneCommerce\BusinessServices\obj\Debug\BusinessServices.dll
+C:\Users\jcardenas\Desktop\JOSE - copia\desarrollando\Commerce-copia\OneCommerce\BusinessServices\obj\Debug\BusinessServices.pdb
+D:\Jose Cardenas\Escritorio\JOSE - copia\desarrollando\Commerce-copia\OneCommerce\BusinessServices\bin\Debug\BusinessServices.dll
+D:\Jose Cardenas\Escritorio\JOSE - copia\desarrollando\Commerce-copia\OneCommerce\BusinessServices\bin\Debug\BusinessServices.pdb
+D:\Jose Cardenas\Escritorio\JOSE - copia\desarrollando\Commerce-copia\OneCommerce\BusinessServices\bin\Debug\BusinessEntities.dll
+D:\Jose Cardenas\Escritorio\JOSE - copia\desarrollando\Commerce-copia\OneCommerce\BusinessServices\bin\Debug\BusinessEntities.pdb
+D:\Jose Cardenas\Escritorio\JOSE - copia\desarrollando\Commerce-copia\OneCommerce\BusinessServices\obj\Debug\BusinessServices.csprojResolveAssemblyReference.cache
+D:\Jose Cardenas\Escritorio\JOSE - copia\desarrollando\Commerce-copia\OneCommerce\BusinessServices\obj\Debug\BusinessServices.dll
+D:\Jose Cardenas\Escritorio\JOSE - copia\desarrollando\Commerce-copia\OneCommerce\BusinessServices\obj\Debug\BusinessServices.pdb
+D:\Commerce-copia\OneCommerce\BusinessServices\bin\Debug\BusinessServices.dll
+D:\Commerce-copia\OneCommerce\BusinessServices\bin\Debug\BusinessServices.pdb
+D:\Commerce-copia\OneCommerce\BusinessServices\bin\Debug\BusinessEntities.dll
+D:\Commerce-copia\OneCommerce\BusinessServices\bin\Debug\BusinessEntities.pdb
+D:\Commerce-copia\OneCommerce\BusinessServices\obj\Debug\BusinessServices.csprojResolveAssemblyReference.cache
+D:\Commerce-copia\OneCommerce\BusinessServices\obj\Debug\BusinessServices.dll
+D:\Commerce-copia\OneCommerce\BusinessServices\obj\Debug\BusinessServices.pdb
+D:\Fuentes de Aplicaciones Modificadas\Commerce-copia\OneCommerce\BusinessServices\bin\Debug\BusinessServices.dll
+D:\Fuentes de Aplicaciones Modificadas\Commerce-copia\OneCommerce\BusinessServices\bin\Debug\BusinessServices.pdb
+D:\Fuentes de Aplicaciones Modificadas\Commerce-copia\OneCommerce\BusinessServices\bin\Debug\BusinessEntities.dll
+D:\Fuentes de Aplicaciones Modificadas\Commerce-copia\OneCommerce\BusinessServices\bin\Debug\BusinessEntities.pdb
+D:\Fuentes de Aplicaciones Modificadas\Commerce-copia\OneCommerce\BusinessServices\obj\Debug\BusinessServices.csprojResolveAssemblyReference.cache
+D:\Fuentes de Aplicaciones Modificadas\Commerce-copia\OneCommerce\BusinessServices\obj\Debug\BusinessServices.dll
+D:\Fuentes de Aplicaciones Modificadas\Commerce-copia\OneCommerce\BusinessServices\obj\Debug\BusinessServices.pdb
+D:\Fuentes de Aplicaciones Modificadas\Commerce-copia\OneCommerce\BusinessServices\bin\Debug\BusinessRules.dll
+D:\Fuentes de Aplicaciones Modificadas\Commerce-copia\OneCommerce\BusinessServices\bin\Debug\DataAccess.dll
+D:\Fuentes de Aplicaciones Modificadas\Commerce-copia\OneCommerce\BusinessServices\bin\Debug\ResultSetMappers.dll
+D:\Fuentes de Aplicaciones Modificadas\Commerce-copia\OneCommerce\BusinessServices\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Data.dll
+D:\Fuentes de Aplicaciones Modificadas\Commerce-copia\OneCommerce\BusinessServices\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Common.dll
+D:\Fuentes de Aplicaciones Modificadas\Commerce-copia\OneCommerce\BusinessServices\bin\Debug\Microsoft.Practices.ServiceLocation.dll
+D:\Fuentes de Aplicaciones Modificadas\Commerce-copia\OneCommerce\BusinessServices\bin\Debug\Microsoft.Practices.Unity.dll
+D:\Fuentes de Aplicaciones Modificadas\Commerce-copia\OneCommerce\BusinessServices\bin\Debug\Microsoft.Practices.Unity.Interception.dll
+D:\Fuentes de Aplicaciones Modificadas\Commerce-copia\OneCommerce\BusinessServices\bin\Debug\BusinessRules.pdb
+D:\Fuentes de Aplicaciones Modificadas\Commerce-copia\OneCommerce\BusinessServices\bin\Debug\DataAccess.pdb
+E:\Ultimas fuentes\Commerce\OneCommerce\BusinessServices\bin\Debug\BusinessServices.dll
+E:\Ultimas fuentes\Commerce\OneCommerce\BusinessServices\bin\Debug\BusinessServices.pdb
+E:\Ultimas fuentes\Commerce\OneCommerce\BusinessServices\bin\Debug\BusinessEntities.dll
+E:\Ultimas fuentes\Commerce\OneCommerce\BusinessServices\bin\Debug\BusinessRules.dll
+E:\Ultimas fuentes\Commerce\OneCommerce\BusinessServices\bin\Debug\DataAccess.dll
+E:\Ultimas fuentes\Commerce\OneCommerce\BusinessServices\bin\Debug\ResultSetMappers.dll
+E:\Ultimas fuentes\Commerce\OneCommerce\BusinessServices\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Data.dll
+E:\Ultimas fuentes\Commerce\OneCommerce\BusinessServices\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Common.dll
+E:\Ultimas fuentes\Commerce\OneCommerce\BusinessServices\bin\Debug\Microsoft.Practices.ServiceLocation.dll
+E:\Ultimas fuentes\Commerce\OneCommerce\BusinessServices\bin\Debug\Microsoft.Practices.Unity.dll
+E:\Ultimas fuentes\Commerce\OneCommerce\BusinessServices\bin\Debug\Microsoft.Practices.Unity.Interception.dll
+E:\Ultimas fuentes\Commerce\OneCommerce\BusinessServices\bin\Debug\BusinessEntities.pdb
+E:\Ultimas fuentes\Commerce\OneCommerce\BusinessServices\bin\Debug\BusinessRules.pdb
+E:\Ultimas fuentes\Commerce\OneCommerce\BusinessServices\bin\Debug\DataAccess.pdb
+E:\Ultimas fuentes\Commerce\OneCommerce\BusinessServices\obj\Debug\BusinessServices.csprojResolveAssemblyReference.cache
+E:\Ultimas fuentes\Commerce\OneCommerce\BusinessServices\obj\Debug\BusinessServices.dll
+E:\Ultimas fuentes\Commerce\OneCommerce\BusinessServices\obj\Debug\BusinessServices.pdb
+C:\Users\williamsga\Desktop\Commerce\OneCommerce\BusinessServices\bin\Debug\BusinessServices.dll
+C:\Users\williamsga\Desktop\Commerce\OneCommerce\BusinessServices\bin\Debug\BusinessServices.pdb
+C:\Users\williamsga\Desktop\Commerce\OneCommerce\BusinessServices\bin\Debug\BusinessEntities.dll
+C:\Users\williamsga\Desktop\Commerce\OneCommerce\BusinessServices\bin\Debug\BusinessRules.dll
+C:\Users\williamsga\Desktop\Commerce\OneCommerce\BusinessServices\bin\Debug\DataAccess.dll
+C:\Users\williamsga\Desktop\Commerce\OneCommerce\BusinessServices\bin\Debug\ResultSetMappers.dll
+C:\Users\williamsga\Desktop\Commerce\OneCommerce\BusinessServices\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Data.dll
+C:\Users\williamsga\Desktop\Commerce\OneCommerce\BusinessServices\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Common.dll
+C:\Users\williamsga\Desktop\Commerce\OneCommerce\BusinessServices\bin\Debug\Microsoft.Practices.ServiceLocation.dll
+C:\Users\williamsga\Desktop\Commerce\OneCommerce\BusinessServices\bin\Debug\Microsoft.Practices.Unity.dll
+C:\Users\williamsga\Desktop\Commerce\OneCommerce\BusinessServices\bin\Debug\Microsoft.Practices.Unity.Interception.dll
+C:\Users\williamsga\Desktop\Commerce\OneCommerce\BusinessServices\bin\Debug\BusinessEntities.pdb
+C:\Users\williamsga\Desktop\Commerce\OneCommerce\BusinessServices\bin\Debug\BusinessRules.pdb
+C:\Users\williamsga\Desktop\Commerce\OneCommerce\BusinessServices\bin\Debug\DataAccess.pdb
+C:\Users\williamsga\Desktop\Commerce\OneCommerce\BusinessServices\obj\Debug\BusinessServices.csprojResolveAssemblyReference.cache
+C:\Users\williamsga\Desktop\Commerce\OneCommerce\BusinessServices\obj\Debug\BusinessServices.dll
+C:\Users\williamsga\Desktop\Commerce\OneCommerce\BusinessServices\obj\Debug\BusinessServices.pdb
+\\tsclient\D\Trabajo BF\BF\Fuente de las APPS\Ultimas fuentes\Commerce\OneCommerce\BusinessServices\bin\Debug\BusinessServices.dll
+\\tsclient\D\Trabajo BF\BF\Fuente de las APPS\Ultimas fuentes\Commerce\OneCommerce\BusinessServices\bin\Debug\BusinessServices.pdb
+\\tsclient\D\Trabajo BF\BF\Fuente de las APPS\Ultimas fuentes\Commerce\OneCommerce\BusinessServices\bin\Debug\BusinessEntities.dll
+\\tsclient\D\Trabajo BF\BF\Fuente de las APPS\Ultimas fuentes\Commerce\OneCommerce\BusinessServices\bin\Debug\BusinessRules.dll
+\\tsclient\D\Trabajo BF\BF\Fuente de las APPS\Ultimas fuentes\Commerce\OneCommerce\BusinessServices\bin\Debug\DataAccess.dll
+\\tsclient\D\Trabajo BF\BF\Fuente de las APPS\Ultimas fuentes\Commerce\OneCommerce\BusinessServices\bin\Debug\ResultSetMappers.dll
+\\tsclient\D\Trabajo BF\BF\Fuente de las APPS\Ultimas fuentes\Commerce\OneCommerce\BusinessServices\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Data.dll
+\\tsclient\D\Trabajo BF\BF\Fuente de las APPS\Ultimas fuentes\Commerce\OneCommerce\BusinessServices\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Common.dll
+\\tsclient\D\Trabajo BF\BF\Fuente de las APPS\Ultimas fuentes\Commerce\OneCommerce\BusinessServices\bin\Debug\Microsoft.Practices.ServiceLocation.dll
+\\tsclient\D\Trabajo BF\BF\Fuente de las APPS\Ultimas fuentes\Commerce\OneCommerce\BusinessServices\bin\Debug\Microsoft.Practices.Unity.dll
+\\tsclient\D\Trabajo BF\BF\Fuente de las APPS\Ultimas fuentes\Commerce\OneCommerce\BusinessServices\bin\Debug\Microsoft.Practices.Unity.Interception.dll
+\\tsclient\D\Trabajo BF\BF\Fuente de las APPS\Ultimas fuentes\Commerce\OneCommerce\BusinessServices\bin\Debug\BusinessEntities.pdb
+\\tsclient\D\Trabajo BF\BF\Fuente de las APPS\Ultimas fuentes\Commerce\OneCommerce\BusinessServices\bin\Debug\BusinessRules.pdb
+\\tsclient\D\Trabajo BF\BF\Fuente de las APPS\Ultimas fuentes\Commerce\OneCommerce\BusinessServices\bin\Debug\DataAccess.pdb
+\\tsclient\D\Trabajo BF\BF\Fuente de las APPS\Ultimas fuentes\Commerce\OneCommerce\BusinessServices\obj\Debug\BusinessServices.csprojResolveAssemblyReference.cache
+\\tsclient\D\Trabajo BF\BF\Fuente de las APPS\Ultimas fuentes\Commerce\OneCommerce\BusinessServices\obj\Debug\BusinessServices.dll
+\\tsclient\D\Trabajo BF\BF\Fuente de las APPS\Ultimas fuentes\Commerce\OneCommerce\BusinessServices\obj\Debug\BusinessServices.pdb
+D:\Trabajo BF\BF\Fuente de las APPS\Ultimas fuentes\Commerce\OneCommerce\BusinessServices\bin\Debug\BusinessServices.dll
+D:\Trabajo BF\BF\Fuente de las APPS\Ultimas fuentes\Commerce\OneCommerce\BusinessServices\bin\Debug\BusinessServices.pdb
+D:\Trabajo BF\BF\Fuente de las APPS\Ultimas fuentes\Commerce\OneCommerce\BusinessServices\bin\Debug\BusinessEntities.dll
+D:\Trabajo BF\BF\Fuente de las APPS\Ultimas fuentes\Commerce\OneCommerce\BusinessServices\bin\Debug\BusinessRules.dll
+D:\Trabajo BF\BF\Fuente de las APPS\Ultimas fuentes\Commerce\OneCommerce\BusinessServices\bin\Debug\DataAccess.dll
+D:\Trabajo BF\BF\Fuente de las APPS\Ultimas fuentes\Commerce\OneCommerce\BusinessServices\bin\Debug\ResultSetMappers.dll
+D:\Trabajo BF\BF\Fuente de las APPS\Ultimas fuentes\Commerce\OneCommerce\BusinessServices\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Data.dll
+D:\Trabajo BF\BF\Fuente de las APPS\Ultimas fuentes\Commerce\OneCommerce\BusinessServices\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Common.dll
+D:\Trabajo BF\BF\Fuente de las APPS\Ultimas fuentes\Commerce\OneCommerce\BusinessServices\bin\Debug\Microsoft.Practices.ServiceLocation.dll
+D:\Trabajo BF\BF\Fuente de las APPS\Ultimas fuentes\Commerce\OneCommerce\BusinessServices\bin\Debug\Microsoft.Practices.Unity.dll
+D:\Trabajo BF\BF\Fuente de las APPS\Ultimas fuentes\Commerce\OneCommerce\BusinessServices\bin\Debug\Microsoft.Practices.Unity.Interception.dll
+D:\Trabajo BF\BF\Fuente de las APPS\Ultimas fuentes\Commerce\OneCommerce\BusinessServices\bin\Debug\BusinessEntities.pdb
+D:\Trabajo BF\BF\Fuente de las APPS\Ultimas fuentes\Commerce\OneCommerce\BusinessServices\bin\Debug\BusinessRules.pdb
+D:\Trabajo BF\BF\Fuente de las APPS\Ultimas fuentes\Commerce\OneCommerce\BusinessServices\bin\Debug\DataAccess.pdb
+D:\Trabajo BF\BF\Fuente de las APPS\Ultimas fuentes\Commerce\OneCommerce\BusinessServices\obj\Debug\BusinessServices.csprojResolveAssemblyReference.cache
+D:\Trabajo BF\BF\Fuente de las APPS\Ultimas fuentes\Commerce\OneCommerce\BusinessServices\obj\Debug\BusinessServices.dll
+D:\Trabajo BF\BF\Fuente de las APPS\Ultimas fuentes\Commerce\OneCommerce\BusinessServices\obj\Debug\BusinessServices.pdb
+D:\OneCommerce\BusinessServices\bin\Debug\BusinessServices.dll
+D:\OneCommerce\BusinessServices\bin\Debug\BusinessServices.pdb
+D:\OneCommerce\BusinessServices\bin\Debug\BusinessEntities.dll
+D:\OneCommerce\BusinessServices\bin\Debug\BusinessRules.dll
+D:\OneCommerce\BusinessServices\bin\Debug\DataAccess.dll
+D:\OneCommerce\BusinessServices\bin\Debug\ResultSetMappers.dll
+D:\OneCommerce\BusinessServices\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Data.dll
+D:\OneCommerce\BusinessServices\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Common.dll
+D:\OneCommerce\BusinessServices\bin\Debug\Microsoft.Practices.ServiceLocation.dll
+D:\OneCommerce\BusinessServices\bin\Debug\Microsoft.Practices.Unity.dll
+D:\OneCommerce\BusinessServices\bin\Debug\Microsoft.Practices.Unity.Interception.dll
+D:\OneCommerce\BusinessServices\bin\Debug\BusinessEntities.pdb
+D:\OneCommerce\BusinessServices\bin\Debug\BusinessRules.pdb
+D:\OneCommerce\BusinessServices\bin\Debug\DataAccess.pdb
+D:\OneCommerce\BusinessServices\obj\Debug\BusinessServices.csprojResolveAssemblyReference.cache
+D:\OneCommerce\BusinessServices\obj\Debug\BusinessServices.dll
+D:\OneCommerce\BusinessServices\obj\Debug\BusinessServices.pdb
+D:\Christofer\OneCommerce\BusinessServices\bin\Debug\BusinessServices.dll
+D:\Christofer\OneCommerce\BusinessServices\bin\Debug\BusinessServices.pdb
+D:\Christofer\OneCommerce\BusinessServices\bin\Debug\BusinessEntities.dll
+D:\Christofer\OneCommerce\BusinessServices\bin\Debug\BusinessRules.dll
+D:\Christofer\OneCommerce\BusinessServices\bin\Debug\DataAccess.dll
+D:\Christofer\OneCommerce\BusinessServices\bin\Debug\ResultSetMappers.dll
+D:\Christofer\OneCommerce\BusinessServices\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Data.dll
+D:\Christofer\OneCommerce\BusinessServices\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Common.dll
+D:\Christofer\OneCommerce\BusinessServices\bin\Debug\Microsoft.Practices.ServiceLocation.dll
+D:\Christofer\OneCommerce\BusinessServices\bin\Debug\Microsoft.Practices.Unity.dll
+D:\Christofer\OneCommerce\BusinessServices\bin\Debug\Microsoft.Practices.Unity.Interception.dll
+D:\Christofer\OneCommerce\BusinessServices\bin\Debug\BusinessEntities.pdb
+D:\Christofer\OneCommerce\BusinessServices\bin\Debug\BusinessRules.pdb
+D:\Christofer\OneCommerce\BusinessServices\bin\Debug\DataAccess.pdb
+D:\Christofer\OneCommerce\BusinessServices\obj\Debug\BusinessServices.csprojResolveAssemblyReference.cache
+D:\Christofer\OneCommerce\BusinessServices\obj\Debug\BusinessServices.dll
+D:\Christofer\OneCommerce\BusinessServices\obj\Debug\BusinessServices.pdb
+D:\Christofer\OneCommerce\ERPAlexia\BusinessServices\bin\Debug\BusinessServices.dll
+D:\Christofer\OneCommerce\ERPAlexia\BusinessServices\bin\Debug\BusinessServices.pdb
+D:\Christofer\OneCommerce\ERPAlexia\BusinessServices\bin\Debug\BusinessEntities.dll
+D:\Christofer\OneCommerce\ERPAlexia\BusinessServices\bin\Debug\BusinessRules.dll
+D:\Christofer\OneCommerce\ERPAlexia\BusinessServices\bin\Debug\DataAccess.dll
+D:\Christofer\OneCommerce\ERPAlexia\BusinessServices\bin\Debug\ResultSetMappers.dll
+D:\Christofer\OneCommerce\ERPAlexia\BusinessServices\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Data.dll
+D:\Christofer\OneCommerce\ERPAlexia\BusinessServices\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Common.dll
+D:\Christofer\OneCommerce\ERPAlexia\BusinessServices\bin\Debug\Microsoft.Practices.ServiceLocation.dll
+D:\Christofer\OneCommerce\ERPAlexia\BusinessServices\bin\Debug\Microsoft.Practices.Unity.dll
+D:\Christofer\OneCommerce\ERPAlexia\BusinessServices\bin\Debug\Microsoft.Practices.Unity.Interception.dll
+D:\Christofer\OneCommerce\ERPAlexia\BusinessServices\bin\Debug\BusinessEntities.pdb
+D:\Christofer\OneCommerce\ERPAlexia\BusinessServices\bin\Debug\BusinessRules.pdb
+D:\Christofer\OneCommerce\ERPAlexia\BusinessServices\bin\Debug\DataAccess.pdb
+D:\Christofer\OneCommerce\ERPAlexia\BusinessServices\obj\Debug\BusinessServices.csprojResolveAssemblyReference.cache
+D:\Christofer\OneCommerce\ERPAlexia\BusinessServices\obj\Debug\BusinessServices.dll
+D:\Christofer\OneCommerce\ERPAlexia\BusinessServices\obj\Debug\BusinessServices.pdb
+D:\OLE_FINAL\ERPAlexia\BusinessServices\bin\Debug\BusinessServices.dll
+D:\OLE_FINAL\ERPAlexia\BusinessServices\bin\Debug\BusinessServices.pdb
+D:\OLE_FINAL\ERPAlexia\BusinessServices\bin\Debug\BusinessEntities.dll
+D:\OLE_FINAL\ERPAlexia\BusinessServices\bin\Debug\BusinessRules.dll
+D:\OLE_FINAL\ERPAlexia\BusinessServices\bin\Debug\DataAccess.dll
+D:\OLE_FINAL\ERPAlexia\BusinessServices\bin\Debug\ResultSetMappers.dll
+D:\OLE_FINAL\ERPAlexia\BusinessServices\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Data.dll
+D:\OLE_FINAL\ERPAlexia\BusinessServices\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Common.dll
+D:\OLE_FINAL\ERPAlexia\BusinessServices\bin\Debug\Microsoft.Practices.ServiceLocation.dll
+D:\OLE_FINAL\ERPAlexia\BusinessServices\bin\Debug\Microsoft.Practices.Unity.dll
+D:\OLE_FINAL\ERPAlexia\BusinessServices\bin\Debug\Microsoft.Practices.Unity.Interception.dll
+D:\OLE_FINAL\ERPAlexia\BusinessServices\bin\Debug\BusinessEntities.pdb
+D:\OLE_FINAL\ERPAlexia\BusinessServices\bin\Debug\BusinessRules.pdb
+D:\OLE_FINAL\ERPAlexia\BusinessServices\bin\Debug\DataAccess.pdb
+D:\OLE_FINAL\ERPAlexia\BusinessServices\obj\Debug\BusinessServices.csprojResolveAssemblyReference.cache
+D:\OLE_FINAL\ERPAlexia\BusinessServices\obj\Debug\BusinessServices.dll
+D:\OLE_FINAL\ERPAlexia\BusinessServices\obj\Debug\BusinessServices.pdb
+D:\Christofer\OC OLENKA\ERPAlexia\BusinessServices\bin\Debug\BusinessServices.dll
+D:\Christofer\OC OLENKA\ERPAlexia\BusinessServices\bin\Debug\BusinessServices.pdb
+D:\Christofer\OC OLENKA\ERPAlexia\BusinessServices\bin\Debug\BusinessEntities.dll
+D:\Christofer\OC OLENKA\ERPAlexia\BusinessServices\bin\Debug\BusinessRules.dll
+D:\Christofer\OC OLENKA\ERPAlexia\BusinessServices\bin\Debug\DataAccess.dll
+D:\Christofer\OC OLENKA\ERPAlexia\BusinessServices\bin\Debug\ResultSetMappers.dll
+D:\Christofer\OC OLENKA\ERPAlexia\BusinessServices\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Data.dll
+D:\Christofer\OC OLENKA\ERPAlexia\BusinessServices\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Common.dll
+D:\Christofer\OC OLENKA\ERPAlexia\BusinessServices\bin\Debug\Microsoft.Practices.ServiceLocation.dll
+D:\Christofer\OC OLENKA\ERPAlexia\BusinessServices\bin\Debug\Microsoft.Practices.Unity.dll
+D:\Christofer\OC OLENKA\ERPAlexia\BusinessServices\bin\Debug\Microsoft.Practices.Unity.Interception.dll
+D:\Christofer\OC OLENKA\ERPAlexia\BusinessServices\bin\Debug\BusinessEntities.pdb
+D:\Christofer\OC OLENKA\ERPAlexia\BusinessServices\bin\Debug\BusinessRules.pdb
+D:\Christofer\OC OLENKA\ERPAlexia\BusinessServices\bin\Debug\DataAccess.pdb
+D:\Christofer\OC OLENKA\ERPAlexia\BusinessServices\obj\Debug\BusinessServices.csprojResolveAssemblyReference.cache
+D:\Christofer\OC OLENKA\ERPAlexia\BusinessServices\obj\Debug\BusinessServices.dll
+D:\Christofer\OC OLENKA\ERPAlexia\BusinessServices\obj\Debug\BusinessServices.pdb
+D:\Christofer2.0\ERPAlexia\ERPAlexia\BusinessServices\bin\Debug\BusinessServices.dll
+D:\Christofer2.0\ERPAlexia\ERPAlexia\BusinessServices\bin\Debug\BusinessServices.pdb
+D:\Christofer2.0\ERPAlexia\ERPAlexia\BusinessServices\bin\Debug\BusinessEntities.dll
+D:\Christofer2.0\ERPAlexia\ERPAlexia\BusinessServices\bin\Debug\BusinessRules.dll
+D:\Christofer2.0\ERPAlexia\ERPAlexia\BusinessServices\bin\Debug\DataAccess.dll
+D:\Christofer2.0\ERPAlexia\ERPAlexia\BusinessServices\bin\Debug\ResultSetMappers.dll
+D:\Christofer2.0\ERPAlexia\ERPAlexia\BusinessServices\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Data.dll
+D:\Christofer2.0\ERPAlexia\ERPAlexia\BusinessServices\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Common.dll
+D:\Christofer2.0\ERPAlexia\ERPAlexia\BusinessServices\bin\Debug\Microsoft.Practices.ServiceLocation.dll
+D:\Christofer2.0\ERPAlexia\ERPAlexia\BusinessServices\bin\Debug\Microsoft.Practices.Unity.dll
+D:\Christofer2.0\ERPAlexia\ERPAlexia\BusinessServices\bin\Debug\Microsoft.Practices.Unity.Interception.dll
+D:\Christofer2.0\ERPAlexia\ERPAlexia\BusinessServices\bin\Debug\BusinessEntities.pdb
+D:\Christofer2.0\ERPAlexia\ERPAlexia\BusinessServices\bin\Debug\BusinessRules.pdb
+D:\Christofer2.0\ERPAlexia\ERPAlexia\BusinessServices\bin\Debug\DataAccess.pdb
+D:\Christofer2.0\ERPAlexia\ERPAlexia\BusinessServices\obj\Debug\BusinessServices.csprojResolveAssemblyReference.cache
+D:\Christofer2.0\ERPAlexia\ERPAlexia\BusinessServices\obj\Debug\BusinessServices.dll
+D:\Christofer2.0\ERPAlexia\ERPAlexia\BusinessServices\obj\Debug\BusinessServices.pdb
+D:\Christofer\PRUEBA\ERPAlexia\BusinessServices\bin\Debug\BusinessServices.dll
+D:\Christofer\PRUEBA\ERPAlexia\BusinessServices\bin\Debug\BusinessServices.pdb
+D:\Christofer\PRUEBA\ERPAlexia\BusinessServices\bin\Debug\BusinessEntities.dll
+D:\Christofer\PRUEBA\ERPAlexia\BusinessServices\bin\Debug\BusinessRules.dll
+D:\Christofer\PRUEBA\ERPAlexia\BusinessServices\bin\Debug\DataAccess.dll
+D:\Christofer\PRUEBA\ERPAlexia\BusinessServices\bin\Debug\ResultSetMappers.dll
+D:\Christofer\PRUEBA\ERPAlexia\BusinessServices\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Data.dll
+D:\Christofer\PRUEBA\ERPAlexia\BusinessServices\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Common.dll
+D:\Christofer\PRUEBA\ERPAlexia\BusinessServices\bin\Debug\Microsoft.Practices.ServiceLocation.dll
+D:\Christofer\PRUEBA\ERPAlexia\BusinessServices\bin\Debug\Microsoft.Practices.Unity.dll
+D:\Christofer\PRUEBA\ERPAlexia\BusinessServices\bin\Debug\Microsoft.Practices.Unity.Interception.dll
+D:\Christofer\PRUEBA\ERPAlexia\BusinessServices\bin\Debug\BusinessEntities.pdb
+D:\Christofer\PRUEBA\ERPAlexia\BusinessServices\bin\Debug\BusinessRules.pdb
+D:\Christofer\PRUEBA\ERPAlexia\BusinessServices\bin\Debug\DataAccess.pdb
+D:\Christofer\PRUEBA\ERPAlexia\BusinessServices\obj\Debug\BusinessServices.csprojResolveAssemblyReference.cache
+D:\Christofer\PRUEBA\ERPAlexia\BusinessServices\obj\Debug\BusinessServices.dll
+D:\Christofer\PRUEBA\ERPAlexia\BusinessServices\obj\Debug\BusinessServices.pdb
+D:\Olenka\ULTIMA VERSION\ERPAlexia\BusinessServices\bin\Debug\BusinessServices.dll
+D:\Olenka\ULTIMA VERSION\ERPAlexia\BusinessServices\bin\Debug\BusinessServices.pdb
+D:\Olenka\ULTIMA VERSION\ERPAlexia\BusinessServices\bin\Debug\BusinessEntities.dll
+D:\Olenka\ULTIMA VERSION\ERPAlexia\BusinessServices\bin\Debug\BusinessRules.dll
+D:\Olenka\ULTIMA VERSION\ERPAlexia\BusinessServices\bin\Debug\DataAccess.dll
+D:\Olenka\ULTIMA VERSION\ERPAlexia\BusinessServices\bin\Debug\ResultSetMappers.dll
+D:\Olenka\ULTIMA VERSION\ERPAlexia\BusinessServices\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Data.dll
+D:\Olenka\ULTIMA VERSION\ERPAlexia\BusinessServices\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Common.dll
+D:\Olenka\ULTIMA VERSION\ERPAlexia\BusinessServices\bin\Debug\Microsoft.Practices.ServiceLocation.dll
+D:\Olenka\ULTIMA VERSION\ERPAlexia\BusinessServices\bin\Debug\Microsoft.Practices.Unity.dll
+D:\Olenka\ULTIMA VERSION\ERPAlexia\BusinessServices\bin\Debug\Microsoft.Practices.Unity.Interception.dll
+D:\Olenka\ULTIMA VERSION\ERPAlexia\BusinessServices\bin\Debug\BusinessEntities.pdb
+D:\Olenka\ULTIMA VERSION\ERPAlexia\BusinessServices\bin\Debug\BusinessRules.pdb
+D:\Olenka\ULTIMA VERSION\ERPAlexia\BusinessServices\bin\Debug\DataAccess.pdb
+D:\Olenka\ULTIMA VERSION\ERPAlexia\BusinessServices\obj\Debug\BusinessServices.csprojResolveAssemblyReference.cache
+D:\Olenka\ULTIMA VERSION\ERPAlexia\BusinessServices\obj\Debug\BusinessServices.dll
+D:\Olenka\ULTIMA VERSION\ERPAlexia\BusinessServices\obj\Debug\BusinessServices.pdb
+D:\ORIGINALES OLENKA\GRAFI\ERPAlexia\BusinessServices\bin\Debug\BusinessServices.dll
+D:\ORIGINALES OLENKA\GRAFI\ERPAlexia\BusinessServices\bin\Debug\BusinessServices.pdb
+D:\ORIGINALES OLENKA\GRAFI\ERPAlexia\BusinessServices\bin\Debug\BusinessEntities.dll
+D:\ORIGINALES OLENKA\GRAFI\ERPAlexia\BusinessServices\bin\Debug\BusinessRules.dll
+D:\ORIGINALES OLENKA\GRAFI\ERPAlexia\BusinessServices\bin\Debug\DataAccess.dll
+D:\ORIGINALES OLENKA\GRAFI\ERPAlexia\BusinessServices\bin\Debug\ResultSetMappers.dll
+D:\ORIGINALES OLENKA\GRAFI\ERPAlexia\BusinessServices\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Data.dll
+D:\ORIGINALES OLENKA\GRAFI\ERPAlexia\BusinessServices\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Common.dll
+D:\ORIGINALES OLENKA\GRAFI\ERPAlexia\BusinessServices\bin\Debug\Microsoft.Practices.ServiceLocation.dll
+D:\ORIGINALES OLENKA\GRAFI\ERPAlexia\BusinessServices\bin\Debug\Microsoft.Practices.Unity.dll
+D:\ORIGINALES OLENKA\GRAFI\ERPAlexia\BusinessServices\bin\Debug\Microsoft.Practices.Unity.Interception.dll
+D:\ORIGINALES OLENKA\GRAFI\ERPAlexia\BusinessServices\bin\Debug\BusinessEntities.pdb
+D:\ORIGINALES OLENKA\GRAFI\ERPAlexia\BusinessServices\bin\Debug\BusinessRules.pdb
+D:\ORIGINALES OLENKA\GRAFI\ERPAlexia\BusinessServices\bin\Debug\DataAccess.pdb
+D:\ORIGINALES OLENKA\GRAFI\ERPAlexia\BusinessServices\obj\Debug\BusinessServices.csprojResolveAssemblyReference.cache
+D:\ORIGINALES OLENKA\GRAFI\ERPAlexia\BusinessServices\obj\Debug\BusinessServices.dll
+D:\ORIGINALES OLENKA\GRAFI\ERPAlexia\BusinessServices\obj\Debug\BusinessServices.pdb
+D:\ORIGINALES OLENKA\GRF LIST\ERPAlexia\BusinessServices\bin\Debug\BusinessServices.dll
+D:\ORIGINALES OLENKA\GRF LIST\ERPAlexia\BusinessServices\bin\Debug\BusinessServices.pdb
+D:\ORIGINALES OLENKA\GRF LIST\ERPAlexia\BusinessServices\bin\Debug\BusinessEntities.dll
+D:\ORIGINALES OLENKA\GRF LIST\ERPAlexia\BusinessServices\bin\Debug\BusinessRules.dll
+D:\ORIGINALES OLENKA\GRF LIST\ERPAlexia\BusinessServices\bin\Debug\DataAccess.dll
+D:\ORIGINALES OLENKA\GRF LIST\ERPAlexia\BusinessServices\bin\Debug\ResultSetMappers.dll
+D:\ORIGINALES OLENKA\GRF LIST\ERPAlexia\BusinessServices\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Data.dll
+D:\ORIGINALES OLENKA\GRF LIST\ERPAlexia\BusinessServices\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Common.dll
+D:\ORIGINALES OLENKA\GRF LIST\ERPAlexia\BusinessServices\bin\Debug\Microsoft.Practices.ServiceLocation.dll
+D:\ORIGINALES OLENKA\GRF LIST\ERPAlexia\BusinessServices\bin\Debug\Microsoft.Practices.Unity.dll
+D:\ORIGINALES OLENKA\GRF LIST\ERPAlexia\BusinessServices\bin\Debug\Microsoft.Practices.Unity.Interception.dll
+D:\ORIGINALES OLENKA\GRF LIST\ERPAlexia\BusinessServices\bin\Debug\BusinessEntities.pdb
+D:\ORIGINALES OLENKA\GRF LIST\ERPAlexia\BusinessServices\bin\Debug\BusinessRules.pdb
+D:\ORIGINALES OLENKA\GRF LIST\ERPAlexia\BusinessServices\bin\Debug\DataAccess.pdb
+D:\ORIGINALES OLENKA\GRF LIST\ERPAlexia\BusinessServices\obj\Debug\BusinessServices.csprojResolveAssemblyReference.cache
+D:\ORIGINALES OLENKA\GRF LIST\ERPAlexia\BusinessServices\obj\Debug\BusinessServices.dll
+D:\ORIGINALES OLENKA\GRF LIST\ERPAlexia\BusinessServices\obj\Debug\BusinessServices.pdb
+D:\Olenka\GRF LIST\ERPAlexia\BusinessServices\bin\Debug\BusinessServices.dll
+D:\Olenka\GRF LIST\ERPAlexia\BusinessServices\bin\Debug\BusinessServices.pdb
+D:\Olenka\GRF LIST\ERPAlexia\BusinessServices\bin\Debug\BusinessEntities.dll
+D:\Olenka\GRF LIST\ERPAlexia\BusinessServices\bin\Debug\BusinessRules.dll
+D:\Olenka\GRF LIST\ERPAlexia\BusinessServices\bin\Debug\DataAccess.dll
+D:\Olenka\GRF LIST\ERPAlexia\BusinessServices\bin\Debug\ResultSetMappers.dll
+D:\Olenka\GRF LIST\ERPAlexia\BusinessServices\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Data.dll
+D:\Olenka\GRF LIST\ERPAlexia\BusinessServices\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Common.dll
+D:\Olenka\GRF LIST\ERPAlexia\BusinessServices\bin\Debug\Microsoft.Practices.ServiceLocation.dll
+D:\Olenka\GRF LIST\ERPAlexia\BusinessServices\bin\Debug\Microsoft.Practices.Unity.dll
+D:\Olenka\GRF LIST\ERPAlexia\BusinessServices\bin\Debug\Microsoft.Practices.Unity.Interception.dll
+D:\Olenka\GRF LIST\ERPAlexia\BusinessServices\bin\Debug\BusinessEntities.pdb
+D:\Olenka\GRF LIST\ERPAlexia\BusinessServices\bin\Debug\BusinessRules.pdb
+D:\Olenka\GRF LIST\ERPAlexia\BusinessServices\bin\Debug\DataAccess.pdb
+D:\Olenka\GRF LIST\ERPAlexia\BusinessServices\obj\Debug\BusinessServices.csprojResolveAssemblyReference.cache
+D:\Olenka\GRF LIST\ERPAlexia\BusinessServices\obj\Debug\BusinessServices.dll
+D:\Olenka\GRF LIST\ERPAlexia\BusinessServices\obj\Debug\BusinessServices.pdb

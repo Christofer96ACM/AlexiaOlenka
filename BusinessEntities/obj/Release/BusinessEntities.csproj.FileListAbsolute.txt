@@ -1,0 +1,39 @@
+E:\Ultimas fuentes\Commerce\OneCommerce\BusinessEntities\bin\Release\BusinessEntities.dll
+E:\Ultimas fuentes\Commerce\OneCommerce\BusinessEntities\bin\Release\BusinessEntities.pdb
+E:\Ultimas fuentes\Commerce\OneCommerce\BusinessEntities\obj\Release\BusinessEntities.dll
+E:\Ultimas fuentes\Commerce\OneCommerce\BusinessEntities\obj\Release\BusinessEntities.pdb
+D:\Christofer\OneCommerce\BusinessEntities\bin\Release\BusinessEntities.dll
+D:\Christofer\OneCommerce\BusinessEntities\bin\Release\BusinessEntities.pdb
+D:\Christofer\OneCommerce\BusinessEntities\obj\Release\BusinessEntities.dll
+D:\Christofer\OneCommerce\BusinessEntities\obj\Release\BusinessEntities.pdb
+D:\Christofer\OneCommerce\BusinessEntities\obj\Release\BusinessEntities.csprojResolveAssemblyReference.cache
+D:\Christofer\OneCommerce\ERPAlexia\BusinessEntities\bin\Release\BusinessEntities.dll
+D:\Christofer\OneCommerce\ERPAlexia\BusinessEntities\bin\Release\BusinessEntities.pdb
+D:\Christofer\OneCommerce\ERPAlexia\BusinessEntities\obj\Release\BusinessEntities.csprojResolveAssemblyReference.cache
+D:\Christofer\OneCommerce\ERPAlexia\BusinessEntities\obj\Release\BusinessEntities.dll
+D:\Christofer\OneCommerce\ERPAlexia\BusinessEntities\obj\Release\BusinessEntities.pdb
+D:\Christofer2.0\ERPAlexia\ERPAlexia\BusinessEntities\bin\Release\BusinessEntities.dll
+D:\Christofer2.0\ERPAlexia\ERPAlexia\BusinessEntities\bin\Release\BusinessEntities.pdb
+D:\Christofer2.0\ERPAlexia\ERPAlexia\BusinessEntities\obj\Release\BusinessEntities.csprojResolveAssemblyReference.cache
+D:\Christofer2.0\ERPAlexia\ERPAlexia\BusinessEntities\obj\Release\BusinessEntities.dll
+D:\Christofer2.0\ERPAlexia\ERPAlexia\BusinessEntities\obj\Release\BusinessEntities.pdb
+D:\Christofer\PRUEBA\ERPAlexia\BusinessEntities\bin\Release\BusinessEntities.dll
+D:\Christofer\PRUEBA\ERPAlexia\BusinessEntities\bin\Release\BusinessEntities.pdb
+D:\Christofer\PRUEBA\ERPAlexia\BusinessEntities\obj\Release\BusinessEntities.csprojResolveAssemblyReference.cache
+D:\Christofer\PRUEBA\ERPAlexia\BusinessEntities\obj\Release\BusinessEntities.dll
+D:\Christofer\PRUEBA\ERPAlexia\BusinessEntities\obj\Release\BusinessEntities.pdb
+D:\Olenka\ULTIMA VERSION\ERPAlexia\BusinessEntities\bin\Release\BusinessEntities.dll
+D:\Olenka\ULTIMA VERSION\ERPAlexia\BusinessEntities\bin\Release\BusinessEntities.pdb
+D:\Olenka\ULTIMA VERSION\ERPAlexia\BusinessEntities\obj\Release\BusinessEntities.csprojResolveAssemblyReference.cache
+D:\Olenka\ULTIMA VERSION\ERPAlexia\BusinessEntities\obj\Release\BusinessEntities.dll
+D:\Olenka\ULTIMA VERSION\ERPAlexia\BusinessEntities\obj\Release\BusinessEntities.pdb
+D:\ORIGINALES OLENKA\GRAFI\ERPAlexia\BusinessEntities\bin\Release\BusinessEntities.dll
+D:\ORIGINALES OLENKA\GRAFI\ERPAlexia\BusinessEntities\bin\Release\BusinessEntities.pdb
+D:\ORIGINALES OLENKA\GRAFI\ERPAlexia\BusinessEntities\obj\Release\BusinessEntities.csprojResolveAssemblyReference.cache
+D:\ORIGINALES OLENKA\GRAFI\ERPAlexia\BusinessEntities\obj\Release\BusinessEntities.dll
+D:\ORIGINALES OLENKA\GRAFI\ERPAlexia\BusinessEntities\obj\Release\BusinessEntities.pdb
+D:\Olenka\GRF LIST\ERPAlexia\BusinessEntities\bin\Release\BusinessEntities.dll
+D:\Olenka\GRF LIST\ERPAlexia\BusinessEntities\bin\Release\BusinessEntities.pdb
+D:\Olenka\GRF LIST\ERPAlexia\BusinessEntities\obj\Release\BusinessEntities.csprojResolveAssemblyReference.cache
+D:\Olenka\GRF LIST\ERPAlexia\BusinessEntities\obj\Release\BusinessEntities.dll
+D:\Olenka\GRF LIST\ERPAlexia\BusinessEntities\obj\Release\BusinessEntities.pdb

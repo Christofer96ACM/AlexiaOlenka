@@ -1,0 +1,176 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Dashboard CurrencyCulture="es-PE">
+  <Title Visible="true" Text="Dashboard Ventas del II/II/IIII al FF/FF/FFFF" />
+  <DataSources>
+    <DataSource Name="Ventas" />
+    <DataSource Name="Producto" />
+    <DataSource Name="Orden" />
+    <DataSource Name="Cotizacion" />
+  </DataSources>
+  <Items>
+    <Pie UniqueName="Tartas 1" Name="Los 10 Productos más Vendidos" DataSource="Producto" IsMasterFilterCrossDataSource="true" PieType="Donut" LabelContentType="ArgumentValueAndPercent" ShowPieCaptions="false">
+      <DataItems>
+        <Dimension DataMember="ItemName" TopNEnabled="true" TopNCount="10" TopNMeasure="DataItem1" UniqueName="DataItem0" />
+        <Measure DataMember="GTotal" UniqueName="DataItem1" />
+        <Dimension DataMember="DocDate" UniqueName="DataItem2" />
+      </DataItems>
+      <HiddenDimensions>
+        <Dimension UniqueName="DataItem2" />
+      </HiddenDimensions>
+      <InteractivityOptions IsMasterFilter="true" />
+      <Arguments>
+        <Argument UniqueName="DataItem0" />
+      </Arguments>
+      <Values>
+        <Value UniqueName="DataItem1" />
+      </Values>
+      <Names>
+        <Name Value="DataItem1" Name="Producto Mas vendido" />
+      </Names>
+    </Pie>
+    <Chart UniqueName="Gráfico 1" Name="Venta Mensual" DataSource="Ventas" IsMasterFilterCrossDataSource="true">
+      <DataItems>
+        <Dimension DataMember="DocDate" DateTimeGroupInterval="Month" UniqueName="DataItem0" />
+        <Measure DataMember="PaidToDate" UniqueName="DataItem1" />
+        <Measure DataMember="PendingBal" UniqueName="DataItem2" />
+      </DataItems>
+      <InteractivityOptions IsMasterFilter="true" />
+      <Arguments>
+        <Argument UniqueName="DataItem0" />
+      </Arguments>
+      <Panes>
+        <Pane Name="Pane 1">
+          <AxisY Title="Valor" />
+          <Series>
+            <Simple Name="Pagado" SeriesType="StackedBar">
+              <Value UniqueName="DataItem1" />
+            </Simple>
+            <Simple Name="Pendiente" SeriesType="StackedBar">
+              <Value UniqueName="DataItem2" />
+            </Simple>
+          </Series>
+        </Pane>
+      </Panes>
+      <ChartLegend InsidePosition="BottomCenterHorizontal" OutsidePosition="BottomCenterHorizontal" />
+      <AxisX Title="Mes" />
+    </Chart>
+    <Grid UniqueName="Rejilla 1" Name="Ventas por Vendedor" DataSource="Ventas" IsMasterFilterCrossDataSource="true">
+      <DataItems>
+        <Dimension DataMember="Doctor" UniqueName="DataItem0" />
+        <Measure DataMember="DocEntry" SummaryType="Count" UniqueName="DataItem1" />
+        <Measure DataMember="DocTotal" UniqueName="DataItem2" />
+      </DataItems>
+      <InteractivityOptions IsMasterFilter="true" />
+      <GridColumns>
+        <GridDimensionColumn Name="Vendedor">
+          <Dimension UniqueName="DataItem0" />
+        </GridDimensionColumn>
+        <GridMeasureColumn Name="Cantidad">
+          <Measure UniqueName="DataItem1" />
+        </GridMeasureColumn>
+        <GridMeasureColumn Name="Total">
+          <Measure UniqueName="DataItem2" />
+        </GridMeasureColumn>
+      </GridColumns>
+      <GridOptions ShowHorizontalLines="true" ShowVerticalLines="true" />
+    </Grid>
+    <Chart UniqueName="Gráfico 2" Name="Ventas por Día" DataSource="Ventas">
+      <DataItems>
+        <Dimension DataMember="DocDate" DateTimeGroupInterval="DayMonthYear" UniqueName="DataItem0" />
+        <Measure DataMember="DocTotal" UniqueName="DataItem1" />
+      </DataItems>
+      <Arguments>
+        <Argument UniqueName="DataItem0" />
+      </Arguments>
+      <Panes>
+        <Pane Name="Pane 1">
+          <AxisY Title="Valor" />
+          <Series>
+            <Simple Name="Monto" SeriesType="Line">
+              <Value UniqueName="DataItem1" />
+            </Simple>
+          </Series>
+        </Pane>
+      </Panes>
+      <ChartLegend Visible="false" />
+      <AxisX Title="Dias Mes Año" />
+    </Chart>
+    <Card UniqueName="Fichas 1" Name="General" DataSource="Ventas" ContentLineCount="2">
+      <DataItems>
+        <Measure DataMember="DocTotal" UniqueName="DataItem0">
+          <NumericFormat FormatType="Currency" Precision="0" Unit="Ones" IncludeGroupSeparator="true" />
+        </Measure>
+        <Measure DataMember="PaidToDate" UniqueName="DataItem1">
+          <NumericFormat FormatType="Currency" Precision="0" Unit="Ones" IncludeGroupSeparator="true" />
+        </Measure>
+      </DataItems>
+      <Card Name="Facturado">
+        <ActualValue UniqueName="DataItem0" />
+        <DeltaOptions />
+      </Card>
+      <Card Name="Cobrado">
+        <ActualValue UniqueName="DataItem1" />
+        <DeltaOptions />
+      </Card>
+    </Card>
+    <Chart UniqueName="Gráfico 3" Name="Cotizaciones por Estado" DataSource="Cotizacion">
+      <DataItems>
+        <Measure DataMember="DocEntry" SummaryType="Count" UniqueName="DataItem0" />
+        <Dimension DataMember="DocDate" DateTimeGroupInterval="Month" UniqueName="DataItem3" />
+        <Dimension DataMember="DocStatusDescription" UniqueName="DataItem1" />
+      </DataItems>
+      <SeriesDimensions>
+        <SeriesDimension UniqueName="DataItem1" />
+      </SeriesDimensions>
+      <Arguments>
+        <Argument UniqueName="DataItem3" />
+      </Arguments>
+      <Panes>
+        <Pane Name="Pane 1">
+          <AxisY Title="Cantidad" />
+          <Series>
+            <Simple SeriesType="StackedBar">
+              <Value UniqueName="DataItem0" />
+            </Simple>
+          </Series>
+        </Pane>
+      </Panes>
+      <ChartLegend />
+      <AxisX Title="Mes" />
+    </Chart>
+    <Chart UniqueName="Gráfico 4" Name="Ordenes por Estado" DataSource="Orden">
+      <DataItems>
+        <Measure DataMember="DocEntry" UniqueName="DataItem0" />
+        <Dimension DataMember="DocStatusDescription" UniqueName="DataItem1" />
+        <Dimension DataMember="DocDate" DateTimeGroupInterval="Month" UniqueName="DataItem2" />
+      </DataItems>
+      <SeriesDimensions>
+        <SeriesDimension UniqueName="DataItem1" />
+      </SeriesDimensions>
+      <Arguments>
+        <Argument UniqueName="DataItem2" />
+      </Arguments>
+      <Panes>
+        <Pane Name="Pane 1">
+          <AxisY Title="Cantidad" />
+          <Series>
+            <Simple SeriesType="StackedBar">
+              <Value UniqueName="DataItem0" />
+            </Simple>
+          </Series>
+        </Pane>
+      </Panes>
+      <ChartLegend />
+      <AxisX Title="Mes" />
+    </Chart>
+  </Items>
+  <Layout>
+    <LayoutItem Name="Tartas 1" Left="0.4306864064602961" Top="0" Right="1" Bottom="0.39091915836101881" />
+    <LayoutItem Name="Gráfico 1" Left="0" Top="0.22591362126245848" Right="0.4306864064602961" Bottom="0.53488372093023251" />
+    <LayoutItem Name="Rejilla 1" Left="0" Top="0.53488372093023251" Right="0.4306864064602961" Bottom="0.74197120708748621" />
+    <LayoutItem Name="Gráfico 2" Left="0" Top="0.74197120708748621" Right="0.4306864064602961" Bottom="1" />
+    <LayoutItem Name="Fichas 1" Left="0" Top="0" Right="0.4306864064602961" Bottom="0.22591362126245848" />
+    <LayoutItem Name="Gráfico 3" Left="0.4306864064602961" Top="0.39091915836101881" Right="1" Bottom="0.74197120708748621" />
+    <LayoutItem Name="Gráfico 4" Left="0.4306864064602961" Top="0.74197120708748621" Right="1" Bottom="1" />
+  </Layout>
+</Dashboard>

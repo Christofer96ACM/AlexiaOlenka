@@ -1,0 +1,121 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Dashboard CurrencyCulture="es-PE">
+  <Title Visible="true" Text="Dashboard Servicio del II/II/IIII al FF/FF/FFFF" />
+
+  <DataSources>
+    <DataSource Name="LlamadaServicio">
+   
+    </DataSource>
+    <DataSource Name="LlamadaServicioTecnico">
+   
+    </DataSource>
+  </DataSources>
+  <Items>
+    <Grid UniqueName="Rejilla 1" Name="Ranking de Técnicos" DataSource="LlamadaServicioTecnico" IsMasterFilterCrossDataSource="true">
+      <DataItems>
+        <Dimension DataMember="Tecnico" UniqueName="DataItem0" />
+        <Dimension DataMember="TipoProblema" UniqueName="DataItem1" />
+        <Measure DataMember="callID" SummaryType="Count" UniqueName="DataItem2">
+          <NumericFormat FormatType="Number" Precision="0" Unit="Ones" IncludeGroupSeparator="true" />
+        </Measure>
+      </DataItems>
+      <InteractivityOptions IsMasterFilter="true" />
+      <GridColumns>
+        <GridDimensionColumn Name="Técnico">
+          <Dimension UniqueName="DataItem0" />
+        </GridDimensionColumn>
+        <GridDimensionColumn Name="Tipo de Problema">
+          <Dimension UniqueName="DataItem1" />
+        </GridDimensionColumn>
+        <GridMeasureColumn Name="Llamadas">
+          <Measure UniqueName="DataItem2" />
+        </GridMeasureColumn>
+      </GridColumns>
+      <GridOptions EnableBandedRows="true" AllowGridCellMerge="true" ShowHorizontalLines="true" ShowVerticalLines="true" />
+    </Grid>
+    <Grid UniqueName="Rejilla 2" Name="Ranking Por Cliente" DataSource="LlamadaServicio" IsMasterFilterCrossDataSource="true">
+      <DataItems>
+        <Dimension DataMember="CardName" UniqueName="DataItem0" />
+        <Measure DataMember="callID" SummaryType="Count" UniqueName="DataItem2" />
+        <Dimension DataMember="itemName" UniqueName="DataItem1" />
+      </DataItems>
+      <InteractivityOptions IsMasterFilter="true" />
+      <GridColumns>
+        <GridDimensionColumn Name="Cliente">
+          <Dimension UniqueName="DataItem0" />
+        </GridDimensionColumn>
+        <GridDimensionColumn Name="Equipo">
+          <Dimension UniqueName="DataItem1" />
+        </GridDimensionColumn>
+        <GridMeasureColumn Name="Llamada">
+          <Measure UniqueName="DataItem2" />
+        </GridMeasureColumn>
+      </GridColumns>
+      <GridOptions EnableBandedRows="true" AllowGridCellMerge="true" ShowHorizontalLines="true" ShowVerticalLines="true" />
+    </Grid>
+    <Card UniqueName="Fichas 1" Name="General" DataSource="LlamadaServicio">
+      <DataItems>
+        <Measure DataMember="callID" SummaryType="Count" UniqueName="DataItem0">
+          <NumericFormat FormatType="Number" Precision="0" Unit="Ones" IncludeGroupSeparator="true" />
+        </Measure>
+        <Dimension DataMember="Estado" UniqueName="DataItem1" />
+      </DataItems>
+      <SeriesDimensions>
+        <SeriesDimension UniqueName="DataItem1" />
+      </SeriesDimensions>
+      <Card>
+        <ActualValue UniqueName="DataItem0" />
+        <DeltaOptions />
+      </Card>
+    </Card>
+    <Pie UniqueName="Tartas 1" Name="Llamada de Servicio por Tipo de Servicio" DataSource="LlamadaServicio" LabelContentType="ArgumentValueAndPercent" ShowPieCaptions="false">
+      <DataItems>
+        <Dimension DataMember="TipoProblema" UniqueName="DataItem0" />
+        <Measure DataMember="callID" SummaryType="Count" UniqueName="DataItem1">
+          <NumericFormat FormatType="Number" Precision="0" Unit="Ones" IncludeGroupSeparator="true" />
+        </Measure>
+      </DataItems>
+      <InteractivityOptions IsMasterFilter="true" />
+      <Arguments>
+        <Argument UniqueName="DataItem0" />
+      </Arguments>
+      <Values>
+        <Value UniqueName="DataItem1" />
+      </Values>
+    </Pie>
+    <Chart UniqueName="Gráfico 2" Name="Llamada de Servicio por Estado y por Mes" DataSource="LlamadaServicio">
+      <DataItems>
+        <Dimension DataMember="Estado" SortOrder="Descending" UniqueName="DataItem0" />
+        <Measure DataMember="callID" SummaryType="Count" UniqueName="DataItem1">
+          <NumericFormat FormatType="Number" Precision="0" Unit="Ones" IncludeGroupSeparator="true" />
+        </Measure>
+        <Dimension DataMember="Cerrado" DateTimeGroupInterval="Month" UniqueName="DataItem2" />
+      </DataItems>
+      <SeriesDimensions>
+        <SeriesDimension UniqueName="DataItem0" />
+      </SeriesDimensions>
+      <Arguments>
+        <Argument UniqueName="DataItem2" />
+      </Arguments>
+      <Panes>
+        <Pane Name="Pane 1">
+          <AxisY Title="Valor" />
+          <Series>
+            <Simple>
+              <Value UniqueName="DataItem1" />
+            </Simple>
+          </Series>
+        </Pane>
+      </Panes>
+      <ChartLegend />
+      <AxisX Title="Mes" />
+    </Chart>
+  </Items>
+  <Layout>
+    <LayoutItem Name="Rejilla 1" Left="0" Top="0.46622369878183834" Right="0.46567967698519513" Bottom="1" />
+    <LayoutItem Name="Rejilla 2" Left="0.46567967698519513" Top="0.46622369878183834" Right="1" Bottom="1" />
+    <LayoutItem Name="Fichas 1" Left="0" Top="0" Right="0.19111709286675641" Bottom="0.46622369878183834" />
+    <LayoutItem Name="Tartas 1" Left="0.19111709286675641" Top="0" Right="0.59555854643337824" Bottom="0.46622369878183834" />
+    <LayoutItem Name="Gráfico 2" Left="0.59555854643337824" Top="0" Right="1" Bottom="0.46622369878183834" />
+  </Layout>
+</Dashboard>

@@ -1,0 +1,121 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{7C07083A-54C2-431F-A6A8-BF40D10BF87D}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>BusinessEntities</RootNamespace>
+    <AssemblyName>BusinessEntities</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|x86'">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>bin\x86\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <DebugType>full</DebugType>
+    <PlatformTarget>x86</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|x86'">
+    <OutputPath>bin\x86\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <Optimize>true</Optimize>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>x86</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="BEGrupoArt.cs" />
+    <Compile Include="BEAsiento.cs" />
+    <Compile Include="BEOnu.cs" />
+    <Compile Include="BEParameters2.cs" />
+    <Compile Include="BERecursos.cs" />
+    <Compile Include="BEAbonado.cs" />
+    <Compile Include="BEAdministrator.cs" />
+    <Compile Include="BEBusinessPartner.cs" />
+    <Compile Include="BEAlmacen.cs" />
+    <Compile Include="BEAnticipos.cs" />
+    <Compile Include="BETarjetaEquipo.cs" />
+    <Compile Include="BELlamadaServicio.cs" />
+    <Compile Include="BEContratos.cs" />
+    <Compile Include="BECazoDetalle.cs" />
+    <Compile Include="BEChild.cs" />
+    <Compile Include="BELotes.cs" />
+    <Compile Include="BETipoCambio.cs" />
+    <Compile Include="BEPrice.cs" />
+    <Compile Include="BETipoPlan.cs" />
+    <Compile Include="BEWhsCode.cs" />
+    <Compile Include="BEClient.cs" />
+    <Compile Include="BEClientAddress.cs" />
+    <Compile Include="BECloseBox.cs" />
+    <Compile Include="BECreditTarject.cs" />
+    <Compile Include="BEDoctor.cs" />
+    <Compile Include="BEDocument.cs" />
+    <Compile Include="BEDocumentLine.cs" />
+    <Compile Include="BEDocumentType.cs" />
+    <Compile Include="BEDscto.cs" />
+    <Compile Include="BEInitialData.cs" />
+    <Compile Include="BEInventory.cs" />
+    <Compile Include="BELocalValidar.cs" />
+    <Compile Include="BELogin.cs" />
+    <Compile Include="BEParameters.cs" />
+    <Compile Include="BEParMovility.cs" />
+    <Compile Include="BEPaymentTerm.cs" />
+    <Compile Include="BEPriceList.cs" />
+    <Compile Include="BEProduct.cs" />
+    <Compile Include="BEQuotation.cs" />
+    <Compile Include="BEQuotation17.cs" />
+    <Compile Include="BEQuotation18.cs" />
+    <Compile Include="BESalesPerson.cs" />
+    <Compile Include="BEPrintTicket.cs" />
+    <Compile Include="BEValidarCorrelativo.cs" />
+    <Compile Include="BEContactLines.cs" />
+    <Compile Include="BECazo.cs" />
+    <Compile Include="BECuentasPago.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ClassDiagram1.cd" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

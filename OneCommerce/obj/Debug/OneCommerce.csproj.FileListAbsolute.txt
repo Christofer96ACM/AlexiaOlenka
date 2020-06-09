@@ -1,0 +1,871 @@
+D:\Olenka\ULTIMA VERSION\ERPAlexia\OneCommerce\bin\OneCommerce.dll.config
+D:\Olenka\ULTIMA VERSION\ERPAlexia\OneCommerce\bin\OneCommerce.dll
+D:\Olenka\ULTIMA VERSION\ERPAlexia\OneCommerce\bin\OneCommerce.pdb
+D:\Olenka\ULTIMA VERSION\ERPAlexia\OneCommerce\bin\BusinessEntities.dll
+D:\Olenka\ULTIMA VERSION\ERPAlexia\OneCommerce\bin\BusinessObjects.Enterprise.Sdk.dll
+D:\Olenka\ULTIMA VERSION\ERPAlexia\OneCommerce\bin\BusinessObjects.Foundation.Logging.dll
+D:\Olenka\ULTIMA VERSION\ERPAlexia\OneCommerce\bin\BusinessRules.dll
+D:\Olenka\ULTIMA VERSION\ERPAlexia\OneCommerce\bin\BusinessServices.dll
+D:\Olenka\ULTIMA VERSION\ERPAlexia\OneCommerce\bin\CrystalDecisions.CrystalReports.Engine.dll
+D:\Olenka\ULTIMA VERSION\ERPAlexia\OneCommerce\bin\CrystalDecisions.Shared.dll
+D:\Olenka\ULTIMA VERSION\ERPAlexia\OneCommerce\bin\CrystalDecisions.Web.dll
+D:\Olenka\ULTIMA VERSION\ERPAlexia\OneCommerce\bin\DevExpress.Charts.v13.1.Core.dll
+D:\Olenka\ULTIMA VERSION\ERPAlexia\OneCommerce\bin\DevExpress.Data.v13.1.dll
+D:\Olenka\ULTIMA VERSION\ERPAlexia\OneCommerce\bin\DevExpress.Office.v13.1.Core.dll
+D:\Olenka\ULTIMA VERSION\ERPAlexia\OneCommerce\bin\DevExpress.PivotGrid.v13.1.Core.dll
+D:\Olenka\ULTIMA VERSION\ERPAlexia\OneCommerce\bin\DevExpress.Printing.v13.1.Core.dll
+D:\Olenka\ULTIMA VERSION\ERPAlexia\OneCommerce\bin\DevExpress.RichEdit.v13.1.Core.dll
+D:\Olenka\ULTIMA VERSION\ERPAlexia\OneCommerce\bin\DevExpress.SpellChecker.v13.1.Core.dll
+D:\Olenka\ULTIMA VERSION\ERPAlexia\OneCommerce\bin\DevExpress.Utils.v13.1.dll
+D:\Olenka\ULTIMA VERSION\ERPAlexia\OneCommerce\bin\DevExpress.Web.ASPxGauges.v13.1.dll
+D:\Olenka\ULTIMA VERSION\ERPAlexia\OneCommerce\bin\DevExpress.Web.ASPxHtmlEditor.v13.1.dll
+D:\Olenka\ULTIMA VERSION\ERPAlexia\OneCommerce\bin\DevExpress.Web.ASPxPivotGrid.v13.1.dll
+D:\Olenka\ULTIMA VERSION\ERPAlexia\OneCommerce\bin\DevExpress.Web.ASPxScheduler.v13.1.dll
+D:\Olenka\ULTIMA VERSION\ERPAlexia\OneCommerce\bin\DevExpress.Web.ASPxSpellChecker.v13.1.dll
+D:\Olenka\ULTIMA VERSION\ERPAlexia\OneCommerce\bin\DevExpress.Web.ASPxThemes.v13.1.dll
+D:\Olenka\ULTIMA VERSION\ERPAlexia\OneCommerce\bin\DevExpress.Web.ASPxTreeList.v13.1.dll
+D:\Olenka\ULTIMA VERSION\ERPAlexia\OneCommerce\bin\DevExpress.Web.v13.1.dll
+D:\Olenka\ULTIMA VERSION\ERPAlexia\OneCommerce\bin\DevExpress.XtraCharts.v13.1.dll
+D:\Olenka\ULTIMA VERSION\ERPAlexia\OneCommerce\bin\DevExpress.XtraCharts.v13.1.Web.dll
+D:\Olenka\ULTIMA VERSION\ERPAlexia\OneCommerce\bin\DevExpress.XtraGauges.v13.1.Core.dll
+D:\Olenka\ULTIMA VERSION\ERPAlexia\OneCommerce\bin\DevExpress.XtraGauges.v13.1.Presets.dll
+D:\Olenka\ULTIMA VERSION\ERPAlexia\OneCommerce\bin\DevExpress.XtraPivotGrid.v13.1.dll
+D:\Olenka\ULTIMA VERSION\ERPAlexia\OneCommerce\bin\DevExpress.XtraPrinting.v13.1.dll
+D:\Olenka\ULTIMA VERSION\ERPAlexia\OneCommerce\bin\DevExpress.XtraReports.v13.1.dll
+D:\Olenka\ULTIMA VERSION\ERPAlexia\OneCommerce\bin\DevExpress.XtraReports.v13.1.Web.dll
+D:\Olenka\ULTIMA VERSION\ERPAlexia\OneCommerce\bin\DevExpress.XtraScheduler.v13.1.Core.dll
+D:\Olenka\ULTIMA VERSION\ERPAlexia\OneCommerce\bin\log4net.dll
+D:\Olenka\ULTIMA VERSION\ERPAlexia\OneCommerce\bin\Microsoft.QualityTools.Testing.Fakes.dll
+D:\Olenka\ULTIMA VERSION\ERPAlexia\OneCommerce\bin\Microsoft.ReportViewer.Common.dll
+D:\Olenka\ULTIMA VERSION\ERPAlexia\OneCommerce\bin\Microsoft.ReportViewer.WebForms.dll
+D:\Olenka\ULTIMA VERSION\ERPAlexia\OneCommerce\bin\Microsoft.ReportViewer.WinForms.dll
+D:\Olenka\ULTIMA VERSION\ERPAlexia\OneCommerce\bin\DataAccess.dll
+D:\Olenka\ULTIMA VERSION\ERPAlexia\OneCommerce\bin\ResultSetMappers.dll
+D:\Olenka\ULTIMA VERSION\ERPAlexia\OneCommerce\bin\CrystalDecisions.ReportAppServer.DataDefModel.dll
+D:\Olenka\ULTIMA VERSION\ERPAlexia\OneCommerce\bin\CrystalDecisions.ReportAppServer.ClientDoc.dll
+D:\Olenka\ULTIMA VERSION\ERPAlexia\OneCommerce\bin\CrystalDecisions.ReportAppServer.ReportDefModel.dll
+D:\Olenka\ULTIMA VERSION\ERPAlexia\OneCommerce\bin\CrystalDecisions.ReportAppServer.CommLayer.dll
+D:\Olenka\ULTIMA VERSION\ERPAlexia\OneCommerce\bin\CrystalDecisions.ReportAppServer.Controllers.dll
+D:\Olenka\ULTIMA VERSION\ERPAlexia\OneCommerce\bin\CrystalDecisions.ReportAppServer.DataSetConversion.dll
+D:\Olenka\ULTIMA VERSION\ERPAlexia\OneCommerce\bin\CrystalDecisions.ReportAppServer.Prompting.dll
+D:\Olenka\ULTIMA VERSION\ERPAlexia\OneCommerce\bin\CrystalDecisions.ReportAppServer.XmlSerialize.dll
+D:\Olenka\ULTIMA VERSION\ERPAlexia\OneCommerce\bin\CrystalDecisions.ReportAppServer.CubeDefModel.dll
+D:\Olenka\ULTIMA VERSION\ERPAlexia\OneCommerce\bin\CrystalDecisions.ReportAppServer.CommonObjectModel.dll
+D:\Olenka\ULTIMA VERSION\ERPAlexia\OneCommerce\bin\CrystalDecisions.ReportAppServer.ObjectFactory.dll
+D:\Olenka\ULTIMA VERSION\ERPAlexia\OneCommerce\bin\CrystalDecisions.ReportSource.dll
+D:\Olenka\ULTIMA VERSION\ERPAlexia\OneCommerce\bin\CrystalDecisions.PromptingClientSDK.dll
+D:\Olenka\ULTIMA VERSION\ERPAlexia\OneCommerce\bin\CrystalDecisions.Enterprise.Viewing.ReportSource.dll
+D:\Olenka\ULTIMA VERSION\ERPAlexia\OneCommerce\bin\DevExpress.XtraEditors.v13.1.dll
+D:\Olenka\ULTIMA VERSION\ERPAlexia\OneCommerce\bin\DevExpress.XtraLayout.v13.1.dll
+D:\Olenka\ULTIMA VERSION\ERPAlexia\OneCommerce\bin\DevExpress.XtraBars.v13.1.dll
+D:\Olenka\ULTIMA VERSION\ERPAlexia\OneCommerce\bin\DevExpress.XtraTreeList.v13.1.dll
+D:\Olenka\ULTIMA VERSION\ERPAlexia\OneCommerce\bin\DevExpress.Sparkline.v13.1.Core.dll
+D:\Olenka\ULTIMA VERSION\ERPAlexia\OneCommerce\bin\Microsoft.Practices.EnterpriseLibrary.Data.dll
+D:\Olenka\ULTIMA VERSION\ERPAlexia\OneCommerce\bin\CrystalDecisions.ReportAppServer.CommonControls.dll
+D:\Olenka\ULTIMA VERSION\ERPAlexia\OneCommerce\bin\stdole.dll
+D:\Olenka\ULTIMA VERSION\ERPAlexia\OneCommerce\bin\Microsoft.SqlServer.Types.dll
+D:\Olenka\ULTIMA VERSION\ERPAlexia\OneCommerce\bin\Microsoft.Practices.EnterpriseLibrary.Common.dll
+D:\Olenka\ULTIMA VERSION\ERPAlexia\OneCommerce\bin\Microsoft.Practices.ServiceLocation.dll
+D:\Olenka\ULTIMA VERSION\ERPAlexia\OneCommerce\bin\Microsoft.Practices.Unity.dll
+D:\Olenka\ULTIMA VERSION\ERPAlexia\OneCommerce\bin\Microsoft.Practices.Unity.Interception.dll
+D:\Olenka\ULTIMA VERSION\ERPAlexia\OneCommerce\bin\BusinessEntities.pdb
+D:\Olenka\ULTIMA VERSION\ERPAlexia\OneCommerce\bin\BusinessRules.pdb
+D:\Olenka\ULTIMA VERSION\ERPAlexia\OneCommerce\bin\BusinessServices.pdb
+D:\Olenka\ULTIMA VERSION\ERPAlexia\OneCommerce\bin\DevExpress.Data.v13.1.xml
+D:\Olenka\ULTIMA VERSION\ERPAlexia\OneCommerce\bin\DevExpress.Office.v13.1.Core.xml
+D:\Olenka\ULTIMA VERSION\ERPAlexia\OneCommerce\bin\DevExpress.PivotGrid.v13.1.Core.xml
+D:\Olenka\ULTIMA VERSION\ERPAlexia\OneCommerce\bin\DevExpress.Printing.v13.1.Core.xml
+D:\Olenka\ULTIMA VERSION\ERPAlexia\OneCommerce\bin\DevExpress.RichEdit.v13.1.Core.xml
+D:\Olenka\ULTIMA VERSION\ERPAlexia\OneCommerce\bin\DevExpress.SpellChecker.v13.1.Core.xml
+D:\Olenka\ULTIMA VERSION\ERPAlexia\OneCommerce\bin\DevExpress.Utils.v13.1.xml
+D:\Olenka\ULTIMA VERSION\ERPAlexia\OneCommerce\bin\DevExpress.Web.ASPxGauges.v13.1.xml
+D:\Olenka\ULTIMA VERSION\ERPAlexia\OneCommerce\bin\DevExpress.Web.ASPxHtmlEditor.v13.1.xml
+D:\Olenka\ULTIMA VERSION\ERPAlexia\OneCommerce\bin\DevExpress.Web.ASPxPivotGrid.v13.1.xml
+D:\Olenka\ULTIMA VERSION\ERPAlexia\OneCommerce\bin\DevExpress.Web.ASPxScheduler.v13.1.xml
+D:\Olenka\ULTIMA VERSION\ERPAlexia\OneCommerce\bin\DevExpress.Web.ASPxSpellChecker.v13.1.xml
+D:\Olenka\ULTIMA VERSION\ERPAlexia\OneCommerce\bin\DevExpress.Web.ASPxTreeList.v13.1.xml
+D:\Olenka\ULTIMA VERSION\ERPAlexia\OneCommerce\bin\DevExpress.Web.v13.1.xml
+D:\Olenka\ULTIMA VERSION\ERPAlexia\OneCommerce\bin\DevExpress.XtraCharts.v13.1.xml
+D:\Olenka\ULTIMA VERSION\ERPAlexia\OneCommerce\bin\DevExpress.XtraCharts.v13.1.Web.xml
+D:\Olenka\ULTIMA VERSION\ERPAlexia\OneCommerce\bin\DevExpress.XtraGauges.v13.1.Core.xml
+D:\Olenka\ULTIMA VERSION\ERPAlexia\OneCommerce\bin\DevExpress.XtraPivotGrid.v13.1.xml
+D:\Olenka\ULTIMA VERSION\ERPAlexia\OneCommerce\bin\DevExpress.XtraPrinting.v13.1.xml
+D:\Olenka\ULTIMA VERSION\ERPAlexia\OneCommerce\bin\DevExpress.XtraReports.v13.1.xml
+D:\Olenka\ULTIMA VERSION\ERPAlexia\OneCommerce\bin\DevExpress.XtraReports.v13.1.Web.xml
+D:\Olenka\ULTIMA VERSION\ERPAlexia\OneCommerce\bin\DevExpress.XtraScheduler.v13.1.Core.xml
+D:\Olenka\ULTIMA VERSION\ERPAlexia\OneCommerce\bin\DataAccess.pdb
+D:\Olenka\ULTIMA VERSION\ERPAlexia\OneCommerce\bin\DevExpress.XtraEditors.v13.1.xml
+D:\Olenka\ULTIMA VERSION\ERPAlexia\OneCommerce\bin\DevExpress.XtraLayout.v13.1.xml
+D:\Olenka\ULTIMA VERSION\ERPAlexia\OneCommerce\bin\DevExpress.XtraBars.v13.1.xml
+D:\Olenka\ULTIMA VERSION\ERPAlexia\OneCommerce\bin\DevExpress.XtraTreeList.v13.1.xml
+D:\Olenka\ULTIMA VERSION\ERPAlexia\OneCommerce\bin\de\DevExpress.Data.v13.1.resources.dll
+D:\Olenka\ULTIMA VERSION\ERPAlexia\OneCommerce\bin\es\DevExpress.Data.v13.1.resources.dll
+D:\Olenka\ULTIMA VERSION\ERPAlexia\OneCommerce\bin\ja\DevExpress.Data.v13.1.resources.dll
+D:\Olenka\ULTIMA VERSION\ERPAlexia\OneCommerce\bin\ru\DevExpress.Data.v13.1.resources.dll
+D:\Olenka\ULTIMA VERSION\ERPAlexia\OneCommerce\bin\de\DevExpress.Office.v13.1.Core.resources.dll
+D:\Olenka\ULTIMA VERSION\ERPAlexia\OneCommerce\bin\es\DevExpress.Office.v13.1.Core.resources.dll
+D:\Olenka\ULTIMA VERSION\ERPAlexia\OneCommerce\bin\ja\DevExpress.Office.v13.1.Core.resources.dll
+D:\Olenka\ULTIMA VERSION\ERPAlexia\OneCommerce\bin\ru\DevExpress.Office.v13.1.Core.resources.dll
+D:\Olenka\ULTIMA VERSION\ERPAlexia\OneCommerce\bin\de\DevExpress.PivotGrid.v13.1.Core.resources.dll
+D:\Olenka\ULTIMA VERSION\ERPAlexia\OneCommerce\bin\es\DevExpress.PivotGrid.v13.1.Core.resources.dll
+D:\Olenka\ULTIMA VERSION\ERPAlexia\OneCommerce\bin\ja\DevExpress.PivotGrid.v13.1.Core.resources.dll
+D:\Olenka\ULTIMA VERSION\ERPAlexia\OneCommerce\bin\ru\DevExpress.PivotGrid.v13.1.Core.resources.dll
+D:\Olenka\ULTIMA VERSION\ERPAlexia\OneCommerce\bin\de\DevExpress.Printing.v13.1.Core.resources.dll
+D:\Olenka\ULTIMA VERSION\ERPAlexia\OneCommerce\bin\es\DevExpress.Printing.v13.1.Core.resources.dll
+D:\Olenka\ULTIMA VERSION\ERPAlexia\OneCommerce\bin\ja\DevExpress.Printing.v13.1.Core.resources.dll
+D:\Olenka\ULTIMA VERSION\ERPAlexia\OneCommerce\bin\ru\DevExpress.Printing.v13.1.Core.resources.dll
+D:\Olenka\ULTIMA VERSION\ERPAlexia\OneCommerce\bin\de\DevExpress.RichEdit.v13.1.Core.resources.dll
+D:\Olenka\ULTIMA VERSION\ERPAlexia\OneCommerce\bin\es\DevExpress.RichEdit.v13.1.Core.resources.dll
+D:\Olenka\ULTIMA VERSION\ERPAlexia\OneCommerce\bin\ja\DevExpress.RichEdit.v13.1.Core.resources.dll
+D:\Olenka\ULTIMA VERSION\ERPAlexia\OneCommerce\bin\ru\DevExpress.RichEdit.v13.1.Core.resources.dll
+D:\Olenka\ULTIMA VERSION\ERPAlexia\OneCommerce\bin\de\DevExpress.Utils.v13.1.resources.dll
+D:\Olenka\ULTIMA VERSION\ERPAlexia\OneCommerce\bin\es\DevExpress.Utils.v13.1.resources.dll
+D:\Olenka\ULTIMA VERSION\ERPAlexia\OneCommerce\bin\ja\DevExpress.Utils.v13.1.resources.dll
+D:\Olenka\ULTIMA VERSION\ERPAlexia\OneCommerce\bin\ru\DevExpress.Utils.v13.1.resources.dll
+D:\Olenka\ULTIMA VERSION\ERPAlexia\OneCommerce\bin\de\DevExpress.Web.ASPxHtmlEditor.v13.1.resources.dll
+D:\Olenka\ULTIMA VERSION\ERPAlexia\OneCommerce\bin\es\DevExpress.Web.ASPxHtmlEditor.v13.1.resources.dll
+D:\Olenka\ULTIMA VERSION\ERPAlexia\OneCommerce\bin\ja\DevExpress.Web.ASPxHtmlEditor.v13.1.resources.dll
+D:\Olenka\ULTIMA VERSION\ERPAlexia\OneCommerce\bin\ru\DevExpress.Web.ASPxHtmlEditor.v13.1.resources.dll
+D:\Olenka\ULTIMA VERSION\ERPAlexia\OneCommerce\bin\de\DevExpress.Web.ASPxScheduler.v13.1.resources.dll
+D:\Olenka\ULTIMA VERSION\ERPAlexia\OneCommerce\bin\es\DevExpress.Web.ASPxScheduler.v13.1.resources.dll
+D:\Olenka\ULTIMA VERSION\ERPAlexia\OneCommerce\bin\ja\DevExpress.Web.ASPxScheduler.v13.1.resources.dll
+D:\Olenka\ULTIMA VERSION\ERPAlexia\OneCommerce\bin\ru\DevExpress.Web.ASPxScheduler.v13.1.resources.dll
+D:\Olenka\ULTIMA VERSION\ERPAlexia\OneCommerce\bin\de\DevExpress.Web.ASPxSpellChecker.v13.1.resources.dll
+D:\Olenka\ULTIMA VERSION\ERPAlexia\OneCommerce\bin\es\DevExpress.Web.ASPxSpellChecker.v13.1.resources.dll
+D:\Olenka\ULTIMA VERSION\ERPAlexia\OneCommerce\bin\ja\DevExpress.Web.ASPxSpellChecker.v13.1.resources.dll
+D:\Olenka\ULTIMA VERSION\ERPAlexia\OneCommerce\bin\ru\DevExpress.Web.ASPxSpellChecker.v13.1.resources.dll
+D:\Olenka\ULTIMA VERSION\ERPAlexia\OneCommerce\bin\de\DevExpress.Web.ASPxTreeList.v13.1.resources.dll
+D:\Olenka\ULTIMA VERSION\ERPAlexia\OneCommerce\bin\es\DevExpress.Web.ASPxTreeList.v13.1.resources.dll
+D:\Olenka\ULTIMA VERSION\ERPAlexia\OneCommerce\bin\ja\DevExpress.Web.ASPxTreeList.v13.1.resources.dll
+D:\Olenka\ULTIMA VERSION\ERPAlexia\OneCommerce\bin\ru\DevExpress.Web.ASPxTreeList.v13.1.resources.dll
+D:\Olenka\ULTIMA VERSION\ERPAlexia\OneCommerce\bin\de\DevExpress.Web.v13.1.resources.dll
+D:\Olenka\ULTIMA VERSION\ERPAlexia\OneCommerce\bin\es\DevExpress.Web.v13.1.resources.dll
+D:\Olenka\ULTIMA VERSION\ERPAlexia\OneCommerce\bin\ja\DevExpress.Web.v13.1.resources.dll
+D:\Olenka\ULTIMA VERSION\ERPAlexia\OneCommerce\bin\ru\DevExpress.Web.v13.1.resources.dll
+D:\Olenka\ULTIMA VERSION\ERPAlexia\OneCommerce\bin\de\DevExpress.XtraCharts.v13.1.resources.dll
+D:\Olenka\ULTIMA VERSION\ERPAlexia\OneCommerce\bin\es\DevExpress.XtraCharts.v13.1.resources.dll
+D:\Olenka\ULTIMA VERSION\ERPAlexia\OneCommerce\bin\ja\DevExpress.XtraCharts.v13.1.resources.dll
+D:\Olenka\ULTIMA VERSION\ERPAlexia\OneCommerce\bin\ru\DevExpress.XtraCharts.v13.1.resources.dll
+D:\Olenka\ULTIMA VERSION\ERPAlexia\OneCommerce\bin\de\DevExpress.XtraGauges.v13.1.Core.resources.dll
+D:\Olenka\ULTIMA VERSION\ERPAlexia\OneCommerce\bin\es\DevExpress.XtraGauges.v13.1.Core.resources.dll
+D:\Olenka\ULTIMA VERSION\ERPAlexia\OneCommerce\bin\ja\DevExpress.XtraGauges.v13.1.Core.resources.dll
+D:\Olenka\ULTIMA VERSION\ERPAlexia\OneCommerce\bin\ru\DevExpress.XtraGauges.v13.1.Core.resources.dll
+D:\Olenka\ULTIMA VERSION\ERPAlexia\OneCommerce\bin\de\DevExpress.XtraGauges.v13.1.Presets.resources.dll
+D:\Olenka\ULTIMA VERSION\ERPAlexia\OneCommerce\bin\es\DevExpress.XtraGauges.v13.1.Presets.resources.dll
+D:\Olenka\ULTIMA VERSION\ERPAlexia\OneCommerce\bin\ja\DevExpress.XtraGauges.v13.1.Presets.resources.dll
+D:\Olenka\ULTIMA VERSION\ERPAlexia\OneCommerce\bin\ru\DevExpress.XtraGauges.v13.1.Presets.resources.dll
+D:\Olenka\ULTIMA VERSION\ERPAlexia\OneCommerce\bin\de\DevExpress.XtraPivotGrid.v13.1.resources.dll
+D:\Olenka\ULTIMA VERSION\ERPAlexia\OneCommerce\bin\es\DevExpress.XtraPivotGrid.v13.1.resources.dll
+D:\Olenka\ULTIMA VERSION\ERPAlexia\OneCommerce\bin\ja\DevExpress.XtraPivotGrid.v13.1.resources.dll
+D:\Olenka\ULTIMA VERSION\ERPAlexia\OneCommerce\bin\ru\DevExpress.XtraPivotGrid.v13.1.resources.dll
+D:\Olenka\ULTIMA VERSION\ERPAlexia\OneCommerce\bin\de\DevExpress.XtraPrinting.v13.1.resources.dll
+D:\Olenka\ULTIMA VERSION\ERPAlexia\OneCommerce\bin\es\DevExpress.XtraPrinting.v13.1.resources.dll
+D:\Olenka\ULTIMA VERSION\ERPAlexia\OneCommerce\bin\ja\DevExpress.XtraPrinting.v13.1.resources.dll
+D:\Olenka\ULTIMA VERSION\ERPAlexia\OneCommerce\bin\ru\DevExpress.XtraPrinting.v13.1.resources.dll
+D:\Olenka\ULTIMA VERSION\ERPAlexia\OneCommerce\bin\de\DevExpress.XtraReports.v13.1.resources.dll
+D:\Olenka\ULTIMA VERSION\ERPAlexia\OneCommerce\bin\es\DevExpress.XtraReports.v13.1.resources.dll
+D:\Olenka\ULTIMA VERSION\ERPAlexia\OneCommerce\bin\ja\DevExpress.XtraReports.v13.1.resources.dll
+D:\Olenka\ULTIMA VERSION\ERPAlexia\OneCommerce\bin\ru\DevExpress.XtraReports.v13.1.resources.dll
+D:\Olenka\ULTIMA VERSION\ERPAlexia\OneCommerce\bin\de\DevExpress.XtraReports.v13.1.Web.resources.dll
+D:\Olenka\ULTIMA VERSION\ERPAlexia\OneCommerce\bin\es\DevExpress.XtraReports.v13.1.Web.resources.dll
+D:\Olenka\ULTIMA VERSION\ERPAlexia\OneCommerce\bin\ja\DevExpress.XtraReports.v13.1.Web.resources.dll
+D:\Olenka\ULTIMA VERSION\ERPAlexia\OneCommerce\bin\ru\DevExpress.XtraReports.v13.1.Web.resources.dll
+D:\Olenka\ULTIMA VERSION\ERPAlexia\OneCommerce\bin\de\DevExpress.XtraScheduler.v13.1.Core.resources.dll
+D:\Olenka\ULTIMA VERSION\ERPAlexia\OneCommerce\bin\es\DevExpress.XtraScheduler.v13.1.Core.resources.dll
+D:\Olenka\ULTIMA VERSION\ERPAlexia\OneCommerce\bin\ja\DevExpress.XtraScheduler.v13.1.Core.resources.dll
+D:\Olenka\ULTIMA VERSION\ERPAlexia\OneCommerce\bin\ru\DevExpress.XtraScheduler.v13.1.Core.resources.dll
+D:\Olenka\ULTIMA VERSION\ERPAlexia\OneCommerce\bin\de\DevExpress.XtraEditors.v13.1.resources.dll
+D:\Olenka\ULTIMA VERSION\ERPAlexia\OneCommerce\bin\es\DevExpress.XtraEditors.v13.1.resources.dll
+D:\Olenka\ULTIMA VERSION\ERPAlexia\OneCommerce\bin\ja\DevExpress.XtraEditors.v13.1.resources.dll
+D:\Olenka\ULTIMA VERSION\ERPAlexia\OneCommerce\bin\ru\DevExpress.XtraEditors.v13.1.resources.dll
+D:\Olenka\ULTIMA VERSION\ERPAlexia\OneCommerce\bin\de\DevExpress.XtraLayout.v13.1.resources.dll
+D:\Olenka\ULTIMA VERSION\ERPAlexia\OneCommerce\bin\es\DevExpress.XtraLayout.v13.1.resources.dll
+D:\Olenka\ULTIMA VERSION\ERPAlexia\OneCommerce\bin\ja\DevExpress.XtraLayout.v13.1.resources.dll
+D:\Olenka\ULTIMA VERSION\ERPAlexia\OneCommerce\bin\ru\DevExpress.XtraLayout.v13.1.resources.dll
+D:\Olenka\ULTIMA VERSION\ERPAlexia\OneCommerce\bin\de\DevExpress.XtraBars.v13.1.resources.dll
+D:\Olenka\ULTIMA VERSION\ERPAlexia\OneCommerce\bin\es\DevExpress.XtraBars.v13.1.resources.dll
+D:\Olenka\ULTIMA VERSION\ERPAlexia\OneCommerce\bin\ja\DevExpress.XtraBars.v13.1.resources.dll
+D:\Olenka\ULTIMA VERSION\ERPAlexia\OneCommerce\bin\ru\DevExpress.XtraBars.v13.1.resources.dll
+D:\Olenka\ULTIMA VERSION\ERPAlexia\OneCommerce\bin\de\DevExpress.XtraTreeList.v13.1.resources.dll
+D:\Olenka\ULTIMA VERSION\ERPAlexia\OneCommerce\bin\es\DevExpress.XtraTreeList.v13.1.resources.dll
+D:\Olenka\ULTIMA VERSION\ERPAlexia\OneCommerce\bin\ja\DevExpress.XtraTreeList.v13.1.resources.dll
+D:\Olenka\ULTIMA VERSION\ERPAlexia\OneCommerce\bin\ru\DevExpress.XtraTreeList.v13.1.resources.dll
+D:\Olenka\ULTIMA VERSION\ERPAlexia\OneCommerce\bin\de\Microsoft.SqlServer.Types.resources.dll
+D:\Olenka\ULTIMA VERSION\ERPAlexia\OneCommerce\bin\es\Microsoft.SqlServer.Types.resources.dll
+D:\Olenka\ULTIMA VERSION\ERPAlexia\OneCommerce\bin\fr\Microsoft.SqlServer.Types.resources.dll
+D:\Olenka\ULTIMA VERSION\ERPAlexia\OneCommerce\bin\it\Microsoft.SqlServer.Types.resources.dll
+D:\Olenka\ULTIMA VERSION\ERPAlexia\OneCommerce\bin\ja\Microsoft.SqlServer.Types.resources.dll
+D:\Olenka\ULTIMA VERSION\ERPAlexia\OneCommerce\bin\ko\Microsoft.SqlServer.Types.resources.dll
+D:\Olenka\ULTIMA VERSION\ERPAlexia\OneCommerce\bin\pt\Microsoft.SqlServer.Types.resources.dll
+D:\Olenka\ULTIMA VERSION\ERPAlexia\OneCommerce\bin\ru\Microsoft.SqlServer.Types.resources.dll
+D:\Olenka\ULTIMA VERSION\ERPAlexia\OneCommerce\bin\zh-Hans\Microsoft.SqlServer.Types.resources.dll
+D:\Olenka\ULTIMA VERSION\ERPAlexia\OneCommerce\bin\zh-Hant\Microsoft.SqlServer.Types.resources.dll
+D:\Olenka\ULTIMA VERSION\ERPAlexia\OneCommerce\bin\BusinessObjects.Enterprise.Sdk.ebus.netmodule
+D:\Olenka\ULTIMA VERSION\ERPAlexia\OneCommerce\bin\BusinessObjects.Enterprise.Sdk.fssl.netmodule
+D:\Olenka\ULTIMA VERSION\ERPAlexia\OneCommerce\bin\BusinessObjects.Enterprise.Sdk.Ssl.netmodule
+D:\Olenka\ULTIMA VERSION\ERPAlexia\OneCommerce\bin\BusinessObjects.Enterprise.Sdk.netmodule
+D:\Olenka\ULTIMA VERSION\ERPAlexia\OneCommerce\bin\BusinessObjects.Enterprise.Sdk.ZipLib.netmodule
+D:\Olenka\ULTIMA VERSION\ERPAlexia\OneCommerce\obj\Debug\OneCommerce.csprojResolveAssemblyReference.cache
+D:\Olenka\ULTIMA VERSION\ERPAlexia\OneCommerce\obj\Debug\Interop.SAPbobsCOM.dll
+D:\Olenka\ULTIMA VERSION\ERPAlexia\OneCommerce\obj\Debug\OneCommerce.csproj.ResolveComReference.cache
+D:\Olenka\ULTIMA VERSION\ERPAlexia\OneCommerce\obj\Debug\OneCommerce.dll.licenses
+D:\Olenka\ULTIMA VERSION\ERPAlexia\OneCommerce\obj\Debug\OneCommerce.dll
+D:\Olenka\ULTIMA VERSION\ERPAlexia\OneCommerce\obj\Debug\OneCommerce.pdb
+D:\ORIGINALES OLENKA\GRAFI\ERPAlexia\OneCommerce\bin\OneCommerce.dll.config
+D:\ORIGINALES OLENKA\GRAFI\ERPAlexia\OneCommerce\bin\OneCommerce.dll
+D:\ORIGINALES OLENKA\GRAFI\ERPAlexia\OneCommerce\bin\OneCommerce.pdb
+D:\ORIGINALES OLENKA\GRAFI\ERPAlexia\OneCommerce\bin\BusinessEntities.dll
+D:\ORIGINALES OLENKA\GRAFI\ERPAlexia\OneCommerce\bin\BusinessObjects.Enterprise.Sdk.dll
+D:\ORIGINALES OLENKA\GRAFI\ERPAlexia\OneCommerce\bin\BusinessObjects.Foundation.Logging.dll
+D:\ORIGINALES OLENKA\GRAFI\ERPAlexia\OneCommerce\bin\BusinessRules.dll
+D:\ORIGINALES OLENKA\GRAFI\ERPAlexia\OneCommerce\bin\BusinessServices.dll
+D:\ORIGINALES OLENKA\GRAFI\ERPAlexia\OneCommerce\bin\CrystalDecisions.CrystalReports.Engine.dll
+D:\ORIGINALES OLENKA\GRAFI\ERPAlexia\OneCommerce\bin\CrystalDecisions.Shared.dll
+D:\ORIGINALES OLENKA\GRAFI\ERPAlexia\OneCommerce\bin\CrystalDecisions.Web.dll
+D:\ORIGINALES OLENKA\GRAFI\ERPAlexia\OneCommerce\bin\DevExpress.Charts.v13.1.Core.dll
+D:\ORIGINALES OLENKA\GRAFI\ERPAlexia\OneCommerce\bin\DevExpress.Data.v13.1.dll
+D:\ORIGINALES OLENKA\GRAFI\ERPAlexia\OneCommerce\bin\DevExpress.Office.v13.1.Core.dll
+D:\ORIGINALES OLENKA\GRAFI\ERPAlexia\OneCommerce\bin\DevExpress.PivotGrid.v13.1.Core.dll
+D:\ORIGINALES OLENKA\GRAFI\ERPAlexia\OneCommerce\bin\DevExpress.Printing.v13.1.Core.dll
+D:\ORIGINALES OLENKA\GRAFI\ERPAlexia\OneCommerce\bin\DevExpress.RichEdit.v13.1.Core.dll
+D:\ORIGINALES OLENKA\GRAFI\ERPAlexia\OneCommerce\bin\DevExpress.SpellChecker.v13.1.Core.dll
+D:\ORIGINALES OLENKA\GRAFI\ERPAlexia\OneCommerce\bin\DevExpress.Utils.v13.1.dll
+D:\ORIGINALES OLENKA\GRAFI\ERPAlexia\OneCommerce\bin\DevExpress.Web.ASPxGauges.v13.1.dll
+D:\ORIGINALES OLENKA\GRAFI\ERPAlexia\OneCommerce\bin\DevExpress.Web.ASPxHtmlEditor.v13.1.dll
+D:\ORIGINALES OLENKA\GRAFI\ERPAlexia\OneCommerce\bin\DevExpress.Web.ASPxPivotGrid.v13.1.dll
+D:\ORIGINALES OLENKA\GRAFI\ERPAlexia\OneCommerce\bin\DevExpress.Web.ASPxScheduler.v13.1.dll
+D:\ORIGINALES OLENKA\GRAFI\ERPAlexia\OneCommerce\bin\DevExpress.Web.ASPxSpellChecker.v13.1.dll
+D:\ORIGINALES OLENKA\GRAFI\ERPAlexia\OneCommerce\bin\DevExpress.Web.ASPxThemes.v13.1.dll
+D:\ORIGINALES OLENKA\GRAFI\ERPAlexia\OneCommerce\bin\DevExpress.Web.ASPxTreeList.v13.1.dll
+D:\ORIGINALES OLENKA\GRAFI\ERPAlexia\OneCommerce\bin\DevExpress.Web.v13.1.dll
+D:\ORIGINALES OLENKA\GRAFI\ERPAlexia\OneCommerce\bin\DevExpress.XtraCharts.v13.1.dll
+D:\ORIGINALES OLENKA\GRAFI\ERPAlexia\OneCommerce\bin\DevExpress.XtraCharts.v13.1.Web.dll
+D:\ORIGINALES OLENKA\GRAFI\ERPAlexia\OneCommerce\bin\DevExpress.XtraGauges.v13.1.Core.dll
+D:\ORIGINALES OLENKA\GRAFI\ERPAlexia\OneCommerce\bin\DevExpress.XtraGauges.v13.1.Presets.dll
+D:\ORIGINALES OLENKA\GRAFI\ERPAlexia\OneCommerce\bin\DevExpress.XtraPivotGrid.v13.1.dll
+D:\ORIGINALES OLENKA\GRAFI\ERPAlexia\OneCommerce\bin\DevExpress.XtraPrinting.v13.1.dll
+D:\ORIGINALES OLENKA\GRAFI\ERPAlexia\OneCommerce\bin\DevExpress.XtraReports.v13.1.dll
+D:\ORIGINALES OLENKA\GRAFI\ERPAlexia\OneCommerce\bin\DevExpress.XtraReports.v13.1.Web.dll
+D:\ORIGINALES OLENKA\GRAFI\ERPAlexia\OneCommerce\bin\DevExpress.XtraScheduler.v13.1.Core.dll
+D:\ORIGINALES OLENKA\GRAFI\ERPAlexia\OneCommerce\bin\log4net.dll
+D:\ORIGINALES OLENKA\GRAFI\ERPAlexia\OneCommerce\bin\Microsoft.QualityTools.Testing.Fakes.dll
+D:\ORIGINALES OLENKA\GRAFI\ERPAlexia\OneCommerce\bin\Microsoft.ReportViewer.Common.dll
+D:\ORIGINALES OLENKA\GRAFI\ERPAlexia\OneCommerce\bin\Microsoft.ReportViewer.WebForms.dll
+D:\ORIGINALES OLENKA\GRAFI\ERPAlexia\OneCommerce\bin\Microsoft.ReportViewer.WinForms.dll
+D:\ORIGINALES OLENKA\GRAFI\ERPAlexia\OneCommerce\bin\DataAccess.dll
+D:\ORIGINALES OLENKA\GRAFI\ERPAlexia\OneCommerce\bin\ResultSetMappers.dll
+D:\ORIGINALES OLENKA\GRAFI\ERPAlexia\OneCommerce\bin\CrystalDecisions.ReportAppServer.DataDefModel.dll
+D:\ORIGINALES OLENKA\GRAFI\ERPAlexia\OneCommerce\bin\CrystalDecisions.ReportAppServer.ClientDoc.dll
+D:\ORIGINALES OLENKA\GRAFI\ERPAlexia\OneCommerce\bin\CrystalDecisions.ReportAppServer.ReportDefModel.dll
+D:\ORIGINALES OLENKA\GRAFI\ERPAlexia\OneCommerce\bin\CrystalDecisions.ReportAppServer.CommLayer.dll
+D:\ORIGINALES OLENKA\GRAFI\ERPAlexia\OneCommerce\bin\CrystalDecisions.ReportAppServer.Controllers.dll
+D:\ORIGINALES OLENKA\GRAFI\ERPAlexia\OneCommerce\bin\CrystalDecisions.ReportAppServer.DataSetConversion.dll
+D:\ORIGINALES OLENKA\GRAFI\ERPAlexia\OneCommerce\bin\CrystalDecisions.ReportAppServer.Prompting.dll
+D:\ORIGINALES OLENKA\GRAFI\ERPAlexia\OneCommerce\bin\CrystalDecisions.ReportAppServer.XmlSerialize.dll
+D:\ORIGINALES OLENKA\GRAFI\ERPAlexia\OneCommerce\bin\CrystalDecisions.ReportAppServer.CubeDefModel.dll
+D:\ORIGINALES OLENKA\GRAFI\ERPAlexia\OneCommerce\bin\CrystalDecisions.ReportAppServer.CommonObjectModel.dll
+D:\ORIGINALES OLENKA\GRAFI\ERPAlexia\OneCommerce\bin\CrystalDecisions.ReportAppServer.ObjectFactory.dll
+D:\ORIGINALES OLENKA\GRAFI\ERPAlexia\OneCommerce\bin\CrystalDecisions.ReportSource.dll
+D:\ORIGINALES OLENKA\GRAFI\ERPAlexia\OneCommerce\bin\CrystalDecisions.PromptingClientSDK.dll
+D:\ORIGINALES OLENKA\GRAFI\ERPAlexia\OneCommerce\bin\CrystalDecisions.Enterprise.Viewing.ReportSource.dll
+D:\ORIGINALES OLENKA\GRAFI\ERPAlexia\OneCommerce\bin\DevExpress.XtraEditors.v13.1.dll
+D:\ORIGINALES OLENKA\GRAFI\ERPAlexia\OneCommerce\bin\DevExpress.XtraLayout.v13.1.dll
+D:\ORIGINALES OLENKA\GRAFI\ERPAlexia\OneCommerce\bin\DevExpress.XtraBars.v13.1.dll
+D:\ORIGINALES OLENKA\GRAFI\ERPAlexia\OneCommerce\bin\DevExpress.XtraTreeList.v13.1.dll
+D:\ORIGINALES OLENKA\GRAFI\ERPAlexia\OneCommerce\bin\DevExpress.Sparkline.v13.1.Core.dll
+D:\ORIGINALES OLENKA\GRAFI\ERPAlexia\OneCommerce\bin\Microsoft.Practices.EnterpriseLibrary.Data.dll
+D:\ORIGINALES OLENKA\GRAFI\ERPAlexia\OneCommerce\bin\CrystalDecisions.ReportAppServer.CommonControls.dll
+D:\ORIGINALES OLENKA\GRAFI\ERPAlexia\OneCommerce\bin\stdole.dll
+D:\ORIGINALES OLENKA\GRAFI\ERPAlexia\OneCommerce\bin\Microsoft.SqlServer.Types.dll
+D:\ORIGINALES OLENKA\GRAFI\ERPAlexia\OneCommerce\bin\Microsoft.Practices.EnterpriseLibrary.Common.dll
+D:\ORIGINALES OLENKA\GRAFI\ERPAlexia\OneCommerce\bin\Microsoft.Practices.ServiceLocation.dll
+D:\ORIGINALES OLENKA\GRAFI\ERPAlexia\OneCommerce\bin\Microsoft.Practices.Unity.dll
+D:\ORIGINALES OLENKA\GRAFI\ERPAlexia\OneCommerce\bin\Microsoft.Practices.Unity.Interception.dll
+D:\ORIGINALES OLENKA\GRAFI\ERPAlexia\OneCommerce\bin\BusinessEntities.pdb
+D:\ORIGINALES OLENKA\GRAFI\ERPAlexia\OneCommerce\bin\BusinessRules.pdb
+D:\ORIGINALES OLENKA\GRAFI\ERPAlexia\OneCommerce\bin\BusinessServices.pdb
+D:\ORIGINALES OLENKA\GRAFI\ERPAlexia\OneCommerce\bin\DevExpress.Data.v13.1.xml
+D:\ORIGINALES OLENKA\GRAFI\ERPAlexia\OneCommerce\bin\DevExpress.Office.v13.1.Core.xml
+D:\ORIGINALES OLENKA\GRAFI\ERPAlexia\OneCommerce\bin\DevExpress.PivotGrid.v13.1.Core.xml
+D:\ORIGINALES OLENKA\GRAFI\ERPAlexia\OneCommerce\bin\DevExpress.Printing.v13.1.Core.xml
+D:\ORIGINALES OLENKA\GRAFI\ERPAlexia\OneCommerce\bin\DevExpress.RichEdit.v13.1.Core.xml
+D:\ORIGINALES OLENKA\GRAFI\ERPAlexia\OneCommerce\bin\DevExpress.SpellChecker.v13.1.Core.xml
+D:\ORIGINALES OLENKA\GRAFI\ERPAlexia\OneCommerce\bin\DevExpress.Utils.v13.1.xml
+D:\ORIGINALES OLENKA\GRAFI\ERPAlexia\OneCommerce\bin\DevExpress.Web.ASPxGauges.v13.1.xml
+D:\ORIGINALES OLENKA\GRAFI\ERPAlexia\OneCommerce\bin\DevExpress.Web.ASPxHtmlEditor.v13.1.xml
+D:\ORIGINALES OLENKA\GRAFI\ERPAlexia\OneCommerce\bin\DevExpress.Web.ASPxPivotGrid.v13.1.xml
+D:\ORIGINALES OLENKA\GRAFI\ERPAlexia\OneCommerce\bin\DevExpress.Web.ASPxScheduler.v13.1.xml
+D:\ORIGINALES OLENKA\GRAFI\ERPAlexia\OneCommerce\bin\DevExpress.Web.ASPxSpellChecker.v13.1.xml
+D:\ORIGINALES OLENKA\GRAFI\ERPAlexia\OneCommerce\bin\DevExpress.Web.ASPxTreeList.v13.1.xml
+D:\ORIGINALES OLENKA\GRAFI\ERPAlexia\OneCommerce\bin\DevExpress.Web.v13.1.xml
+D:\ORIGINALES OLENKA\GRAFI\ERPAlexia\OneCommerce\bin\DevExpress.XtraCharts.v13.1.xml
+D:\ORIGINALES OLENKA\GRAFI\ERPAlexia\OneCommerce\bin\DevExpress.XtraCharts.v13.1.Web.xml
+D:\ORIGINALES OLENKA\GRAFI\ERPAlexia\OneCommerce\bin\DevExpress.XtraGauges.v13.1.Core.xml
+D:\ORIGINALES OLENKA\GRAFI\ERPAlexia\OneCommerce\bin\DevExpress.XtraPivotGrid.v13.1.xml
+D:\ORIGINALES OLENKA\GRAFI\ERPAlexia\OneCommerce\bin\DevExpress.XtraPrinting.v13.1.xml
+D:\ORIGINALES OLENKA\GRAFI\ERPAlexia\OneCommerce\bin\DevExpress.XtraReports.v13.1.xml
+D:\ORIGINALES OLENKA\GRAFI\ERPAlexia\OneCommerce\bin\DevExpress.XtraReports.v13.1.Web.xml
+D:\ORIGINALES OLENKA\GRAFI\ERPAlexia\OneCommerce\bin\DevExpress.XtraScheduler.v13.1.Core.xml
+D:\ORIGINALES OLENKA\GRAFI\ERPAlexia\OneCommerce\bin\DataAccess.pdb
+D:\ORIGINALES OLENKA\GRAFI\ERPAlexia\OneCommerce\bin\DevExpress.XtraEditors.v13.1.xml
+D:\ORIGINALES OLENKA\GRAFI\ERPAlexia\OneCommerce\bin\DevExpress.XtraLayout.v13.1.xml
+D:\ORIGINALES OLENKA\GRAFI\ERPAlexia\OneCommerce\bin\DevExpress.XtraBars.v13.1.xml
+D:\ORIGINALES OLENKA\GRAFI\ERPAlexia\OneCommerce\bin\DevExpress.XtraTreeList.v13.1.xml
+D:\ORIGINALES OLENKA\GRAFI\ERPAlexia\OneCommerce\bin\de\DevExpress.Data.v13.1.resources.dll
+D:\ORIGINALES OLENKA\GRAFI\ERPAlexia\OneCommerce\bin\es\DevExpress.Data.v13.1.resources.dll
+D:\ORIGINALES OLENKA\GRAFI\ERPAlexia\OneCommerce\bin\ja\DevExpress.Data.v13.1.resources.dll
+D:\ORIGINALES OLENKA\GRAFI\ERPAlexia\OneCommerce\bin\ru\DevExpress.Data.v13.1.resources.dll
+D:\ORIGINALES OLENKA\GRAFI\ERPAlexia\OneCommerce\bin\de\DevExpress.Office.v13.1.Core.resources.dll
+D:\ORIGINALES OLENKA\GRAFI\ERPAlexia\OneCommerce\bin\es\DevExpress.Office.v13.1.Core.resources.dll
+D:\ORIGINALES OLENKA\GRAFI\ERPAlexia\OneCommerce\bin\ja\DevExpress.Office.v13.1.Core.resources.dll
+D:\ORIGINALES OLENKA\GRAFI\ERPAlexia\OneCommerce\bin\ru\DevExpress.Office.v13.1.Core.resources.dll
+D:\ORIGINALES OLENKA\GRAFI\ERPAlexia\OneCommerce\bin\de\DevExpress.PivotGrid.v13.1.Core.resources.dll
+D:\ORIGINALES OLENKA\GRAFI\ERPAlexia\OneCommerce\bin\es\DevExpress.PivotGrid.v13.1.Core.resources.dll
+D:\ORIGINALES OLENKA\GRAFI\ERPAlexia\OneCommerce\bin\ja\DevExpress.PivotGrid.v13.1.Core.resources.dll
+D:\ORIGINALES OLENKA\GRAFI\ERPAlexia\OneCommerce\bin\ru\DevExpress.PivotGrid.v13.1.Core.resources.dll
+D:\ORIGINALES OLENKA\GRAFI\ERPAlexia\OneCommerce\bin\de\DevExpress.Printing.v13.1.Core.resources.dll
+D:\ORIGINALES OLENKA\GRAFI\ERPAlexia\OneCommerce\bin\es\DevExpress.Printing.v13.1.Core.resources.dll
+D:\ORIGINALES OLENKA\GRAFI\ERPAlexia\OneCommerce\bin\ja\DevExpress.Printing.v13.1.Core.resources.dll
+D:\ORIGINALES OLENKA\GRAFI\ERPAlexia\OneCommerce\bin\ru\DevExpress.Printing.v13.1.Core.resources.dll
+D:\ORIGINALES OLENKA\GRAFI\ERPAlexia\OneCommerce\bin\de\DevExpress.RichEdit.v13.1.Core.resources.dll
+D:\ORIGINALES OLENKA\GRAFI\ERPAlexia\OneCommerce\bin\es\DevExpress.RichEdit.v13.1.Core.resources.dll
+D:\ORIGINALES OLENKA\GRAFI\ERPAlexia\OneCommerce\bin\ja\DevExpress.RichEdit.v13.1.Core.resources.dll
+D:\ORIGINALES OLENKA\GRAFI\ERPAlexia\OneCommerce\bin\ru\DevExpress.RichEdit.v13.1.Core.resources.dll
+D:\ORIGINALES OLENKA\GRAFI\ERPAlexia\OneCommerce\bin\de\DevExpress.Utils.v13.1.resources.dll
+D:\ORIGINALES OLENKA\GRAFI\ERPAlexia\OneCommerce\bin\es\DevExpress.Utils.v13.1.resources.dll
+D:\ORIGINALES OLENKA\GRAFI\ERPAlexia\OneCommerce\bin\ja\DevExpress.Utils.v13.1.resources.dll
+D:\ORIGINALES OLENKA\GRAFI\ERPAlexia\OneCommerce\bin\ru\DevExpress.Utils.v13.1.resources.dll
+D:\ORIGINALES OLENKA\GRAFI\ERPAlexia\OneCommerce\bin\de\DevExpress.Web.ASPxHtmlEditor.v13.1.resources.dll
+D:\ORIGINALES OLENKA\GRAFI\ERPAlexia\OneCommerce\bin\es\DevExpress.Web.ASPxHtmlEditor.v13.1.resources.dll
+D:\ORIGINALES OLENKA\GRAFI\ERPAlexia\OneCommerce\bin\ja\DevExpress.Web.ASPxHtmlEditor.v13.1.resources.dll
+D:\ORIGINALES OLENKA\GRAFI\ERPAlexia\OneCommerce\bin\ru\DevExpress.Web.ASPxHtmlEditor.v13.1.resources.dll
+D:\ORIGINALES OLENKA\GRAFI\ERPAlexia\OneCommerce\bin\de\DevExpress.Web.ASPxScheduler.v13.1.resources.dll
+D:\ORIGINALES OLENKA\GRAFI\ERPAlexia\OneCommerce\bin\es\DevExpress.Web.ASPxScheduler.v13.1.resources.dll
+D:\ORIGINALES OLENKA\GRAFI\ERPAlexia\OneCommerce\bin\ja\DevExpress.Web.ASPxScheduler.v13.1.resources.dll
+D:\ORIGINALES OLENKA\GRAFI\ERPAlexia\OneCommerce\bin\ru\DevExpress.Web.ASPxScheduler.v13.1.resources.dll
+D:\ORIGINALES OLENKA\GRAFI\ERPAlexia\OneCommerce\bin\de\DevExpress.Web.ASPxSpellChecker.v13.1.resources.dll
+D:\ORIGINALES OLENKA\GRAFI\ERPAlexia\OneCommerce\bin\es\DevExpress.Web.ASPxSpellChecker.v13.1.resources.dll
+D:\ORIGINALES OLENKA\GRAFI\ERPAlexia\OneCommerce\bin\ja\DevExpress.Web.ASPxSpellChecker.v13.1.resources.dll
+D:\ORIGINALES OLENKA\GRAFI\ERPAlexia\OneCommerce\bin\ru\DevExpress.Web.ASPxSpellChecker.v13.1.resources.dll
+D:\ORIGINALES OLENKA\GRAFI\ERPAlexia\OneCommerce\bin\de\DevExpress.Web.ASPxTreeList.v13.1.resources.dll
+D:\ORIGINALES OLENKA\GRAFI\ERPAlexia\OneCommerce\bin\es\DevExpress.Web.ASPxTreeList.v13.1.resources.dll
+D:\ORIGINALES OLENKA\GRAFI\ERPAlexia\OneCommerce\bin\ja\DevExpress.Web.ASPxTreeList.v13.1.resources.dll
+D:\ORIGINALES OLENKA\GRAFI\ERPAlexia\OneCommerce\bin\ru\DevExpress.Web.ASPxTreeList.v13.1.resources.dll
+D:\ORIGINALES OLENKA\GRAFI\ERPAlexia\OneCommerce\bin\de\DevExpress.Web.v13.1.resources.dll
+D:\ORIGINALES OLENKA\GRAFI\ERPAlexia\OneCommerce\bin\es\DevExpress.Web.v13.1.resources.dll
+D:\ORIGINALES OLENKA\GRAFI\ERPAlexia\OneCommerce\bin\ja\DevExpress.Web.v13.1.resources.dll
+D:\ORIGINALES OLENKA\GRAFI\ERPAlexia\OneCommerce\bin\ru\DevExpress.Web.v13.1.resources.dll
+D:\ORIGINALES OLENKA\GRAFI\ERPAlexia\OneCommerce\bin\de\DevExpress.XtraCharts.v13.1.resources.dll
+D:\ORIGINALES OLENKA\GRAFI\ERPAlexia\OneCommerce\bin\es\DevExpress.XtraCharts.v13.1.resources.dll
+D:\ORIGINALES OLENKA\GRAFI\ERPAlexia\OneCommerce\bin\ja\DevExpress.XtraCharts.v13.1.resources.dll
+D:\ORIGINALES OLENKA\GRAFI\ERPAlexia\OneCommerce\bin\ru\DevExpress.XtraCharts.v13.1.resources.dll
+D:\ORIGINALES OLENKA\GRAFI\ERPAlexia\OneCommerce\bin\de\DevExpress.XtraGauges.v13.1.Core.resources.dll
+D:\ORIGINALES OLENKA\GRAFI\ERPAlexia\OneCommerce\bin\es\DevExpress.XtraGauges.v13.1.Core.resources.dll
+D:\ORIGINALES OLENKA\GRAFI\ERPAlexia\OneCommerce\bin\ja\DevExpress.XtraGauges.v13.1.Core.resources.dll
+D:\ORIGINALES OLENKA\GRAFI\ERPAlexia\OneCommerce\bin\ru\DevExpress.XtraGauges.v13.1.Core.resources.dll
+D:\ORIGINALES OLENKA\GRAFI\ERPAlexia\OneCommerce\bin\de\DevExpress.XtraGauges.v13.1.Presets.resources.dll
+D:\ORIGINALES OLENKA\GRAFI\ERPAlexia\OneCommerce\bin\es\DevExpress.XtraGauges.v13.1.Presets.resources.dll
+D:\ORIGINALES OLENKA\GRAFI\ERPAlexia\OneCommerce\bin\ja\DevExpress.XtraGauges.v13.1.Presets.resources.dll
+D:\ORIGINALES OLENKA\GRAFI\ERPAlexia\OneCommerce\bin\ru\DevExpress.XtraGauges.v13.1.Presets.resources.dll
+D:\ORIGINALES OLENKA\GRAFI\ERPAlexia\OneCommerce\bin\de\DevExpress.XtraPivotGrid.v13.1.resources.dll
+D:\ORIGINALES OLENKA\GRAFI\ERPAlexia\OneCommerce\bin\es\DevExpress.XtraPivotGrid.v13.1.resources.dll
+D:\ORIGINALES OLENKA\GRAFI\ERPAlexia\OneCommerce\bin\ja\DevExpress.XtraPivotGrid.v13.1.resources.dll
+D:\ORIGINALES OLENKA\GRAFI\ERPAlexia\OneCommerce\bin\ru\DevExpress.XtraPivotGrid.v13.1.resources.dll
+D:\ORIGINALES OLENKA\GRAFI\ERPAlexia\OneCommerce\bin\de\DevExpress.XtraPrinting.v13.1.resources.dll
+D:\ORIGINALES OLENKA\GRAFI\ERPAlexia\OneCommerce\bin\es\DevExpress.XtraPrinting.v13.1.resources.dll
+D:\ORIGINALES OLENKA\GRAFI\ERPAlexia\OneCommerce\bin\ja\DevExpress.XtraPrinting.v13.1.resources.dll
+D:\ORIGINALES OLENKA\GRAFI\ERPAlexia\OneCommerce\bin\ru\DevExpress.XtraPrinting.v13.1.resources.dll
+D:\ORIGINALES OLENKA\GRAFI\ERPAlexia\OneCommerce\bin\de\DevExpress.XtraReports.v13.1.resources.dll
+D:\ORIGINALES OLENKA\GRAFI\ERPAlexia\OneCommerce\bin\es\DevExpress.XtraReports.v13.1.resources.dll
+D:\ORIGINALES OLENKA\GRAFI\ERPAlexia\OneCommerce\bin\ja\DevExpress.XtraReports.v13.1.resources.dll
+D:\ORIGINALES OLENKA\GRAFI\ERPAlexia\OneCommerce\bin\ru\DevExpress.XtraReports.v13.1.resources.dll
+D:\ORIGINALES OLENKA\GRAFI\ERPAlexia\OneCommerce\bin\de\DevExpress.XtraReports.v13.1.Web.resources.dll
+D:\ORIGINALES OLENKA\GRAFI\ERPAlexia\OneCommerce\bin\es\DevExpress.XtraReports.v13.1.Web.resources.dll
+D:\ORIGINALES OLENKA\GRAFI\ERPAlexia\OneCommerce\bin\ja\DevExpress.XtraReports.v13.1.Web.resources.dll
+D:\ORIGINALES OLENKA\GRAFI\ERPAlexia\OneCommerce\bin\ru\DevExpress.XtraReports.v13.1.Web.resources.dll
+D:\ORIGINALES OLENKA\GRAFI\ERPAlexia\OneCommerce\bin\de\DevExpress.XtraScheduler.v13.1.Core.resources.dll
+D:\ORIGINALES OLENKA\GRAFI\ERPAlexia\OneCommerce\bin\es\DevExpress.XtraScheduler.v13.1.Core.resources.dll
+D:\ORIGINALES OLENKA\GRAFI\ERPAlexia\OneCommerce\bin\ja\DevExpress.XtraScheduler.v13.1.Core.resources.dll
+D:\ORIGINALES OLENKA\GRAFI\ERPAlexia\OneCommerce\bin\ru\DevExpress.XtraScheduler.v13.1.Core.resources.dll
+D:\ORIGINALES OLENKA\GRAFI\ERPAlexia\OneCommerce\bin\de\DevExpress.XtraEditors.v13.1.resources.dll
+D:\ORIGINALES OLENKA\GRAFI\ERPAlexia\OneCommerce\bin\es\DevExpress.XtraEditors.v13.1.resources.dll
+D:\ORIGINALES OLENKA\GRAFI\ERPAlexia\OneCommerce\bin\ja\DevExpress.XtraEditors.v13.1.resources.dll
+D:\ORIGINALES OLENKA\GRAFI\ERPAlexia\OneCommerce\bin\ru\DevExpress.XtraEditors.v13.1.resources.dll
+D:\ORIGINALES OLENKA\GRAFI\ERPAlexia\OneCommerce\bin\de\DevExpress.XtraLayout.v13.1.resources.dll
+D:\ORIGINALES OLENKA\GRAFI\ERPAlexia\OneCommerce\bin\es\DevExpress.XtraLayout.v13.1.resources.dll
+D:\ORIGINALES OLENKA\GRAFI\ERPAlexia\OneCommerce\bin\ja\DevExpress.XtraLayout.v13.1.resources.dll
+D:\ORIGINALES OLENKA\GRAFI\ERPAlexia\OneCommerce\bin\ru\DevExpress.XtraLayout.v13.1.resources.dll
+D:\ORIGINALES OLENKA\GRAFI\ERPAlexia\OneCommerce\bin\de\DevExpress.XtraBars.v13.1.resources.dll
+D:\ORIGINALES OLENKA\GRAFI\ERPAlexia\OneCommerce\bin\es\DevExpress.XtraBars.v13.1.resources.dll
+D:\ORIGINALES OLENKA\GRAFI\ERPAlexia\OneCommerce\bin\ja\DevExpress.XtraBars.v13.1.resources.dll
+D:\ORIGINALES OLENKA\GRAFI\ERPAlexia\OneCommerce\bin\ru\DevExpress.XtraBars.v13.1.resources.dll
+D:\ORIGINALES OLENKA\GRAFI\ERPAlexia\OneCommerce\bin\de\DevExpress.XtraTreeList.v13.1.resources.dll
+D:\ORIGINALES OLENKA\GRAFI\ERPAlexia\OneCommerce\bin\es\DevExpress.XtraTreeList.v13.1.resources.dll
+D:\ORIGINALES OLENKA\GRAFI\ERPAlexia\OneCommerce\bin\ja\DevExpress.XtraTreeList.v13.1.resources.dll
+D:\ORIGINALES OLENKA\GRAFI\ERPAlexia\OneCommerce\bin\ru\DevExpress.XtraTreeList.v13.1.resources.dll
+D:\ORIGINALES OLENKA\GRAFI\ERPAlexia\OneCommerce\bin\de\Microsoft.SqlServer.Types.resources.dll
+D:\ORIGINALES OLENKA\GRAFI\ERPAlexia\OneCommerce\bin\es\Microsoft.SqlServer.Types.resources.dll
+D:\ORIGINALES OLENKA\GRAFI\ERPAlexia\OneCommerce\bin\fr\Microsoft.SqlServer.Types.resources.dll
+D:\ORIGINALES OLENKA\GRAFI\ERPAlexia\OneCommerce\bin\it\Microsoft.SqlServer.Types.resources.dll
+D:\ORIGINALES OLENKA\GRAFI\ERPAlexia\OneCommerce\bin\ja\Microsoft.SqlServer.Types.resources.dll
+D:\ORIGINALES OLENKA\GRAFI\ERPAlexia\OneCommerce\bin\ko\Microsoft.SqlServer.Types.resources.dll
+D:\ORIGINALES OLENKA\GRAFI\ERPAlexia\OneCommerce\bin\pt\Microsoft.SqlServer.Types.resources.dll
+D:\ORIGINALES OLENKA\GRAFI\ERPAlexia\OneCommerce\bin\ru\Microsoft.SqlServer.Types.resources.dll
+D:\ORIGINALES OLENKA\GRAFI\ERPAlexia\OneCommerce\bin\zh-Hans\Microsoft.SqlServer.Types.resources.dll
+D:\ORIGINALES OLENKA\GRAFI\ERPAlexia\OneCommerce\bin\zh-Hant\Microsoft.SqlServer.Types.resources.dll
+D:\ORIGINALES OLENKA\GRAFI\ERPAlexia\OneCommerce\bin\BusinessObjects.Enterprise.Sdk.ebus.netmodule
+D:\ORIGINALES OLENKA\GRAFI\ERPAlexia\OneCommerce\bin\BusinessObjects.Enterprise.Sdk.fssl.netmodule
+D:\ORIGINALES OLENKA\GRAFI\ERPAlexia\OneCommerce\bin\BusinessObjects.Enterprise.Sdk.Ssl.netmodule
+D:\ORIGINALES OLENKA\GRAFI\ERPAlexia\OneCommerce\bin\BusinessObjects.Enterprise.Sdk.netmodule
+D:\ORIGINALES OLENKA\GRAFI\ERPAlexia\OneCommerce\bin\BusinessObjects.Enterprise.Sdk.ZipLib.netmodule
+D:\ORIGINALES OLENKA\GRAFI\ERPAlexia\OneCommerce\obj\Debug\OneCommerce.csprojResolveAssemblyReference.cache
+D:\ORIGINALES OLENKA\GRAFI\ERPAlexia\OneCommerce\obj\Debug\Interop.SAPbobsCOM.dll
+D:\ORIGINALES OLENKA\GRAFI\ERPAlexia\OneCommerce\obj\Debug\OneCommerce.csproj.ResolveComReference.cache
+D:\ORIGINALES OLENKA\GRAFI\ERPAlexia\OneCommerce\obj\Debug\OneCommerce.dll.licenses
+D:\ORIGINALES OLENKA\GRAFI\ERPAlexia\OneCommerce\obj\Debug\OneCommerce.dll
+D:\ORIGINALES OLENKA\GRAFI\ERPAlexia\OneCommerce\obj\Debug\OneCommerce.pdb
+D:\ORIGINALES OLENKA\GRF LIST\ERPAlexia\OneCommerce\bin\OneCommerce.dll.config
+D:\ORIGINALES OLENKA\GRF LIST\ERPAlexia\OneCommerce\bin\OneCommerce.dll
+D:\ORIGINALES OLENKA\GRF LIST\ERPAlexia\OneCommerce\bin\OneCommerce.pdb
+D:\ORIGINALES OLENKA\GRF LIST\ERPAlexia\OneCommerce\bin\BusinessEntities.dll
+D:\ORIGINALES OLENKA\GRF LIST\ERPAlexia\OneCommerce\bin\BusinessObjects.Enterprise.Sdk.dll
+D:\ORIGINALES OLENKA\GRF LIST\ERPAlexia\OneCommerce\bin\BusinessObjects.Foundation.Logging.dll
+D:\ORIGINALES OLENKA\GRF LIST\ERPAlexia\OneCommerce\bin\BusinessRules.dll
+D:\ORIGINALES OLENKA\GRF LIST\ERPAlexia\OneCommerce\bin\BusinessServices.dll
+D:\ORIGINALES OLENKA\GRF LIST\ERPAlexia\OneCommerce\bin\CrystalDecisions.CrystalReports.Engine.dll
+D:\ORIGINALES OLENKA\GRF LIST\ERPAlexia\OneCommerce\bin\CrystalDecisions.Shared.dll
+D:\ORIGINALES OLENKA\GRF LIST\ERPAlexia\OneCommerce\bin\CrystalDecisions.Web.dll
+D:\ORIGINALES OLENKA\GRF LIST\ERPAlexia\OneCommerce\bin\DevExpress.Charts.v13.1.Core.dll
+D:\ORIGINALES OLENKA\GRF LIST\ERPAlexia\OneCommerce\bin\DevExpress.Data.v13.1.dll
+D:\ORIGINALES OLENKA\GRF LIST\ERPAlexia\OneCommerce\bin\DevExpress.Office.v13.1.Core.dll
+D:\ORIGINALES OLENKA\GRF LIST\ERPAlexia\OneCommerce\bin\DevExpress.PivotGrid.v13.1.Core.dll
+D:\ORIGINALES OLENKA\GRF LIST\ERPAlexia\OneCommerce\bin\DevExpress.Printing.v13.1.Core.dll
+D:\ORIGINALES OLENKA\GRF LIST\ERPAlexia\OneCommerce\bin\DevExpress.RichEdit.v13.1.Core.dll
+D:\ORIGINALES OLENKA\GRF LIST\ERPAlexia\OneCommerce\bin\DevExpress.SpellChecker.v13.1.Core.dll
+D:\ORIGINALES OLENKA\GRF LIST\ERPAlexia\OneCommerce\bin\DevExpress.Utils.v13.1.dll
+D:\ORIGINALES OLENKA\GRF LIST\ERPAlexia\OneCommerce\bin\DevExpress.Web.ASPxGauges.v13.1.dll
+D:\ORIGINALES OLENKA\GRF LIST\ERPAlexia\OneCommerce\bin\DevExpress.Web.ASPxHtmlEditor.v13.1.dll
+D:\ORIGINALES OLENKA\GRF LIST\ERPAlexia\OneCommerce\bin\DevExpress.Web.ASPxPivotGrid.v13.1.dll
+D:\ORIGINALES OLENKA\GRF LIST\ERPAlexia\OneCommerce\bin\DevExpress.Web.ASPxScheduler.v13.1.dll
+D:\ORIGINALES OLENKA\GRF LIST\ERPAlexia\OneCommerce\bin\DevExpress.Web.ASPxSpellChecker.v13.1.dll
+D:\ORIGINALES OLENKA\GRF LIST\ERPAlexia\OneCommerce\bin\DevExpress.Web.ASPxThemes.v13.1.dll
+D:\ORIGINALES OLENKA\GRF LIST\ERPAlexia\OneCommerce\bin\DevExpress.Web.ASPxTreeList.v13.1.dll
+D:\ORIGINALES OLENKA\GRF LIST\ERPAlexia\OneCommerce\bin\DevExpress.Web.v13.1.dll
+D:\ORIGINALES OLENKA\GRF LIST\ERPAlexia\OneCommerce\bin\DevExpress.XtraCharts.v13.1.dll
+D:\ORIGINALES OLENKA\GRF LIST\ERPAlexia\OneCommerce\bin\DevExpress.XtraCharts.v13.1.Web.dll
+D:\ORIGINALES OLENKA\GRF LIST\ERPAlexia\OneCommerce\bin\DevExpress.XtraGauges.v13.1.Core.dll
+D:\ORIGINALES OLENKA\GRF LIST\ERPAlexia\OneCommerce\bin\DevExpress.XtraGauges.v13.1.Presets.dll
+D:\ORIGINALES OLENKA\GRF LIST\ERPAlexia\OneCommerce\bin\DevExpress.XtraPivotGrid.v13.1.dll
+D:\ORIGINALES OLENKA\GRF LIST\ERPAlexia\OneCommerce\bin\DevExpress.XtraPrinting.v13.1.dll
+D:\ORIGINALES OLENKA\GRF LIST\ERPAlexia\OneCommerce\bin\DevExpress.XtraReports.v13.1.dll
+D:\ORIGINALES OLENKA\GRF LIST\ERPAlexia\OneCommerce\bin\DevExpress.XtraReports.v13.1.Web.dll
+D:\ORIGINALES OLENKA\GRF LIST\ERPAlexia\OneCommerce\bin\DevExpress.XtraScheduler.v13.1.Core.dll
+D:\ORIGINALES OLENKA\GRF LIST\ERPAlexia\OneCommerce\bin\log4net.dll
+D:\ORIGINALES OLENKA\GRF LIST\ERPAlexia\OneCommerce\bin\Microsoft.QualityTools.Testing.Fakes.dll
+D:\ORIGINALES OLENKA\GRF LIST\ERPAlexia\OneCommerce\bin\Microsoft.ReportViewer.Common.dll
+D:\ORIGINALES OLENKA\GRF LIST\ERPAlexia\OneCommerce\bin\Microsoft.ReportViewer.WebForms.dll
+D:\ORIGINALES OLENKA\GRF LIST\ERPAlexia\OneCommerce\bin\Microsoft.ReportViewer.WinForms.dll
+D:\ORIGINALES OLENKA\GRF LIST\ERPAlexia\OneCommerce\bin\DataAccess.dll
+D:\ORIGINALES OLENKA\GRF LIST\ERPAlexia\OneCommerce\bin\ResultSetMappers.dll
+D:\ORIGINALES OLENKA\GRF LIST\ERPAlexia\OneCommerce\bin\CrystalDecisions.ReportAppServer.DataDefModel.dll
+D:\ORIGINALES OLENKA\GRF LIST\ERPAlexia\OneCommerce\bin\CrystalDecisions.ReportAppServer.ClientDoc.dll
+D:\ORIGINALES OLENKA\GRF LIST\ERPAlexia\OneCommerce\bin\CrystalDecisions.ReportAppServer.ReportDefModel.dll
+D:\ORIGINALES OLENKA\GRF LIST\ERPAlexia\OneCommerce\bin\CrystalDecisions.ReportAppServer.CommLayer.dll
+D:\ORIGINALES OLENKA\GRF LIST\ERPAlexia\OneCommerce\bin\CrystalDecisions.ReportAppServer.Controllers.dll
+D:\ORIGINALES OLENKA\GRF LIST\ERPAlexia\OneCommerce\bin\CrystalDecisions.ReportAppServer.DataSetConversion.dll
+D:\ORIGINALES OLENKA\GRF LIST\ERPAlexia\OneCommerce\bin\CrystalDecisions.ReportAppServer.Prompting.dll
+D:\ORIGINALES OLENKA\GRF LIST\ERPAlexia\OneCommerce\bin\CrystalDecisions.ReportAppServer.XmlSerialize.dll
+D:\ORIGINALES OLENKA\GRF LIST\ERPAlexia\OneCommerce\bin\CrystalDecisions.ReportAppServer.CubeDefModel.dll
+D:\ORIGINALES OLENKA\GRF LIST\ERPAlexia\OneCommerce\bin\CrystalDecisions.ReportAppServer.CommonObjectModel.dll
+D:\ORIGINALES OLENKA\GRF LIST\ERPAlexia\OneCommerce\bin\CrystalDecisions.ReportAppServer.ObjectFactory.dll
+D:\ORIGINALES OLENKA\GRF LIST\ERPAlexia\OneCommerce\bin\CrystalDecisions.ReportSource.dll
+D:\ORIGINALES OLENKA\GRF LIST\ERPAlexia\OneCommerce\bin\CrystalDecisions.PromptingClientSDK.dll
+D:\ORIGINALES OLENKA\GRF LIST\ERPAlexia\OneCommerce\bin\CrystalDecisions.Enterprise.Viewing.ReportSource.dll
+D:\ORIGINALES OLENKA\GRF LIST\ERPAlexia\OneCommerce\bin\DevExpress.XtraEditors.v13.1.dll
+D:\ORIGINALES OLENKA\GRF LIST\ERPAlexia\OneCommerce\bin\DevExpress.XtraLayout.v13.1.dll
+D:\ORIGINALES OLENKA\GRF LIST\ERPAlexia\OneCommerce\bin\DevExpress.XtraBars.v13.1.dll
+D:\ORIGINALES OLENKA\GRF LIST\ERPAlexia\OneCommerce\bin\DevExpress.XtraTreeList.v13.1.dll
+D:\ORIGINALES OLENKA\GRF LIST\ERPAlexia\OneCommerce\bin\DevExpress.Sparkline.v13.1.Core.dll
+D:\ORIGINALES OLENKA\GRF LIST\ERPAlexia\OneCommerce\bin\Microsoft.Practices.EnterpriseLibrary.Data.dll
+D:\ORIGINALES OLENKA\GRF LIST\ERPAlexia\OneCommerce\bin\CrystalDecisions.ReportAppServer.CommonControls.dll
+D:\ORIGINALES OLENKA\GRF LIST\ERPAlexia\OneCommerce\bin\stdole.dll
+D:\ORIGINALES OLENKA\GRF LIST\ERPAlexia\OneCommerce\bin\Microsoft.SqlServer.Types.dll
+D:\ORIGINALES OLENKA\GRF LIST\ERPAlexia\OneCommerce\bin\Microsoft.Practices.EnterpriseLibrary.Common.dll
+D:\ORIGINALES OLENKA\GRF LIST\ERPAlexia\OneCommerce\bin\Microsoft.Practices.ServiceLocation.dll
+D:\ORIGINALES OLENKA\GRF LIST\ERPAlexia\OneCommerce\bin\Microsoft.Practices.Unity.dll
+D:\ORIGINALES OLENKA\GRF LIST\ERPAlexia\OneCommerce\bin\Microsoft.Practices.Unity.Interception.dll
+D:\ORIGINALES OLENKA\GRF LIST\ERPAlexia\OneCommerce\bin\BusinessEntities.pdb
+D:\ORIGINALES OLENKA\GRF LIST\ERPAlexia\OneCommerce\bin\BusinessRules.pdb
+D:\ORIGINALES OLENKA\GRF LIST\ERPAlexia\OneCommerce\bin\BusinessServices.pdb
+D:\ORIGINALES OLENKA\GRF LIST\ERPAlexia\OneCommerce\bin\DevExpress.Data.v13.1.xml
+D:\ORIGINALES OLENKA\GRF LIST\ERPAlexia\OneCommerce\bin\DevExpress.Office.v13.1.Core.xml
+D:\ORIGINALES OLENKA\GRF LIST\ERPAlexia\OneCommerce\bin\DevExpress.PivotGrid.v13.1.Core.xml
+D:\ORIGINALES OLENKA\GRF LIST\ERPAlexia\OneCommerce\bin\DevExpress.Printing.v13.1.Core.xml
+D:\ORIGINALES OLENKA\GRF LIST\ERPAlexia\OneCommerce\bin\DevExpress.RichEdit.v13.1.Core.xml
+D:\ORIGINALES OLENKA\GRF LIST\ERPAlexia\OneCommerce\bin\DevExpress.SpellChecker.v13.1.Core.xml
+D:\ORIGINALES OLENKA\GRF LIST\ERPAlexia\OneCommerce\bin\DevExpress.Utils.v13.1.xml
+D:\ORIGINALES OLENKA\GRF LIST\ERPAlexia\OneCommerce\bin\DevExpress.Web.ASPxGauges.v13.1.xml
+D:\ORIGINALES OLENKA\GRF LIST\ERPAlexia\OneCommerce\bin\DevExpress.Web.ASPxHtmlEditor.v13.1.xml
+D:\ORIGINALES OLENKA\GRF LIST\ERPAlexia\OneCommerce\bin\DevExpress.Web.ASPxPivotGrid.v13.1.xml
+D:\ORIGINALES OLENKA\GRF LIST\ERPAlexia\OneCommerce\bin\DevExpress.Web.ASPxScheduler.v13.1.xml
+D:\ORIGINALES OLENKA\GRF LIST\ERPAlexia\OneCommerce\bin\DevExpress.Web.ASPxSpellChecker.v13.1.xml
+D:\ORIGINALES OLENKA\GRF LIST\ERPAlexia\OneCommerce\bin\DevExpress.Web.ASPxTreeList.v13.1.xml
+D:\ORIGINALES OLENKA\GRF LIST\ERPAlexia\OneCommerce\bin\DevExpress.Web.v13.1.xml
+D:\ORIGINALES OLENKA\GRF LIST\ERPAlexia\OneCommerce\bin\DevExpress.XtraCharts.v13.1.xml
+D:\ORIGINALES OLENKA\GRF LIST\ERPAlexia\OneCommerce\bin\DevExpress.XtraCharts.v13.1.Web.xml
+D:\ORIGINALES OLENKA\GRF LIST\ERPAlexia\OneCommerce\bin\DevExpress.XtraGauges.v13.1.Core.xml
+D:\ORIGINALES OLENKA\GRF LIST\ERPAlexia\OneCommerce\bin\DevExpress.XtraPivotGrid.v13.1.xml
+D:\ORIGINALES OLENKA\GRF LIST\ERPAlexia\OneCommerce\bin\DevExpress.XtraPrinting.v13.1.xml
+D:\ORIGINALES OLENKA\GRF LIST\ERPAlexia\OneCommerce\bin\DevExpress.XtraReports.v13.1.xml
+D:\ORIGINALES OLENKA\GRF LIST\ERPAlexia\OneCommerce\bin\DevExpress.XtraReports.v13.1.Web.xml
+D:\ORIGINALES OLENKA\GRF LIST\ERPAlexia\OneCommerce\bin\DevExpress.XtraScheduler.v13.1.Core.xml
+D:\ORIGINALES OLENKA\GRF LIST\ERPAlexia\OneCommerce\bin\DataAccess.pdb
+D:\ORIGINALES OLENKA\GRF LIST\ERPAlexia\OneCommerce\bin\DevExpress.XtraEditors.v13.1.xml
+D:\ORIGINALES OLENKA\GRF LIST\ERPAlexia\OneCommerce\bin\DevExpress.XtraLayout.v13.1.xml
+D:\ORIGINALES OLENKA\GRF LIST\ERPAlexia\OneCommerce\bin\DevExpress.XtraBars.v13.1.xml
+D:\ORIGINALES OLENKA\GRF LIST\ERPAlexia\OneCommerce\bin\DevExpress.XtraTreeList.v13.1.xml
+D:\ORIGINALES OLENKA\GRF LIST\ERPAlexia\OneCommerce\bin\de\DevExpress.Data.v13.1.resources.dll
+D:\ORIGINALES OLENKA\GRF LIST\ERPAlexia\OneCommerce\bin\es\DevExpress.Data.v13.1.resources.dll
+D:\ORIGINALES OLENKA\GRF LIST\ERPAlexia\OneCommerce\bin\ja\DevExpress.Data.v13.1.resources.dll
+D:\ORIGINALES OLENKA\GRF LIST\ERPAlexia\OneCommerce\bin\ru\DevExpress.Data.v13.1.resources.dll
+D:\ORIGINALES OLENKA\GRF LIST\ERPAlexia\OneCommerce\bin\de\DevExpress.Office.v13.1.Core.resources.dll
+D:\ORIGINALES OLENKA\GRF LIST\ERPAlexia\OneCommerce\bin\es\DevExpress.Office.v13.1.Core.resources.dll
+D:\ORIGINALES OLENKA\GRF LIST\ERPAlexia\OneCommerce\bin\ja\DevExpress.Office.v13.1.Core.resources.dll
+D:\ORIGINALES OLENKA\GRF LIST\ERPAlexia\OneCommerce\bin\ru\DevExpress.Office.v13.1.Core.resources.dll
+D:\ORIGINALES OLENKA\GRF LIST\ERPAlexia\OneCommerce\bin\de\DevExpress.PivotGrid.v13.1.Core.resources.dll
+D:\ORIGINALES OLENKA\GRF LIST\ERPAlexia\OneCommerce\bin\es\DevExpress.PivotGrid.v13.1.Core.resources.dll
+D:\ORIGINALES OLENKA\GRF LIST\ERPAlexia\OneCommerce\bin\ja\DevExpress.PivotGrid.v13.1.Core.resources.dll
+D:\ORIGINALES OLENKA\GRF LIST\ERPAlexia\OneCommerce\bin\ru\DevExpress.PivotGrid.v13.1.Core.resources.dll
+D:\ORIGINALES OLENKA\GRF LIST\ERPAlexia\OneCommerce\bin\de\DevExpress.Printing.v13.1.Core.resources.dll
+D:\ORIGINALES OLENKA\GRF LIST\ERPAlexia\OneCommerce\bin\es\DevExpress.Printing.v13.1.Core.resources.dll
+D:\ORIGINALES OLENKA\GRF LIST\ERPAlexia\OneCommerce\bin\ja\DevExpress.Printing.v13.1.Core.resources.dll
+D:\ORIGINALES OLENKA\GRF LIST\ERPAlexia\OneCommerce\bin\ru\DevExpress.Printing.v13.1.Core.resources.dll
+D:\ORIGINALES OLENKA\GRF LIST\ERPAlexia\OneCommerce\bin\de\DevExpress.RichEdit.v13.1.Core.resources.dll
+D:\ORIGINALES OLENKA\GRF LIST\ERPAlexia\OneCommerce\bin\es\DevExpress.RichEdit.v13.1.Core.resources.dll
+D:\ORIGINALES OLENKA\GRF LIST\ERPAlexia\OneCommerce\bin\ja\DevExpress.RichEdit.v13.1.Core.resources.dll
+D:\ORIGINALES OLENKA\GRF LIST\ERPAlexia\OneCommerce\bin\ru\DevExpress.RichEdit.v13.1.Core.resources.dll
+D:\ORIGINALES OLENKA\GRF LIST\ERPAlexia\OneCommerce\bin\de\DevExpress.Utils.v13.1.resources.dll
+D:\ORIGINALES OLENKA\GRF LIST\ERPAlexia\OneCommerce\bin\es\DevExpress.Utils.v13.1.resources.dll
+D:\ORIGINALES OLENKA\GRF LIST\ERPAlexia\OneCommerce\bin\ja\DevExpress.Utils.v13.1.resources.dll
+D:\ORIGINALES OLENKA\GRF LIST\ERPAlexia\OneCommerce\bin\ru\DevExpress.Utils.v13.1.resources.dll
+D:\ORIGINALES OLENKA\GRF LIST\ERPAlexia\OneCommerce\bin\de\DevExpress.Web.ASPxHtmlEditor.v13.1.resources.dll
+D:\ORIGINALES OLENKA\GRF LIST\ERPAlexia\OneCommerce\bin\es\DevExpress.Web.ASPxHtmlEditor.v13.1.resources.dll
+D:\ORIGINALES OLENKA\GRF LIST\ERPAlexia\OneCommerce\bin\ja\DevExpress.Web.ASPxHtmlEditor.v13.1.resources.dll
+D:\ORIGINALES OLENKA\GRF LIST\ERPAlexia\OneCommerce\bin\ru\DevExpress.Web.ASPxHtmlEditor.v13.1.resources.dll
+D:\ORIGINALES OLENKA\GRF LIST\ERPAlexia\OneCommerce\bin\de\DevExpress.Web.ASPxScheduler.v13.1.resources.dll
+D:\ORIGINALES OLENKA\GRF LIST\ERPAlexia\OneCommerce\bin\es\DevExpress.Web.ASPxScheduler.v13.1.resources.dll
+D:\ORIGINALES OLENKA\GRF LIST\ERPAlexia\OneCommerce\bin\ja\DevExpress.Web.ASPxScheduler.v13.1.resources.dll
+D:\ORIGINALES OLENKA\GRF LIST\ERPAlexia\OneCommerce\bin\ru\DevExpress.Web.ASPxScheduler.v13.1.resources.dll
+D:\ORIGINALES OLENKA\GRF LIST\ERPAlexia\OneCommerce\bin\de\DevExpress.Web.ASPxSpellChecker.v13.1.resources.dll
+D:\ORIGINALES OLENKA\GRF LIST\ERPAlexia\OneCommerce\bin\es\DevExpress.Web.ASPxSpellChecker.v13.1.resources.dll
+D:\ORIGINALES OLENKA\GRF LIST\ERPAlexia\OneCommerce\bin\ja\DevExpress.Web.ASPxSpellChecker.v13.1.resources.dll
+D:\ORIGINALES OLENKA\GRF LIST\ERPAlexia\OneCommerce\bin\ru\DevExpress.Web.ASPxSpellChecker.v13.1.resources.dll
+D:\ORIGINALES OLENKA\GRF LIST\ERPAlexia\OneCommerce\bin\de\DevExpress.Web.ASPxTreeList.v13.1.resources.dll
+D:\ORIGINALES OLENKA\GRF LIST\ERPAlexia\OneCommerce\bin\es\DevExpress.Web.ASPxTreeList.v13.1.resources.dll
+D:\ORIGINALES OLENKA\GRF LIST\ERPAlexia\OneCommerce\bin\ja\DevExpress.Web.ASPxTreeList.v13.1.resources.dll
+D:\ORIGINALES OLENKA\GRF LIST\ERPAlexia\OneCommerce\bin\ru\DevExpress.Web.ASPxTreeList.v13.1.resources.dll
+D:\ORIGINALES OLENKA\GRF LIST\ERPAlexia\OneCommerce\bin\de\DevExpress.Web.v13.1.resources.dll
+D:\ORIGINALES OLENKA\GRF LIST\ERPAlexia\OneCommerce\bin\es\DevExpress.Web.v13.1.resources.dll
+D:\ORIGINALES OLENKA\GRF LIST\ERPAlexia\OneCommerce\bin\ja\DevExpress.Web.v13.1.resources.dll
+D:\ORIGINALES OLENKA\GRF LIST\ERPAlexia\OneCommerce\bin\ru\DevExpress.Web.v13.1.resources.dll
+D:\ORIGINALES OLENKA\GRF LIST\ERPAlexia\OneCommerce\bin\de\DevExpress.XtraCharts.v13.1.resources.dll
+D:\ORIGINALES OLENKA\GRF LIST\ERPAlexia\OneCommerce\bin\es\DevExpress.XtraCharts.v13.1.resources.dll
+D:\ORIGINALES OLENKA\GRF LIST\ERPAlexia\OneCommerce\bin\ja\DevExpress.XtraCharts.v13.1.resources.dll
+D:\ORIGINALES OLENKA\GRF LIST\ERPAlexia\OneCommerce\bin\ru\DevExpress.XtraCharts.v13.1.resources.dll
+D:\ORIGINALES OLENKA\GRF LIST\ERPAlexia\OneCommerce\bin\de\DevExpress.XtraGauges.v13.1.Core.resources.dll
+D:\ORIGINALES OLENKA\GRF LIST\ERPAlexia\OneCommerce\bin\es\DevExpress.XtraGauges.v13.1.Core.resources.dll
+D:\ORIGINALES OLENKA\GRF LIST\ERPAlexia\OneCommerce\bin\ja\DevExpress.XtraGauges.v13.1.Core.resources.dll
+D:\ORIGINALES OLENKA\GRF LIST\ERPAlexia\OneCommerce\bin\ru\DevExpress.XtraGauges.v13.1.Core.resources.dll
+D:\ORIGINALES OLENKA\GRF LIST\ERPAlexia\OneCommerce\bin\de\DevExpress.XtraGauges.v13.1.Presets.resources.dll
+D:\ORIGINALES OLENKA\GRF LIST\ERPAlexia\OneCommerce\bin\es\DevExpress.XtraGauges.v13.1.Presets.resources.dll
+D:\ORIGINALES OLENKA\GRF LIST\ERPAlexia\OneCommerce\bin\ja\DevExpress.XtraGauges.v13.1.Presets.resources.dll
+D:\ORIGINALES OLENKA\GRF LIST\ERPAlexia\OneCommerce\bin\ru\DevExpress.XtraGauges.v13.1.Presets.resources.dll
+D:\ORIGINALES OLENKA\GRF LIST\ERPAlexia\OneCommerce\bin\de\DevExpress.XtraPivotGrid.v13.1.resources.dll
+D:\ORIGINALES OLENKA\GRF LIST\ERPAlexia\OneCommerce\bin\es\DevExpress.XtraPivotGrid.v13.1.resources.dll
+D:\ORIGINALES OLENKA\GRF LIST\ERPAlexia\OneCommerce\bin\ja\DevExpress.XtraPivotGrid.v13.1.resources.dll
+D:\ORIGINALES OLENKA\GRF LIST\ERPAlexia\OneCommerce\bin\ru\DevExpress.XtraPivotGrid.v13.1.resources.dll
+D:\ORIGINALES OLENKA\GRF LIST\ERPAlexia\OneCommerce\bin\de\DevExpress.XtraPrinting.v13.1.resources.dll
+D:\ORIGINALES OLENKA\GRF LIST\ERPAlexia\OneCommerce\bin\es\DevExpress.XtraPrinting.v13.1.resources.dll
+D:\ORIGINALES OLENKA\GRF LIST\ERPAlexia\OneCommerce\bin\ja\DevExpress.XtraPrinting.v13.1.resources.dll
+D:\ORIGINALES OLENKA\GRF LIST\ERPAlexia\OneCommerce\bin\ru\DevExpress.XtraPrinting.v13.1.resources.dll
+D:\ORIGINALES OLENKA\GRF LIST\ERPAlexia\OneCommerce\bin\de\DevExpress.XtraReports.v13.1.resources.dll
+D:\ORIGINALES OLENKA\GRF LIST\ERPAlexia\OneCommerce\bin\es\DevExpress.XtraReports.v13.1.resources.dll
+D:\ORIGINALES OLENKA\GRF LIST\ERPAlexia\OneCommerce\bin\ja\DevExpress.XtraReports.v13.1.resources.dll
+D:\ORIGINALES OLENKA\GRF LIST\ERPAlexia\OneCommerce\bin\ru\DevExpress.XtraReports.v13.1.resources.dll
+D:\ORIGINALES OLENKA\GRF LIST\ERPAlexia\OneCommerce\bin\de\DevExpress.XtraReports.v13.1.Web.resources.dll
+D:\ORIGINALES OLENKA\GRF LIST\ERPAlexia\OneCommerce\bin\es\DevExpress.XtraReports.v13.1.Web.resources.dll
+D:\ORIGINALES OLENKA\GRF LIST\ERPAlexia\OneCommerce\bin\ja\DevExpress.XtraReports.v13.1.Web.resources.dll
+D:\ORIGINALES OLENKA\GRF LIST\ERPAlexia\OneCommerce\bin\ru\DevExpress.XtraReports.v13.1.Web.resources.dll
+D:\ORIGINALES OLENKA\GRF LIST\ERPAlexia\OneCommerce\bin\de\DevExpress.XtraScheduler.v13.1.Core.resources.dll
+D:\ORIGINALES OLENKA\GRF LIST\ERPAlexia\OneCommerce\bin\es\DevExpress.XtraScheduler.v13.1.Core.resources.dll
+D:\ORIGINALES OLENKA\GRF LIST\ERPAlexia\OneCommerce\bin\ja\DevExpress.XtraScheduler.v13.1.Core.resources.dll
+D:\ORIGINALES OLENKA\GRF LIST\ERPAlexia\OneCommerce\bin\ru\DevExpress.XtraScheduler.v13.1.Core.resources.dll
+D:\ORIGINALES OLENKA\GRF LIST\ERPAlexia\OneCommerce\bin\de\DevExpress.XtraEditors.v13.1.resources.dll
+D:\ORIGINALES OLENKA\GRF LIST\ERPAlexia\OneCommerce\bin\es\DevExpress.XtraEditors.v13.1.resources.dll
+D:\ORIGINALES OLENKA\GRF LIST\ERPAlexia\OneCommerce\bin\ja\DevExpress.XtraEditors.v13.1.resources.dll
+D:\ORIGINALES OLENKA\GRF LIST\ERPAlexia\OneCommerce\bin\ru\DevExpress.XtraEditors.v13.1.resources.dll
+D:\ORIGINALES OLENKA\GRF LIST\ERPAlexia\OneCommerce\bin\de\DevExpress.XtraLayout.v13.1.resources.dll
+D:\ORIGINALES OLENKA\GRF LIST\ERPAlexia\OneCommerce\bin\es\DevExpress.XtraLayout.v13.1.resources.dll
+D:\ORIGINALES OLENKA\GRF LIST\ERPAlexia\OneCommerce\bin\ja\DevExpress.XtraLayout.v13.1.resources.dll
+D:\ORIGINALES OLENKA\GRF LIST\ERPAlexia\OneCommerce\bin\ru\DevExpress.XtraLayout.v13.1.resources.dll
+D:\ORIGINALES OLENKA\GRF LIST\ERPAlexia\OneCommerce\bin\de\DevExpress.XtraBars.v13.1.resources.dll
+D:\ORIGINALES OLENKA\GRF LIST\ERPAlexia\OneCommerce\bin\es\DevExpress.XtraBars.v13.1.resources.dll
+D:\ORIGINALES OLENKA\GRF LIST\ERPAlexia\OneCommerce\bin\ja\DevExpress.XtraBars.v13.1.resources.dll
+D:\ORIGINALES OLENKA\GRF LIST\ERPAlexia\OneCommerce\bin\ru\DevExpress.XtraBars.v13.1.resources.dll
+D:\ORIGINALES OLENKA\GRF LIST\ERPAlexia\OneCommerce\bin\de\DevExpress.XtraTreeList.v13.1.resources.dll
+D:\ORIGINALES OLENKA\GRF LIST\ERPAlexia\OneCommerce\bin\es\DevExpress.XtraTreeList.v13.1.resources.dll
+D:\ORIGINALES OLENKA\GRF LIST\ERPAlexia\OneCommerce\bin\ja\DevExpress.XtraTreeList.v13.1.resources.dll
+D:\ORIGINALES OLENKA\GRF LIST\ERPAlexia\OneCommerce\bin\ru\DevExpress.XtraTreeList.v13.1.resources.dll
+D:\ORIGINALES OLENKA\GRF LIST\ERPAlexia\OneCommerce\bin\de\Microsoft.SqlServer.Types.resources.dll
+D:\ORIGINALES OLENKA\GRF LIST\ERPAlexia\OneCommerce\bin\es\Microsoft.SqlServer.Types.resources.dll
+D:\ORIGINALES OLENKA\GRF LIST\ERPAlexia\OneCommerce\bin\fr\Microsoft.SqlServer.Types.resources.dll
+D:\ORIGINALES OLENKA\GRF LIST\ERPAlexia\OneCommerce\bin\it\Microsoft.SqlServer.Types.resources.dll
+D:\ORIGINALES OLENKA\GRF LIST\ERPAlexia\OneCommerce\bin\ja\Microsoft.SqlServer.Types.resources.dll
+D:\ORIGINALES OLENKA\GRF LIST\ERPAlexia\OneCommerce\bin\ko\Microsoft.SqlServer.Types.resources.dll
+D:\ORIGINALES OLENKA\GRF LIST\ERPAlexia\OneCommerce\bin\pt\Microsoft.SqlServer.Types.resources.dll
+D:\ORIGINALES OLENKA\GRF LIST\ERPAlexia\OneCommerce\bin\ru\Microsoft.SqlServer.Types.resources.dll
+D:\ORIGINALES OLENKA\GRF LIST\ERPAlexia\OneCommerce\bin\zh-Hans\Microsoft.SqlServer.Types.resources.dll
+D:\ORIGINALES OLENKA\GRF LIST\ERPAlexia\OneCommerce\bin\zh-Hant\Microsoft.SqlServer.Types.resources.dll
+D:\ORIGINALES OLENKA\GRF LIST\ERPAlexia\OneCommerce\bin\BusinessObjects.Enterprise.Sdk.ebus.netmodule
+D:\ORIGINALES OLENKA\GRF LIST\ERPAlexia\OneCommerce\bin\BusinessObjects.Enterprise.Sdk.fssl.netmodule
+D:\ORIGINALES OLENKA\GRF LIST\ERPAlexia\OneCommerce\bin\BusinessObjects.Enterprise.Sdk.Ssl.netmodule
+D:\ORIGINALES OLENKA\GRF LIST\ERPAlexia\OneCommerce\bin\BusinessObjects.Enterprise.Sdk.netmodule
+D:\ORIGINALES OLENKA\GRF LIST\ERPAlexia\OneCommerce\bin\BusinessObjects.Enterprise.Sdk.ZipLib.netmodule
+D:\ORIGINALES OLENKA\GRF LIST\ERPAlexia\OneCommerce\obj\Debug\OneCommerce.csprojResolveAssemblyReference.cache
+D:\ORIGINALES OLENKA\GRF LIST\ERPAlexia\OneCommerce\obj\Debug\Interop.SAPbobsCOM.dll
+D:\ORIGINALES OLENKA\GRF LIST\ERPAlexia\OneCommerce\obj\Debug\OneCommerce.csproj.ResolveComReference.cache
+D:\ORIGINALES OLENKA\GRF LIST\ERPAlexia\OneCommerce\obj\Debug\OneCommerce.dll.licenses
+D:\ORIGINALES OLENKA\GRF LIST\ERPAlexia\OneCommerce\obj\Debug\OneCommerce.dll
+D:\ORIGINALES OLENKA\GRF LIST\ERPAlexia\OneCommerce\obj\Debug\OneCommerce.pdb
+D:\Olenka\GRF LIST\ERPAlexia\OneCommerce\bin\OneCommerce.dll.config
+D:\Olenka\GRF LIST\ERPAlexia\OneCommerce\bin\OneCommerce.dll
+D:\Olenka\GRF LIST\ERPAlexia\OneCommerce\bin\OneCommerce.pdb
+D:\Olenka\GRF LIST\ERPAlexia\OneCommerce\bin\BusinessEntities.dll
+D:\Olenka\GRF LIST\ERPAlexia\OneCommerce\bin\BusinessObjects.Enterprise.Sdk.dll
+D:\Olenka\GRF LIST\ERPAlexia\OneCommerce\bin\BusinessObjects.Foundation.Logging.dll
+D:\Olenka\GRF LIST\ERPAlexia\OneCommerce\bin\BusinessRules.dll
+D:\Olenka\GRF LIST\ERPAlexia\OneCommerce\bin\BusinessServices.dll
+D:\Olenka\GRF LIST\ERPAlexia\OneCommerce\bin\CrystalDecisions.CrystalReports.Engine.dll
+D:\Olenka\GRF LIST\ERPAlexia\OneCommerce\bin\CrystalDecisions.Shared.dll
+D:\Olenka\GRF LIST\ERPAlexia\OneCommerce\bin\CrystalDecisions.Web.dll
+D:\Olenka\GRF LIST\ERPAlexia\OneCommerce\bin\DevExpress.Charts.v13.1.Core.dll
+D:\Olenka\GRF LIST\ERPAlexia\OneCommerce\bin\DevExpress.Dashboard.v13.1.Core.dll
+D:\Olenka\GRF LIST\ERPAlexia\OneCommerce\bin\DevExpress.Dashboard.v13.1.Web.dll
+D:\Olenka\GRF LIST\ERPAlexia\OneCommerce\bin\DevExpress.Data.v13.1.dll
+D:\Olenka\GRF LIST\ERPAlexia\OneCommerce\bin\DevExpress.DataAccess.v13.1.dll
+D:\Olenka\GRF LIST\ERPAlexia\OneCommerce\bin\DevExpress.Office.v13.1.Core.dll
+D:\Olenka\GRF LIST\ERPAlexia\OneCommerce\bin\DevExpress.PivotGrid.v13.1.Core.dll
+D:\Olenka\GRF LIST\ERPAlexia\OneCommerce\bin\DevExpress.Printing.v13.1.Core.dll
+D:\Olenka\GRF LIST\ERPAlexia\OneCommerce\bin\DevExpress.RichEdit.v13.1.Core.dll
+D:\Olenka\GRF LIST\ERPAlexia\OneCommerce\bin\DevExpress.SpellChecker.v13.1.Core.dll
+D:\Olenka\GRF LIST\ERPAlexia\OneCommerce\bin\DevExpress.Utils.v13.1.dll
+D:\Olenka\GRF LIST\ERPAlexia\OneCommerce\bin\DevExpress.Web.ASPxGauges.v13.1.dll
+D:\Olenka\GRF LIST\ERPAlexia\OneCommerce\bin\DevExpress.Web.ASPxHtmlEditor.v13.1.dll
+D:\Olenka\GRF LIST\ERPAlexia\OneCommerce\bin\DevExpress.Web.ASPxPivotGrid.v13.1.dll
+D:\Olenka\GRF LIST\ERPAlexia\OneCommerce\bin\DevExpress.Web.ASPxScheduler.v13.1.dll
+D:\Olenka\GRF LIST\ERPAlexia\OneCommerce\bin\DevExpress.Web.ASPxSpellChecker.v13.1.dll
+D:\Olenka\GRF LIST\ERPAlexia\OneCommerce\bin\DevExpress.Web.ASPxThemes.v13.1.dll
+D:\Olenka\GRF LIST\ERPAlexia\OneCommerce\bin\DevExpress.Web.ASPxTreeList.v13.1.dll
+D:\Olenka\GRF LIST\ERPAlexia\OneCommerce\bin\DevExpress.Web.v13.1.dll
+D:\Olenka\GRF LIST\ERPAlexia\OneCommerce\bin\DevExpress.XtraCharts.v13.1.dll
+D:\Olenka\GRF LIST\ERPAlexia\OneCommerce\bin\DevExpress.XtraCharts.v13.1.Web.dll
+D:\Olenka\GRF LIST\ERPAlexia\OneCommerce\bin\DevExpress.XtraGauges.v13.1.Core.dll
+D:\Olenka\GRF LIST\ERPAlexia\OneCommerce\bin\DevExpress.XtraGauges.v13.1.Presets.dll
+D:\Olenka\GRF LIST\ERPAlexia\OneCommerce\bin\DevExpress.XtraPivotGrid.v13.1.dll
+D:\Olenka\GRF LIST\ERPAlexia\OneCommerce\bin\DevExpress.XtraPrinting.v13.1.dll
+D:\Olenka\GRF LIST\ERPAlexia\OneCommerce\bin\DevExpress.XtraReports.v13.1.dll
+D:\Olenka\GRF LIST\ERPAlexia\OneCommerce\bin\DevExpress.XtraReports.v13.1.Web.dll
+D:\Olenka\GRF LIST\ERPAlexia\OneCommerce\bin\DevExpress.XtraScheduler.v13.1.Core.dll
+D:\Olenka\GRF LIST\ERPAlexia\OneCommerce\bin\log4net.dll
+D:\Olenka\GRF LIST\ERPAlexia\OneCommerce\bin\Microsoft.QualityTools.Testing.Fakes.dll
+D:\Olenka\GRF LIST\ERPAlexia\OneCommerce\bin\Microsoft.ReportViewer.Common.dll
+D:\Olenka\GRF LIST\ERPAlexia\OneCommerce\bin\Microsoft.ReportViewer.WebForms.dll
+D:\Olenka\GRF LIST\ERPAlexia\OneCommerce\bin\Microsoft.ReportViewer.WinForms.dll
+D:\Olenka\GRF LIST\ERPAlexia\OneCommerce\bin\DataAccess.dll
+D:\Olenka\GRF LIST\ERPAlexia\OneCommerce\bin\ResultSetMappers.dll
+D:\Olenka\GRF LIST\ERPAlexia\OneCommerce\bin\CrystalDecisions.ReportAppServer.DataDefModel.dll
+D:\Olenka\GRF LIST\ERPAlexia\OneCommerce\bin\CrystalDecisions.ReportAppServer.ClientDoc.dll
+D:\Olenka\GRF LIST\ERPAlexia\OneCommerce\bin\CrystalDecisions.ReportAppServer.ReportDefModel.dll
+D:\Olenka\GRF LIST\ERPAlexia\OneCommerce\bin\CrystalDecisions.ReportAppServer.CommLayer.dll
+D:\Olenka\GRF LIST\ERPAlexia\OneCommerce\bin\CrystalDecisions.ReportAppServer.Controllers.dll
+D:\Olenka\GRF LIST\ERPAlexia\OneCommerce\bin\CrystalDecisions.ReportAppServer.DataSetConversion.dll
+D:\Olenka\GRF LIST\ERPAlexia\OneCommerce\bin\CrystalDecisions.ReportAppServer.Prompting.dll
+D:\Olenka\GRF LIST\ERPAlexia\OneCommerce\bin\CrystalDecisions.ReportAppServer.XmlSerialize.dll
+D:\Olenka\GRF LIST\ERPAlexia\OneCommerce\bin\CrystalDecisions.ReportAppServer.CubeDefModel.dll
+D:\Olenka\GRF LIST\ERPAlexia\OneCommerce\bin\CrystalDecisions.ReportAppServer.CommonObjectModel.dll
+D:\Olenka\GRF LIST\ERPAlexia\OneCommerce\bin\CrystalDecisions.ReportAppServer.ObjectFactory.dll
+D:\Olenka\GRF LIST\ERPAlexia\OneCommerce\bin\CrystalDecisions.ReportSource.dll
+D:\Olenka\GRF LIST\ERPAlexia\OneCommerce\bin\CrystalDecisions.PromptingClientSDK.dll
+D:\Olenka\GRF LIST\ERPAlexia\OneCommerce\bin\CrystalDecisions.Enterprise.Viewing.ReportSource.dll
+D:\Olenka\GRF LIST\ERPAlexia\OneCommerce\bin\DevExpress.Xpo.v13.1.dll
+D:\Olenka\GRF LIST\ERPAlexia\OneCommerce\bin\DevExpress.XtraEditors.v13.1.dll
+D:\Olenka\GRF LIST\ERPAlexia\OneCommerce\bin\DevExpress.XtraLayout.v13.1.dll
+D:\Olenka\GRF LIST\ERPAlexia\OneCommerce\bin\DevExpress.XtraBars.v13.1.dll
+D:\Olenka\GRF LIST\ERPAlexia\OneCommerce\bin\DevExpress.XtraTreeList.v13.1.dll
+D:\Olenka\GRF LIST\ERPAlexia\OneCommerce\bin\DevExpress.Sparkline.v13.1.Core.dll
+D:\Olenka\GRF LIST\ERPAlexia\OneCommerce\bin\Microsoft.Practices.EnterpriseLibrary.Data.dll
+D:\Olenka\GRF LIST\ERPAlexia\OneCommerce\bin\CrystalDecisions.ReportAppServer.CommonControls.dll
+D:\Olenka\GRF LIST\ERPAlexia\OneCommerce\bin\stdole.dll
+D:\Olenka\GRF LIST\ERPAlexia\OneCommerce\bin\Microsoft.SqlServer.Types.dll
+D:\Olenka\GRF LIST\ERPAlexia\OneCommerce\bin\Microsoft.Practices.EnterpriseLibrary.Common.dll
+D:\Olenka\GRF LIST\ERPAlexia\OneCommerce\bin\Microsoft.Practices.ServiceLocation.dll
+D:\Olenka\GRF LIST\ERPAlexia\OneCommerce\bin\Microsoft.Practices.Unity.dll
+D:\Olenka\GRF LIST\ERPAlexia\OneCommerce\bin\Microsoft.Practices.Unity.Interception.dll
+D:\Olenka\GRF LIST\ERPAlexia\OneCommerce\bin\BusinessEntities.pdb
+D:\Olenka\GRF LIST\ERPAlexia\OneCommerce\bin\BusinessRules.pdb
+D:\Olenka\GRF LIST\ERPAlexia\OneCommerce\bin\BusinessServices.pdb
+D:\Olenka\GRF LIST\ERPAlexia\OneCommerce\bin\DevExpress.Dashboard.v13.1.Core.xml
+D:\Olenka\GRF LIST\ERPAlexia\OneCommerce\bin\DevExpress.Dashboard.v13.1.Web.xml
+D:\Olenka\GRF LIST\ERPAlexia\OneCommerce\bin\DevExpress.Data.v13.1.xml
+D:\Olenka\GRF LIST\ERPAlexia\OneCommerce\bin\DevExpress.Office.v13.1.Core.xml
+D:\Olenka\GRF LIST\ERPAlexia\OneCommerce\bin\DevExpress.PivotGrid.v13.1.Core.xml
+D:\Olenka\GRF LIST\ERPAlexia\OneCommerce\bin\DevExpress.Printing.v13.1.Core.xml
+D:\Olenka\GRF LIST\ERPAlexia\OneCommerce\bin\DevExpress.RichEdit.v13.1.Core.xml
+D:\Olenka\GRF LIST\ERPAlexia\OneCommerce\bin\DevExpress.SpellChecker.v13.1.Core.xml
+D:\Olenka\GRF LIST\ERPAlexia\OneCommerce\bin\DevExpress.Utils.v13.1.xml
+D:\Olenka\GRF LIST\ERPAlexia\OneCommerce\bin\DevExpress.Web.ASPxGauges.v13.1.xml
+D:\Olenka\GRF LIST\ERPAlexia\OneCommerce\bin\DevExpress.Web.ASPxHtmlEditor.v13.1.xml
+D:\Olenka\GRF LIST\ERPAlexia\OneCommerce\bin\DevExpress.Web.ASPxPivotGrid.v13.1.xml
+D:\Olenka\GRF LIST\ERPAlexia\OneCommerce\bin\DevExpress.Web.ASPxScheduler.v13.1.xml
+D:\Olenka\GRF LIST\ERPAlexia\OneCommerce\bin\DevExpress.Web.ASPxSpellChecker.v13.1.xml
+D:\Olenka\GRF LIST\ERPAlexia\OneCommerce\bin\DevExpress.Web.ASPxTreeList.v13.1.xml
+D:\Olenka\GRF LIST\ERPAlexia\OneCommerce\bin\DevExpress.Web.v13.1.xml
+D:\Olenka\GRF LIST\ERPAlexia\OneCommerce\bin\DevExpress.XtraCharts.v13.1.xml
+D:\Olenka\GRF LIST\ERPAlexia\OneCommerce\bin\DevExpress.XtraCharts.v13.1.Web.xml
+D:\Olenka\GRF LIST\ERPAlexia\OneCommerce\bin\DevExpress.XtraGauges.v13.1.Core.xml
+D:\Olenka\GRF LIST\ERPAlexia\OneCommerce\bin\DevExpress.XtraPivotGrid.v13.1.xml
+D:\Olenka\GRF LIST\ERPAlexia\OneCommerce\bin\DevExpress.XtraPrinting.v13.1.xml
+D:\Olenka\GRF LIST\ERPAlexia\OneCommerce\bin\DevExpress.XtraReports.v13.1.xml
+D:\Olenka\GRF LIST\ERPAlexia\OneCommerce\bin\DevExpress.XtraReports.v13.1.Web.xml
+D:\Olenka\GRF LIST\ERPAlexia\OneCommerce\bin\DevExpress.XtraScheduler.v13.1.Core.xml
+D:\Olenka\GRF LIST\ERPAlexia\OneCommerce\bin\DataAccess.pdb
+D:\Olenka\GRF LIST\ERPAlexia\OneCommerce\bin\DevExpress.Xpo.v13.1.xml
+D:\Olenka\GRF LIST\ERPAlexia\OneCommerce\bin\DevExpress.XtraEditors.v13.1.xml
+D:\Olenka\GRF LIST\ERPAlexia\OneCommerce\bin\DevExpress.XtraLayout.v13.1.xml
+D:\Olenka\GRF LIST\ERPAlexia\OneCommerce\bin\DevExpress.XtraBars.v13.1.xml
+D:\Olenka\GRF LIST\ERPAlexia\OneCommerce\bin\DevExpress.XtraTreeList.v13.1.xml
+D:\Olenka\GRF LIST\ERPAlexia\OneCommerce\bin\de\DevExpress.Dashboard.v13.1.Core.resources.dll
+D:\Olenka\GRF LIST\ERPAlexia\OneCommerce\bin\es\DevExpress.Dashboard.v13.1.Core.resources.dll
+D:\Olenka\GRF LIST\ERPAlexia\OneCommerce\bin\ja\DevExpress.Dashboard.v13.1.Core.resources.dll
+D:\Olenka\GRF LIST\ERPAlexia\OneCommerce\bin\ru\DevExpress.Dashboard.v13.1.Core.resources.dll
+D:\Olenka\GRF LIST\ERPAlexia\OneCommerce\bin\de\DevExpress.Dashboard.v13.1.Web.resources.dll
+D:\Olenka\GRF LIST\ERPAlexia\OneCommerce\bin\es\DevExpress.Dashboard.v13.1.Web.resources.dll
+D:\Olenka\GRF LIST\ERPAlexia\OneCommerce\bin\ja\DevExpress.Dashboard.v13.1.Web.resources.dll
+D:\Olenka\GRF LIST\ERPAlexia\OneCommerce\bin\ru\DevExpress.Dashboard.v13.1.Web.resources.dll
+D:\Olenka\GRF LIST\ERPAlexia\OneCommerce\bin\de\DevExpress.Data.v13.1.resources.dll
+D:\Olenka\GRF LIST\ERPAlexia\OneCommerce\bin\es\DevExpress.Data.v13.1.resources.dll
+D:\Olenka\GRF LIST\ERPAlexia\OneCommerce\bin\ja\DevExpress.Data.v13.1.resources.dll
+D:\Olenka\GRF LIST\ERPAlexia\OneCommerce\bin\ru\DevExpress.Data.v13.1.resources.dll
+D:\Olenka\GRF LIST\ERPAlexia\OneCommerce\bin\de\DevExpress.Office.v13.1.Core.resources.dll
+D:\Olenka\GRF LIST\ERPAlexia\OneCommerce\bin\es\DevExpress.Office.v13.1.Core.resources.dll
+D:\Olenka\GRF LIST\ERPAlexia\OneCommerce\bin\ja\DevExpress.Office.v13.1.Core.resources.dll
+D:\Olenka\GRF LIST\ERPAlexia\OneCommerce\bin\ru\DevExpress.Office.v13.1.Core.resources.dll
+D:\Olenka\GRF LIST\ERPAlexia\OneCommerce\bin\de\DevExpress.PivotGrid.v13.1.Core.resources.dll
+D:\Olenka\GRF LIST\ERPAlexia\OneCommerce\bin\es\DevExpress.PivotGrid.v13.1.Core.resources.dll
+D:\Olenka\GRF LIST\ERPAlexia\OneCommerce\bin\ja\DevExpress.PivotGrid.v13.1.Core.resources.dll
+D:\Olenka\GRF LIST\ERPAlexia\OneCommerce\bin\ru\DevExpress.PivotGrid.v13.1.Core.resources.dll
+D:\Olenka\GRF LIST\ERPAlexia\OneCommerce\bin\de\DevExpress.Printing.v13.1.Core.resources.dll
+D:\Olenka\GRF LIST\ERPAlexia\OneCommerce\bin\es\DevExpress.Printing.v13.1.Core.resources.dll
+D:\Olenka\GRF LIST\ERPAlexia\OneCommerce\bin\ja\DevExpress.Printing.v13.1.Core.resources.dll
+D:\Olenka\GRF LIST\ERPAlexia\OneCommerce\bin\ru\DevExpress.Printing.v13.1.Core.resources.dll
+D:\Olenka\GRF LIST\ERPAlexia\OneCommerce\bin\de\DevExpress.RichEdit.v13.1.Core.resources.dll
+D:\Olenka\GRF LIST\ERPAlexia\OneCommerce\bin\es\DevExpress.RichEdit.v13.1.Core.resources.dll
+D:\Olenka\GRF LIST\ERPAlexia\OneCommerce\bin\ja\DevExpress.RichEdit.v13.1.Core.resources.dll
+D:\Olenka\GRF LIST\ERPAlexia\OneCommerce\bin\ru\DevExpress.RichEdit.v13.1.Core.resources.dll
+D:\Olenka\GRF LIST\ERPAlexia\OneCommerce\bin\de\DevExpress.Utils.v13.1.resources.dll
+D:\Olenka\GRF LIST\ERPAlexia\OneCommerce\bin\es\DevExpress.Utils.v13.1.resources.dll
+D:\Olenka\GRF LIST\ERPAlexia\OneCommerce\bin\ja\DevExpress.Utils.v13.1.resources.dll
+D:\Olenka\GRF LIST\ERPAlexia\OneCommerce\bin\ru\DevExpress.Utils.v13.1.resources.dll
+D:\Olenka\GRF LIST\ERPAlexia\OneCommerce\bin\de\DevExpress.Web.ASPxHtmlEditor.v13.1.resources.dll
+D:\Olenka\GRF LIST\ERPAlexia\OneCommerce\bin\es\DevExpress.Web.ASPxHtmlEditor.v13.1.resources.dll
+D:\Olenka\GRF LIST\ERPAlexia\OneCommerce\bin\ja\DevExpress.Web.ASPxHtmlEditor.v13.1.resources.dll
+D:\Olenka\GRF LIST\ERPAlexia\OneCommerce\bin\ru\DevExpress.Web.ASPxHtmlEditor.v13.1.resources.dll
+D:\Olenka\GRF LIST\ERPAlexia\OneCommerce\bin\de\DevExpress.Web.ASPxScheduler.v13.1.resources.dll
+D:\Olenka\GRF LIST\ERPAlexia\OneCommerce\bin\es\DevExpress.Web.ASPxScheduler.v13.1.resources.dll
+D:\Olenka\GRF LIST\ERPAlexia\OneCommerce\bin\ja\DevExpress.Web.ASPxScheduler.v13.1.resources.dll
+D:\Olenka\GRF LIST\ERPAlexia\OneCommerce\bin\ru\DevExpress.Web.ASPxScheduler.v13.1.resources.dll
+D:\Olenka\GRF LIST\ERPAlexia\OneCommerce\bin\de\DevExpress.Web.ASPxSpellChecker.v13.1.resources.dll
+D:\Olenka\GRF LIST\ERPAlexia\OneCommerce\bin\es\DevExpress.Web.ASPxSpellChecker.v13.1.resources.dll
+D:\Olenka\GRF LIST\ERPAlexia\OneCommerce\bin\ja\DevExpress.Web.ASPxSpellChecker.v13.1.resources.dll
+D:\Olenka\GRF LIST\ERPAlexia\OneCommerce\bin\ru\DevExpress.Web.ASPxSpellChecker.v13.1.resources.dll
+D:\Olenka\GRF LIST\ERPAlexia\OneCommerce\bin\de\DevExpress.Web.ASPxTreeList.v13.1.resources.dll
+D:\Olenka\GRF LIST\ERPAlexia\OneCommerce\bin\es\DevExpress.Web.ASPxTreeList.v13.1.resources.dll
+D:\Olenka\GRF LIST\ERPAlexia\OneCommerce\bin\ja\DevExpress.Web.ASPxTreeList.v13.1.resources.dll
+D:\Olenka\GRF LIST\ERPAlexia\OneCommerce\bin\ru\DevExpress.Web.ASPxTreeList.v13.1.resources.dll
+D:\Olenka\GRF LIST\ERPAlexia\OneCommerce\bin\de\DevExpress.Web.v13.1.resources.dll
+D:\Olenka\GRF LIST\ERPAlexia\OneCommerce\bin\es\DevExpress.Web.v13.1.resources.dll
+D:\Olenka\GRF LIST\ERPAlexia\OneCommerce\bin\ja\DevExpress.Web.v13.1.resources.dll
+D:\Olenka\GRF LIST\ERPAlexia\OneCommerce\bin\ru\DevExpress.Web.v13.1.resources.dll
+D:\Olenka\GRF LIST\ERPAlexia\OneCommerce\bin\de\DevExpress.XtraCharts.v13.1.resources.dll
+D:\Olenka\GRF LIST\ERPAlexia\OneCommerce\bin\es\DevExpress.XtraCharts.v13.1.resources.dll
+D:\Olenka\GRF LIST\ERPAlexia\OneCommerce\bin\ja\DevExpress.XtraCharts.v13.1.resources.dll
+D:\Olenka\GRF LIST\ERPAlexia\OneCommerce\bin\ru\DevExpress.XtraCharts.v13.1.resources.dll
+D:\Olenka\GRF LIST\ERPAlexia\OneCommerce\bin\de\DevExpress.XtraGauges.v13.1.Core.resources.dll
+D:\Olenka\GRF LIST\ERPAlexia\OneCommerce\bin\es\DevExpress.XtraGauges.v13.1.Core.resources.dll
+D:\Olenka\GRF LIST\ERPAlexia\OneCommerce\bin\ja\DevExpress.XtraGauges.v13.1.Core.resources.dll
+D:\Olenka\GRF LIST\ERPAlexia\OneCommerce\bin\ru\DevExpress.XtraGauges.v13.1.Core.resources.dll
+D:\Olenka\GRF LIST\ERPAlexia\OneCommerce\bin\de\DevExpress.XtraGauges.v13.1.Presets.resources.dll
+D:\Olenka\GRF LIST\ERPAlexia\OneCommerce\bin\es\DevExpress.XtraGauges.v13.1.Presets.resources.dll
+D:\Olenka\GRF LIST\ERPAlexia\OneCommerce\bin\ja\DevExpress.XtraGauges.v13.1.Presets.resources.dll
+D:\Olenka\GRF LIST\ERPAlexia\OneCommerce\bin\ru\DevExpress.XtraGauges.v13.1.Presets.resources.dll
+D:\Olenka\GRF LIST\ERPAlexia\OneCommerce\bin\de\DevExpress.XtraPivotGrid.v13.1.resources.dll
+D:\Olenka\GRF LIST\ERPAlexia\OneCommerce\bin\es\DevExpress.XtraPivotGrid.v13.1.resources.dll
+D:\Olenka\GRF LIST\ERPAlexia\OneCommerce\bin\ja\DevExpress.XtraPivotGrid.v13.1.resources.dll
+D:\Olenka\GRF LIST\ERPAlexia\OneCommerce\bin\ru\DevExpress.XtraPivotGrid.v13.1.resources.dll
+D:\Olenka\GRF LIST\ERPAlexia\OneCommerce\bin\de\DevExpress.XtraPrinting.v13.1.resources.dll
+D:\Olenka\GRF LIST\ERPAlexia\OneCommerce\bin\es\DevExpress.XtraPrinting.v13.1.resources.dll
+D:\Olenka\GRF LIST\ERPAlexia\OneCommerce\bin\ja\DevExpress.XtraPrinting.v13.1.resources.dll
+D:\Olenka\GRF LIST\ERPAlexia\OneCommerce\bin\ru\DevExpress.XtraPrinting.v13.1.resources.dll
+D:\Olenka\GRF LIST\ERPAlexia\OneCommerce\bin\de\DevExpress.XtraReports.v13.1.resources.dll
+D:\Olenka\GRF LIST\ERPAlexia\OneCommerce\bin\es\DevExpress.XtraReports.v13.1.resources.dll
+D:\Olenka\GRF LIST\ERPAlexia\OneCommerce\bin\ja\DevExpress.XtraReports.v13.1.resources.dll
+D:\Olenka\GRF LIST\ERPAlexia\OneCommerce\bin\ru\DevExpress.XtraReports.v13.1.resources.dll
+D:\Olenka\GRF LIST\ERPAlexia\OneCommerce\bin\de\DevExpress.XtraReports.v13.1.Web.resources.dll
+D:\Olenka\GRF LIST\ERPAlexia\OneCommerce\bin\es\DevExpress.XtraReports.v13.1.Web.resources.dll
+D:\Olenka\GRF LIST\ERPAlexia\OneCommerce\bin\ja\DevExpress.XtraReports.v13.1.Web.resources.dll
+D:\Olenka\GRF LIST\ERPAlexia\OneCommerce\bin\ru\DevExpress.XtraReports.v13.1.Web.resources.dll
+D:\Olenka\GRF LIST\ERPAlexia\OneCommerce\bin\de\DevExpress.XtraScheduler.v13.1.Core.resources.dll
+D:\Olenka\GRF LIST\ERPAlexia\OneCommerce\bin\es\DevExpress.XtraScheduler.v13.1.Core.resources.dll
+D:\Olenka\GRF LIST\ERPAlexia\OneCommerce\bin\ja\DevExpress.XtraScheduler.v13.1.Core.resources.dll
+D:\Olenka\GRF LIST\ERPAlexia\OneCommerce\bin\ru\DevExpress.XtraScheduler.v13.1.Core.resources.dll
+D:\Olenka\GRF LIST\ERPAlexia\OneCommerce\bin\de\DevExpress.Xpo.v13.1.resources.dll
+D:\Olenka\GRF LIST\ERPAlexia\OneCommerce\bin\es\DevExpress.Xpo.v13.1.resources.dll
+D:\Olenka\GRF LIST\ERPAlexia\OneCommerce\bin\ja\DevExpress.Xpo.v13.1.resources.dll
+D:\Olenka\GRF LIST\ERPAlexia\OneCommerce\bin\ru\DevExpress.Xpo.v13.1.resources.dll
+D:\Olenka\GRF LIST\ERPAlexia\OneCommerce\bin\de\DevExpress.XtraEditors.v13.1.resources.dll
+D:\Olenka\GRF LIST\ERPAlexia\OneCommerce\bin\es\DevExpress.XtraEditors.v13.1.resources.dll
+D:\Olenka\GRF LIST\ERPAlexia\OneCommerce\bin\ja\DevExpress.XtraEditors.v13.1.resources.dll
+D:\Olenka\GRF LIST\ERPAlexia\OneCommerce\bin\ru\DevExpress.XtraEditors.v13.1.resources.dll
+D:\Olenka\GRF LIST\ERPAlexia\OneCommerce\bin\de\DevExpress.XtraLayout.v13.1.resources.dll
+D:\Olenka\GRF LIST\ERPAlexia\OneCommerce\bin\es\DevExpress.XtraLayout.v13.1.resources.dll
+D:\Olenka\GRF LIST\ERPAlexia\OneCommerce\bin\ja\DevExpress.XtraLayout.v13.1.resources.dll
+D:\Olenka\GRF LIST\ERPAlexia\OneCommerce\bin\ru\DevExpress.XtraLayout.v13.1.resources.dll
+D:\Olenka\GRF LIST\ERPAlexia\OneCommerce\bin\de\DevExpress.XtraBars.v13.1.resources.dll
+D:\Olenka\GRF LIST\ERPAlexia\OneCommerce\bin\es\DevExpress.XtraBars.v13.1.resources.dll
+D:\Olenka\GRF LIST\ERPAlexia\OneCommerce\bin\ja\DevExpress.XtraBars.v13.1.resources.dll
+D:\Olenka\GRF LIST\ERPAlexia\OneCommerce\bin\ru\DevExpress.XtraBars.v13.1.resources.dll
+D:\Olenka\GRF LIST\ERPAlexia\OneCommerce\bin\de\DevExpress.XtraTreeList.v13.1.resources.dll
+D:\Olenka\GRF LIST\ERPAlexia\OneCommerce\bin\es\DevExpress.XtraTreeList.v13.1.resources.dll
+D:\Olenka\GRF LIST\ERPAlexia\OneCommerce\bin\ja\DevExpress.XtraTreeList.v13.1.resources.dll
+D:\Olenka\GRF LIST\ERPAlexia\OneCommerce\bin\ru\DevExpress.XtraTreeList.v13.1.resources.dll
+D:\Olenka\GRF LIST\ERPAlexia\OneCommerce\bin\de\Microsoft.SqlServer.Types.resources.dll
+D:\Olenka\GRF LIST\ERPAlexia\OneCommerce\bin\es\Microsoft.SqlServer.Types.resources.dll
+D:\Olenka\GRF LIST\ERPAlexia\OneCommerce\bin\fr\Microsoft.SqlServer.Types.resources.dll
+D:\Olenka\GRF LIST\ERPAlexia\OneCommerce\bin\it\Microsoft.SqlServer.Types.resources.dll
+D:\Olenka\GRF LIST\ERPAlexia\OneCommerce\bin\ja\Microsoft.SqlServer.Types.resources.dll
+D:\Olenka\GRF LIST\ERPAlexia\OneCommerce\bin\ko\Microsoft.SqlServer.Types.resources.dll
+D:\Olenka\GRF LIST\ERPAlexia\OneCommerce\bin\pt\Microsoft.SqlServer.Types.resources.dll
+D:\Olenka\GRF LIST\ERPAlexia\OneCommerce\bin\ru\Microsoft.SqlServer.Types.resources.dll
+D:\Olenka\GRF LIST\ERPAlexia\OneCommerce\bin\zh-Hans\Microsoft.SqlServer.Types.resources.dll
+D:\Olenka\GRF LIST\ERPAlexia\OneCommerce\bin\zh-Hant\Microsoft.SqlServer.Types.resources.dll
+D:\Olenka\GRF LIST\ERPAlexia\OneCommerce\bin\BusinessObjects.Enterprise.Sdk.ebus.netmodule
+D:\Olenka\GRF LIST\ERPAlexia\OneCommerce\bin\BusinessObjects.Enterprise.Sdk.fssl.netmodule
+D:\Olenka\GRF LIST\ERPAlexia\OneCommerce\bin\BusinessObjects.Enterprise.Sdk.Ssl.netmodule
+D:\Olenka\GRF LIST\ERPAlexia\OneCommerce\bin\BusinessObjects.Enterprise.Sdk.netmodule
+D:\Olenka\GRF LIST\ERPAlexia\OneCommerce\bin\BusinessObjects.Enterprise.Sdk.ZipLib.netmodule
+D:\Olenka\GRF LIST\ERPAlexia\OneCommerce\obj\Debug\OneCommerce.csprojResolveAssemblyReference.cache
+D:\Olenka\GRF LIST\ERPAlexia\OneCommerce\obj\Debug\Interop.SAPbobsCOM.dll
+D:\Olenka\GRF LIST\ERPAlexia\OneCommerce\obj\Debug\OneCommerce.csproj.ResolveComReference.cache
+D:\Olenka\GRF LIST\ERPAlexia\OneCommerce\obj\Debug\OneCommerce.dll.licenses
+D:\Olenka\GRF LIST\ERPAlexia\OneCommerce\obj\Debug\OneCommerce.dll
+D:\Olenka\GRF LIST\ERPAlexia\OneCommerce\obj\Debug\OneCommerce.pdb

@@ -1,0 +1,5 @@
+D:\Christofer\PRUEBA\ERPAlexia\BusinessEntities\bin\x86\Debug\BusinessEntities.dll
+D:\Christofer\PRUEBA\ERPAlexia\BusinessEntities\bin\x86\Debug\BusinessEntities.pdb
+D:\Christofer\PRUEBA\ERPAlexia\BusinessEntities\obj\x86\Debug\BusinessEntities.dll
+D:\Christofer\PRUEBA\ERPAlexia\BusinessEntities\obj\x86\Debug\BusinessEntities.pdb
+D:\Christofer\PRUEBA\ERPAlexia\BusinessEntities\obj\x86\Debug\BusinessEntities.csprojResolveAssemblyReference.cache

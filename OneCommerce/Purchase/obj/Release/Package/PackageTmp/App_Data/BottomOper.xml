@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<items>
+  <item Name="Save" Text="Crear" NavigateUrl="#" />
+  <item Name="New" Text="Nuevo" NavigateUrl="#"  />
+  <item Name="Search" Text="Buscar" NavigateUrl="#"  />
+  <item Name="Cancel" Text="Cancelar" NavigateUrl="#"  />
+  <item Name="Duplicate" Text="Duplicar" NavigateUrl="#"  />
+  <item Name="Export" Text="Exportar" NavigateUrl="#"  />
+  <item Name="PaymentIn" Text="Pagar en" NavigateUrl="#">
+    <!--<item Name="PayEfe" Text="Efectivo" NavigateUrl="#"  />
+    <item Name="PayTar" Text="Tarjeta" NavigateUrl="#"  />-->
+  </item>  
+  <item Name="Print" Text="Imprimir" NavigateUrl="#">
+    <!--<item Name="Ticket" Text="Ticket Boleta" NavigateUrl="#"/>
+    <item Name="TicketBill" Text="Ticket Factura" NavigateUrl="#"  />-->
+  </item>
+  <item Name="CopyFrom" Text="Copiar de" NavigateUrl="#">
+    <item Name="DeliveryFrom" Text="Guia de Remision" NavigateUrl="#"/>
+    <item Name="OrderFrom" Text="Orden de Venta" NavigateUrl="#"/>
+    <item Name="Quote" Text="Oferta de Venta" NavigateUrl="#"/> 
+  </item>
+  <item Name="CopyTo" Text="Copiar a" NavigateUrl="#" >
+    <item Name="CreditNote" Text="Nota de Crédito" NavigateUrl="#"/>    
+    <item Name="OrderTo" Text="Orden de Venta" NavigateUrl="#"/>
+    <item Name="DeliveryNote" Text="Guia de Remision" NavigateUrl="#"/>
+  </item>
+</items>

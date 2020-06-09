@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<menu>
+  <group Name="Sales" Text="Ventas">
+    <item Name="Quotation" Text="Oferta de Venta" NavigateUrl = "~/Sales/Oferta.aspx"/>
+    <!--<item Text="Oferta de Venta" NavigateUrl = "~/Sales/Quote.aspx"/>-->
+    <item Name="SalesOrder" Text="Orden de Venta" NavigateUrl = "~/Sales/SalesOrder.aspx"/>
+    <item Name="ARInvoice" Text="Documento de Venta" NavigateUrl="~/Sales/ARInvoice.aspx"/>
+    <item Name="APInvoice" Text="Documento de Reserva" NavigateUrl="~/Sales/APInvoice.aspx" />
+    <item Name="DeliveryNote" Text="Documento de Entrega" NavigateUrl="~/Sales/DeliveryNote.aspx" />
+    <item Name="CreditNote" Text="Nota de Crédito" NavigateUrl="~/Sales/CreditNote.aspx" />
+    <item Name="RegisterConsult" Text="Registro de Consultora NAIAH" NavigateUrl="~/Sales/RegisterConsult.aspx" />
+  </group>
+  <group Name="Masters" Text="Maestros">
+    <item Text="Clientes" />
+  </group>
+  <group Name="Reports" Text="Reportes">
+    <item Name="CloseBox" Text="Cierre de Caja" NavigateUrl="~/Reports/CloseBox.aspx"/>
+    <item Name="Inventory" Text="Inventario" NavigateUrl="~/Reports/Inventory.aspx"/>
+  </group>
+  <group Name="Tools" Text="Herramientas">
+    <item Text="Ayuda" />
+    <item Name="Salir" Text="Salir" NavigateUrl="#"/>
+  </group>
+  <group Name="Administrator" Text="Administrador">
+    <item Name="WebForm1" Text="Usuarios" NavigateUrl="~/Account/WebForm1.aspx" />
+  </group>
+  
+</menu>

@@ -1,0 +1,190 @@
+E:\Migration Apps Dev13.1.5\Commerce\OneCommerce\DataAccess\bin\Debug\DataAccess.dll
+E:\Migration Apps Dev13.1.5\Commerce\OneCommerce\DataAccess\bin\Debug\DataAccess.pdb
+E:\Migration Apps Dev13.1.5\Commerce\OneCommerce\DataAccess\obj\Debug\DataAccess.dll
+E:\Migration Apps Dev13.1.5\Commerce\OneCommerce\DataAccess\obj\Debug\DataAccess.pdb
+E:\Migration Apps Dev13.1.5\Commerce\OneCommerce\DataAccess\obj\Debug\Interop.SAPbobsCOM.dll
+E:\Migration Apps Dev13.1.5\Commerce\OneCommerce\DataAccess\obj\Debug\DataAccess.csproj.ResolveComReference.cache
+E:\Migration Apps Dev13.1.5\Commerce\OneCommerce\DataAccess\bin\Debug\BusinessEntities.dll
+E:\Migration Apps Dev13.1.5\Commerce\OneCommerce\DataAccess\bin\Debug\BusinessEntities.pdb
+E:\Migration Apps Dev13.1.5\Commerce\OneCommerce\DataAccess\obj\Debug\DataAccess.csprojResolveAssemblyReference.cache
+C:\Users\mpuelles\Desktop\Commerce\OneCommerce\DataAccess\bin\Debug\DataAccess.dll
+C:\Users\mpuelles\Desktop\Commerce\OneCommerce\DataAccess\bin\Debug\DataAccess.pdb
+C:\Users\mpuelles\Desktop\Commerce\OneCommerce\DataAccess\bin\Debug\BusinessEntities.dll
+C:\Users\mpuelles\Desktop\Commerce\OneCommerce\DataAccess\bin\Debug\BusinessEntities.pdb
+C:\Users\mpuelles\Desktop\Commerce\OneCommerce\DataAccess\obj\Debug\DataAccess.csprojResolveAssemblyReference.cache
+C:\Users\mpuelles\Desktop\Commerce\OneCommerce\DataAccess\obj\Debug\Interop.SAPbobsCOM.dll
+C:\Users\mpuelles\Desktop\Commerce\OneCommerce\DataAccess\obj\Debug\DataAccess.csproj.ResolveComReference.cache
+C:\Users\mpuelles\Desktop\Commerce\OneCommerce\DataAccess\obj\Debug\DataAccess.dll
+C:\Users\mpuelles\Desktop\Commerce\OneCommerce\DataAccess\obj\Debug\DataAccess.pdb
+C:\Users\jcardenas\Desktop\JOSE - copia\desarrollando\Commerce-copia\OneCommerce\DataAccess\bin\Debug\DataAccess.dll
+C:\Users\jcardenas\Desktop\JOSE - copia\desarrollando\Commerce-copia\OneCommerce\DataAccess\bin\Debug\DataAccess.pdb
+C:\Users\jcardenas\Desktop\JOSE - copia\desarrollando\Commerce-copia\OneCommerce\DataAccess\bin\Debug\BusinessEntities.dll
+C:\Users\jcardenas\Desktop\JOSE - copia\desarrollando\Commerce-copia\OneCommerce\DataAccess\bin\Debug\BusinessEntities.pdb
+C:\Users\jcardenas\Desktop\JOSE - copia\desarrollando\Commerce-copia\OneCommerce\DataAccess\obj\Debug\DataAccess.csprojResolveAssemblyReference.cache
+C:\Users\jcardenas\Desktop\JOSE - copia\desarrollando\Commerce-copia\OneCommerce\DataAccess\obj\Debug\Interop.SAPbobsCOM.dll
+C:\Users\jcardenas\Desktop\JOSE - copia\desarrollando\Commerce-copia\OneCommerce\DataAccess\obj\Debug\DataAccess.csproj.ResolveComReference.cache
+C:\Users\jcardenas\Desktop\JOSE - copia\desarrollando\Commerce-copia\OneCommerce\DataAccess\obj\Debug\DataAccess.dll
+C:\Users\jcardenas\Desktop\JOSE - copia\desarrollando\Commerce-copia\OneCommerce\DataAccess\obj\Debug\DataAccess.pdb
+D:\Jose Cardenas\Escritorio\JOSE - copia\desarrollando\Commerce-copia\OneCommerce\DataAccess\bin\Debug\DataAccess.dll
+D:\Jose Cardenas\Escritorio\JOSE - copia\desarrollando\Commerce-copia\OneCommerce\DataAccess\bin\Debug\DataAccess.pdb
+D:\Jose Cardenas\Escritorio\JOSE - copia\desarrollando\Commerce-copia\OneCommerce\DataAccess\bin\Debug\BusinessEntities.dll
+D:\Jose Cardenas\Escritorio\JOSE - copia\desarrollando\Commerce-copia\OneCommerce\DataAccess\bin\Debug\BusinessEntities.pdb
+D:\Jose Cardenas\Escritorio\JOSE - copia\desarrollando\Commerce-copia\OneCommerce\DataAccess\obj\Debug\DataAccess.csprojResolveAssemblyReference.cache
+D:\Jose Cardenas\Escritorio\JOSE - copia\desarrollando\Commerce-copia\OneCommerce\DataAccess\obj\Debug\Interop.SAPbobsCOM.dll
+D:\Jose Cardenas\Escritorio\JOSE - copia\desarrollando\Commerce-copia\OneCommerce\DataAccess\obj\Debug\DataAccess.csproj.ResolveComReference.cache
+D:\Jose Cardenas\Escritorio\JOSE - copia\desarrollando\Commerce-copia\OneCommerce\DataAccess\obj\Debug\DataAccess.dll
+D:\Jose Cardenas\Escritorio\JOSE - copia\desarrollando\Commerce-copia\OneCommerce\DataAccess\obj\Debug\DataAccess.pdb
+D:\Commerce-copia\OneCommerce\DataAccess\bin\Debug\DataAccess.dll
+D:\Commerce-copia\OneCommerce\DataAccess\bin\Debug\DataAccess.pdb
+D:\Commerce-copia\OneCommerce\DataAccess\bin\Debug\BusinessEntities.dll
+D:\Commerce-copia\OneCommerce\DataAccess\bin\Debug\BusinessEntities.pdb
+D:\Commerce-copia\OneCommerce\DataAccess\obj\Debug\DataAccess.csprojResolveAssemblyReference.cache
+D:\Commerce-copia\OneCommerce\DataAccess\obj\Debug\Interop.SAPbobsCOM.dll
+D:\Commerce-copia\OneCommerce\DataAccess\obj\Debug\DataAccess.csproj.ResolveComReference.cache
+D:\Commerce-copia\OneCommerce\DataAccess\obj\Debug\DataAccess.dll
+D:\Commerce-copia\OneCommerce\DataAccess\obj\Debug\DataAccess.pdb
+D:\Fuentes de Aplicaciones Modificadas\Commerce-copia\OneCommerce\DataAccess\bin\Debug\DataAccess.dll
+D:\Fuentes de Aplicaciones Modificadas\Commerce-copia\OneCommerce\DataAccess\bin\Debug\DataAccess.pdb
+D:\Fuentes de Aplicaciones Modificadas\Commerce-copia\OneCommerce\DataAccess\bin\Debug\BusinessEntities.dll
+D:\Fuentes de Aplicaciones Modificadas\Commerce-copia\OneCommerce\DataAccess\bin\Debug\BusinessEntities.pdb
+D:\Fuentes de Aplicaciones Modificadas\Commerce-copia\OneCommerce\DataAccess\obj\Debug\DataAccess.csprojResolveAssemblyReference.cache
+D:\Fuentes de Aplicaciones Modificadas\Commerce-copia\OneCommerce\DataAccess\obj\Debug\Interop.SAPbobsCOM.dll
+D:\Fuentes de Aplicaciones Modificadas\Commerce-copia\OneCommerce\DataAccess\obj\Debug\DataAccess.csproj.ResolveComReference.cache
+D:\Fuentes de Aplicaciones Modificadas\Commerce-copia\OneCommerce\DataAccess\obj\Debug\DataAccess.dll
+D:\Fuentes de Aplicaciones Modificadas\Commerce-copia\OneCommerce\DataAccess\obj\Debug\DataAccess.pdb
+E:\Ultimas fuentes\Commerce\OneCommerce\DataAccess\bin\Debug\DataAccess.dll
+E:\Ultimas fuentes\Commerce\OneCommerce\DataAccess\bin\Debug\DataAccess.pdb
+E:\Ultimas fuentes\Commerce\OneCommerce\DataAccess\bin\Debug\BusinessEntities.dll
+E:\Ultimas fuentes\Commerce\OneCommerce\DataAccess\bin\Debug\BusinessEntities.pdb
+E:\Ultimas fuentes\Commerce\OneCommerce\DataAccess\obj\Debug\DataAccess.csprojResolveAssemblyReference.cache
+E:\Ultimas fuentes\Commerce\OneCommerce\DataAccess\obj\Debug\Interop.SAPbobsCOM.dll
+E:\Ultimas fuentes\Commerce\OneCommerce\DataAccess\obj\Debug\DataAccess.csproj.ResolveComReference.cache
+E:\Ultimas fuentes\Commerce\OneCommerce\DataAccess\obj\Debug\DataAccess.dll
+E:\Ultimas fuentes\Commerce\OneCommerce\DataAccess\obj\Debug\DataAccess.pdb
+C:\Users\williamsga\Desktop\Commerce\OneCommerce\DataAccess\bin\Debug\DataAccess.dll
+C:\Users\williamsga\Desktop\Commerce\OneCommerce\DataAccess\bin\Debug\DataAccess.pdb
+C:\Users\williamsga\Desktop\Commerce\OneCommerce\DataAccess\bin\Debug\BusinessEntities.dll
+C:\Users\williamsga\Desktop\Commerce\OneCommerce\DataAccess\bin\Debug\BusinessEntities.pdb
+C:\Users\williamsga\Desktop\Commerce\OneCommerce\DataAccess\obj\Debug\DataAccess.csprojResolveAssemblyReference.cache
+C:\Users\williamsga\Desktop\Commerce\OneCommerce\DataAccess\obj\Debug\Interop.SAPbobsCOM.dll
+C:\Users\williamsga\Desktop\Commerce\OneCommerce\DataAccess\obj\Debug\DataAccess.csproj.ResolveComReference.cache
+C:\Users\williamsga\Desktop\Commerce\OneCommerce\DataAccess\obj\Debug\DataAccess.dll
+C:\Users\williamsga\Desktop\Commerce\OneCommerce\DataAccess\obj\Debug\DataAccess.pdb
+\\tsclient\D\Trabajo BF\BF\Fuente de las APPS\Ultimas fuentes\Commerce\OneCommerce\DataAccess\bin\Debug\DataAccess.dll
+\\tsclient\D\Trabajo BF\BF\Fuente de las APPS\Ultimas fuentes\Commerce\OneCommerce\DataAccess\bin\Debug\DataAccess.pdb
+\\tsclient\D\Trabajo BF\BF\Fuente de las APPS\Ultimas fuentes\Commerce\OneCommerce\DataAccess\bin\Debug\BusinessEntities.dll
+\\tsclient\D\Trabajo BF\BF\Fuente de las APPS\Ultimas fuentes\Commerce\OneCommerce\DataAccess\bin\Debug\BusinessEntities.pdb
+\\tsclient\D\Trabajo BF\BF\Fuente de las APPS\Ultimas fuentes\Commerce\OneCommerce\DataAccess\obj\Debug\DataAccess.csprojResolveAssemblyReference.cache
+\\tsclient\D\Trabajo BF\BF\Fuente de las APPS\Ultimas fuentes\Commerce\OneCommerce\DataAccess\obj\Debug\Interop.SAPbobsCOM.dll
+\\tsclient\D\Trabajo BF\BF\Fuente de las APPS\Ultimas fuentes\Commerce\OneCommerce\DataAccess\obj\Debug\DataAccess.csproj.ResolveComReference.cache
+\\tsclient\D\Trabajo BF\BF\Fuente de las APPS\Ultimas fuentes\Commerce\OneCommerce\DataAccess\obj\Debug\DataAccess.dll
+\\tsclient\D\Trabajo BF\BF\Fuente de las APPS\Ultimas fuentes\Commerce\OneCommerce\DataAccess\obj\Debug\DataAccess.pdb
+D:\Trabajo BF\BF\Fuente de las APPS\Ultimas fuentes\Commerce\OneCommerce\DataAccess\bin\Debug\DataAccess.dll
+D:\Trabajo BF\BF\Fuente de las APPS\Ultimas fuentes\Commerce\OneCommerce\DataAccess\bin\Debug\DataAccess.pdb
+D:\Trabajo BF\BF\Fuente de las APPS\Ultimas fuentes\Commerce\OneCommerce\DataAccess\bin\Debug\BusinessEntities.dll
+D:\Trabajo BF\BF\Fuente de las APPS\Ultimas fuentes\Commerce\OneCommerce\DataAccess\bin\Debug\BusinessEntities.pdb
+D:\Trabajo BF\BF\Fuente de las APPS\Ultimas fuentes\Commerce\OneCommerce\DataAccess\obj\Debug\DataAccess.csprojResolveAssemblyReference.cache
+D:\Trabajo BF\BF\Fuente de las APPS\Ultimas fuentes\Commerce\OneCommerce\DataAccess\obj\Debug\Interop.SAPbobsCOM.dll
+D:\Trabajo BF\BF\Fuente de las APPS\Ultimas fuentes\Commerce\OneCommerce\DataAccess\obj\Debug\DataAccess.csproj.ResolveComReference.cache
+D:\Trabajo BF\BF\Fuente de las APPS\Ultimas fuentes\Commerce\OneCommerce\DataAccess\obj\Debug\DataAccess.dll
+D:\Trabajo BF\BF\Fuente de las APPS\Ultimas fuentes\Commerce\OneCommerce\DataAccess\obj\Debug\DataAccess.pdb
+D:\OneCommerce\DataAccess\bin\Debug\DataAccess.dll
+D:\OneCommerce\DataAccess\bin\Debug\DataAccess.pdb
+D:\OneCommerce\DataAccess\bin\Debug\BusinessEntities.dll
+D:\OneCommerce\DataAccess\bin\Debug\BusinessEntities.pdb
+D:\OneCommerce\DataAccess\obj\Debug\DataAccess.csprojResolveAssemblyReference.cache
+D:\OneCommerce\DataAccess\obj\Debug\Interop.SAPbobsCOM.dll
+D:\OneCommerce\DataAccess\obj\Debug\DataAccess.csproj.ResolveComReference.cache
+D:\OneCommerce\DataAccess\obj\Debug\DataAccess.dll
+D:\OneCommerce\DataAccess\obj\Debug\DataAccess.pdb
+D:\Christofer\OneCommerce\DataAccess\bin\Debug\DataAccess.dll
+D:\Christofer\OneCommerce\DataAccess\bin\Debug\DataAccess.pdb
+D:\Christofer\OneCommerce\DataAccess\bin\Debug\BusinessEntities.dll
+D:\Christofer\OneCommerce\DataAccess\bin\Debug\BusinessEntities.pdb
+D:\Christofer\OneCommerce\DataAccess\obj\Debug\DataAccess.csprojResolveAssemblyReference.cache
+D:\Christofer\OneCommerce\DataAccess\obj\Debug\Interop.SAPbobsCOM.dll
+D:\Christofer\OneCommerce\DataAccess\obj\Debug\DataAccess.csproj.ResolveComReference.cache
+D:\Christofer\OneCommerce\DataAccess\obj\Debug\DataAccess.dll
+D:\Christofer\OneCommerce\DataAccess\obj\Debug\DataAccess.pdb
+D:\Christofer\OneCommerce\ERPAlexia\DataAccess\bin\Debug\DataAccess.dll
+D:\Christofer\OneCommerce\ERPAlexia\DataAccess\bin\Debug\DataAccess.pdb
+D:\Christofer\OneCommerce\ERPAlexia\DataAccess\bin\Debug\BusinessEntities.dll
+D:\Christofer\OneCommerce\ERPAlexia\DataAccess\bin\Debug\BusinessEntities.pdb
+D:\Christofer\OneCommerce\ERPAlexia\DataAccess\obj\Debug\DataAccess.csprojResolveAssemblyReference.cache
+D:\Christofer\OneCommerce\ERPAlexia\DataAccess\obj\Debug\Interop.SAPbobsCOM.dll
+D:\Christofer\OneCommerce\ERPAlexia\DataAccess\obj\Debug\DataAccess.csproj.ResolveComReference.cache
+D:\Christofer\OneCommerce\ERPAlexia\DataAccess\obj\Debug\DataAccess.dll
+D:\Christofer\OneCommerce\ERPAlexia\DataAccess\obj\Debug\DataAccess.pdb
+D:\OLE_FINAL\ERPAlexia\DataAccess\bin\Debug\DataAccess.dll
+D:\OLE_FINAL\ERPAlexia\DataAccess\bin\Debug\DataAccess.pdb
+D:\OLE_FINAL\ERPAlexia\DataAccess\bin\Debug\BusinessEntities.dll
+D:\OLE_FINAL\ERPAlexia\DataAccess\bin\Debug\BusinessEntities.pdb
+D:\OLE_FINAL\ERPAlexia\DataAccess\obj\Debug\DataAccess.csprojResolveAssemblyReference.cache
+D:\OLE_FINAL\ERPAlexia\DataAccess\obj\Debug\Interop.SAPbobsCOM.dll
+D:\OLE_FINAL\ERPAlexia\DataAccess\obj\Debug\DataAccess.csproj.ResolveComReference.cache
+D:\OLE_FINAL\ERPAlexia\DataAccess\obj\Debug\DataAccess.dll
+D:\OLE_FINAL\ERPAlexia\DataAccess\obj\Debug\DataAccess.pdb
+D:\Christofer\OC OLENKA\ERPAlexia\DataAccess\bin\Debug\DataAccess.dll
+D:\Christofer\OC OLENKA\ERPAlexia\DataAccess\bin\Debug\DataAccess.pdb
+D:\Christofer\OC OLENKA\ERPAlexia\DataAccess\bin\Debug\BusinessEntities.dll
+D:\Christofer\OC OLENKA\ERPAlexia\DataAccess\bin\Debug\BusinessEntities.pdb
+D:\Christofer\OC OLENKA\ERPAlexia\DataAccess\obj\Debug\DataAccess.csprojResolveAssemblyReference.cache
+D:\Christofer\OC OLENKA\ERPAlexia\DataAccess\obj\Debug\Interop.SAPbobsCOM.dll
+D:\Christofer\OC OLENKA\ERPAlexia\DataAccess\obj\Debug\DataAccess.csproj.ResolveComReference.cache
+D:\Christofer\OC OLENKA\ERPAlexia\DataAccess\obj\Debug\DataAccess.dll
+D:\Christofer\OC OLENKA\ERPAlexia\DataAccess\obj\Debug\DataAccess.pdb
+D:\Christofer2.0\ERPAlexia\ERPAlexia\DataAccess\bin\Debug\DataAccess.dll
+D:\Christofer2.0\ERPAlexia\ERPAlexia\DataAccess\bin\Debug\DataAccess.pdb
+D:\Christofer2.0\ERPAlexia\ERPAlexia\DataAccess\bin\Debug\BusinessEntities.dll
+D:\Christofer2.0\ERPAlexia\ERPAlexia\DataAccess\bin\Debug\BusinessEntities.pdb
+D:\Christofer2.0\ERPAlexia\ERPAlexia\DataAccess\obj\Debug\DataAccess.csprojResolveAssemblyReference.cache
+D:\Christofer2.0\ERPAlexia\ERPAlexia\DataAccess\obj\Debug\Interop.SAPbobsCOM.dll
+D:\Christofer2.0\ERPAlexia\ERPAlexia\DataAccess\obj\Debug\DataAccess.csproj.ResolveComReference.cache
+D:\Christofer2.0\ERPAlexia\ERPAlexia\DataAccess\obj\Debug\DataAccess.dll
+D:\Christofer2.0\ERPAlexia\ERPAlexia\DataAccess\obj\Debug\DataAccess.pdb
+D:\Christofer\PRUEBA\ERPAlexia\DataAccess\bin\Debug\DataAccess.dll
+D:\Christofer\PRUEBA\ERPAlexia\DataAccess\bin\Debug\DataAccess.pdb
+D:\Christofer\PRUEBA\ERPAlexia\DataAccess\bin\Debug\BusinessEntities.dll
+D:\Christofer\PRUEBA\ERPAlexia\DataAccess\bin\Debug\BusinessEntities.pdb
+D:\Christofer\PRUEBA\ERPAlexia\DataAccess\obj\Debug\DataAccess.csprojResolveAssemblyReference.cache
+D:\Christofer\PRUEBA\ERPAlexia\DataAccess\obj\Debug\Interop.SAPbobsCOM.dll
+D:\Christofer\PRUEBA\ERPAlexia\DataAccess\obj\Debug\DataAccess.csproj.ResolveComReference.cache
+D:\Christofer\PRUEBA\ERPAlexia\DataAccess\obj\Debug\DataAccess.dll
+D:\Christofer\PRUEBA\ERPAlexia\DataAccess\obj\Debug\DataAccess.pdb
+D:\Olenka\ULTIMA VERSION\ERPAlexia\DataAccess\bin\Debug\DataAccess.dll
+D:\Olenka\ULTIMA VERSION\ERPAlexia\DataAccess\bin\Debug\DataAccess.pdb
+D:\Olenka\ULTIMA VERSION\ERPAlexia\DataAccess\bin\Debug\BusinessEntities.dll
+D:\Olenka\ULTIMA VERSION\ERPAlexia\DataAccess\bin\Debug\BusinessEntities.pdb
+D:\Olenka\ULTIMA VERSION\ERPAlexia\DataAccess\obj\Debug\DataAccess.csprojResolveAssemblyReference.cache
+D:\Olenka\ULTIMA VERSION\ERPAlexia\DataAccess\obj\Debug\Interop.SAPbobsCOM.dll
+D:\Olenka\ULTIMA VERSION\ERPAlexia\DataAccess\obj\Debug\DataAccess.csproj.ResolveComReference.cache
+D:\Olenka\ULTIMA VERSION\ERPAlexia\DataAccess\obj\Debug\DataAccess.dll
+D:\Olenka\ULTIMA VERSION\ERPAlexia\DataAccess\obj\Debug\DataAccess.pdb
+D:\ORIGINALES OLENKA\GRAFI\ERPAlexia\DataAccess\bin\Debug\DataAccess.dll
+D:\ORIGINALES OLENKA\GRAFI\ERPAlexia\DataAccess\bin\Debug\DataAccess.pdb
+D:\ORIGINALES OLENKA\GRAFI\ERPAlexia\DataAccess\bin\Debug\BusinessEntities.dll
+D:\ORIGINALES OLENKA\GRAFI\ERPAlexia\DataAccess\bin\Debug\BusinessEntities.pdb
+D:\ORIGINALES OLENKA\GRAFI\ERPAlexia\DataAccess\obj\Debug\DataAccess.csprojResolveAssemblyReference.cache
+D:\ORIGINALES OLENKA\GRAFI\ERPAlexia\DataAccess\obj\Debug\Interop.SAPbobsCOM.dll
+D:\ORIGINALES OLENKA\GRAFI\ERPAlexia\DataAccess\obj\Debug\DataAccess.csproj.ResolveComReference.cache
+D:\ORIGINALES OLENKA\GRAFI\ERPAlexia\DataAccess\obj\Debug\DataAccess.dll
+D:\ORIGINALES OLENKA\GRAFI\ERPAlexia\DataAccess\obj\Debug\DataAccess.pdb
+D:\ORIGINALES OLENKA\GRF LIST\ERPAlexia\DataAccess\bin\Debug\DataAccess.dll
+D:\ORIGINALES OLENKA\GRF LIST\ERPAlexia\DataAccess\bin\Debug\DataAccess.pdb
+D:\ORIGINALES OLENKA\GRF LIST\ERPAlexia\DataAccess\bin\Debug\BusinessEntities.dll
+D:\ORIGINALES OLENKA\GRF LIST\ERPAlexia\DataAccess\bin\Debug\BusinessEntities.pdb
+D:\ORIGINALES OLENKA\GRF LIST\ERPAlexia\DataAccess\obj\Debug\DataAccess.csprojResolveAssemblyReference.cache
+D:\ORIGINALES OLENKA\GRF LIST\ERPAlexia\DataAccess\obj\Debug\Interop.SAPbobsCOM.dll
+D:\ORIGINALES OLENKA\GRF LIST\ERPAlexia\DataAccess\obj\Debug\DataAccess.csproj.ResolveComReference.cache
+D:\ORIGINALES OLENKA\GRF LIST\ERPAlexia\DataAccess\obj\Debug\DataAccess.dll
+D:\ORIGINALES OLENKA\GRF LIST\ERPAlexia\DataAccess\obj\Debug\DataAccess.pdb
+D:\Olenka\GRF LIST\ERPAlexia\DataAccess\bin\Debug\DataAccess.dll
+D:\Olenka\GRF LIST\ERPAlexia\DataAccess\bin\Debug\DataAccess.pdb
+D:\Olenka\GRF LIST\ERPAlexia\DataAccess\bin\Debug\BusinessEntities.dll
+D:\Olenka\GRF LIST\ERPAlexia\DataAccess\bin\Debug\ResultSetMappers.dll
+D:\Olenka\GRF LIST\ERPAlexia\DataAccess\bin\Debug\BusinessEntities.pdb
+D:\Olenka\GRF LIST\ERPAlexia\DataAccess\obj\Debug\DataAccess.csprojResolveAssemblyReference.cache
+D:\Olenka\GRF LIST\ERPAlexia\DataAccess\obj\Debug\Interop.SAPbobsCOM.dll
+D:\Olenka\GRF LIST\ERPAlexia\DataAccess\obj\Debug\DataAccess.csproj.ResolveComReference.cache
+D:\Olenka\GRF LIST\ERPAlexia\DataAccess\obj\Debug\DataAccess.dll
+D:\Olenka\GRF LIST\ERPAlexia\DataAccess\obj\Debug\DataAccess.pdb
