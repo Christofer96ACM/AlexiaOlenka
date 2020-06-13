@@ -67,6 +67,7 @@
                                                                 <Items>
                                                                     <dx:ListEditItem Selected="True" Text="Jurídica" Value="TPJ" />
                                                                     <dx:ListEditItem Text="Natural" Value="TPN" />
+                                                                    <dx:ListEditItem Text="No Domiciliado" Value="SND" />
                                                                 </Items>
                                                                 <ClientSideEvents SelectedIndexChanged="Get_CrDocumentType" />
                                                             </dx:ASPxComboBox>
@@ -1123,6 +1124,16 @@
                                             ClientInstanceName="bteClientSearch" AutoPostBack="False">
                                             <ClientSideEvents Click="Get_Client" />
                                         </dx:ASPxButton>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td id="ClientParCaptin" style="width:105px">
+                                        Razón Social:</td>
+                                    <td style="width:280px">
+                                        <dx:ASPxTextBox ID="txtRazonS" runat="server" Width="100%" 
+                                            ClientInstanceName="txtRazonS">
+                                            <ClientSideEvents KeyPress="Get_Client" />
+                                        </dx:ASPxTextBox>
                                     </td>
                                 </tr>
                             </table>

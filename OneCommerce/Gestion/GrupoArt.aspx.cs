@@ -141,66 +141,170 @@ namespace OneCommerce.Gestion
             var olst = obrd.DXP_GET_GRUPO_ARTICULOS(obep);
             return (olst);
         }
-        //private string SaveItem()
-        //{
-        //    var obec = ((BEParameters)Session["InitPar"]);
-        //    var obj = new BEGrupoArt();
+        private string SaveItem()
+        {
+            var obec = ((BEParameters)Session["InitPar"]);
+            var obj = new BEGrupoArt();
 
-        //    obj.ItmsGrpNam = txtItmsGrpNam.Text;
-        //    obj.PlaningSys = Convert.ToString(cbbPlaningSys.Value);
-        //    obj.PrcrmntMtd = Convert.ToString(cbbPrcrmntMtd.Value);
-        //    obj.OrdrIntrvl = Convert.ToString(cbbOrdrIntrvl.Value);
-        //    obj.OrdrMulti  = txtOrdrMulti.Text;
-        //    obj.MinOrdrQty = txtMinOrdrQty.Text;
-        //    obj.LeadTime =txtLeadTime.Text;
-        //    obj.ToleranDay =txtToleranDay.Text;
-        //    obj.ExpensesAc= betxtExpensesAc.Text;
-        //    obj.BalInvntAc = bteBalInvntAc.Text;
-        //    obj.SaleCostAc = bteSaleCostAc.Text;
-        //    obj.TransferAc = bteTransferAc.Text;
-        //    obj.VarianceAc = bteVarianceAc.Text;
-        //    obj.PriceDifAc = btePriceDifAc.Text;
-        //    obj.NegStckAct = bteNegStckAct.Text;
-        //    obj.DecreasAc = bteDecreasAc.Text;
-        //    obj.IncreasAc = bteIncreasAc.Text;
-        //    obj.ReturnAc = bteReturnAc.Text;
-        //    obj.FrRevenuAc = betFrRevenuAc.Text;
-        //    obj.FrExpensAc = bteFrExpensAc.Text;
-        //    obj.ExchangeAc = bteExchangeAc.Text;
-        //    obj.BalanceAcc = bteBalanceAcc.Text;
-        //    obj.DecresGlAc = bteDecresGlAc.Text;
-        //    obj.IncresGlAc = bteIncresGlAc.Text;
-        //    obj.WipAcct = bteWipAcct.Text;
-        //    obj.WipVarAcct = bteWipVarAcct.Text;
-        //    obj.StokRvlAct = bteStokRvlAct.Text;
-        //    obj.StkOffsAct = bteStkOffsAct.Text;
-        //    obj.ExpClrAct = bteExpClrAct.Text;
-        //    obj.StkInTnAct = bteStkInTnAct.Text;
-        //    obj.ARCMAct = bteARCMAct.Text;
+            obj.ItmsGrpNam = txtItmsGrpNam.Text;
+            obj.PlaningSys = Convert.ToString(cbbPlaningSys.Value);
+            obj.PrcrmntMtd = Convert.ToString(cbbPrcrmntMtd.Value);
+            obj.OrdrIntrvl = Convert.ToString(cbbOrdrIntrvl.Value);
+            if(txtOrdrMulti.Text=="" || txtOrdrMulti.Text == null)
+            {
+                obj.OrdrMulti = "0.000000";
+            }
+            else
+            {
+                obj.OrdrMulti = txtOrdrMulti.Text;
+            }
+            if (txtMinOrdrQty.Text == "" || txtMinOrdrQty.Text == null)
+            {
+                obj.MinOrdrQty = "0.000000";
+            }
+            else
+            {
+                obj.MinOrdrQty = txtMinOrdrQty.Text;
+            }
 
 
-        //    //obj.Almacenes = ((List<BEAlmacen>)Session["oitw"]);
-        //    //obj.Precios = ((List<BEPrice>)Session["opln"]);
 
-        //    //using (var obrd = new BRDocument())
-        //    //{
-        //    //    obrd.SaveItems(obj, ((BEParameters)Session["InitPar"]).objSapSbo);
-        //    //}
-        //    //var _err = !string.IsNullOrWhiteSpace(obj.Msg) ? obj.Msg : "OKBP";
-        //    //Init_VarSessions();
-        //    return (_err);
-        //}
+            
+            obj.LeadTime = txtLeadTime.Text;
+            obj.ToleranDay = txtToleranDay.Text;
+
+            obj.ExpensesAc = betxtExpensesAc.Text;
+            obj.RevenuesAc = beRevenuesAc.Text;
+            obj.BalInvntAc = bteBalInvntAc.Text;
+            obj.SaleCostAc =bteSaleCostAc.Text;
+            obj.TransferAc = bteTransferAc.Text;
+            obj.VarianceAc = bteVarianceAc.Text;
+            obj.PriceDifAc= btePriceDifAc.Text;
+            obj.NegStckAct= bteNegStckAct.Text;
+            obj.DecreasAc = bteDecreasAc.Text;
+            obj.IncreasAc=bteIncreasAc.Text;
+            obj.ReturnAc= bteReturnAc.Text;
+            obj.FrRevenuAc = betFrRevenuAc.Text;
+            obj.FrExpensAc = bteFrExpensAc.Text;
+            obj.ExchangeAc = bteExchangeAc.Text;
+            obj.BalanceAcc= bteBalanceAcc.Text;
+            obj.DecresGlAc= bteDecresGlAc.Text;
+            obj.IncresGlAc=bteIncresGlAc.Text;
+            obj.WipAcct = bteWipAcct.Text;
+            obj.WipVarAcct=bteWipVarAcct.Text;
+            obj.StokRvlAct = bteStokRvlAct.Text;
+            obj.StkOffsAct = bteStkOffsAct.Text;
+            obj.ExpClrAct= bteExpClrAct.Text;
+            obj.StkInTnAct = bteStkInTnAct.Text;
+            obj.ARCMAct = bteARCMAct.Text;
+            obj.APCMAct=bteAPCMAct.Text;
+            obj.ARCMFrnAct= bteARCMFrnAct.Text;
+            obj.APCMFrnAct= bteAPCMFrnAct.Text;
+
+
+
+
+
+
+
+
+            using (var obrd = new BRDocument())
+            {
+                obrd.SaveGrupoArt(obj, ((BEParameters)Session["InitPar"]).objSapSbo);
+            }
+            var _err = !string.IsNullOrWhiteSpace(obj.Msg) ? obj.Msg : "OKBP";
+            //Init_VarSessions();
+            return (_err);
+        }
+
+        private string Update()
+        {
+            var obec = ((BEParameters)Session["InitPar"]);
+            var obj = new BEGrupoArt();
+
+            obj.ItmsGrpNam = txtItmsGrpNam.Text;
+            obj.ItmsGrpCod = txtCode.Text;
+            obj.PlaningSys = Convert.ToString(cbbPlaningSys.Value);
+            obj.PrcrmntMtd = Convert.ToString(cbbPrcrmntMtd.Value);
+            obj.OrdrIntrvl = Convert.ToString(cbbOrdrIntrvl.Value);
+            if (txtOrdrMulti.Text == "" || txtOrdrMulti.Text == null)
+            {
+                obj.OrdrMulti = "0.000000";
+            }
+            else
+            {
+                obj.OrdrMulti = txtOrdrMulti.Text;
+            }
+            if (txtMinOrdrQty.Text == "" || txtMinOrdrQty.Text == null)
+            {
+                obj.MinOrdrQty = "0.000000";
+            }
+            else
+            {
+                obj.MinOrdrQty = txtMinOrdrQty.Text;
+            }
+
+
+
+
+            obj.LeadTime = txtLeadTime.Text;
+            obj.ToleranDay = txtToleranDay.Text;
+
+            obj.ExpensesAc = betxtExpensesAc.Text;
+            obj.RevenuesAc = beRevenuesAc.Text;
+            obj.BalInvntAc = bteBalInvntAc.Text;
+            obj.SaleCostAc = bteSaleCostAc.Text;
+            obj.TransferAc = bteTransferAc.Text;
+            obj.VarianceAc = bteVarianceAc.Text;
+            obj.PriceDifAc = btePriceDifAc.Text;
+            obj.NegStckAct = bteNegStckAct.Text;
+            obj.DecreasAc = bteDecreasAc.Text;
+            obj.IncreasAc = bteIncreasAc.Text;
+            obj.ReturnAc = bteReturnAc.Text;
+            obj.FrRevenuAc = betFrRevenuAc.Text;
+            obj.FrExpensAc = bteFrExpensAc.Text;
+            obj.ExchangeAc = bteExchangeAc.Text;
+            obj.BalanceAcc = bteBalanceAcc.Text;
+            obj.DecresGlAc = bteDecresGlAc.Text;
+            obj.IncresGlAc = bteIncresGlAc.Text;
+            obj.WipAcct = bteWipAcct.Text;
+            obj.WipVarAcct = bteWipVarAcct.Text;
+            obj.StokRvlAct = bteStokRvlAct.Text;
+            obj.StkOffsAct = bteStkOffsAct.Text;
+            obj.ExpClrAct = bteExpClrAct.Text;
+            obj.StkInTnAct = bteStkInTnAct.Text;
+            obj.ARCMAct = bteARCMAct.Text;
+            obj.APCMAct = bteAPCMAct.Text;
+            obj.ARCMFrnAct = bteARCMFrnAct.Text;
+            obj.APCMFrnAct = bteAPCMFrnAct.Text;
+
+
+
+
+
+
+
+            using (var obrd = new BRDocument())
+            {
+                obrd.UpdateGrupoArt(obj, ((BEParameters)Session["InitPar"]).objSapSbo);
+            }
+            var _err = !string.IsNullOrWhiteSpace(obj.Msg) ? obj.Msg : "OKUPDBP"; 
+            //Init_VarSessions();
+            return (_err);
+        }
+
+
         protected void clbOperation_Callback(object source, CallbackEventArgs e)
         {
             try
             {
                 if (e.Parameter.Contains("SaveItem"))
                 {
-                    //e.Result = Save();
+                    e.Result = SaveItem();
                 }
                 else if (e.Parameter.Contains("Modify"))
                 {
-                    //e.Result = Update();
+                    e.Result = Update();
                 }
                 else
                 {
@@ -242,12 +346,28 @@ namespace OneCommerce.Gestion
                 Descripcion = txtnombregrupo.Text,
 
             };
-            var obrd = new BRDocument();
-            var olst = obrd.DXP_GET_GRUPO_ART(obj);
-            Session["grupo"] = olst;
-            gdvGrupoArt.DataSource = olst;
-            gdvGrupoArt.DataBind();
+            if (e.Parameters.Contains("SRCH"))
+            {
+                var obrd = new BRDocument();
+                var olst = obrd.DXP_GET_GRUPO_ART(obj);
+                Session["grupo"] = olst;
+                gdvGrupoArt.DataSource = olst;
+                gdvGrupoArt.DataBind();
+
+            }
+
+
+            else  if (e.Parameters.Contains("CLR"))
+            {
+
+                ((List<BEGrupoArt>)Session["grupo"]).Clear();
+                gdvGrupoArt.DataSource = Session["grupo"];
+                gdvGrupoArt.DataBind();
+            }
+
+
         }
+
 
         protected void gdvGrupoArt_DataBinding(object sender, EventArgs e)
         {

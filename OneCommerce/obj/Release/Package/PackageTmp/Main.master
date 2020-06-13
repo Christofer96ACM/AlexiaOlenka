@@ -30,6 +30,13 @@
                                             </dx:NavBarItem>
                                         </Items>
                                     </dx:NavBarGroup>
+                                      <dx:NavBarGroup Name="Gestion" Text="Gestion" Expanded="False">
+                                        <Items>
+                                            <dx:NavBarItem Name="Grupo de Articulos" Text="Grupo de Articulos" NavigateUrl="~/Gestion/GrupoArt.aspx">
+                                            </dx:NavBarItem>
+                                           
+                                        </Items>
+                                    </dx:NavBarGroup>
                                     <dx:NavBarGroup Name="Sales" Text="Ventas" Expanded="False">
                                         <Items>
                                             <dx:NavBarItem Name="Quotation" Text="Oferta de Venta" NavigateUrl="~/Sales/Oferta.aspx">

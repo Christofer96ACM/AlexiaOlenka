@@ -122,7 +122,9 @@ namespace OneCommerce.Masters
                 {
                     Socied = obec.Socied,
                     ItemCode = txtParProduct.Text.Trim(),
-                    WhsCode = obec.WhsCode
+                    WhsCode = obec.WhsCode,
+                    VALOR = txtmarc.Text,
+                    Descripcion = txtdescrip.Text
                 };
                 var obrd = new BRDocument();
                 var olst = obrd.DXP_GET_KITS(obep);
@@ -338,7 +340,9 @@ namespace OneCommerce.Masters
                 {
                     Socied = obec.Socied,
                     ItemCode = txtParProduct2.Text.Trim(),
-                    WhsCode = obec.WhsCode
+                    WhsCode = obec.WhsCode,
+                    VALOR = txtmarc2.Text,
+                    Descripcion = txtdescrip2.Text
                 };
                 var obrd = new BRDocument();
                 var olst = obrd.DXP_GET_ITEM_SEGUN_ALMACEN(obep);
@@ -380,8 +384,10 @@ namespace OneCommerce.Masters
                 var obep = new BEParameters()
                 {
                     Socied = obec.Socied,
-                    ItemCode = txtParProduct2.Text.Trim(),
-                    WhsCode = obec.WhsCode
+                    ItemCode = txtParProduct3.Text.Trim(),
+                    WhsCode = obec.WhsCode,
+                    VALOR = txtmarc3.Text,
+                    Descripcion = txtdescrip3.Text
                 };
                 var obrd = new BRDocument();
                 var olst = obrd.DXP_GET_ITEM_SEGUN_ALMACEN(obep);

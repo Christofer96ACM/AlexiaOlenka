@@ -870,8 +870,6 @@ namespace OneCommerce.Compras
                 DateIn = (DateTime?)dteDateIn.Value, 
                 DateFi = (DateTime?)dteDateFi.Value, 
                 NumAtCard = txtNumAtCards.Text,
-                CardCode = txtsCardCode.Text,
-                CardName = txtsCardName.Text,
                 Project = obec.Project
             };
             var obrd = new BRDocument();

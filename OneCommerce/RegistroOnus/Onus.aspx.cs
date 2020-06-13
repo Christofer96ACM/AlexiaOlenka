@@ -412,5 +412,10 @@ namespace OneCommerce.RegistroOnus
             grdvRegistroOnus.DataSource = ((List<BEOnu>)Session["DXP_REGISTRO_ONU"]);
             grdvRegistroOnus.DataBind();
         }
+
+        protected void btnExport_Click(object sender, EventArgs e)
+        {
+            gexData.WriteXlsxToResponse();
+        }
     }
 }

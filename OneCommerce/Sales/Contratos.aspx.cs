@@ -98,7 +98,7 @@ namespace OneCommerce.Sales
 
             //hdfTemp.Add("theme", ASPxWebControl.GlobalTheme);
             ////hdfTemp.Add("_emid", obec.U_BF_EMID);
-            //hdfTemp.Add("_soci", obec.Socied);
+            hdfTemp.Add("_soci", obec.Socied);
             //hdfTemp.Add("_proj", obec.Project);
             //hdfTemp.Add("_whsc", obec.WhsCode);
             //hdfTemp.Add("_cpnadd", obec.CompanyAddress.ToUpper());
@@ -184,13 +184,24 @@ namespace OneCommerce.Sales
             if (e.Parameters.Contains("INIT"))
             {
                 //var spl = e.Parameters.Split(':');
-                var obep1 = new BEParameters()
-                {
-                    Socied = obec.Socied,
-                    CardCode = txtCliente.Text,
-                    Id_Dire = txtIdDirec.Text,
-                    Code = txtCode.Text
-                };
+                var obep1 = new BEParameters();
+
+                obep1.Socied = obec.Socied;
+                obep1.CardCode = txtCliente.Text;
+                obep1.Id_Dire = txtIdDirec.Text;
+                obep1.Code = txtCode.Text;
+                obep1.LOCAL = txtcalle.Text;
+                obep1.distrito = txtdistr.Text;
+                obep1.provincia = txtprovinc.Text;
+                obep1.Descripcion = txturba.Text;
+                obep1.Project = obec.Project;
+                if (string.IsNullOrEmpty(cbbVendedor.Text))
+                    obep1.CompanyDB = "";
+                else
+                    obep1.CompanyDB = cbbVendedor.Value.ToString();
+                obep1.DateIn = (DateTime?)dtebusqueda.Value;
+                obep1.DateFi = (DateTime?)dtebusqueda2.Value;
+           
                 var obrd = new BRDocument();
                 var olst1 = obrd.DXP_GET_CONTRATOS(obep1);
 
@@ -329,6 +340,11 @@ namespace OneCommerce.Sales
         protected void gdvServicio_DataBinding(object sender, EventArgs e)
         {
             gdvServicio.DataSource = Session["drf1"];
+        }
+
+        protected void btnExport_Click(object sender, EventArgs e)
+        {
+            gexData.WriteXlsxToResponse();
         }
     }
 }

@@ -195,6 +195,26 @@
                                         </dx:ASPxTextBox>
                                     </td>
                                 </tr>
+                                <tr>
+                                    <td id="Prd" style="width:105px">
+                                        Descripción:</td>
+                                    <td style="width:300px">
+                                        <dx:ASPxTextBox ID="txtdescrip" runat="server" Width="300px" 
+                                            ClientInstanceName="txtdescrip">
+                                            <ClientSideEvents KeyUp="Get_Product1"/>
+                                        </dx:ASPxTextBox>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td id="Pr" style="width:105px">
+                                        Marca/Modelo:</td>
+                                    <td style="width:300px">
+                                        <dx:ASPxTextBox ID="txtmarc" runat="server" Width="300px" 
+                                            ClientInstanceName="txtmarc">
+                                            <ClientSideEvents KeyUp="Get_Product1"/>
+                                        </dx:ASPxTextBox>
+                                    </td>
+                                </tr>
                             </table>
                         </td>
                     </tr>
@@ -335,7 +355,7 @@
         </ContentCollection>
     </dx:ASPxPopupControl>   
     <dx:ASPxPopupControl ID="ppcProductSearch2" runat="server" 
-        ClientInstanceName="ppcProductSearch2" FooterText=" " HeaderText="Buscar Producto" 
+        ClientInstanceName="ppcProductSearch2" FooterText=" " HeaderText="Buscar Producto Hijos" 
         PopupHorizontalAlign="WindowCenter" PopupVerticalAlign="WindowCenter" 
         RenderMode="Lightweight" ShowFooter="True" Width="400px" Modal="true"
         AllowDragging="True" PopupAnimationType="Fade">
@@ -381,6 +401,26 @@
                                                     <Border BorderWidth="0px" />
                                                 </ErrorFrameStyle>
                                             </ValidationSettings>
+                                        </dx:ASPxTextBox>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td id="Prd1" style="width:105px">
+                                        Descripción:</td>
+                                    <td style="width:300px">
+                                        <dx:ASPxTextBox ID="txtdescrip2" runat="server" Width="300px" 
+                                            ClientInstanceName="txtdescrip2">
+                                            <ClientSideEvents KeyUp="Get_Product22"/>
+                                        </dx:ASPxTextBox>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td id="Pr1" style="width:105px">
+                                        Marca/Modelo:</td>
+                                    <td style="width:300px">
+                                        <dx:ASPxTextBox ID="txtmarc2" runat="server" Width="300px" 
+                                            ClientInstanceName="txtmarc2">
+                                            <ClientSideEvents KeyUp="Get_Product22"/>
                                         </dx:ASPxTextBox>
                                     </td>
                                 </tr>
@@ -550,7 +590,7 @@
         </Items>
     </dx:ASPxFormLayout>
     <dx:ASPxPopupControl ID="ppcProductSearch3" runat="server" 
-        ClientInstanceName="ppcProductSearch3" FooterText=" " HeaderText="Buscar Producto" 
+        ClientInstanceName="ppcProductSearch3" FooterText=" " HeaderText="Buscar Producto Padre" 
         PopupHorizontalAlign="WindowCenter" PopupVerticalAlign="WindowCenter" 
         RenderMode="Lightweight" ShowFooter="True" Width="400px" Modal="true"
         AllowDragging="True" PopupAnimationType="Fade">
@@ -596,6 +636,26 @@
                                                     <Border BorderWidth="0px" />
                                                 </ErrorFrameStyle>
                                             </ValidationSettings>
+                                        </dx:ASPxTextBox>
+                                    </td>
+                                </tr>
+                                 <tr>
+                                    <td id="Prd2" style="width:105px">
+                                        Descripción:</td>
+                                    <td style="width:300px">
+                                        <dx:ASPxTextBox ID="txtdescrip3" runat="server" Width="300px" 
+                                            ClientInstanceName="txtdescrip3">
+                                            <ClientSideEvents KeyUp="Get_Product33" />
+                                        </dx:ASPxTextBox>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td id="Pr2" style="width:105px">
+                                        Marca/Modelo:</td>
+                                    <td style="width:300px">
+                                        <dx:ASPxTextBox ID="txtmarc3" runat="server" Width="300px" 
+                                            ClientInstanceName="txtmarc3">
+                                            <ClientSideEvents KeyUp="Get_Product33"/>
                                         </dx:ASPxTextBox>
                                     </td>
                                 </tr>

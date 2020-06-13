@@ -869,6 +869,16 @@
                                         </dx:ASPxButton>
                                     </td>
                                 </tr>
+                                <tr>
+                                    <td id="ClientParCaptin" style="width:105px">
+                                        Razón Social:</td>
+                                    <td style="width:280px">
+                                        <dx:ASPxTextBox ID="txtRazonS" runat="server" Width="100%" 
+                                            ClientInstanceName="txtRazonS">
+                                            <ClientSideEvents KeyPress="Get_Client" />
+                                        </dx:ASPxTextBox>
+                                    </td>
+                                </tr>
                             </table>
                         </td>
                     </tr>
@@ -1456,14 +1466,14 @@
                                         <td style="width:5px">
                                         </td>
                                         <td style="width:130px">
-                                            Serie:</td>
+                                            Serie Doc.:</td>
                                         <td style="width:170px">
                                             <dx:ASPxTextBox ID="txtNumAtCards" runat="server"
                                                 ClientInstanceName="txtNumAtCards" Width="170px">
                                             </dx:ASPxTextBox>
                                         </td>
                                         <td style="width:130px">
-                                            Correlativo:</td>
+                                            Correlativo Doc.:</td>
                                         <td style="width:100px">
                                             <dx:ASPxTextBox ID="txtCorrelativo" runat="server"
                                                 ClientInstanceName="txtCorrelativo" Width="100px">
@@ -1505,6 +1515,12 @@
                                     </td>
                                     <td style="width:5px">
                                     </td>
+                                         <td style="width:40px"></td>
+                                        <td>
+                                             <dx:ASPxButton ID="btnExport" runat="server" AutoPostBack="False" 
+                                                OnClick="btnExport_Click" Text="Exportar" Width="100%">
+                                            </dx:ASPxButton>
+                                        </td>
                                     
                                 </tr>
                                 </table>
@@ -1626,6 +1642,19 @@
                                         <Row Font-Size="7pt">
                                         </Row>
                                     </Styles>
+                                     <SettingsPager Visible="False" Mode="ShowAllRecords">
+                                                    </SettingsPager>
+                                                    <SettingsEditing Mode="Inline" NewItemRowPosition="Bottom" />
+                                                    <Settings ShowFooter="True" ShowTitlePanel="True" />
+                                                    <SettingsText Title="Guias de Remisión" />
+                                                    <Styles>
+                                                        <Row Font-Size="7pt">
+                                                        </Row>
+                                                        <Footer Font-Size="1pt">
+                                                        </Footer>
+                                                        <TitlePanel Font-Bold="True" Font-Size="7pt" HorizontalAlign="Center">
+                                                        </TitlePanel>
+                                                    </Styles>
                                 </dx:ASPxGridView>
                             </td>
                         </tr>
@@ -1655,6 +1684,8 @@
                 </dx:PopupControlContentControl>
             </ContentCollection>
         </dx:ASPxPopupControl>
+    <dx:ASPxGridViewExporter ID="gexData" runat="server" GridViewID="gdvodlnSearch">
+    </dx:ASPxGridViewExporter>
         <dx:ASPxCallback ID="clbOperation" runat="server" 
         ClientInstanceName="clbOperation" oncallback="clbOperation_Callback">
         <ClientSideEvents CallbackComplete="Com_Operation" />

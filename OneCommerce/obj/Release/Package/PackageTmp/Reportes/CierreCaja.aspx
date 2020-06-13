@@ -142,7 +142,7 @@
     </dx:ASPxFormLayout>
     <dx:ASPxGridViewExporter ID="gexData" runat="server" GridViewID="gdvData">
     </dx:ASPxGridViewExporter>
-    <dx:ASPxFormLayout ID="frlMenu" runat="server" Visible="false">
+    <dx:ASPxFormLayout ID="frlMenu" runat="server">
         <Items>
             <dx:LayoutItem ShowCaption="False">
                 <LayoutItemNestedControlCollection>

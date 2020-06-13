@@ -535,5 +535,10 @@ namespace OneCommerce.Mikrotik
         {
 
         }
+
+        protected void btnExport_Click(object sender, EventArgs e)
+        {
+            gexData.WriteXlsxToResponse();
+        }
     }
 }

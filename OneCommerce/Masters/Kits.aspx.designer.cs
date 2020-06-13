@@ -130,6 +130,24 @@ namespace OneCommerce.Masters {
         protected global::DevExpress.Web.ASPxEditors.ASPxTextBox txtQuantityKit;
         
         /// <summary>
+        /// txtdescrip control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::DevExpress.Web.ASPxEditors.ASPxTextBox txtdescrip;
+        
+        /// <summary>
+        /// txtmarc control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::DevExpress.Web.ASPxEditors.ASPxTextBox txtmarc;
+        
+        /// <summary>
         /// gdvProductSearch control.
         /// </summary>
         /// <remarks>
@@ -209,6 +227,24 @@ namespace OneCommerce.Masters {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::DevExpress.Web.ASPxEditors.ASPxTextBox ASPxTextBox2;
+        
+        /// <summary>
+        /// txtdescrip2 control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::DevExpress.Web.ASPxEditors.ASPxTextBox txtdescrip2;
+        
+        /// <summary>
+        /// txtmarc2 control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::DevExpress.Web.ASPxEditors.ASPxTextBox txtmarc2;
         
         /// <summary>
         /// gdvProductSearch2 control.
@@ -326,6 +362,24 @@ namespace OneCommerce.Masters {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::DevExpress.Web.ASPxEditors.ASPxTextBox ASPxTextBox3;
+        
+        /// <summary>
+        /// txtdescrip3 control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::DevExpress.Web.ASPxEditors.ASPxTextBox txtdescrip3;
+        
+        /// <summary>
+        /// txtmarc3 control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::DevExpress.Web.ASPxEditors.ASPxTextBox txtmarc3;
         
         /// <summary>
         /// gdvProductSearch3 control.

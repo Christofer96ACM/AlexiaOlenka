@@ -57,6 +57,7 @@
                                                 ClientInstanceName="txtserial" ClientSideEvents-KeyUp="Get_Plan2"  AutoPostBack="false">
                                             </dx:ASPxTextBox>
                                         </td>
+                                      
                                         <%--<td style="width:20px;"></td>
                                         <td style="font-weight:bold;">
                                             Dirección de Abonado: 
@@ -110,6 +111,13 @@
                                             <dx:ASPxTextBox ID="txttypeonu" runat="server" Width="200px" 
                                                 ClientInstanceName="txttypeonu" ClientSideEvents-KeyUp="Get_Plan2"  AutoPostBack="false">
                                             </dx:ASPxTextBox>
+                                        </td>
+
+                                          <td style="width:20px;" colspan="3"></td>
+                                        <td>
+                                              <dx:ASPxButton ID="btnExport" runat="server" AutoPostBack="False" 
+                                                OnClick="btnExport_Click" Text="Exportar" Width="100%">
+                                            </dx:ASPxButton>
                                         </td>
 
 
@@ -251,6 +259,8 @@
             </dx:LayoutGroup> 
         </Items>
     </dx:ASPxFormLayout>
+    <dx:ASPxGridViewExporter ID="gexData" runat="server" GridViewID="grdvRegistroOnus">
+    </dx:ASPxGridViewExporter>
   
     <dx:ASPxFormLayout ID="frlMenu" runat="server">
         <Items>

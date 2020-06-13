@@ -96,7 +96,6 @@ function InitControls() {
 function Set_VisibleOption() {
     checkHideComp.SetEnabled(false);
     cbbTreeType.SetEnabled(false);
-    mnuOper.GetItemByName("Recursos").SetVisible(false);
     mnuOper.GetItemByName("Cancel").SetVisible(false);
     mnuOper.GetItemByName("Duplicate").SetVisible(false);
     mnuOper.GetItemByName("Export").SetVisible(false);
@@ -149,7 +148,7 @@ function Com_Operation(s, e) {
     var _spd = "";
     if (e.result.indexOf("OKBP") !== -1) {
         //ClearControlsClient();
-        alert("Exito...!!");
+        alert("¡Operación Concretada con Éxito!");
     }
     else {
         alert(e.result);
@@ -164,7 +163,7 @@ function ClearControlsClient() {
 function Get_Product() {
     gdvProductSearch.SetFocusedRowIndex(-1);
     gdvProductSearch.PerformCallback("GENERAL");
-    gdvProductSearch.Focus();
+    //gdvProductSearch.Focus();
 }
 function Get_Product1(s, e) {
     gdvProductSearch.SetFocusedRowIndex(-1);
@@ -214,7 +213,7 @@ function fincallback(s, e) {
 function Get_Product2() {
     gdvProductSearch2.SetFocusedRowIndex(-1);
     gdvProductSearch2.PerformCallback("GENERAL");
-    gdvProductSearch2.Focus();
+    //gdvProductSearch2.Focus();
 }
 function Get_Product22(s, e) {
     gdvProductSearch2.SetFocusedRowIndex(-1);
@@ -259,7 +258,7 @@ function Show_ProductSearch2() {
 function Get_Product3() {
     gdvProductSearch3.SetFocusedRowIndex(-1);
     gdvProductSearch3.PerformCallback("GENERAL");
-    gdvProductSearch3.Focus();
+    //gdvProductSearch3.Focus();
 }
 function Get_Product33(s, e) {
     gdvProductSearch3.SetFocusedRowIndex(-1);

@@ -819,6 +819,16 @@
                                         </dx:ASPxButton>
                                     </td>
                                 </tr>
+                                <tr>
+                                    <td id="ClientParCaptin" style="width:105px">
+                                        Razón Social:</td>
+                                    <td style="width:280px">
+                                        <dx:ASPxTextBox ID="txtRazonS" runat="server" Width="100%" 
+                                            ClientInstanceName="txtRazonS">
+                                            <ClientSideEvents KeyPress="Get_Client" />
+                                        </dx:ASPxTextBox>
+                                    </td>
+                                </tr>
                             </table>
                         </td>
                     </tr>
@@ -1284,6 +1294,12 @@
                                     </td>
                                     <td style="width:5px">
                                     </td>
+                                        <td style="width:40px"></td>
+                                        <td>
+                                             <dx:ASPxButton ID="btnExport" runat="server" AutoPostBack="False" 
+                                                OnClick="btnExport_Click" Text="Exportar" Width="100%">
+                                            </dx:ASPxButton>
+                                        </td>
                                     
                                 </tr>
                                 </table>
@@ -1409,6 +1425,21 @@
                                         <Row Font-Size="7pt">
                                         </Row>
                                     </Styles>
+                                      
+                                                    <SettingsPager Visible="False" Mode="ShowAllRecords">
+                                                    </SettingsPager>
+                                                    <SettingsEditing Mode="Inline" NewItemRowPosition="Bottom" />
+                                                    <Settings ShowFooter="True" ShowTitlePanel="True" />
+                                                    <SettingsText Title="Facturas" />
+                                                    <Styles>
+                                                        <Row Font-Size="7pt">
+                                                        </Row>
+                                                        <Footer Font-Size="1pt">
+                                                        </Footer>
+                                                        <TitlePanel Font-Bold="True" Font-Size="7pt" HorizontalAlign="Center">
+                                                        </TitlePanel>
+                                                    </Styles>
+                                                    
                                 </dx:ASPxGridView>
                             </td>
                         </tr>
@@ -1438,6 +1469,8 @@
                 </dx:PopupControlContentControl>
             </ContentCollection>
         </dx:ASPxPopupControl>
+     <dx:ASPxGridViewExporter ID="gexData" runat="server" GridViewID="gdvOinvSearch">
+    </dx:ASPxGridViewExporter>
 
         <dx:ASPxPopupControl ID="ppcOdlnSearch" runat="server" 
         ClientInstanceName="ppcOdlnSearch" FooterText=" " HeaderText="Buscar Guia de Remision" 

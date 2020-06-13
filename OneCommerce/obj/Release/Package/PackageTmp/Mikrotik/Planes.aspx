@@ -114,6 +114,12 @@
                                                 ClientInstanceName="btnBuscar" ClientSideEvents-Click="Get_Plan_Tecla" AutoPostBack="false">
                                             </dx:ASPxButton>
                                         </td>
+                                        <td style="width:35px;font-weight:bold"></td>
+                                        <td>
+                                              <dx:ASPxButton ID="btnExport" runat="server" AutoPostBack="False" 
+                                                OnClick="btnExport_Click" Text="Exportar" Width="100%">
+                                            </dx:ASPxButton>
+                                        </td>
                                        
                                     </tr>
                                 </table>
@@ -311,7 +317,7 @@
                                                     </SettingsPager>
                                                     <SettingsEditing Mode="EditForm" NewItemRowPosition="Bottom" />
                                                     <Settings ShowFooter="True" ShowTitlePanel="True" />
-                                                    <SettingsText Title="Contratos" />
+                                                    <SettingsText Title="Conexiones" />
                                                     <Styles>
                                                         <Row Font-Size="7pt">
                                                         </Row>
@@ -332,6 +338,8 @@
             </dx:LayoutGroup> 
         </Items>
     </dx:ASPxFormLayout>
+    <dx:ASPxGridViewExporter ID="gexData" runat="server" GridViewID="grdvPlanes">
+    </dx:ASPxGridViewExporter>
      <%-- popup CONSUMOS --%>
 
     <dx:ASPxPopupControl ID="ppcConsumo" runat="server" 

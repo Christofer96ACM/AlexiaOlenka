@@ -286,6 +286,7 @@ namespace OneCommerce.Sales
             {
                 Socied = obec.Socied,
                 ParValue = txtParClient.Text.Trim(),
+                CardName = txtRazonS.Text,
                 ColumnIndex = ((GridViewDataColumn)gdvClientSearch.GetSortedColumns().ElementAt(0)).VisibleIndex
             };
             var obrd = new BRDocument();
@@ -1481,6 +1482,11 @@ namespace OneCommerce.Sales
                     cbbPersonContact.SelectedIndex = 0;
                 }
             }
+        }
+
+        protected void btnExport_Click(object sender, EventArgs e)
+        {
+            gexData.WriteXlsxToResponse();
         }
     }
 }

@@ -1100,16 +1100,16 @@ namespace OneCommerce.Compras
                 //obj.U_BF_COCIT = txtConsigCity.Text;
                 //obj.U_BIZ_CONTA = cbbU_BIZ_CONTA.Value.ToString();
                 //obj.U_BIZ_TPDO = cbbU_BIZ_TPDO.Value.ToString();
-                obj.U_BIZ_DOCG = cbbU_BIZ_DOCG.Value.ToString();
+                //obj.U_BIZ_DOCG = cbbU_BIZ_DOCG.Value.ToString();
 
                 //if (string.Compare(obj.Socied, "BT", false) == 0)
                 //{
                 //obj.U_BF_CREDBM = Convert.ToDecimal(txtU_BF_CREDBM.Value);
                 //obj.U_BF_NumOV = bteU_BF_NumOV.Text;
-                obj.U_BIZ_MEDI = bteU_BIZ_MEDI.Text;
-                obj.U_BIZ_ESP = txtU_BIZ_ESPE.Text;
-                obj.U_BIZ_COLE = txtU_BIZ_COLE.Text;
-                obj.U_BIZ_DIRE_MED = txtU_BIZ_DIRE_MED.Text;
+                //obj.U_BIZ_MEDI = bteU_BIZ_MEDI.Text;
+                //obj.U_BIZ_ESP = txtU_BIZ_ESPE.Text;
+                //obj.U_BIZ_COLE = txtU_BIZ_COLE.Text;
+                //obj.U_BIZ_DIRE_MED = txtU_BIZ_DIRE_MED.Text;
                 //}
 
                 obj.Lines = ((List<BEDocumentLine>)Session["rdr1"]);

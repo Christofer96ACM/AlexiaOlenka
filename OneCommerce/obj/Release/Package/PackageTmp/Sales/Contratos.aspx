@@ -48,6 +48,92 @@
                                         </td>
                                         <td style="width:20px;"></td>
                                         <td>
+                                            Calle: 
+                                        </td>
+                                        <td style="width:100px;">
+                                            <dx:ASPxTextBox ID="txtcalle" runat="server" Width="200px" 
+                                                ClientInstanceName="txtcalle" ClientSideEvents-KeyUp="Get_Contrato_Tecla">
+                                            </dx:ASPxTextBox>
+                                        </td>
+                                        <td style="width:20px;"></td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            <dx:ASPxButton ID="btnExport" runat="server" AutoPostBack="False" 
+                                              OnClick="btnExport_Click" Text="Exportar" Width="100%">
+                                            </dx:ASPxButton>
+                                        </td>
+                                        <td style="width:20px;"></td>
+                                        <td>
+                                            Urbanización: 
+                                        </td>
+                                        <td style="width:100px;">
+                                            <dx:ASPxTextBox ID="txturba" runat="server" Width="100%" 
+                                                ClientInstanceName="txturba" ClientSideEvents-KeyUp="Get_Contrato_Tecla">
+                                            </dx:ASPxTextBox>
+                                        </td>
+                                        <td style="width:20px;"></td>
+                                        <td>
+                                            Provincia: 
+                                        </td>
+                                        <td style="width:100px;">
+                                            <dx:ASPxTextBox ID="txtprovinc" runat="server" Width="100%" 
+                                                ClientInstanceName="txtprovinc" ClientSideEvents-KeyUp="Get_Contrato_Tecla">
+                                            </dx:ASPxTextBox>
+                                        </td>
+                                        <td style="width:20px;"></td>
+                                        <td>
+                                            Distrito: 
+                                        </td>
+                                        <td style="width:100px;">
+                                            <dx:ASPxTextBox ID="txtdistr" runat="server" Width="100%" 
+                                                ClientInstanceName="txtdistr" ClientSideEvents-KeyUp="Get_Contrato_Tecla">
+                                            </dx:ASPxTextBox>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td style="width:105px">
+                                            <dx:ASPxCheckBox ID="chkRangeDate" runat="server" Checked="True" 
+                                                CheckState="Checked" ClientInstanceName="chkRangeDate" Visible="false"
+                                                Text="Rango Fechas:" Width="105px">
+                                                <ClientSideEvents CheckedChanged="Clear_RangeDate" />
+                                            </dx:ASPxCheckBox>
+                                        </td>
+                                        <td style="width:20px;"></td>
+                                        <td>
+                                            Fecha Inicio: 
+                                        </td>
+                                        <td style="width:100px;">
+                                            <dx:ASPxDateEdit ID="dtebusqueda" runat="server" Width="100%" 
+                                                ClientInstanceName="dtebusqueda" ClientSideEvents-DateChanged="Get_Contrato_Tecla">
+                                            </dx:ASPxDateEdit>
+                                        </td>
+                                        <td style="width:20px;"></td>
+                                        <td>
+                                            Fecha Fin: 
+                                        </td>
+                                        <td style="width:100px;">
+                                            <dx:ASPxDateEdit ID="dtebusqueda2" runat="server" Width="100%" 
+                                                ClientInstanceName="dtebusqueda2" ClientSideEvents-DateChanged="Get_Contrato_Tecla">
+                                            </dx:ASPxDateEdit>
+                                        </td>
+                                   
+                                        <td style="width:20px;"></td>
+                                        <td>
+                                            Vendedor: 
+                                        </td>
+                                        <td style="width:100px;">
+                                            <dx:ASPxComboBox ID="cbbVendedor" runat="server" Width="100%" 
+                                                ClientInstanceName="cbbVendedor" ClientSideEvents-SelectedIndexChanged="Get_Contrato_Tecla">
+                                            </dx:ASPxComboBox>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                         <td style="width:100px;">
+                                            
+                                        </td>
+                                        <td style="width:20px;"></td>
+                                        <td>
                                             Codigo Contrato: 
                                         </td>
                                         <td style="width:100px;">
@@ -192,6 +278,8 @@
             </dx:LayoutGroup> 
         </Items>
     </dx:ASPxFormLayout>
+     <dx:ASPxGridViewExporter ID="gexData" runat="server" GridViewID="grdvContratos">
+    </dx:ASPxGridViewExporter>
     <dx:ASPxPopupControl ID="ppcServicio" runat="server" 
         ClientInstanceName="ppcServicio" FooterText=" " HeaderText="Servicios" 
         PopupHorizontalAlign="WindowCenter" PopupVerticalAlign="WindowCenter" 

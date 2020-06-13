@@ -8,7 +8,7 @@ $(document).ready(function () {
     try {
         //_vld[4] = hdfTemp.Get("_emid");
         //_vld[6] = hdfTemp.Get("_soci");
-
+        Get_InitialData();
         //txtDolar.SetText("0.00");
         //txtEuro.SetText("0.00");
         //Set_VisibleOption();
@@ -18,6 +18,49 @@ $(document).ready(function () {
         alert(e.Message);
     }
 });
+function Clear_RangeDate() {
+    if (chkRangeDate.GetChecked()) {
+        dtebusqueda.SetDate(new Date());
+        dtebusqueda2.SetDate(new Date());
+    }
+    else {
+        dtebusqueda.SetText("");
+        dtebusqueda2.SetText("");
+    }
+}
+function Get_InitialData() {
+    var socied = hdfTemp.Get("_soci");
+    $.ajax(
+    {
+        type: "POST",
+        url: "../Sales/ARInvoice.aspx/Get_InitialData",
+        data: '{"socied":"' + socied + '"}',
+        contentType: "application/json; charset=uft-8",
+        dataType: "json",
+        success: function (result) {
+            Set_InitialData(result);
+        },
+        error: function (result) {
+            alert(result);
+        }
+    });
+}
+function Set_InitialData(result) {
+    //OLE
+    var _rs = result.d.where(function (item) { return (item.Ident === "RE"); });
+    cbbVendedor.ClearItems();
+    cbbVendedor.BeginUpdate();
+    $.each(_rs, function (index, item) {
+        cbbVendedor.InsertItem(index, item.Name, item.Code);
+        if (item.Dfault === 1) {
+            _vld[2] = item.Code;
+        }
+    });
+    cbbVendedor.EndUpdate();
+    cbbVendedor.SetValue("");
+    dtebusqueda.SetDate(new Date());
+    dtebusqueda2.SetDate(new Date());
+}
 function ShowServicio() {
     gdvServicio.PerformCallback("INIT:" + DocNum.GetText() + ":" + CardCode.GetText());
     ppcServicio.Show();

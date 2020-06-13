@@ -427,6 +427,15 @@ namespace OneCommerce.Sales {
         protected global::DevExpress.Web.ASPxEditors.ASPxButton bteClientSearch;
         
         /// <summary>
+        /// txtRazonS control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::DevExpress.Web.ASPxEditors.ASPxTextBox txtRazonS;
+        
+        /// <summary>
         /// gdvClientSearch control.
         /// </summary>
         /// <remarks>
@@ -688,6 +697,15 @@ namespace OneCommerce.Sales {
         protected global::DevExpress.Web.ASPxEditors.ASPxTextBox txtdirec;
         
         /// <summary>
+        /// btnExport control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::DevExpress.Web.ASPxEditors.ASPxButton btnExport;
+        
+        /// <summary>
         /// gdvOinvSearch control.
         /// </summary>
         /// <remarks>
@@ -713,6 +731,15 @@ namespace OneCommerce.Sales {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::DevExpress.Web.ASPxEditors.ASPxButton btnOinvCancel;
+        
+        /// <summary>
+        /// gexData control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::DevExpress.Web.ASPxGridView.Export.ASPxGridViewExporter gexData;
         
         /// <summary>
         /// ppcOdlnSearch control.

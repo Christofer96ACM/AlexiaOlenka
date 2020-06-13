@@ -157,7 +157,7 @@ namespace OneCommerce.Masters
                 x.PERMISOR = "0";
             x.Socied = obec.Socied;
             x.Project = obec.Project;
-            x.UserName = cbbUsuario.Text;
+            x.UserName = obec.UserName;
             x.NOMBRE_OFICIAL = Convert.ToString(e.NewValues["NOMBRE_OFICIAL"]);
 
             using (var obrd = new BRDocument())
@@ -195,8 +195,7 @@ namespace OneCommerce.Masters
                 };
                 var obrd = new BRDocument();
                 var olst = obrd.PERMISOS(obj);
-                //var lista = olst.Where(i => i.LOCAL == obec.Project).ToList();
-                Session["perm"] = olst;
+                Session["perm"] = olst.Where(i => i.LOCAL == obec.Project).ToList();
                 gdvPermisos.DataSource = olst;
                 gdvPermisos.DataBind();
             }
@@ -260,7 +259,7 @@ namespace OneCommerce.Masters
             {
                 listavistas.Clear();
                 olst.ForEach(item => {
-                    ((List<BEParameters>)Session["perm"]).ForEach(it => {
+                    ((List<BEParameters>)Session["perm"]).ForEach(it =>{
                         if (item.NOMBRE_OFICIAL == it.NOMBRE_OFICIAL)
                             item.Band = true;
                     });
@@ -279,7 +278,7 @@ namespace OneCommerce.Masters
                 });
 
             }
-            if (listavistas.Count != 0)
+            if(listavistas.Count != 0)
             {
                 listavistas.ForEach(add => {
                     obrd.DXP_INSERT_VISTA_POR_USUARIO(add);

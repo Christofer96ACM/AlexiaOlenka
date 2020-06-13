@@ -946,12 +946,7 @@
                                 <table class="tablespace" style="width:100%">
                                     <tr>
                                         <td style="width:105px">
-                                            <dx:ASPxCheckBox ID="chkRangeDate" runat="server" Checked="True" 
-                                                CheckState="Checked" ClientInstanceName="chkRangeDate"
-                                                Text="Rango Fechas:" Width="105px">
-                                                <ClientSideEvents CheckedChanged="Clear_RangeDate" />
-                                            </dx:ASPxCheckBox>
-                                        </td>
+                                            Rango Fechas:</td>
                                         <td style="width:130px">
                                             <dx:ASPxDateEdit ID="dteDateIn" runat="server" Width="130px" 
                                                 ClientInstanceName="dteDateIn">
@@ -977,25 +972,6 @@
                                                 <ClientSideEvents Click="Get_Orin" />
                                             </dx:ASPxButton>
                                         </td>
-                                    </tr>
-                                    <tr>
-                                        <td style="width:105px">
-                                            Razón Social:</td>
-                                        <td colspan="2">
-                                            <dx:ASPxTextBox ID="txtsCardName" runat="server" 
-                                                ClientInstanceName="txtsCardName" Width="260px">
-                                            </dx:ASPxTextBox>
-                                        </td>
-                                        <td style="width:5px">
-                                            </td>
-                                        <td style="width:130px">
-                                            Código Cliente:</td>
-                                        <td style="width:170px">
-                                            <dx:ASPxTextBox ID="txtsCardCode" runat="server" 
-                                                ClientInstanceName="txtsCardCode" Width="170px">
-                                            </dx:ASPxTextBox>
-                                        </td>
-                       
                                     </tr>
                                 </table>
                             </td>

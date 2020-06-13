@@ -86,9 +86,28 @@ namespace OneCommerce.Reportes
         private void Set_Permissions()
         {
             var obec = ((BEParameters)Session["InitPar"]);
-            obec.Permisos.ForEach(item => {
-                FindControl<ASPxNavBar>(Master, "nvbMain").Groups.FindByName(item.GRUPO_MENU).Items.FindByName(item.PARTICULAR_MENU).Enabled = Convert.ToBoolean(item.PERMISO);
-            });
+
+            FindControl<ASPxNavBar>(Master, "nvbMain").Groups.FindByName("Masters").Visible = true;
+            /*if (obec.Permition == "001")
+            {
+                if (obec.Socied == "DX")
+            FindControl<ASPxNavBar>(Master, "nvbMain").Groups.FindByName("Sales").Items.FindByName("Quotation").Enabled = true;*/
+            FindControl<ASPxNavBar>(Master, "nvbMain").Groups.FindByName("Sales").Items.FindByName("ARInvoice").Enabled = true;
+            FindControl<ASPxNavBar>(Master, "nvbMain").Groups.FindByName("Sales").Items.FindByName("ARReserva").Enabled = true;
+            FindControl<ASPxNavBar>(Master, "nvbMain").Groups.FindByName("Sales").Items.FindByName("DeliveryNote").Enabled = true;
+            FindControl<ASPxNavBar>(Master, "nvbMain").Groups.FindByName("Sales").Items.FindByName("CreditNote").Enabled = true;
+            FindControl<ASPxNavBar>(Master, "nvbMain").Groups.FindByName("Reports").Visible = true;
+            FindControl<ASPxNavBar>(Master, "nvbMain").Groups.FindByName("Tools").Visible = true;
+            /*}
+            else if (obec.Permition == "003")
+            {
+                FindControl<ASPxNavBar>(Master, "nvbMain").Groups.FindByName("Sales").Items.FindByName("Quotation").Enabled = true;
+                FindControl<ASPxNavBar>(Master, "nvbMain").Groups.FindByName("Sales").Items.FindByName("SalesOrder").Enabled = true;
+                FindControl<ASPxNavBar>(Master, "nvbMain").Groups.FindByName("Sales").Items.FindByName("APInvoice").Enabled = true;
+                FindControl<ASPxNavBar>(Master, "nvbMain").Groups.FindByName("Sales").Items.FindByName("DeliveryNote").Enabled = true;*/
+            /*}
+            if (obec.U_BF_ADMIN==0)*/
+            FindControl<ASPxNavBar>(Master, "nvbMain").Groups.FindByName("Administrator").Visible = true;
         }
         private void Init_VarSessions()
         {
@@ -141,6 +160,7 @@ namespace OneCommerce.Reportes
             obep.DateFi = Convert.ToDateTime(dteDateFi.Text);
             obep.Socied = obep.Socied;
             obep.Project = obep.Project;
+            obep.Number = Convert.ToInt32(obep.U_BF_EMID);
 
             var obr = new BRDocument();
             var olst = obr.Get_OSCSP_RPCJ(obep);

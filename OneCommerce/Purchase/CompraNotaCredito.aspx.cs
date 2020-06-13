@@ -230,7 +230,8 @@ namespace OneCommerce.Purchase
             var obj = new BEParameters() 
             { 
                 Socied = obec.Socied, 
-                ParValue = txtParClient.Text.Trim(), 
+                ParValue = txtParClient.Text.Trim(),
+                CardName = txtRazonS.Text,
                 ColumnIndex = ((GridViewDataColumn)gdvClientSearch.GetSortedColumns().ElementAt(0)).VisibleIndex 
             };
             var obrd = new BRDocument();
@@ -1034,6 +1035,11 @@ namespace OneCommerce.Purchase
                     cbbPersonContact.SelectedIndex = 0;
                 }
             }
+        }
+
+        protected void btnExport_Click(object sender, EventArgs e)
+        {
+            gexData.WriteXlsxToResponse();
         }
     }
 }

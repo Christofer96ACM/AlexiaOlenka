@@ -254,7 +254,8 @@ namespace OneCommerce.Sales
             var obj = new BEParameters() 
             { 
                 Socied = obec.Socied, 
-                ParValue = txtParClient.Text.Trim(), 
+                ParValue = txtParClient.Text.Trim(),
+                CardName = txtRazonS.Text,
                 ColumnIndex = ((GridViewDataColumn)gdvClientSearch.GetSortedColumns().ElementAt(0)).VisibleIndex 
             };
             var obrd = new BRDocument();
@@ -1161,6 +1162,11 @@ namespace OneCommerce.Sales
             e.Cancel = true;
             gdvrin1.DataSource = ((List<BEDocumentLine>)Session["rin1"]);
             gdvrin1.DataBind();
+        }
+
+        protected void btnExport_Click(object sender, EventArgs e)
+        {
+            gexData.WriteXlsxToResponse();
         }
     }
 }

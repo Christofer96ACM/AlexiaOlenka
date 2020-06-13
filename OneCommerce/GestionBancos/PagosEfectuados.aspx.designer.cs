@@ -706,6 +706,15 @@ namespace OneCommerce.GestionBancos {
         protected global::DevExpress.Web.ASPxEditors.ASPxButton bteClientSearch;
         
         /// <summary>
+        /// txtRazonS control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::DevExpress.Web.ASPxEditors.ASPxTextBox txtRazonS;
+        
+        /// <summary>
         /// gdvClientSearch control.
         /// </summary>
         /// <remarks>

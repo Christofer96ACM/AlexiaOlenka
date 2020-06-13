@@ -1132,6 +1132,16 @@
                                         </dx:ASPxButton>
                                     </td>
                                 </tr>
+                                <tr>
+                                    <td id="ClientParCaptin" style="width:105px">
+                                        Razón Social:</td>
+                                    <td style="width:280px">
+                                        <dx:ASPxTextBox ID="txtRazonS" runat="server" Width="100%" 
+                                            ClientInstanceName="txtRazonS">
+                                            <ClientSideEvents KeyPress="Get_Client" />
+                                        </dx:ASPxTextBox>
+                                    </td>
+                                </tr>
                             </table>
                         </td>
                     </tr>

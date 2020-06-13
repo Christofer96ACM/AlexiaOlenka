@@ -544,15 +544,6 @@ namespace OneCommerce.Compras {
         protected global::DevExpress.Web.ASPxPopupControl.PopupControlContentControl pccOrinSearch;
         
         /// <summary>
-        /// chkRangeDate control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::DevExpress.Web.ASPxEditors.ASPxCheckBox chkRangeDate;
-        
-        /// <summary>
         /// dteDateIn control.
         /// </summary>
         /// <remarks>
@@ -587,24 +578,6 @@ namespace OneCommerce.Compras {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::DevExpress.Web.ASPxEditors.ASPxButton btnOrinSearch;
-        
-        /// <summary>
-        /// txtsCardName control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::DevExpress.Web.ASPxEditors.ASPxTextBox txtsCardName;
-        
-        /// <summary>
-        /// txtsCardCode control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::DevExpress.Web.ASPxEditors.ASPxTextBox txtsCardCode;
         
         /// <summary>
         /// gdvOrinSearch control.

@@ -1117,7 +1117,7 @@ namespace DataAccess
                 odb = DatabaseFactory.CreateDatabase(obep.Socied);
                 ocn = odb.CreateConnection();
                 if (ocn.State == ConnectionState.Closed) ocn.Open();
-                var ocmd = odb.GetStoredProcCommand("DXP_GET_CONTRATOS", obep.CardCode, obep.Id_Dire, obep.Code);
+                var ocmd = odb.GetStoredProcCommand("DXP_GET_CONTRATOS", obep.CardCode, obep.Id_Dire, obep.Code, obep.LOCAL, obep.Descripcion, obep.provincia, obep.distrito, obep.DateIn, obep.DateFi, obep.CompanyDB, obep.Project);
                 ocmd.CommandTimeout = 2000;
                 var ord = odb.ExecuteReader(ocmd);
                 Dispose(false);
@@ -1581,7 +1581,7 @@ namespace DataAccess
                 odb = DatabaseFactory.CreateDatabase(obep.Socied);
                 ocn = odb.CreateConnection();
                 if (ocn.State == ConnectionState.Closed) ocn.Open();
-                var ocmd = odb.GetStoredProcCommand("OSCSP_OCRD", obep.ParValue, obep.ColumnIndex);
+                var ocmd = odb.GetStoredProcCommand("OSCSP_OCRD", obep.ParValue, obep.CardName, obep.ColumnIndex);
                 ocmd.CommandTimeout = 2000;
                 var ord = odb.ExecuteReader(ocmd);
                 Dispose(false);
@@ -1599,7 +1599,7 @@ namespace DataAccess
                 odb = DatabaseFactory.CreateDatabase(obep.Socied);
                 ocn = odb.CreateConnection();
                 if (ocn.State == ConnectionState.Closed) ocn.Open();
-                var ocmd = odb.GetStoredProcCommand("OSCSP_OCRD_P", obep.ParValue, obep.ColumnIndex);
+                var ocmd = odb.GetStoredProcCommand("OSCSP_OCRD_P", obep.ParValue, obep.CardName, obep.ColumnIndex);
                 ocmd.CommandTimeout = 2000;
                 var ord = odb.ExecuteReader(ocmd);
                 Dispose(false);
@@ -1984,7 +1984,7 @@ namespace DataAccess
                 odb = DatabaseFactory.CreateDatabase(obep.Socied);
                 ocn = odb.CreateConnection();
                 if (ocn.State == ConnectionState.Closed) ocn.Open();
-                var ocmd = odb.GetStoredProcCommand("DXP_GET_KITS", obep.ItemCode, obep.WhsCode);
+                var ocmd = odb.GetStoredProcCommand("DXP_GET_KITS", obep.ItemCode, obep.WhsCode, obep.VALOR, obep.Descripcion);
                 ocmd.CommandTimeout = 2000;
                 var ord = odb.ExecuteReader(ocmd);
                 Dispose(false);
@@ -2020,7 +2020,7 @@ namespace DataAccess
                 odb = DatabaseFactory.CreateDatabase(obep.Socied);
                 ocn = odb.CreateConnection();
                 if (ocn.State == ConnectionState.Closed) ocn.Open();
-                var ocmd = odb.GetStoredProcCommand("DXP_GET_ITEM_SEGUN_ALMACEN", obep.ItemCode, obep.WhsCode);
+                var ocmd = odb.GetStoredProcCommand("DXP_GET_ITEM_SEGUN_ALMACEN", obep.ItemCode, obep.WhsCode, obep.VALOR, obep.Descripcion);
                 ocmd.CommandTimeout = 2000;
                 var ord = odb.ExecuteReader(ocmd);
                 Dispose(false);
@@ -2038,7 +2038,7 @@ namespace DataAccess
                 odb = DatabaseFactory.CreateDatabase(obep.Socied);
                 ocn = odb.CreateConnection();
                 if (ocn.State == ConnectionState.Closed) ocn.Open();
-                var ocmd = odb.GetStoredProcCommand("DXP_GET_ARTICULO", obep.ItemCode, obep.accion);
+                var ocmd = odb.GetStoredProcCommand("DXP_GET_ARTICULO", obep.ItemCode, obep.VALOR, obep.accion, obep.Descripcion);
                 ocmd.CommandTimeout = 2000;
                 var ord = odb.ExecuteReader(ocmd);
                 Dispose(false);
@@ -3867,6 +3867,401 @@ namespace DataAccess
                 Dispose(false);
             }
         }
+
+        public void UpdateGrupoArt(BEGrupoArt obj, object objs)
+        {
+            try
+            {
+                int RetVal = 0;
+                int ErrCode = 0;
+                string ErrMsg = null;
+                var ocp = ((Company)objs);
+
+                if (ocp.Connected)
+                {
+                    var odn = (IItemGroups)ocp.GetBusinessObject(BoObjectTypes.oItemGroups);
+
+                    odn.GetByKey(Convert.ToInt16(obj.ItmsGrpCod));
+
+                    odn.GroupName = obj.ItmsGrpNam;
+                    //odn.DefaultUoMGroup = -1;
+                    //odn.DefaultInventoryUoM = -1;
+
+                    if (obj.PlaningSys == "N")
+                    {
+                        odn.PlanningSystem = BoPlanningSystem.bop_None;
+                    }
+                    if (obj.PlaningSys == "M")
+                    {
+                        odn.PlanningSystem = BoPlanningSystem.bop_MRP;
+                    }
+
+                    if (obj.PrcrmntMtd == "M")
+                    {
+                        odn.ProcurementMethod = BoProcurementMethod.bom_Make;
+                    }
+                    if (obj.PrcrmntMtd == "B")
+                    {
+                        odn.ProcurementMethod = BoProcurementMethod.bom_Buy;
+                    }
+
+                    if (obj.OrdrIntrvl != "" && obj.OrdrIntrvl != "0")
+                    {
+                        odn.OrderInterval = Convert.ToInt16(obj.OrdrIntrvl);
+                    }
+
+                    odn.OrderMultiple = Convert.ToDouble(obj.OrdrMulti);
+                    odn.MinimumOrderQuantity = Convert.ToDouble(obj.MinOrdrQty);
+                    if (obj.LeadTime != "" && obj.LeadTime != null)
+                    {
+                        odn.LeadTime = Convert.ToInt16(obj.LeadTime);
+                    }
+                    if (obj.ToleranDay != "" && obj.ToleranDay != null)
+                    {
+                        odn.ToleranceDays = Convert.ToInt16(obj.ToleranDay);
+                    }
+
+
+
+                    if (obj.ExpensesAc != "" && obj.ExpensesAc != null)
+                    {
+                        odn.ExpensesAccount = obj.ExpensesAc;
+                    }
+
+                    if (obj.RevenuesAc != "" && obj.RevenuesAc != null)
+                    {
+                        odn.RevenuesAccount = obj.RevenuesAc;
+                    }
+                    if (obj.BalInvntAc != "" && obj.BalInvntAc != null)
+                    {
+                        odn.InventoryAccount = obj.BalInvntAc;
+                    }
+                    if (obj.SaleCostAc != "" && obj.SaleCostAc != null)
+                    {
+                        odn.CostAccount = obj.SaleCostAc;
+                    }
+                    if (obj.TransferAc != "" && obj.TransferAc != null)
+                    {
+                        odn.TransfersAccount = obj.TransferAc;
+                    }
+                    if (obj.VarianceAc != "" && obj.VarianceAc != null)
+                    {
+                        odn.VarianceAccount = obj.VarianceAc;
+                    }
+
+                    if (obj.PriceDifAc != "" && obj.PriceDifAc != null)
+                    {
+                        odn.PriceDifferencesAccount = obj.PriceDifAc;
+                    }
+                    if (obj.NegStckAct != "" && obj.NegStckAct != null)
+                    {
+                        odn.NegativeInventoryAdjustmentAccount = obj.NegStckAct;
+                    }
+                    if (obj.DecreasAc != "" && obj.DecreasAc != null)
+                    {
+                        odn.DecreasingAccount = obj.DecreasAc;
+                    }
+                    if (obj.IncreasAc != "" && obj.IncreasAc != null)
+                    {
+                        odn.IncreasingAccount = obj.IncreasAc;
+                    }
+                    if (obj.ReturnAc != "" && obj.ReturnAc != null)
+                    {
+                        odn.ReturningAccount = obj.ReturnAc;
+                    }
+                    if (obj.FrRevenuAc != "" && obj.FrRevenuAc != null)
+                    {
+                        odn.ForeignRevenuesAccount = obj.FrRevenuAc;
+                    }
+                    if (obj.FrExpensAc != "" && obj.FrExpensAc != null)
+                    {
+                        odn.ForeignExpensesAccount = obj.FrExpensAc;
+                    }
+                    if (obj.ExchangeAc != "" && obj.ExchangeAc != null)
+                    {
+                        odn.ExchangeRateDifferencesAccount = obj.ExchangeAc;
+                    }
+                    if (obj.BalanceAcc != "" && obj.BalanceAcc != null)
+                    {
+                        odn.PurchaseBalanceAccount = obj.BalanceAcc;
+                    }
+                    if (obj.DecresGlAc != "" && obj.DecresGlAc != null)
+                    {
+                        odn.DecreaseGLAccount = obj.DecresGlAc;
+                    }
+                    if (obj.IncresGlAc != "" && obj.IncresGlAc != null)
+                    {
+                        odn.IncreaseGLAccount = obj.IncresGlAc;
+                    }
+                    if (obj.WipAcct != "" && obj.WipAcct != null)
+                    {
+                        odn.WIPMaterialAccount = obj.WipAcct;
+                    }
+                    if (obj.WipVarAcct != "" && obj.WipVarAcct != null)
+                    {
+                        odn.WIPMaterialVarianceAccount = obj.WipVarAcct;
+                    }
+                    if (obj.StokRvlAct != "" && obj.StokRvlAct != null)
+                    {
+                        odn.StockInflationAdjustAccount = obj.StokRvlAct;
+                    }
+                    if (obj.StkOffsAct != "" && obj.StkOffsAct != null)
+                    {
+                        odn.StockInflationOffsetAccount = obj.StkOffsAct;
+                    }
+                    if (obj.ExpClrAct != "" && obj.ExpClrAct != null)
+                    {
+                        odn.ExpenseClearingAct = obj.ExpClrAct;
+                    }
+                    if (obj.StkInTnAct != "" && obj.StkInTnAct != null)
+                    {
+                        odn.StockInTransitAccount = obj.StkInTnAct;
+                    }
+                    if (obj.ARCMAct != "" && obj.ARCMAct != null)
+                    {
+                        odn.SalesCreditAcc = obj.ARCMAct;
+                    }
+                    if (obj.APCMAct != "" && obj.APCMAct != null)
+                    {
+                        odn.PurchaseCreditAcc = obj.APCMAct;
+                    }
+                    if (obj.ARCMFrnAct != "" && obj.ARCMFrnAct != null)
+                    {
+                        odn.SalesCreditEUAcc = obj.ARCMFrnAct;
+                    }
+                    if (obj.APCMFrnAct != "" && obj.APCMFrnAct != null)
+                    {
+                        odn.ForeignPurchaseCreditAcc = obj.APCMFrnAct;
+                    }
+
+
+
+
+
+                    ocp.StartTransaction();
+                    RetVal = odn.Update();
+                    if (RetVal != 0)
+                    {
+                        ocp.GetLastError(out ErrCode, out ErrMsg);
+                        obj.Msg = ErrMsg;
+                        if (ocp.InTransaction)
+                            ocp.EndTransaction(BoWfTransOpt.wf_RollBack);
+                        throw new ArgumentException(ErrMsg);
+                    }
+                    else
+                    {
+                        if (ocp.InTransaction)
+                            ocp.EndTransaction(SAPbobsCOM.BoWfTransOpt.wf_Commit);
+                        
+                    }
+                }
+            }
+            catch (Exception ex)
+            {
+                if (string.IsNullOrWhiteSpace(obj.Msg))
+                    obj.Msg = ex.Message;
+            }
+            finally
+            {
+                Dispose(false);
+            }
+        }
+
+
+        public void SaveGrupoArt(BEGrupoArt obj, object objs)
+        {
+            try
+            {
+                int RetVal = 0;
+                int ErrCode = 0;
+                string ErrMsg = null;
+                var ocp = ((Company)objs);
+
+                if (ocp.Connected)
+                {
+                    var odn = (IItemGroups)ocp.GetBusinessObject(BoObjectTypes.oItemGroups);
+
+                    odn.GroupName = obj.ItmsGrpNam;
+                    if (obj.PlaningSys == "N")
+                    {
+                        odn.PlanningSystem = BoPlanningSystem.bop_None;
+                    }
+                    if (obj.PlaningSys == "M")
+                    {
+                        odn.PlanningSystem = BoPlanningSystem.bop_MRP;
+                    }
+
+                    if (obj.PrcrmntMtd == "M")
+                    {
+                        odn.ProcurementMethod = BoProcurementMethod.bom_Make;
+                    }
+                    if (obj.PrcrmntMtd == "B")
+                    {
+                        odn.ProcurementMethod = BoProcurementMethod.bom_Buy;
+                    }
+
+                    if (obj.OrdrIntrvl != "" && obj.OrdrIntrvl != "0")
+                    {
+                        odn.OrderInterval = Convert.ToInt16(obj.OrdrIntrvl);
+                    }
+                    
+                    odn.OrderMultiple = Convert.ToDouble(obj.OrdrMulti);
+                    odn.MinimumOrderQuantity = Convert.ToDouble(obj.MinOrdrQty);
+                    if(obj.LeadTime != "" && obj.LeadTime != null)
+                    {
+                        odn.LeadTime = Convert.ToInt16(obj.LeadTime);
+                    }
+                    if (obj.ToleranDay != "" && obj.ToleranDay != null)
+                    {
+                        odn.ToleranceDays = Convert.ToInt16(obj.ToleranDay);
+                    }
+
+                   
+                    if(obj.ExpensesAc!="" && obj.ExpensesAc != null)
+                    {
+                        odn.ExpensesAccount = obj.ExpensesAc;
+                    }
+
+                    if (obj.RevenuesAc != "" && obj.RevenuesAc != null)
+                    {
+                        odn.RevenuesAccount = obj.RevenuesAc;
+                    }
+                    if (obj.BalInvntAc != "" && obj.BalInvntAc != null)
+                    {
+                        odn.InventoryAccount = obj.BalInvntAc;
+                    }
+                    if (obj.SaleCostAc != "" && obj.SaleCostAc != null)
+                    {
+                        odn.CostAccount = obj.SaleCostAc;
+                    }
+                    if (obj.TransferAc != "" && obj.TransferAc != null)
+                    {
+                        odn.TransfersAccount = obj.TransferAc;
+                    }
+                    if (obj.VarianceAc != "" && obj.VarianceAc != null)
+                    {
+                        odn.VarianceAccount = obj.VarianceAc;
+                    }
+
+                    if (obj.PriceDifAc != "" && obj.PriceDifAc != null)
+                    {
+                        odn.PriceDifferencesAccount = obj.PriceDifAc;
+                    }
+                    if (obj.NegStckAct != "" && obj.NegStckAct != null)
+                    {
+                        odn.NegativeInventoryAdjustmentAccount = obj.NegStckAct;
+                    }
+                    if (obj.DecreasAc != "" && obj.DecreasAc != null)
+                    {
+                        odn.DecreasingAccount = obj.DecreasAc;
+                    }
+                    if (obj.IncreasAc != "" && obj.IncreasAc != null)
+                    {
+                        odn.IncreasingAccount = obj.IncreasAc;
+                    }
+                    if (obj.ReturnAc != "" && obj.ReturnAc != null)
+                    {
+                        odn.ReturningAccount = obj.ReturnAc; 
+                    }
+                    if (obj.FrRevenuAc != "" && obj.FrRevenuAc != null)
+                    {
+                        odn.ForeignRevenuesAccount = obj.FrRevenuAc;
+                    }
+                    if (obj.FrExpensAc != "" && obj.FrExpensAc != null)
+                    {
+                        odn.ForeignExpensesAccount = obj.FrExpensAc;
+                    }
+                    if (obj.ExchangeAc != "" && obj.ExchangeAc != null)
+                    {
+                        odn.ExchangeRateDifferencesAccount = obj.ExchangeAc;
+                    }
+                    if (obj.BalanceAcc != "" && obj.BalanceAcc != null)
+                    {
+                        odn.PurchaseBalanceAccount = obj.BalanceAcc;
+                    }
+                    if (obj.DecresGlAc != "" && obj.DecresGlAc != null)
+                    {
+                        odn.DecreaseGLAccount = obj.DecresGlAc;
+                    }
+                    if (obj.IncresGlAc != "" && obj.IncresGlAc != null)
+                    {
+                        odn.IncreaseGLAccount = obj.IncresGlAc;
+                    }
+                    if (obj.WipAcct != "" && obj.WipAcct != null)
+                    {
+                        odn.WIPMaterialAccount = obj.WipAcct;
+                    }
+                    if (obj.WipVarAcct != "" && obj.WipVarAcct != null)
+                    {
+                        odn.WIPMaterialVarianceAccount = obj.WipVarAcct;
+                    }
+                    if (obj.StokRvlAct != "" && obj.StokRvlAct != null)
+                    {
+                        odn.StockInflationAdjustAccount = obj.StokRvlAct;
+                    }
+                    if (obj.StkOffsAct != "" && obj.StkOffsAct != null)
+                    {
+                        odn.StockInflationOffsetAccount = obj.StkOffsAct;
+                    }
+                    if (obj.ExpClrAct != "" && obj.ExpClrAct != null)
+                    {
+                        odn.ExpenseClearingAct = obj.ExpClrAct;
+                    }
+                    if (obj.StkInTnAct != "" && obj.StkInTnAct != null)
+                    {
+                        odn.StockInTransitAccount = obj.StkInTnAct;
+                    }
+                    if (obj.ARCMAct != "" && obj.ARCMAct != null)
+                    {
+                        odn.SalesCreditAcc = obj.ARCMAct;
+                    }
+                    if (obj.APCMAct != "" && obj.APCMAct != null)
+                    {
+                        odn.PurchaseCreditAcc = obj.APCMAct;
+                    }
+                    if (obj.ARCMFrnAct != "" && obj.ARCMFrnAct != null)
+                    {
+                        odn.SalesCreditForeignAcc = obj.ARCMFrnAct;
+                    }
+                    if (obj.APCMFrnAct != "" && obj.APCMFrnAct != null)
+                    {
+                        odn.ForeignPurchaseCreditAcc = obj.APCMFrnAct;
+                    }
+
+
+
+                    ocp.StartTransaction();
+                    RetVal = odn.Add();
+                    if (RetVal != 0)
+                    {
+                        ocp.GetLastError(out ErrCode, out ErrMsg);
+                        obj.Msg = ErrMsg;
+                        if (ocp.InTransaction)
+                            ocp.EndTransaction(BoWfTransOpt.wf_RollBack);
+                        throw new ArgumentException(ErrMsg);
+                    }
+                    else
+                    {
+                        if (ocp.InTransaction)
+                            ocp.EndTransaction(SAPbobsCOM.BoWfTransOpt.wf_Commit);
+
+                    }
+                }
+            }
+            catch (Exception ex)
+            {
+                if (string.IsNullOrWhiteSpace(obj.Msg))
+                    obj.Msg = ex.Message;
+            }
+            finally
+            {
+                Dispose(false);
+            }
+        }
+
+
+
+
         public void UpdateItems(BEProduct obj, object objs)
         {
             try
@@ -3880,6 +4275,7 @@ namespace DataAccess
                 {
                     var odn = (Items)ocp.GetBusinessObject(BoObjectTypes.oItems);
 
+                  
                     odn.GetByKey(obj.ItemCode);
                     odn.ItemName = obj.ItemName;
                     odn.IndirectTax = BoYesNoEnum.tYES;
@@ -10352,7 +10748,7 @@ namespace DataAccess
                 odb = DatabaseFactory.CreateDatabase(obep.Socied);
                 ocn = odb.CreateConnection();
                 if (ocn.State == ConnectionState.Closed) ocn.Open();
-                var ocmd = odb.GetStoredProcCommand("OSCSP_RPCJ", obep.DateIn, obep.DateFi, obep.Project, obep.Socied);
+                var ocmd = odb.GetStoredProcCommand("OSCSP_RPCJ", obep.DateIn, obep.DateFi, obep.Project, obep.Socied, obep.Number);
                 ocmd.CommandTimeout = 2000;
                 var ord = odb.ExecuteReader(ocmd);
                 Dispose(false);

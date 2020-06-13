@@ -40,6 +40,15 @@ namespace OneCommerce.Gestion {
         protected global::DevExpress.Web.ASPxEditors.ASPxTextBox txtItmsGrpNam;
         
         /// <summary>
+        /// txtCode control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::DevExpress.Web.ASPxEditors.ASPxTextBox txtCode;
+        
+        /// <summary>
         /// cbbPlaningSys control.
         /// </summary>
         /// <remarks>

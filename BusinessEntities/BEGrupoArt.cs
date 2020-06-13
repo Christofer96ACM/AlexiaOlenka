@@ -9,6 +9,7 @@ namespace BusinessEntities
     {
         public string ItmsGrpCod { get; set; }
         public string ItmsGrpNam { get; set; }
+        public string Msg { get; set; }
 
         public string PlaningSys { get; set; }
         public string PrcrmntMtd { get; set; }

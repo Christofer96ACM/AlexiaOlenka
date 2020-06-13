@@ -112,6 +112,15 @@ namespace OneCommerce.Mikrotik {
         protected global::DevExpress.Web.ASPxEditors.ASPxButton btnBuscar;
         
         /// <summary>
+        /// btnExport control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::DevExpress.Web.ASPxEditors.ASPxButton btnExport;
+        
+        /// <summary>
         /// grdvPlanes control.
         /// </summary>
         /// <remarks>
@@ -119,6 +128,15 @@ namespace OneCommerce.Mikrotik {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::DevExpress.Web.ASPxGridView.ASPxGridView grdvPlanes;
+        
+        /// <summary>
+        /// gexData control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::DevExpress.Web.ASPxGridView.Export.ASPxGridViewExporter gexData;
         
         /// <summary>
         /// ppcConsumo control.

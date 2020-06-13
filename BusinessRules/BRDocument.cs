@@ -1108,9 +1108,19 @@ namespace BusinessRules
             oda.SaveAsiento(obj, objs);
             Dispose(false);
         }
+        public void SaveGrupoArt(BEGrupoArt obj, object objs)
+        {
+            oda.SaveGrupoArt(obj, objs);
+            Dispose(false);
+        }
         public void UpdtService(BELlamadaServicio obj, object objs)
         {
             oda.UpdtService(obj, objs);
+            Dispose(false);
+        }
+        public void UpdateGrupoArt(BEGrupoArt obj, object objs)
+        {
+            oda.UpdateGrupoArt(obj, objs);
             Dispose(false);
         }
 

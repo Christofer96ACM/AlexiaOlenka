@@ -1,1 +1,0 @@
-<%@ Application Codebehind="Global.asax.cs" Inherits="OneCommerce.Global_asax" Language="C#" %>

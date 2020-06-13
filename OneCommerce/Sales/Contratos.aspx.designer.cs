@@ -58,6 +58,87 @@ namespace OneCommerce.Sales {
         protected global::DevExpress.Web.ASPxEditors.ASPxTextBox txtIdDirec;
         
         /// <summary>
+        /// txtcalle control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::DevExpress.Web.ASPxEditors.ASPxTextBox txtcalle;
+        
+        /// <summary>
+        /// btnExport control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::DevExpress.Web.ASPxEditors.ASPxButton btnExport;
+        
+        /// <summary>
+        /// txturba control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::DevExpress.Web.ASPxEditors.ASPxTextBox txturba;
+        
+        /// <summary>
+        /// txtprovinc control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::DevExpress.Web.ASPxEditors.ASPxTextBox txtprovinc;
+        
+        /// <summary>
+        /// txtdistr control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::DevExpress.Web.ASPxEditors.ASPxTextBox txtdistr;
+        
+        /// <summary>
+        /// chkRangeDate control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::DevExpress.Web.ASPxEditors.ASPxCheckBox chkRangeDate;
+        
+        /// <summary>
+        /// dtebusqueda control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::DevExpress.Web.ASPxEditors.ASPxDateEdit dtebusqueda;
+        
+        /// <summary>
+        /// dtebusqueda2 control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::DevExpress.Web.ASPxEditors.ASPxDateEdit dtebusqueda2;
+        
+        /// <summary>
+        /// cbbVendedor control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::DevExpress.Web.ASPxEditors.ASPxComboBox cbbVendedor;
+        
+        /// <summary>
         /// txtCode control.
         /// </summary>
         /// <remarks>
@@ -74,6 +155,15 @@ namespace OneCommerce.Sales {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::DevExpress.Web.ASPxGridView.ASPxGridView grdvContratos;
+        
+        /// <summary>
+        /// gexData control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::DevExpress.Web.ASPxGridView.Export.ASPxGridViewExporter gexData;
         
         /// <summary>
         /// ppcServicio control.
