@@ -854,7 +854,7 @@
                         <td>
                             <table style="width:100%;" class="tablespace">
                                 <tr>
-                                    <td id="ClientParCaption" style="width:105px">
+                                    <td id="Client" style="width:105px">
                                         Código:</td>
                                     <td style="width:280px">
                                         <dx:ASPxTextBox ID="txtParClient" runat="server" Width="100%" 
@@ -1231,7 +1231,7 @@
                             <td>
                                 <table class="tablespace" style="width:100%">
                                     <tr>
-                                        <td id="ProductParCaption" style="width:105px">
+                                        <td id="Product" style="width:105px">
                                             Código:</td>
                                         <td style="width:300px">
                                             <dx:ASPxTextBox ID="txtParProduct" runat="server" Width="100px" 
@@ -1240,7 +1240,7 @@
                                             </dx:ASPxTextBox>
                                         </td>
                                         
-                                    <td id="ProductParCaption2" style="width:105px">
+                                    <td id="Product2" style="width:105px">
                                         Descripción:</td>
                                     <td style="width:300px">
                                         <dx:ASPxTextBox ID="txtDescription" runat="server" Width="400px" 
@@ -1248,7 +1248,7 @@
                                             <ClientSideEvents KeyUp="Get_Product" />
                                         </dx:ASPxTextBox>
                                     </td>
-                                    <td id="ProductParCaption3" style="width:105px">
+                                    <td id="Product3" style="width:105px">
                                         Marca:</td>
                                     <td style="width:300px">
                                         <dx:ASPxTextBox ID="txtMarca" runat="server" Width="100px" 
@@ -1466,14 +1466,14 @@
                                         <td style="width:5px">
                                         </td>
                                         <td style="width:130px">
-                                            Serie Doc.:</td>
+                                            Serie:</td>
                                         <td style="width:170px">
                                             <dx:ASPxTextBox ID="txtNumAtCards" runat="server"
                                                 ClientInstanceName="txtNumAtCards" Width="170px">
                                             </dx:ASPxTextBox>
                                         </td>
                                         <td style="width:130px">
-                                            Correlativo Doc.:</td>
+                                            Correlativo:</td>
                                         <td style="width:100px">
                                             <dx:ASPxTextBox ID="txtCorrelativo" runat="server"
                                                 ClientInstanceName="txtCorrelativo" Width="100px">

@@ -160,7 +160,7 @@
                         <td>
                             <table class="tablespace" style="width:100%">
                                 <tr>
-                                    <td id="ProductParCaption" style="width:105px">
+                                    <td id="Product1" style="width:105px">
                                         Código:</td>
                                     <td style="width:300px">
                                         <dx:ASPxTextBox ID="txtParProduct" runat="server" Width="100%" 
@@ -369,7 +369,7 @@
                         <td>
                             <table class="tablespace" style="width:100%">
                                 <tr>
-                                    <td id="ProductParCaption2" style="width:105px">
+                                    <td id="Product2" style="width:105px">
                                         Código:</td>
                                     <td style="width:300px">
                                         <dx:ASPxTextBox ID="txtParProduct2" runat="server" Width="100%" 
@@ -604,7 +604,7 @@
                         <td>
                             <table class="tablespace" style="width:100%">
                                 <tr>
-                                    <td id="ProductParCaption3" style="width:105px">
+                                    <td id="Product3" style="width:105px">
                                         Código:</td>
                                     <td style="width:300px">
                                         <dx:ASPxTextBox ID="txtParProduct3" runat="server" Width="100%" 
