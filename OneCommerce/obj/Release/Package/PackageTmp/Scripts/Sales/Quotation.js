@@ -27,6 +27,7 @@ function roundNumber(number, digits) {
 }
 
 function Set_MaintenanceStatus(enb) {
+    mnuOper.GetItemByName("Recursos").SetVisible(false);
     mnuOper.GetItemByName("PaymentIn").SetEnabled(false);
     mnuOper.GetItemByName("CopyFrom").SetEnabled(false);
     mnuOper.GetItemByName("CreditNote").SetVisible(false);

@@ -12,6 +12,7 @@ namespace BusinessEntities
         }
         public int Number { get; set; }
         public string Series { get; set; }
+        public string Contrato { get; set; }
         public string U_GOS_MARCA { get; set; }
         public string BaseRef { get; set; }
         public decimal Total { get; set; }

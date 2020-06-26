@@ -1128,6 +1128,25 @@ namespace DataAccess
                 ocn.Close();
             }
         }
+        public IDataReader DXP_GET_CLIENTE_ESTADO_CUENTA(BEParameters obep)
+        {
+            try
+            {
+                odb = DatabaseFactory.CreateDatabase(obep.Socied);
+                ocn = odb.CreateConnection();
+                if (ocn.State == ConnectionState.Closed) ocn.Open();
+                var ocmd = odb.GetStoredProcCommand("DXP_GET_CLIENTE_ESTADO_CUENTA", obep.CardCode,obep.CardName, obep.Project,obep.Id_Dire,obep.Contrato);
+                ocmd.CommandTimeout = 2000;
+                var ord = odb.ExecuteReader(ocmd);
+                Dispose(false);
+                return (ord);
+            }
+            finally
+            {
+                ocn.Close();
+            }
+        }
+        
         public IDataReader DXP_GET_TECNICOAUX(BEParameters obep)
         {
             try
@@ -1805,6 +1824,42 @@ namespace DataAccess
                 ocn = odb.CreateConnection();
                 if (ocn.State == ConnectionState.Closed) ocn.Open();
                 var ocmd = odb.GetStoredProcCommand("GET_DEPARTAMENTOS", obep.departamento);
+                ocmd.CommandTimeout = 2000;
+                var ord = odb.ExecuteReader(ocmd);
+                Dispose(false);
+                return (ord);
+            }
+            finally
+            {
+                ocn.Close();
+            }
+        }
+        public IDataReader DXP_GET_LISTA_URB(BEParameters obep)
+        {
+            try
+            {
+                odb = DatabaseFactory.CreateDatabase(obep.Socied);
+                ocn = odb.CreateConnection();
+                if (ocn.State == ConnectionState.Closed) ocn.Open();
+                var ocmd = odb.GetStoredProcCommand("DXP_GET_LISTA_URB",obep.Descripcion);
+                ocmd.CommandTimeout = 2000;
+                var ord = odb.ExecuteReader(ocmd);
+                Dispose(false);
+                return (ord);
+            }
+            finally
+            {
+                ocn.Close();
+            }
+        }
+        public IDataReader DXP_GET_LISTA_URB_DIST(BEParameters obep)
+        {
+            try
+            {
+                odb = DatabaseFactory.CreateDatabase(obep.Socied);
+                ocn = odb.CreateConnection();
+                if (ocn.State == ConnectionState.Closed) ocn.Open();
+                var ocmd = odb.GetStoredProcCommand("DXP_GET_LISTA_URB_DIST", obep.Descripcion);
                 ocmd.CommandTimeout = 2000;
                 var ord = odb.ExecuteReader(ocmd);
                 Dispose(false);
@@ -3775,7 +3830,7 @@ namespace DataAccess
                     odn.UserFields.Fields.Item("U_DXP_PLANINT").Value = obj.U_DXP_PLANINT;
                     odn.UserFields.Fields.Item("U_GOS_MARCA").Value = obj.U_GOS_MARCA;
                     odn.UserFields.Fields.Item("U_GOS_MODELO").Value = obj.U_GOS_MODELO;
-                    if (obj.DetalleServicio != "0")
+                    if (obj.DetalleServicio != "0" && obj.DetalleServicio != "")
                         odn.UserFields.Fields.Item("U_DXP_DET_SERV").Value = Convert.ToInt32(obj.DetalleServicio);
                     if (obj.GLMethod == "C") odn.GLMethod = BoGLMethods.glm_ItemClass;
                     else if (obj.GLMethod == "W") odn.GLMethod = BoGLMethods.glm_WH;
@@ -4307,7 +4362,7 @@ namespace DataAccess
                     odn.UserFields.Fields.Item("U_GOS_MARCA").Value = obj.U_GOS_MARCA;
                     odn.UserFields.Fields.Item("U_GOS_MODELO").Value = obj.U_GOS_MODELO;
                     odn.UserFields.Fields.Item("U_DXP_PLANINT").Value = obj.U_DXP_PLANINT;
-                    if (obj.DetalleServicio != "0")
+                    if (obj.DetalleServicio != "0" && obj.DetalleServicio != "")
                         odn.UserFields.Fields.Item("U_DXP_DET_SERV").Value = Convert.ToInt32(obj.DetalleServicio);
                     if (obj.GLMethod == "C") odn.GLMethod = BoGLMethods.glm_ItemClass;
                     else if (obj.GLMethod == "W") odn.GLMethod = BoGLMethods.glm_WH;
@@ -5127,6 +5182,151 @@ namespace DataAccess
                 Dispose(false);
             }
         }
+
+
+        public void UpdateUrbanizacion(BEUrbanizacion obj, object objs)
+        {
+            try
+            {
+                int RetVal = 0;
+                int ErrCode = 0;
+                var indice = "";
+                string ErrMsg = null;
+                var ocp = ((Company)objs);
+
+                if (ocp.Connected)
+                {
+                    var odn = ocp.UserTables.Item("DXP_BIZ_URBA");
+                    odn.GetByKey(obj.Code);
+
+
+
+                    odn.UserFields.Fields.Item("U_DXP_NOMBRE_URBA").Value = obj.U_DXP_NOMBRE_URBA;
+                    
+
+                   
+                    
+
+                    ocp.StartTransaction();
+                    RetVal = odn.Update();
+                    if (RetVal != 0)
+                    {
+                        ocp.GetLastError(out ErrCode, out ErrMsg);
+                        obj.Msg = ErrMsg;
+                        if (ocp.InTransaction)
+                            ocp.EndTransaction(BoWfTransOpt.wf_RollBack);
+                        throw new ArgumentException(ErrMsg);
+                    }
+                    else
+                    {
+                        if (ocp.InTransaction)
+                            ocp.EndTransaction(SAPbobsCOM.BoWfTransOpt.wf_Commit);
+                        //obj.DocEntry = Convert.ToInt32(ocp.GetNewObjectKey());
+                        //var ors = (Recordset)ocp.GetBusinessObject(BoObjectTypes.BoRecordset);
+                        //ors.Command.Name = "OSCSP_OBJD";
+                        //ors.Command.Parameters.Item("@DscTable").Value = "OINV o";
+                        //ors.Command.Parameters.Item("@DocEntry").Value = obj.DocEntry;
+                        //ors.Command.Execute();
+                        //ors.MoveFirst();
+                        //obj.DocNum = Convert.ToInt32(ors.Fields.Item(0).Value);
+                    }
+
+                }
+            }
+
+
+
+            catch (Exception ex)
+            {
+                if (string.IsNullOrWhiteSpace(obj.Msg))
+                    obj.Msg = ex.Message;
+            }
+            finally
+            {
+                Dispose(false);
+            }
+        }
+
+
+        public void SaveUrbanizacion(BEUrbanizacion obj, object objs)
+        {
+            try
+            {
+                int RetVal = 0;
+                int ErrCode = 0;
+                var indice = "";
+                string ErrMsg = null;
+                var ocp = ((Company)objs);
+
+                if (ocp.Connected)
+                {
+                    var odn = ocp.UserTables.Item("DXP_BIZ_URBA");
+
+
+                    BEParameters be = new BEParameters();
+                    be.Socied = obj.Socied;
+                    var ors = (Recordset)ocp.GetBusinessObject(BoObjectTypes.BoRecordset);
+                    ors.Command.Name = "DXP_GET_COD_URB";
+                    ors.Command.Parameters.Item("@DIST").Value = obj.U_DXP_CODIGO_DIST;
+                    ors.Command.Execute();
+                    ors.MoveFirst();
+                    indice = Convert.ToString(ors.Fields.Item(0).Value);
+
+                    odn.Code = indice;
+                    odn.Name = indice;
+                    odn.UserFields.Fields.Item("U_DXP_NOMBRE_URBA").Value = obj.U_DXP_NOMBRE_URBA;
+
+
+                    odn.UserFields.Fields.Item("U_DXP_CODIGO_DIST").Value = obj.U_DXP_CODIGO_DIST;
+                    odn.UserFields.Fields.Item("U_DXP_NOMBRE_DIST").Value = obj.U_DXP_NOMBRE_DIST;
+
+
+                    ocp.StartTransaction();
+                    RetVal = odn.Add();
+                    if (RetVal != 0)
+                    {
+                        ocp.GetLastError(out ErrCode, out ErrMsg);
+                        obj.Msg = ErrMsg;
+                        if (ocp.InTransaction)
+                            ocp.EndTransaction(BoWfTransOpt.wf_RollBack);
+                        throw new ArgumentException(ErrMsg);
+                    }
+                    else
+                    {
+                        if (ocp.InTransaction)
+                            ocp.EndTransaction(SAPbobsCOM.BoWfTransOpt.wf_Commit);
+                        //obj.DocEntry = Convert.ToInt32(ocp.GetNewObjectKey());
+                        //var ors = (Recordset)ocp.GetBusinessObject(BoObjectTypes.BoRecordset);
+                        //ors.Command.Name = "OSCSP_OBJD";
+                        //ors.Command.Parameters.Item("@DscTable").Value = "OINV o";
+                        //ors.Command.Parameters.Item("@DocEntry").Value = obj.DocEntry;
+                        //ors.Command.Execute();
+                        //ors.MoveFirst();
+                        //obj.DocNum = Convert.ToInt32(ors.Fields.Item(0).Value);
+                    }
+
+                }
+            }
+
+
+
+            catch (Exception ex)
+            {
+                if (string.IsNullOrWhiteSpace(obj.Msg))
+                    obj.Msg = ex.Message;
+            }
+            finally
+            {
+                Dispose(false);
+            }
+        }
+
+
+
+
+
+
+
 
         public void SaveAbonadoDesdePendiente(BEAbonado obj, object objs)
         {
@@ -6488,6 +6688,289 @@ namespace DataAccess
                 Dispose(false);
             }
         }
+        public void CancelInvoice(BEDocument obj, object objs)
+        {
+            try
+            {
+                int RetVal = 0;
+                int ErrCode = 0;
+                string ErrMsg = null;
+                var ocp = ((Company)objs);
+                var TIPODOC = obj.U_BPP_MDTD;
+
+                if (ocp.Connected)
+                {
+
+                    var odn = (Documents)ocp.GetBusinessObject(BoObjectTypes.oInvoices);
+                    odn.GetByKey(obj.DocEntry);
+                    odn.UserFields.Fields.Item("U_BPP_MDTD").Value = "AD";
+
+                    ocp.StartTransaction();
+                    RetVal = odn.Update();
+                    if (RetVal != 0)
+                    {
+                        ocp.GetLastError(out ErrCode, out ErrMsg);
+                        obj.Msg = ErrMsg;
+                        if (ocp.InTransaction)
+                            ocp.EndTransaction(BoWfTransOpt.wf_RollBack);
+                        throw new ArgumentException(ErrMsg);
+                    }
+                    else
+                    {
+                        if (ocp.InTransaction)
+                            ocp.EndTransaction(SAPbobsCOM.BoWfTransOpt.wf_Commit);
+
+                        var odn2 = (Documents)ocp.GetBusinessObject(BoObjectTypes.oInvoices);
+                        odn2.GetByKey(obj.DocEntry);
+
+                        var canceldoc = (Documents)odn2.CreateCancellationDocument();
+                        ocp.StartTransaction();
+                        RetVal = canceldoc.Add();
+
+                        if (RetVal != 0)
+                        {
+                            ocp.GetLastError(out ErrCode, out ErrMsg);
+                            obj.Msg = ErrMsg;
+                            if (ocp.InTransaction)
+                                ocp.EndTransaction(BoWfTransOpt.wf_RollBack);
+                            throw new ArgumentException(ErrMsg);
+                        }
+                        else
+                        {
+                            if (ocp.InTransaction)
+                                ocp.EndTransaction(SAPbobsCOM.BoWfTransOpt.wf_Commit);
+
+                            var ors = (Recordset)ocp.GetBusinessObject(BoObjectTypes.BoRecordset);
+                            ors.Command.Name = "OSCSP_OBJD";
+                            ors.Command.Parameters.Item("@DscTable").Value = "OINV o";
+                            ors.Command.Parameters.Item("@DocEntry").Value = obj.DocEntry;
+                            ors.Command.Execute();
+                            ors.MoveFirst();
+                            obj.DocNum = Convert.ToInt32(ors.Fields.Item(0).Value);
+                            var odn3 = (Documents)ocp.GetBusinessObject(BoObjectTypes.oInvoices);
+                            odn3.GetByKey(obj.DocEntry);
+                            odn3.UserFields.Fields.Item("U_BPP_MDTD").Value = TIPODOC;
+
+                            ocp.StartTransaction();
+                            RetVal = odn3.Update();
+                            if (RetVal != 0)
+                            {
+                                ocp.GetLastError(out ErrCode, out ErrMsg);
+                                obj.Msg = ErrMsg;
+                                if (ocp.InTransaction)
+                                    ocp.EndTransaction(BoWfTransOpt.wf_RollBack);
+                                throw new ArgumentException(ErrMsg);
+                            }
+                            else
+                            {
+                                if (ocp.InTransaction)
+                                    ocp.EndTransaction(SAPbobsCOM.BoWfTransOpt.wf_Commit);
+                            }
+
+                        }
+                    }
+                }
+            }
+            catch (Exception ex)
+            {
+                if (string.IsNullOrWhiteSpace(obj.Msg))
+                    obj.Msg = ex.Message;
+            }
+            finally
+            {
+                Dispose(false);
+            }
+        }
+        public void CancelDownInvoice(BEDocument obj, object objs)
+        {
+            try
+            {
+                int RetVal = 0;
+                int ErrCode = 0;
+                string ErrMsg = null;
+                var ocp = ((Company)objs);
+                var TIPODOC = obj.U_BPP_MDTD;
+
+                if (ocp.Connected)
+                {
+                    //ACTUALIZO LA PROPIA FACTURA PARA QUE TENGA "AD"
+                    var odn = (Documents)ocp.GetBusinessObject(BoObjectTypes.oDownPayments);
+                    odn.GetByKey(obj.DocEntry);
+                    odn.UserFields.Fields.Item("U_BPP_MDTD").Value = "AD";
+
+                    ocp.StartTransaction();
+                    RetVal = odn.Update();
+                    if (RetVal != 0)
+                    {
+                        ocp.GetLastError(out ErrCode, out ErrMsg);
+                        obj.Msg = ErrMsg;
+                        if (ocp.InTransaction)
+                            ocp.EndTransaction(BoWfTransOpt.wf_RollBack);
+                        throw new ArgumentException(ErrMsg);
+                    }
+                    else
+                    {
+                        if (ocp.InTransaction)
+                            ocp.EndTransaction(SAPbobsCOM.BoWfTransOpt.wf_Commit);
+                        //CREO EL DOCUMENTO DE CANCELACION CON EL AD QUE SE ACTUALIZO EN EL ORIGINAL
+                        var odn2 = (Documents)ocp.GetBusinessObject(BoObjectTypes.oDownPayments);
+                        odn2.GetByKey(obj.DocEntry);
+
+                        var canceldoc = (Documents)odn2.CreateCancellationDocument();
+                        ocp.StartTransaction();
+                        RetVal = canceldoc.Add();
+
+                        if (RetVal != 0)
+                        {
+                            ocp.GetLastError(out ErrCode, out ErrMsg);
+                            obj.Msg = ErrMsg;
+                            if (ocp.InTransaction)
+                                ocp.EndTransaction(BoWfTransOpt.wf_RollBack);
+                            throw new ArgumentException(ErrMsg);
+                        }
+                        else
+                        {
+                            if (ocp.InTransaction)
+                                ocp.EndTransaction(SAPbobsCOM.BoWfTransOpt.wf_Commit);
+
+                            var ors = (Recordset)ocp.GetBusinessObject(BoObjectTypes.BoRecordset);
+                            ors.Command.Name = "OSCSP_OBJD";
+                            ors.Command.Parameters.Item("@DscTable").Value = "ODPI o";
+                            ors.Command.Parameters.Item("@DocEntry").Value = obj.DocEntry;
+                            ors.Command.Execute();
+                            ors.MoveFirst();
+                            obj.DocNum = Convert.ToInt32(ors.Fields.Item(0).Value);
+
+                            //ACTUALIZO EL DOCUMENTO ORIGINAL CON EL TIPODOC QUE TENIA
+                            var odn3 = (Documents)ocp.GetBusinessObject(BoObjectTypes.oDownPayments);
+                            odn3.GetByKey(obj.DocEntry);
+                            odn3.UserFields.Fields.Item("U_BPP_MDTD").Value = TIPODOC;
+
+                            ocp.StartTransaction();
+                            RetVal = odn3.Update();
+                            if (RetVal != 0)
+                            {
+                                ocp.GetLastError(out ErrCode, out ErrMsg);
+                                obj.Msg = ErrMsg;
+                                if (ocp.InTransaction)
+                                    ocp.EndTransaction(BoWfTransOpt.wf_RollBack);
+                                throw new ArgumentException(ErrMsg);
+                            }
+                            else
+                            {
+                                if (ocp.InTransaction)
+                                    ocp.EndTransaction(SAPbobsCOM.BoWfTransOpt.wf_Commit);
+                            }
+
+                        }
+                    }
+                }
+            }
+            catch (Exception ex)
+            {
+                if (string.IsNullOrWhiteSpace(obj.Msg))
+                    obj.Msg = ex.Message;
+            }
+            finally
+            {
+                Dispose(false);
+            }
+        }
+        public void CancelPurchaseInvoice(BEDocument obj, object objs)
+        {
+            try
+            {
+                int RetVal = 0;
+                int ErrCode = 0;
+                string ErrMsg = null;
+                var ocp = ((Company)objs);
+                var TIPODOC = obj.U_BPP_MDTD;
+
+                if (ocp.Connected)
+                {
+                    //ACTUALIZO LA PROPIA FACTURA PARA QUE TENGA "AD"
+                    var odn = (Documents)ocp.GetBusinessObject(BoObjectTypes.oPurchaseInvoices);
+                    odn.GetByKey(obj.DocEntry);
+                    odn.UserFields.Fields.Item("U_BPP_MDTD").Value = "AD";
+
+                    ocp.StartTransaction();
+                    RetVal = odn.Update();
+                    if (RetVal != 0)
+                    {
+                        ocp.GetLastError(out ErrCode, out ErrMsg);
+                        obj.Msg = ErrMsg;
+                        if (ocp.InTransaction)
+                            ocp.EndTransaction(BoWfTransOpt.wf_RollBack);
+                        throw new ArgumentException(ErrMsg);
+                    }
+                    else
+                    {
+                        if (ocp.InTransaction)
+                            ocp.EndTransaction(SAPbobsCOM.BoWfTransOpt.wf_Commit);
+                        //CREO EL DOCUMENTO DE CANCELACION CON EL AD QUE SE ACTUALIZO EN EL ORIGINAL
+                        var odn2 = (Documents)ocp.GetBusinessObject(BoObjectTypes.oPurchaseInvoices);
+                        odn2.GetByKey(obj.DocEntry);
+
+                        var canceldoc = (Documents)odn2.CreateCancellationDocument();
+                        ocp.StartTransaction();
+                        RetVal = canceldoc.Add();
+
+                        if (RetVal != 0)
+                        {
+                            ocp.GetLastError(out ErrCode, out ErrMsg);
+                            obj.Msg = ErrMsg;
+                            if (ocp.InTransaction)
+                                ocp.EndTransaction(BoWfTransOpt.wf_RollBack);
+                            throw new ArgumentException(ErrMsg);
+                        }
+                        else
+                        {
+                            if (ocp.InTransaction)
+                                ocp.EndTransaction(SAPbobsCOM.BoWfTransOpt.wf_Commit);
+
+                            var ors = (Recordset)ocp.GetBusinessObject(BoObjectTypes.BoRecordset);
+                            ors.Command.Name = "OSCSP_OBJD";
+                            ors.Command.Parameters.Item("@DscTable").Value = "OPCH o";
+                            ors.Command.Parameters.Item("@DocEntry").Value = obj.DocEntry;
+                            ors.Command.Execute();
+                            ors.MoveFirst();
+                            obj.DocNum = Convert.ToInt32(ors.Fields.Item(0).Value);
+
+                            //ACTUALIZO EL DOCUMENTO ORIGINAL CON EL TIPODOC QUE TENIA
+                            var odn3 = (Documents)ocp.GetBusinessObject(BoObjectTypes.oPurchaseInvoices);
+                            odn3.GetByKey(obj.DocEntry);
+                            odn3.UserFields.Fields.Item("U_BPP_MDTD").Value = TIPODOC;
+
+                            ocp.StartTransaction();
+                            RetVal = odn3.Update();
+                            if (RetVal != 0)
+                            {
+                                ocp.GetLastError(out ErrCode, out ErrMsg);
+                                obj.Msg = ErrMsg;
+                                if (ocp.InTransaction)
+                                    ocp.EndTransaction(BoWfTransOpt.wf_RollBack);
+                                throw new ArgumentException(ErrMsg);
+                            }
+                            else
+                            {
+                                if (ocp.InTransaction)
+                                    ocp.EndTransaction(SAPbobsCOM.BoWfTransOpt.wf_Commit);
+                            }
+
+                        }
+                    }
+                }
+            }
+            catch (Exception ex)
+            {
+                if (string.IsNullOrWhiteSpace(obj.Msg))
+                    obj.Msg = ex.Message;
+            }
+            finally
+            {
+                Dispose(false);
+            }
+        }
         public void SavePurchaseInvoice(BEDocument obj, object objs)
         {
             try
@@ -7541,7 +8024,7 @@ namespace DataAccess
                     {
                         odn.Lines.ItemCode = _item.ItemCode;
                         odn.Lines.ItemDescription = _item.ItemName;
-                        odn.Lines.Quantity = _item.Quantity;
+                        odn.Lines.Quantity = Convert.ToDouble(_item.Quantity);
 
                         if (_item.IssueMthd.Substring(0, 1) == "M" && !string.IsNullOrWhiteSpace(_item.Serie))
                         {
@@ -8211,6 +8694,27 @@ namespace DataAccess
                 ocn = odb.CreateConnection();
                 if (ocn.State == ConnectionState.Closed) ocn.Open();
                 var ocmd = odb.GetStoredProcCommand("DXP_VALIDAR_PENDIENTE", obj.U_DXP_COD_ABONADO, obj.U_DXP_SEDE);
+                ocmd.CommandTimeout = 2000;
+                var osl = odb.ExecuteScalar(ocmd).ToString();
+                Dispose(false);
+                return (osl);
+
+            }
+            finally
+            {
+                ocn.Close();
+            }
+
+        }
+
+        public string DXP_GET_COD_URB(BEParameters obj)
+        {
+            try
+            {
+                odb = DatabaseFactory.CreateDatabase(obj.Socied);
+                ocn = odb.CreateConnection();
+                if (ocn.State == ConnectionState.Closed) ocn.Open();
+                var ocmd = odb.GetStoredProcCommand("DXP_GET_COD_URB", obj.distrito);
                 ocmd.CommandTimeout = 2000;
                 var osl = odb.ExecuteScalar(ocmd).ToString();
                 Dispose(false);
@@ -9175,7 +9679,7 @@ namespace DataAccess
                         odn.Lines.ItemCode = _item.ItemCode;
                         odn.Lines.ItemDescription = _item.ItemName;
                         odn.Lines.UnitPrice = Convert.ToDouble(_item.PriceBefDi);
-                        odn.Lines.Quantity = _item.Quantity;
+                        odn.Lines.Quantity = Convert.ToDouble(_item.Quantity);
                         if (_item.DiscPrcnt > 0)
                             odn.Lines.DiscountPercent = Convert.ToDouble(_item.DiscPrcnt);
                         odn.Lines.WarehouseCode = _item.WhsCode;
@@ -9300,7 +9804,7 @@ namespace DataAccess
                             odn.Lines.ItemCode = _item.ItemCode;
                             odn.Lines.ItemDescription = _item.ItemName;
                             odn.Lines.UnitPrice = Convert.ToDouble(_item.PriceBefDi);
-                            odn.Lines.Quantity = _item.Quantity;
+                            odn.Lines.Quantity = Convert.ToDouble(_item.Quantity);
                             if (_item.DiscPrcnt > 0)
                                 odn.Lines.DiscountPercent = Convert.ToDouble(_item.DiscPrcnt);
                             odn.Lines.WarehouseCode = _item.WhsCode;
@@ -9410,7 +9914,7 @@ namespace DataAccess
                           odn.Lines.ItemCode = _item.ItemCode;
                           odn.Lines.ItemDescription = _item.ItemName;
                           odn.Lines.UnitPrice = Convert.ToDouble(_item.PriceBefDi);
-                          odn.Lines.Quantity = _item.Quantity;
+                          odn.Lines.Quantity = Convert.ToDouble(_item.Quantity);
                           if (_item.DiscPrcnt > 0)
                               odn.Lines.DiscountPercent = Convert.ToDouble(_item.DiscPrcnt);
                           odn.Lines.WarehouseCode = _item.WhsCode;
@@ -9588,7 +10092,7 @@ namespace DataAccess
                         odn.Lines.ItemCode = _item.ItemCode;
                         odn.Lines.ItemDescription = _item.ItemName;
                         odn.Lines.UnitPrice = Convert.ToDouble(_item.PriceBefDi);
-                        odn.Lines.Quantity = _item.Quantity;
+                        odn.Lines.Quantity = Convert.ToDouble(_item.Quantity);
                         if (_item.DiscPrcnt > 0)
                             odn.Lines.DiscountPercent = Convert.ToDouble(_item.DiscPrcnt);
                         odn.Lines.WarehouseCode = _item.WhsCode;
@@ -9734,7 +10238,7 @@ namespace DataAccess
                         odn.Lines.ItemCode = _item.ItemCode;
                         odn.Lines.ItemDescription = _item.ItemName;
                         odn.Lines.UnitPrice = Convert.ToDouble(_item.PriceBefDi);
-                        odn.Lines.Quantity = _item.Quantity;
+                        odn.Lines.Quantity = Convert.ToDouble(_item.Quantity);
                         if (_item.DiscPrcnt > 0)
                             odn.Lines.DiscountPercent = Convert.ToDouble(_item.DiscPrcnt);
                         odn.Lines.WarehouseCode = _item.WhsCode;
@@ -9844,7 +10348,7 @@ namespace DataAccess
                         odn.Lines.ItemCode = _item.ItemCode;
                         odn.Lines.ItemDescription = _item.ItemName;
                         odn.Lines.UnitPrice = Convert.ToDouble(_item.PriceBefDi);
-                        odn.Lines.Quantity = _item.Quantity;
+                        odn.Lines.Quantity = Convert.ToDouble(_item.Quantity);
                         if (_item.DiscPrcnt > 0)
                             odn.Lines.DiscountPercent = Convert.ToDouble(_item.DiscPrcnt);
                         odn.Lines.WarehouseCode = _item.WhsCode;
@@ -9942,7 +10446,7 @@ namespace DataAccess
                             odn.Lines.ItemCode = _item.ItemCode;
                             odn.Lines.ItemDescription = _item.ItemName;
                             odn.Lines.UnitPrice = Convert.ToDouble(_item.PriceBefDi);
-                            odn.Lines.Quantity = _item.Quantity;
+                            odn.Lines.Quantity = Convert.ToDouble(_item.Quantity);
                             if (_item.DiscPrcnt > 0)
                                 odn.Lines.DiscountPercent = Convert.ToDouble(_item.DiscPrcnt);
                             odn.Lines.WarehouseCode = _item.WhsCode;
@@ -10032,7 +10536,7 @@ namespace DataAccess
                         odn.Lines.ItemCode = _item.ItemCode;
                         odn.Lines.ItemDescription = _item.ItemName;
                         odn.Lines.UnitPrice = Convert.ToDouble(_item.PriceBefDi);
-                        odn.Lines.Quantity = _item.Quantity;
+                        odn.Lines.Quantity = Convert.ToDouble(_item.Quantity);
                         if (_item.DiscPrcnt > 0)
                             odn.Lines.DiscountPercent = Convert.ToDouble(_item.DiscPrcnt);
                         odn.Lines.WarehouseCode = _item.WhsCode;
@@ -10759,6 +11263,98 @@ namespace DataAccess
                 ocn.Close();
             }
         }
+
+        public IDataReader DXP_GET_REPORTE_CLIENTE_DETALLE(BEParameters obep)
+        {
+            try
+            {
+                odb = DatabaseFactory.CreateDatabase(obep.Socied);
+                ocn = odb.CreateConnection();
+                if (ocn.State == ConnectionState.Closed) ocn.Open();
+                var ocmd = odb.GetStoredProcCommand("DXP_GET_REPORTE_CLIENTE_DETALLE", obep.DateIn, obep.DateFi, obep.Project, obep.Socied, obep.CardCode);
+                ocmd.CommandTimeout = 2000;
+                var ord = odb.ExecuteReader(ocmd);
+                Dispose(false);
+                return (ord);
+            }
+            finally
+            {
+                ocn.Close();
+            }
+        }
+        public IDataReader DXP_GET_REPORTE_CLIENTE(BEParameters obep)
+        {
+            try
+            {
+                odb = DatabaseFactory.CreateDatabase(obep.Socied);
+                ocn = odb.CreateConnection();
+                if (ocn.State == ConnectionState.Closed) ocn.Open();
+                var ocmd = odb.GetStoredProcCommand("DXP_GET_REPORTE_CLIENTE", obep.DateIn, obep.DateFi, obep.Project, obep.Socied, obep.CardCode);
+                ocmd.CommandTimeout = 2000;
+                var ord = odb.ExecuteReader(ocmd);
+                Dispose(false);
+                return (ord);
+            }
+            finally
+            {
+                ocn.Close();
+            }
+        }
+        public IDataReader DXP_GET_REPORTE_CLIENTE_1(BEParameters obep)
+        {
+            try
+            {
+                odb = DatabaseFactory.CreateDatabase(obep.Socied);
+                ocn = odb.CreateConnection();
+                if (ocn.State == ConnectionState.Closed) ocn.Open();
+                var ocmd = odb.GetStoredProcCommand("DXP_GET_REPORTE_CLIENTE_1", obep.DateIn, obep.DateFi, obep.Project, obep.Socied, obep.CardCode);
+                ocmd.CommandTimeout = 2000;
+                var ord = odb.ExecuteReader(ocmd);
+                Dispose(false);
+                return (ord);
+            }
+            finally
+            {
+                ocn.Close();
+            }
+        }
+        public IDataReader DXP_ESTADO_CUENTA_FINAL_2(BEParameters obep)
+        {
+            try
+            {
+                odb = DatabaseFactory.CreateDatabase(obep.Socied);
+                ocn = odb.CreateConnection();
+                if (ocn.State == ConnectionState.Closed) ocn.Open();
+                var ocmd = odb.GetStoredProcCommand("DXP_ESTADO_CUENTA_FINAL_2", obep.DateIn, obep.DateFi, obep.Project, obep.Socied, obep.CardCode);
+                ocmd.CommandTimeout = 2000;
+                var ord = odb.ExecuteReader(ocmd);
+                Dispose(false);
+                return (ord);
+            }
+            finally
+            {
+                ocn.Close();
+            }
+        }
+        public IDataReader DXP_ESTADO_CUENTA_FINAL(BEParameters obep)
+        {
+            try
+            {
+                odb = DatabaseFactory.CreateDatabase(obep.Socied);
+                ocn = odb.CreateConnection();
+                if (ocn.State == ConnectionState.Closed) ocn.Open();
+                var ocmd = odb.GetStoredProcCommand("DXP_ESTADO_CUENTA_FINAL", obep.DateIn, obep.DateFi, obep.Project, obep.Socied, obep.CardCode);
+                ocmd.CommandTimeout = 2000;
+                var ord = odb.ExecuteReader(ocmd);
+                Dispose(false);
+                return (ord);
+            }
+            finally
+            {
+                ocn.Close();
+            }
+        }
+
         /// <summary>
         /// INVENTARIO
         /// </summary>
@@ -11206,15 +11802,25 @@ namespace DataAccess
                 salidaabo = tc.Read();
                 bool banderaw = false;
                 var banderapara = false;
+                var banderaprimera = false;
+                var x = "";
+                var y = "";
 
                 string[] separatingStrings = { "\r\n" };
                 var h2 = salidaabo.Split(separatingStrings, StringSplitOptions.None);
-                var obtenerabo = h2[h2.Length - 2].Split('/');
-                var obtenerabo1 = h2[h2.Length - 3];
-                var x = Convert.ToString((obtenerabo[1])).TrimEnd();
-                var y = obtenerabo1.Substring(0, 20).TrimEnd().Split(':')[1];
-
-
+               if( salidaabo.Contains("No related information to show"))
+                    {
+                    banderaprimera = true;
+                }
+                if (banderaprimera == false)
+                {
+                    var obtenerabo = h2[h2.Length - 2].Split('/');
+                    var obtenerabo1 = h2[h2.Length - 3];
+                    x = Convert.ToString((obtenerabo[1])).TrimEnd();
+                    y = obtenerabo1.Substring(0, 20).TrimEnd().Split(':')[1];
+                }
+                
+  
 
                 if (salidaabo.Contains("No related information to show"))
                 {
@@ -11703,6 +12309,7 @@ namespace DataAccess
                     }
                     else if(abo.U_DXP_ONU_TYPE == "DC-410GHW")
                     {
+                        salidafinal = "OK";
                         prompt = "exit";
                     }
                     

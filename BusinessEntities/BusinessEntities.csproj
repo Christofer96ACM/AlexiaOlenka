@@ -58,6 +58,8 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="BEUrbanizacion.cs" />
+    <Compile Include="BEEstadoCuenta.cs" />
     <Compile Include="BEGrupoArt.cs" />
     <Compile Include="BEAsiento.cs" />
     <Compile Include="BEOnu.cs" />

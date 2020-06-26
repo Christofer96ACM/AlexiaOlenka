@@ -153,7 +153,7 @@ namespace OneCommerce.RegistroOnus
                     U_DXP_ABONADO=txtabo.Text,
                     U_U_DXP_ONU_SERIAL=txtserial.Text,
                     U_DXP_COD_ONU=txtonu.Text,
-                    U_DXP_ONU_TYPE=txttypeonu.Text
+                    U_DXP_ONU_TYPE= cbbtypeonu.Text
 
 
                 };
@@ -195,7 +195,7 @@ namespace OneCommerce.RegistroOnus
                     U_DXP_ABONADO = txtabo.Text,
                     U_U_DXP_ONU_SERIAL = txtserial.Text,
                     U_DXP_COD_ONU = txtonu.Text,
-                    U_DXP_ONU_TYPE = txttypeonu.Text
+                    U_DXP_ONU_TYPE = cbbtypeonu.Text
                 };
                 var obrd = new BRDocument();
                 if (obep.IPONU == "" || obep.USUARIONU == "" || obep.PASSWORDONU == "" || obep.IPONU == "null" || obep.USUARIONU == "null" || obep.PASSWORDONU == "null"

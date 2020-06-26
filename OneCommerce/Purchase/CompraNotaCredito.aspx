@@ -258,7 +258,7 @@
                                                         <dx:GridViewDataTextColumn Caption="Cantidad" ShowInCustomizationForm="True" 
                                                             VisibleIndex="4" Width="70px" FieldName="Quantity">
                                                             <PropertiesTextEdit ClientInstanceName="txtQuantity" Width="100%" DisplayFormatInEditMode="true">
-                                                            <MaskSettings Mask="&lt;0..9999999&gt;" />
+                                                            
                                                                 <Style HorizontalAlign="Center" VerticalAlign="Middle" Font-Size="8pt">
                                                                 </Style>                                                                
                                                                 <ValidationSettings ErrorDisplayMode="None">
@@ -1226,14 +1226,14 @@
                                         <td style="width:5px">
                                         </td>
                                          <td style="width:130px">
-                                            Serie:</td>
+                                            Serie Doc.:</td>
                                         <td style="width:170px">
                                             <dx:ASPxTextBox ID="txtNumAtCards" runat="server"
                                                 ClientInstanceName="txtNumAtCards" Width="170px">
                                             </dx:ASPxTextBox>
                                         </td>
                                         <td style="width:130px">
-                                            Correlativo:</td>
+                                            Correlativo Doc.:</td>
                                         <td style="width:100px">
                                             <dx:ASPxTextBox ID="txtCorrelativo" runat="server"
                                                 ClientInstanceName="txtCorrelativo" Width="100px">

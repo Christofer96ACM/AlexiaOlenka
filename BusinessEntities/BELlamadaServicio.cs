@@ -31,6 +31,8 @@ namespace BusinessEntities
         public string NumDoc { get; set; }
         public string IdLlamada { get; set; }
         public string Creacion { get; set; }
+        public string createtime { get; set; }
+        public string closetime { get; set; }
         public DateTime? Creacion1 { get; set; }
         public DateTime? Cerrado1 { get; set; }
         public string Cerrado { get; set; }

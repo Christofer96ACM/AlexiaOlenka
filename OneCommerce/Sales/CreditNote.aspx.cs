@@ -611,12 +611,12 @@ namespace OneCommerce.Sales
                 {
                     var line = new BEDocumentLine();
 
-                    if (cbbDocCur.Value.ToString() == "EUR")
-                    {
-                        padre[3] = padre[3].ToString().Replace('.', ',');
-                        padre[5] = padre[5].ToString().Replace('.', ',');
-                        padre[6] = padre[6].ToString().Replace('.', ',');
-                    }
+                    //if (cbbDocCur.Value.ToString() == "EUR")
+                    //{
+                    //    padre[3] = padre[3].ToString().Replace('.', ',');
+                    //    padre[5] = padre[5].ToString().Replace('.', ',');
+                    //    padre[6] = padre[6].ToString().Replace('.', ',');
+                    //}
                     //return;
                     line.ItemCode = padre[0];
                     line.ItemName = padre[1];

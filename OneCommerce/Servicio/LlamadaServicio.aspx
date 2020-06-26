@@ -238,10 +238,22 @@
                                                         <td style="width:40px"></td>
                                                         <td style="width:140px">
                                                             Creado el:</td>
+                                                        
                                                         <td style="width:140px">
-                                                            <dx:ASPxDateEdit ID="txtcreateDate1" runat="server"  ReadOnly="true"
-                                                                ClientInstanceName="txtcreateDate1" Width="100%">
-                                                            </dx:ASPxDateEdit>
+                                                            <table>
+                                                                <tr>
+                                                                    <td>
+                                                                        <dx:ASPxDateEdit ID="txtcreateDate1" runat="server"  ReadOnly="true"
+                                                                          ClientInstanceName="txtcreateDate1" Width="100%">
+                                                                        </dx:ASPxDateEdit>
+                                                                    </td>
+                                                                    <td>
+                                                                        <dx:ASPxTextBox ID="txtcreatetime" runat="server"  ReadOnly="true"
+                                                                          ClientInstanceName="txtcreatetime" Width="100%">
+                                                                        </dx:ASPxTextBox>
+                                                                    </td>
+                                                                </tr>
+                                                            </table>
                                                         </td>
                                                     </tr>
                                                     <tr>
@@ -256,9 +268,21 @@
                                                         <td style="width:140px">
                                                             Cerrado el:</td>
                                                         <td style="width:140px">
-                                                            <dx:ASPxDateEdit ID="txtcloseDate1" runat="server" Width="100%" ReadOnly="true"
-                                                                ClientInstanceName="txtcloseDate1" Visible="true">
-                                                            </dx:ASPxDateEdit>
+                                                             <table>
+                                                                <tr>
+                                                                    <td>
+                                                                        <dx:ASPxDateEdit ID="txtcloseDate1" runat="server" Width="100%" ReadOnly="true"
+                                                                          ClientInstanceName="txtcloseDate1" Visible="true">
+                                                                         </dx:ASPxDateEdit>
+                                                                    </td>
+                                                                    <td>
+                                                                        <dx:ASPxTextBox ID="txtclosetime" runat="server"  ReadOnly="true"
+                                                                          ClientInstanceName="txtclosetime" Width="100%">
+                                                                        </dx:ASPxTextBox>
+                                                                    </td>
+                                                                </tr>
+                                                            </table>
+                                                            
                                                         </td>
                                                     </tr>
                                                     <tr>
@@ -832,6 +856,12 @@
                                         ShowInCustomizationForm="True" Visible="false" VisibleIndex="32">
                                     </dx:GridViewDataTextColumn>
                                     <dx:GridViewDataTextColumn Caption="TecnicoAux" FieldName="U_GOS_TECN6" 
+                                        ShowInCustomizationForm="True" Visible="false" VisibleIndex="33">
+                                    </dx:GridViewDataTextColumn>
+                                     <dx:GridViewDataTextColumn Caption="CreateTime" FieldName="createtime" 
+                                        ShowInCustomizationForm="True" Visible="false" VisibleIndex="33">
+                                    </dx:GridViewDataTextColumn>
+                                     <dx:GridViewDataTextColumn Caption="CloseTime" FieldName="closetime" 
                                         ShowInCustomizationForm="True" Visible="false" VisibleIndex="33">
                                     </dx:GridViewDataTextColumn>
                                 </Columns>

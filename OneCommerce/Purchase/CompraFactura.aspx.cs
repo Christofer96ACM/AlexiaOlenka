@@ -512,7 +512,7 @@ namespace OneCommerce.Purchase
             {
                 ItemCode = Convert.ToString(e.NewValues["ItemCode"]),
                 ItemName = Convert.ToString(e.NewValues["ItemName"]),
-                Quantity = Convert.ToInt32(e.NewValues["Quantity"]),
+                Quantity = Convert.ToDecimal(e.NewValues["Quantity"]),
                 PriceBefDi = Convert.ToDecimal(e.NewValues["PriceBefDi"]),
                 DiscPrcnt = Convert.ToDecimal(e.NewValues["DiscPrcnt"]),
                 Price = Convert.ToDecimal(e.NewValues["Price"]),
@@ -609,7 +609,7 @@ namespace OneCommerce.Purchase
                         item.Price = Convert.ToDecimal(_spl[2]);
                         item.LineTotal = Convert.ToDecimal(_spl[3]);
                         item.GTotal = Convert.ToDecimal(_spl[4]);
-                        item.Quantity = Convert.ToInt32(_spl[6]);
+                        item.Quantity = Convert.ToDecimal(_spl[6]);
                     });
             }
             else if (e.Parameters.Contains("LM"))
@@ -907,7 +907,7 @@ namespace OneCommerce.Purchase
                         band = false;
                         if (item.TreeType == "N")
                         {
-                            item.Quantity = Convert.ToInt32(_spl[1]);
+                            item.Quantity = Convert.ToDecimal(_spl[1]);
                             item.LineTotal = item.Quantity * item.Price;
                             item.GTotal = item.LineTotal * Convert.ToDecimal(1.18);
                         }
@@ -915,13 +915,13 @@ namespace OneCommerce.Purchase
                         {
                             if (item.TreeType == "S")
                             {
-                                item.Quantity = Convert.ToInt32(_spl[1]);
+                                item.Quantity = Convert.ToDecimal(_spl[1]);
                                 item.LineTotal = item.Quantity * item.Price;
                                 item.GTotal = item.LineTotal * Convert.ToDecimal(1.18);
                             }
                             else if (item.TreeType == "I")
                             {
-                                item.Quantity = Convert.ToInt32(item.NumInBuy) * Convert.ToInt32(_spl[1]);
+                                item.Quantity = Convert.ToDecimal(item.NumInBuy) * Convert.ToDecimal(_spl[1]);
                                 item.LineTotal = item.Quantity * item.Price;
                                 item.GTotal = item.LineTotal * Convert.ToDecimal(1.18);
                             }
@@ -1361,6 +1361,79 @@ namespace OneCommerce.Purchase
             var _err = !string.IsNullOrWhiteSpace(obj.Msg) ? obj.Msg : "OKBP";
             return (_err);
         }
+        private string Cancel()
+        {
+            var _err = string.Empty;
+            var band = false;
+            if (((List<BEDocumentLine>)Session["inv1"]).Count == 0)
+                _err = BSMessage.MsExLinesCount;
+            if (cbeOwnerCode.Value == null)
+                _err = BSMessage.MsExLinesCount;
+
+            if (string.IsNullOrWhiteSpace(_err))
+            {
+                //if (re != 0)
+                //{
+                //    _err = "El número de correlativo ya existe!!";
+                //}
+                //else
+                //{
+                var obec = ((BEParameters)Session["InitPar"]);
+                var obj = new BEDocument();
+                obj.Socied = obec.Socied;
+                obj.DocEntry = Convert.ToInt32(txtDocEntry.Text);
+
+                //obj.DocDate = Convert.ToDateTime(dteDocDate.Text);
+                //obj.TaxDate = Convert.ToDateTime(dteDocumentoDate.Text);
+                //obj.CntctCode = Convert.ToInt32(cbbPersonContact.Value.ToString());
+                //obj.CardCode = txtCardCode.Text;
+                //obj.CardName = bteCardName.Text.Trim();
+                //obj.LicTradNum = bteLicTradNum.Text.Trim();
+                //obj.U_BPP_MDTD = cbbU_BPP_MDTD.Value.ToString();
+                //obj.U_BPP_MDSD = cbbU_BPP_MDSD.Value.ToString();
+                //obj.U_BPP_MDCD = txtU_BPP_MDCD.Value.ToString();
+                //-------------------------------------
+                //OBTENIENDO NUEVO CORRELATIVO
+                //var obep = new BEParameters()
+                //{
+                //    Socied = obec.Socied,
+                //    NumAtCard = obj.U_BPP_MDTD,
+                //    SerieMaqr = obj.U_BPP_MDSD,
+                //};
+                //var obrd2 = new BRDocument();
+                //var list = obrd2.Get_OSCSP_TPDOVE_2(obep);
+                //list.ForEach(i => {
+                //    obj.U_BPP_MDCD = i.U_BPP_NDCD;
+                //});
+                //-------------------------------------
+                //obj.U_BPP_MDCD = txtU_BPP_MDCD.Text;
+                //obj.NumAtCard = txtNumAtCard.Text;
+                //obj.Currency = cbbDocCur.Value.ToString();
+                //obj.ShipToCode = txtShipToCode.Text;
+                //obj.PayToCode = txtBillToCode.Text;
+                //obj.DiscPrcntTotal = Convert.ToDecimal(alphanumeric(txtDiscPrcntTotal.Value.ToString()));
+                //obj.TotalExpns = Convert.ToDecimal(alphanumeric(txtTotalExpns.Value.ToString()));
+                //obj.SlpCode = Convert.ToInt16(cbeSalesPerson.Value);
+                //obj.OwnerCode = Convert.ToInt32(cbeOwnerCode.Value);
+                //obj.GroupNum = Convert.ToInt16(cbbGroupNum.Value);
+                //obj.U_MP_FE_GRR = txtGuiaRelacionada.Text;
+                //obj.U_DXP_FE_TO = cbbTipoOperacion.Value.ToString();
+                //obj.Comments = mmoComments.Text;
+                ////obj.U_BF_PED_ORIG = txtU_BF_PED_ORIG.Text;
+                //obj.Project = ((BEParameters)Session["InitPar"]).Project;
+                //obj.Reserve = "N";
+
+                using (var obrd = new BRDocument())
+                {
+                    obrd.CancelPurchaseInvoice(obj, ((BEParameters)Session["InitPar"]).objSapSbo);
+                }
+
+                _err = !string.IsNullOrWhiteSpace(obj.Msg) ? obj.Msg : string.Format("SIU#{0}#{1}", obj.DocEntry, obj.DocNum);
+                //}
+            }
+
+            return (_err);
+        }
         protected void clbOperation_Callback(object source, CallbackEventArgs e)
         {
             try
@@ -1380,6 +1453,10 @@ namespace OneCommerce.Purchase
                 else if (string.Compare(e.Parameter, "CrClient", false) == 0)
                 {
                     e.Result = BusinessPartner();
+                }
+                else if (string.Compare(e.Parameter, "Cancel", false) == 0)
+                {
+                    e.Result = Cancel();
                 }
                 else
                 {
@@ -1555,7 +1632,7 @@ namespace OneCommerce.Purchase
             ((List<BEDocumentLine>)Session["inv1"])[index].PriceBefDi = Convert.ToDecimal(e.NewValues["PriceBefDi"]);
             ((List<BEDocumentLine>)Session["inv1"])[index].DiscPrcnt = Convert.ToDecimal(e.NewValues["DiscPrcnt"]);
             ((List<BEDocumentLine>)Session["inv1"])[index].Price = Convert.ToDecimal(e.NewValues["Price"]);
-            ((List<BEDocumentLine>)Session["inv1"])[index].Quantity = Convert.ToInt32(e.NewValues["Quantity"]);
+            ((List<BEDocumentLine>)Session["inv1"])[index].Quantity = Convert.ToDecimal(e.NewValues["Quantity"]);
             ((List<BEDocumentLine>)Session["inv1"])[index].LineTotal = Convert.ToDecimal(e.NewValues["LineTotal"]);
             ((List<BEDocumentLine>)Session["inv1"])[index].GTotal = Convert.ToDecimal(e.NewValues["GTotal"]);
             ((List<BEDocumentLine>)Session["inv1"])[index].Serie = Convert.ToString(e.NewValues["Serie"]);

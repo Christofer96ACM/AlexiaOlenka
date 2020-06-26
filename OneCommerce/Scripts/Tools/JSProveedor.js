@@ -8,6 +8,7 @@ $(document).ready(function () {
         Get_DEPARTAMENTOS_JS();
         GET_PROVINCIAS_JS2('');
         GET_DISTRITOS_JS2('');
+        Set_VisibleOption();
         //Init_ClientCr();
         Get_InitialData();
         InitControls();
@@ -16,6 +17,12 @@ $(document).ready(function () {
         alert(e.Message);
     }
 });
+
+
+function Set_VisibleOption() {
+    mnuOper.GetItemByName("Recursos").SetVisible(false);
+    
+}
 
 function InitControls() {
     ClearControlsClient();

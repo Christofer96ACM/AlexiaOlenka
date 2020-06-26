@@ -85,13 +85,13 @@ namespace OneCommerce.RegistroOnus {
         protected global::DevExpress.Web.ASPxEditors.ASPxTextBox txtonu;
         
         /// <summary>
-        /// txttypeonu control.
+        /// cbbtypeonu control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::DevExpress.Web.ASPxEditors.ASPxTextBox txttypeonu;
+        protected global::DevExpress.Web.ASPxEditors.ASPxComboBox cbbtypeonu;
         
         /// <summary>
         /// btnExport control.

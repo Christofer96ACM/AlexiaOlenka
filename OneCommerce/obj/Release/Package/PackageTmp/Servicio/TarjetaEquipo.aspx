@@ -359,7 +359,7 @@
                         <td>
                             <table class="tablespace" style="width:100%">
                                 <tr>
-                                    <td id="ProductParCaption" style="width:105px">
+                                    <td id="Product" style="width:105px">
                                         Código:</td>
                                     <td style="width:300px">
                                         <dx:ASPxTextBox ID="txtParProduct" runat="server" Width="100%" 
@@ -490,7 +490,7 @@
                         <td>
                             <table style="width:100%;" class="tablespace">
                                 <tr>
-                                    <td id="ClientParCaption" style="width:105px">
+                                    <td id="Client" style="width:105px">
                                         Código:</td>
                                     <td style="width:280px">
                                         <dx:ASPxTextBox ID="txtParClient" runat="server" Width="100%" 
@@ -592,7 +592,7 @@
                         <td>
                             <table style="width:100%;" class="tablespace">
                                 <tr>
-                                    <td id="ClientParCaption2" style="width:50px">
+                                    <td id="Client2" style="width:50px">
                                         Cliente:</td>
                                     <td style="width:100px">
                                         <dx:ASPxTextBox ID="txtCliente" runat="server" Width="100px" 
@@ -600,7 +600,7 @@
                                             <ClientSideEvents KeyUp="Get_Tarjeta2" />
                                         </dx:ASPxTextBox>
                                     </td>
-                                    <td id="ClientParCaption3" style="width:50px">
+                                    <td id="Client3" style="width:50px">
                                         Artículo:</td>
                                     <td style="width:100px">
                                         <dx:ASPxTextBox ID="txtProducto" runat="server" Width="100px" 
@@ -608,7 +608,7 @@
                                             <ClientSideEvents KeyUp="Get_Tarjeta2" />
                                         </dx:ASPxTextBox>
                                     </td>
-                                    <td id="ClientParCaption4" style="width:50px">
+                                    <td id="Client4" style="width:50px">
                                         Serie:</td>
                                     <td style="width:100px">
                                         <dx:ASPxTextBox ID="txtSerie" runat="server" Width="100px" 

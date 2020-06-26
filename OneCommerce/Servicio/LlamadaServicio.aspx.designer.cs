@@ -175,6 +175,15 @@ namespace OneCommerce.Servicio {
         protected global::DevExpress.Web.ASPxEditors.ASPxDateEdit txtcreateDate1;
         
         /// <summary>
+        /// txtcreatetime control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::DevExpress.Web.ASPxEditors.ASPxTextBox txtcreatetime;
+        
+        /// <summary>
         /// txtinternalSN control.
         /// </summary>
         /// <remarks>
@@ -191,6 +200,15 @@ namespace OneCommerce.Servicio {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::DevExpress.Web.ASPxEditors.ASPxDateEdit txtcloseDate1;
+        
+        /// <summary>
+        /// txtclosetime control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::DevExpress.Web.ASPxEditors.ASPxTextBox txtclosetime;
         
         /// <summary>
         /// txtitemCode control.

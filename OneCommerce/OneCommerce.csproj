@@ -20,8 +20,7 @@
     <UpgradeBackupLocation>
     </UpgradeBackupLocation>
     <OldToolsVersion>4.0</OldToolsVersion>
-    <IISExpressSSLPort>
-    </IISExpressSSLPort>
+    <IISExpressSSLPort>44319</IISExpressSSLPort>
     <IISExpressAnonymousAuthentication />
     <IISExpressWindowsAuthentication />
     <IISExpressUseClassicPipelineMode />
@@ -1503,6 +1502,7 @@
     <Content Include="Grafico\highchart\js\themes\skies.js" />
     <Content Include="Grafico\highchart\js\themes\_notes\dwsync.xml" />
     <Content Include="Grafico\highchart\js\_notes\dwsync.xml" />
+    <Content Include="Impresiones\getReport.aspx" />
     <Content Include="Mantenimiento\Impresiones\getReport.aspx" />
     <Content Include="Limpio.aspx" />
     <Content Include="Default.aspx" />
@@ -1516,6 +1516,7 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Mantenimiento\Zonas.aspx" />
+    <Content Include="Masters\Urbanizacion.aspx" />
     <Content Include="Masters\Kits.aspx" />
     <Content Include="Masters\Permisos.aspx" />
     <Content Include="Masters\Reconciliacion.aspx" />
@@ -1538,6 +1539,7 @@
     <Content Include="Purchase\Compras\GuiaCompra.aspx" />
     <Content Include="Purchase\Compras\NotaCreditoCompra.aspx" />
     <Content Include="Purchase\Compras\PedidoCompra.aspx" />
+    <Content Include="Reportes\ReporteCliente.aspx" />
     <Content Include="Reportes\Config\Action_Filter_32x32.png" />
     <Content Include="Reportes\Config\DashboardCompras.xml" />
     <Content Include="Reportes\Config\DashboardServicios.xml" />
@@ -1603,6 +1605,7 @@
     <Content Include="Scripts\Sales\RegisterConsult1.js" />
     <Content Include="Scripts\Sales\Oferta.js" />
     <Content Include="Scripts\Jquerys\Sunat.js" />
+    <Content Include="Scripts\Tools\JSUrbanizacion.js" />
     <Content Include="Scripts\Tools\JSGrupArt.js" />
     <Content Include="Scripts\Tools\JSHistoricoConsumo.js" />
     <Content Include="Scripts\Tools\JSAsiento.js" />
@@ -1750,6 +1753,13 @@
     <Compile Include="Grafico\ConsumoAbonado.aspx.designer.cs">
       <DependentUpon>ConsumoAbonado.aspx</DependentUpon>
     </Compile>
+    <Compile Include="Impresiones\getReport.aspx.cs">
+      <DependentUpon>getReport.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Impresiones\getReport.aspx.designer.cs">
+      <DependentUpon>getReport.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Mantenimiento\Impresiones\getReport.aspx.cs">
       <DependentUpon>getReport.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -1794,6 +1804,13 @@
     </Compile>
     <Compile Include="Mantenimiento\Zonas.aspx.designer.cs">
       <DependentUpon>Zonas.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Masters\Urbanizacion.aspx.cs">
+      <DependentUpon>Urbanizacion.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Masters\Urbanizacion.aspx.designer.cs">
+      <DependentUpon>Urbanizacion.aspx</DependentUpon>
     </Compile>
     <Compile Include="Masters\Kits.aspx.cs">
       <DependentUpon>Kits.aspx</DependentUpon>
@@ -1949,6 +1966,13 @@
     </Compile>
     <Compile Include="Purchase\Compras\PedidoCompra.aspx.designer.cs">
       <DependentUpon>PedidoCompra.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Reportes\ReporteCliente.aspx.cs">
+      <DependentUpon>ReporteCliente.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Reportes\ReporteCliente.aspx.designer.cs">
+      <DependentUpon>ReporteCliente.aspx</DependentUpon>
     </Compile>
     <Compile Include="Reportes\Dashboard.aspx.cs">
       <DependentUpon>Dashboard.aspx</DependentUpon>
@@ -2336,6 +2360,7 @@
     <Content Include="Content\fontawesome-webfont.woff" />
     <Content Include="Content\fontawesome-webfont.woff2" />
     <Content Include="Content\FontAwesome.otf" />
+    <Content Include="Impresiones\FacturaOdex.rpt" />
     <None Include="Properties\PublishProfiles\Jose.pubxml" />
   </ItemGroup>
   <ItemGroup>

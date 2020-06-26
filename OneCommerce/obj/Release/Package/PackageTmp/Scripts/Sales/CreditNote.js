@@ -295,14 +295,14 @@ function Set_InitialData(result) {
         // cbeSalesPerson.InsertItem(index, item.Name, item.Code);
         cbeOwnerCode.InsertItem(index, item.Name, item.empID);
         if (item.Dfault === 1) {
-            _vld[2] = item.Code;
+            _vld[4] = item.Code;
         }
     });
 
     //cbeSalesPerson.EndUpdate();
     cbeOwnerCode.EndUpdate();
     //cbeSalesPerson.SetValue(_vld[2]);
-    cbeOwnerCode.SetValue(_vld[2]);
+    cbeOwnerCode.SetValue(_vld[4]);
 
     //OLE
     _rs = result.d.where(function (item) { return (item.Ident === "RE"); });
@@ -623,7 +623,7 @@ function Set_LineProduct(result) {
 }
 
 function Cal_LineTotals(s, e) {
-    var _qt = parseInt(txtQuantity.GetValue());
+    var _qt = parseFloat(txtQuantity.GetValue());
     var _pr = parseFloat(txtPrice.GetValue());
     var _cd = bteItemCode.GetText();
     var _lt = (_qt * _pr);
@@ -671,7 +671,7 @@ function OkProduct() {
         alert("Seleccione un registro para realizar esta operación.")
     }
     else {
-        gdvProductSearch.GetRowValues(gdvProductSearch.GetFocusedRowIndex(), "ItemCode;ItemName;OnHand;PriceBefDi;DiscPrcnt;Price;PriceVat;IssueMthd;NumInSale", OnGetRowValuesProduct);
+        gdvProductSearch.GetRowValues(gdvProductSearch.GetFocusedRowIndex(), "ItemCode;ItemName;OnHand;PriceBefDi;DiscPrcnt;Price;PriceVat;IssueMthd;NumInSale;ActivoC;ActivoS;InvntItem", OnGetRowValuesProduct);
     }
 }
 
@@ -1081,8 +1081,8 @@ function Set_MaintenanceStatus(enb) {
     mnuOper.GetItemByName("PaymentIn").SetEnabled(false);
     mnuOper.GetItemByName("Print").SetEnabled(true);
     mnuOper.GetItemByName("CopyFrom").SetEnabled(false);
-    mnuOper.GetItemByName("CopyTo").SetEnabled(false);
     mnuOper.GetItemByName("Recursos").SetVisible(false);
+    mnuOper.GetItemByName("CopyTo").SetEnabled(false);
 }
 
 // BUSCAR DOCUMENTOS DE VENTA

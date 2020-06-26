@@ -885,21 +885,21 @@
                         <td>
                             <table style="width:100%;" class="tablespace">
                                 <tr>
-                                    <td id="ClientParCaption2" style="width:50px">
+                                    <td id="Client2" style="width:50px">
                                         Proveedor:</td>
                                     <td style="width:100px">
                                         <dx:ASPxTextBox ID="txtCliente" runat="server" Width="100px" 
                                             ClientInstanceName="txtCliente">
                                         </dx:ASPxTextBox>
                                     </td>
-                                    <td id="ClientParCaption3" style="width:50px">
+                                    <td id="Client3" style="width:50px">
                                         Nro. Documento:</td>
                                     <td style="width:100px">
                                         <dx:ASPxTextBox ID="txtnrodoc" runat="server" Width="100px" 
                                             ClientInstanceName="txtnrodoc">
                                         </dx:ASPxTextBox>
                                     </td>
-                                    <td id="ClientParCaption4" style="width:50px">
+                                    <td id="Client4" style="width:50px">
                                         Fecha:</td>
                                     <td style="width:100px">
                                         <dx:ASPxDateEdit ID="dteFecha" runat="server" Width="100px" 
@@ -1025,7 +1025,7 @@
                         <td>
                             <table style="width:100%;" class="tablespace">
                                 <tr>
-                                    <td id="ClientParCaption1" style="width:105px">
+                                    <td id="Client1" style="width:105px">
                                         Código:</td>
                                     <td style="width:280px">
                                         <dx:ASPxTextBox ID="txtCuenta" runat="server" Width="100%" 
@@ -1117,7 +1117,7 @@
                         <td>
                             <table style="width:100%;" class="tablespace">
                                 <tr>
-                                    <td id="ClientParCaption" style="width:105px">
+                                    <td id="Client" style="width:105px">
                                         Código:</td>
                                     <td style="width:280px">
                                         <dx:ASPxTextBox ID="txtParClient" runat="server" Width="100%" 

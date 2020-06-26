@@ -396,7 +396,7 @@ namespace OneCommerce.Purchase
         {
             gdvdln1.DoRowValidation();
             var index = gdvdln1.EditingRowVisibleIndex;
-            ((List<BEDocumentLine>)Session["dln1"])[index].Quantity = Convert.ToInt32(e.NewValues["Quantity"]);
+            ((List<BEDocumentLine>)Session["dln1"])[index].Quantity = Convert.ToDecimal(e.NewValues["Quantity"]);
             ((List<BEDocumentLine>)Session["dln1"])[index].LineTotal = Convert.ToDecimal(e.NewValues["LineTotal"]);
             ((List<BEDocumentLine>)Session["dln1"])[index].DiscPrcnt = Convert.ToDecimal(e.NewValues["DiscPrcnt"]);
             ((List<BEDocumentLine>)Session["dln1"])[index].Price = Convert.ToDecimal(e.NewValues["Price"]);
@@ -828,7 +828,7 @@ namespace OneCommerce.Purchase
                         item.Price = Convert.ToDecimal(_spl[2]);
                         item.LineTotal = Convert.ToDecimal(_spl[3]);
                         item.GTotal = Convert.ToDecimal(_spl[4]);
-                        item.Quantity = Convert.ToInt32(_spl[6]);
+                        item.Quantity = Convert.ToDecimal(_spl[6]);
                     });
             }
             else if (e.Parameters.Contains("QTY"))
@@ -841,7 +841,7 @@ namespace OneCommerce.Purchase
                         band = false;
                         if (item.TreeType == "N")
                         {
-                            item.Quantity = Convert.ToInt32(_spl[1]);
+                            item.Quantity = Convert.ToDecimal(_spl[1]);
                             item.LineTotal = item.Quantity * item.Price;
                             item.GTotal = item.LineTotal * Convert.ToDecimal(1.18);
                         }
@@ -849,13 +849,13 @@ namespace OneCommerce.Purchase
                         {
                             if (item.TreeType == "S")
                             {
-                                item.Quantity = Convert.ToInt32(_spl[1]);
+                                item.Quantity = Convert.ToDecimal(_spl[1]);
                                 item.LineTotal = item.Quantity * item.Price;
                                 item.GTotal = item.LineTotal * Convert.ToDecimal(1.18);
                             }
                             else if (item.TreeType == "I")
                             {
-                                item.Quantity = Convert.ToInt32(item.NumInBuy) * Convert.ToInt32(_spl[1]);
+                                item.Quantity = Convert.ToDecimal(item.NumInBuy) * Convert.ToDecimal(_spl[1]);
                                 item.LineTotal = item.Quantity * item.Price;
                                 item.GTotal = item.LineTotal * Convert.ToDecimal(1.18);
                             }
@@ -1125,7 +1125,7 @@ namespace OneCommerce.Purchase
             {
                 ItemCode = Convert.ToString(e.NewValues["ItemCode"]),
                 ItemName = Convert.ToString(e.NewValues["ItemName"]),
-                Quantity = Convert.ToInt32(e.NewValues["Quantity"]),
+                Quantity = Convert.ToDecimal(e.NewValues["Quantity"]),
                 PriceBefDi = Convert.ToDecimal(e.NewValues["PriceBefDi"]),
                 DiscPrcnt = Convert.ToDecimal(e.NewValues["DiscPrcnt"]),
                 Price = Convert.ToDecimal(e.NewValues["Price"]),

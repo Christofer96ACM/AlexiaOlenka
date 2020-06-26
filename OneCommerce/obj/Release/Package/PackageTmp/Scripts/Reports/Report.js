@@ -1,5 +1,6 @@
 ﻿var _vld = [3];
 $(document).ready(function () {
+    Set_VisibleOption();
 //    Get_CreditTarject();
 });
 function isNullOrWhiteSpace(str) {
@@ -13,6 +14,82 @@ function SearchCloseBox() {
     else {
         gdvData.PerformCallback();
     }
+}
+function ShowClientSearch() {
+    ppcClientSearch.Show();
+}
+function OkClient() {
+    var rowc = gdvClientSearch.GetVisibleRowsOnPage();
+    if (rowc === 0) {
+        alert("No existen registros para realizar esta operación.")
+    }
+    else if (gdvClientSearch.GetFocusedRowIndex() === -1) {
+        alert("Seleccione un registro para realizar esta operación.")
+    }
+    else {
+        gdvClientSearch.GetRowValues(gdvClientSearch.GetFocusedRowIndex(), "Dscription;StartDate;EndDate2;EndDate;DocNum;CardCode;CardName;DocCur;Departamento;Provincia;Distrito;Id_Direccion;Street;Urbanizacion;Vendedor;DOCTOTAL;Frequency;Detalle", OnGetRowValuesClient);
+    }
+}
+function OnGetRowValuesClient(values) {
+    txtCliente.SetText(values[5]);
+    bteCardName.SetText(values[6]);
+    txtContrato.SetText(values[4]);
+    deFechaInCont.SetDate(new Date(values[1]));
+    deFechaFinCont.SetText(values[2]);
+    txtid.SetText(values[11]);
+    txtstreet.SetText(values[12]);
+ 
+    txtserv.SetText(values[17]);
+    gdvClientSearch.SetFocusedRowIndex(-1);
+    ppcClientSearch.Hide();
+   
+}
+function Get_Client1(s, e) {
+    //gdvClientSearch.SetFocusedRowIndex(-1);
+    gdvClientSearch.PerformCallback();
+    if (e.htmlEvent.keyCode === 13) {
+        gdvClientSearch.SetFocusedRowIndex(0);
+        OkClient();
+        ASPxClientUtils.PreventEventAndBubble(e.htmlEvent);
+    }
+}
+function Get_Client() {
+    //gdvClientSearch.SetFocusedRowIndex(-1);
+    gdvClientSearch.PerformCallback();
+
+}
+function CancelClient() {
+    ppcClientSearch.Hide();
+}
+
+function EndClientSearch() {
+    gdvClientSearch.SetFocusedRowIndex(0);
+    //ppcClientSearch.UpdatePosition();
+}
+function Clear_RangeDate() {
+    if (chkRangeDate.GetChecked()) {
+        dteDateIn.SetDate(new Date());
+        dteDateFi.SetDate(new Date());
+    }
+    else {
+        dteDateIn.SetText("");
+        dteDateFi.SetText("");
+    }
+}
+function SearchEstadoCuenta() {
+    if (chkRangeDate.GetValue()==false) {
+        gdvEstadoCuenta.PerformCallback("BUSCAR2");
+    }
+    else {
+        var isValid = ASPxClientEdit.ValidateGroup("ValEdit");
+        if (!isValid || dteDateIn.GetDate() > dteDateFi.GetDate()) {
+            alert("Rango de fechas incorrecto.");
+        }
+        else {
+            gdvEstadoCuenta.PerformCallback("BUSCAR1");
+        }
+    }
+    
 }
 function Set_DateChange(s,e) {
     dteDateFi.SetDate(s.GetDate());
@@ -106,6 +183,34 @@ function Set_Payment() {
     gdvData.PerformCallback("pg:" + _vld[1]);
     ppcPayment.Hide();
 }
+function Set_VisibleOption() {
+    mnuOper.GetItemByName("Quote").SetVisible(true);
+    mnuOper.GetItemByName("OrderTo").SetVisible(false);
+    mnuOper.GetItemByName("DeliveryNote").SetVisible(false);
+    mnuOper.GetItemByName("Cancel").SetVisible(false);
+    mnuOper.GetItemByName("Save").SetVisible(false);
+    mnuOper.GetItemByName("New").SetVisible(false);
+    mnuOper.GetItemByName("Search").SetVisible(false);
+    mnuOper.GetItemByName("Duplicate").SetVisible(false);
+    mnuOper.GetItemByName("Cancel").SetVisible(false);
+    mnuOper.GetItemByName("Export").SetVisible(false);
+    mnuOper.GetItemByName("PaymentIn").SetVisible(false);
+    mnuOper.GetItemByName("Print").SetVisible(false);
+    mnuOper.GetItemByName("CopyFrom").SetVisible(false);
+    mnuOper.GetItemByName("CopyTo").SetVisible(false);
+
+
+    //mnuOper.GetItemByName("Ticket").SetVisible(false);
+    //mnuOper.GetItemByName("TicketBill").SetVisible(false);
+    //mnuOper.GetItemByName("Ticket").SetEnabled(false);
+    //mnuOper.GetItemByName("TicketBill").SetEnabled(false);
+    mnuOper.GetItemByName("Print").SetVisible(true);
+    mnuOper.GetItemByName("Print").SetEnabled(true);
+    mnuOper.GetItemByName("Recursos").SetVisible(false);
+}
+
+
+
 
 function End_Payment(s, e) {
     if (typeof(s.cpError) !== "undefined"){
@@ -117,5 +222,6 @@ function End_Payment(s, e) {
         else {
             alert(e.result);
         }
+
     }
 }

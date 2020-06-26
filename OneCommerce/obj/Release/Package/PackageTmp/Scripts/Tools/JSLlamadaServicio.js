@@ -148,7 +148,7 @@ function okServicio() {
         alert("Seleccione un registro para realizar esta operación.")
     }
     else {
-        gdvServicio.GetRowValues(gdvServicio.GetFocusedRowIndex(), "CallId;ItemCode;ItemName;CardCode;CardName;SerieFab;SerieInt;ItmsGrpCod;IdDireccion;Street;State;U_DXP_BIZ_PROV;U_DXP_BIZ_DIST;NumDoc;Asunto;Estado;Prioridad;Creacion;Cerrado;NroContrato;Origen;TipoProblema;Tecnico;DetalleServicio;Comentario;Resolucion;Cellular;ContactPerson;AddressType;U_GOS_TECN1;U_GOS_TECN2;U_GOS_TECN3;U_GOS_TECN4;U_GOS_TECN5;U_GOS_TECN6", OnGetRowValuesServicio);
+        gdvServicio.GetRowValues(gdvServicio.GetFocusedRowIndex(), "CallId;ItemCode;ItemName;CardCode;CardName;SerieFab;SerieInt;ItmsGrpCod;IdDireccion;Street;State;U_DXP_BIZ_PROV;U_DXP_BIZ_DIST;NumDoc;Asunto;Estado;Prioridad;Creacion;Cerrado;NroContrato;Origen;TipoProblema;Tecnico;DetalleServicio;Comentario;Resolucion;Cellular;ContactPerson;AddressType;U_GOS_TECN1;U_GOS_TECN2;U_GOS_TECN3;U_GOS_TECN4;U_GOS_TECN5;U_GOS_TECN6;createtime;closetime", OnGetRowValuesServicio);
     }
 }
 function OnGetRowValuesServicio(values) {
@@ -162,7 +162,25 @@ function OnGetRowValuesServicio(values) {
     cbbPriority.SetValue(values[16]);
     txtcontctCode1.SetText(values[27]);
     txtidllamada.SetText(values[0]);
+    if (values[35].toString().length == 3) {
+        var time1 = '0' + values[35].tostring();
+    }
+    else {
+        var time1 = values[35].toString();
+    }
     
+    var timecreate = time1.substring(0, 2) + ":" + time1.substring(2, 4);
+    txtcreatetime.SetText(timecreate);
+
+    if (values[36].toString().length == 3) {
+        var time2 = '0' + values[36].toString();
+    }
+    else {
+        var time2 = values[36].toString();
+    }
+    var timeclose= time2.substring(0, 2) + ":" + time2.substring(2, 4);
+    txtclosetime.SetText(timeclose);
+
     txtDepartamento1.SetText(values[10]);
     txtProvincia1.SetText(values[11]);
     txtDistrito1.SetText(values[12]);

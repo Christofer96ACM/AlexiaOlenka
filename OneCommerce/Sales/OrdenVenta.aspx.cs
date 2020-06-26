@@ -445,7 +445,7 @@ namespace OneCommerce.Sales
             {
                 ItemCode = Convert.ToString(e.NewValues["ItemCode"]),
                 ItemName = Convert.ToString(e.NewValues["ItemName"]),
-                Quantity = Convert.ToInt32(e.NewValues["Quantity"]),
+                Quantity = Convert.ToDecimal(e.NewValues["Quantity"]),
                 PriceBefDi = Convert.ToDecimal(e.NewValues["PriceBefDi"]),
                 DiscPrcnt = Convert.ToDecimal(e.NewValues["DiscPrcnt"]),
                 Price = Convert.ToDecimal(e.NewValues["Price"]),
@@ -509,7 +509,7 @@ namespace OneCommerce.Sales
             var index = gdvrdr1.EditingRowVisibleIndex;
             ((List<BEDocumentLine>)Session["rdr1"])[index].ItemCode = Convert.ToString(e.NewValues["ItemCode"]);
             ((List<BEDocumentLine>)Session["rdr1"])[index].ItemName = Convert.ToString(e.NewValues["ItemName"]);
-            ((List<BEDocumentLine>)Session["rdr1"])[index].Quantity = Convert.ToInt32(e.NewValues["Quantity"]);
+            ((List<BEDocumentLine>)Session["rdr1"])[index].Quantity = Convert.ToDecimal(e.NewValues["Quantity"]);
             ((List<BEDocumentLine>)Session["rdr1"])[index].PriceBefDi = Convert.ToDecimal(e.NewValues["PriceBefDi"]);
             ((List<BEDocumentLine>)Session["rdr1"])[index].DiscPrcnt = Convert.ToDecimal(e.NewValues["DiscPrcnt"]);
             ((List<BEDocumentLine>)Session["rdr1"])[index].Price = Convert.ToDecimal(e.NewValues["Price"]);
@@ -631,7 +631,7 @@ namespace OneCommerce.Sales
                         item.Price = Convert.ToDecimal(_spl[2]);
                         item.LineTotal = Convert.ToDecimal(_spl[3]);
                         item.GTotal = Convert.ToDecimal(_spl[4]);
-                        item.Quantity = Convert.ToInt32(_spl[6]);
+                        item.Quantity = Convert.ToDecimal(_spl[6]);
                     });
             }
             else if (e.Parameters.Contains("LM"))
@@ -667,8 +667,8 @@ namespace OneCommerce.Sales
                             Kit = false,
                             Moneda = cbbDocCur.Value.ToString(),
                             DateIn = Convert.ToDateTime(dteDocDate.Text),
-                            Descripcion = txtDescription.Text,
-                            SerieMaqr = txtMarca.Text
+                            Descripcion ="",
+                            SerieMaqr =""
                         };
                         var olst = obrd.Get_OSCSP_OITM(obep);
 
@@ -860,8 +860,8 @@ namespace OneCommerce.Sales
                                 Kit = false,
                                 Moneda = cbbDocCur.Value.ToString(),
                                 DateIn = Convert.ToDateTime(dteDocDate.Text),
-                                Descripcion = txtDescription.Text,
-                                SerieMaqr = txtMarca.Text
+                                Descripcion ="" ,
+                                SerieMaqr = ""
                             };
 
                             var articulosdelista = obrd.Get_OSCSP_OITM(obep);
@@ -955,7 +955,7 @@ namespace OneCommerce.Sales
                         band = false;
                         if (item.TreeType == "N")
                         {
-                            item.Quantity = Convert.ToInt32(_spl[1]);
+                            item.Quantity = Convert.ToDecimal(_spl[1]);
                             item.LineTotal = item.Quantity * item.Price;
                             item.GTotal = item.LineTotal * Convert.ToDecimal(1.18);
                         }
@@ -963,13 +963,13 @@ namespace OneCommerce.Sales
                         {
                             if (item.TreeType == "S")
                             {
-                                item.Quantity = Convert.ToInt32(_spl[1]);
+                                item.Quantity = Convert.ToDecimal(_spl[1]);
                                 item.LineTotal = item.Quantity * item.Price;
                                 item.GTotal = item.LineTotal * Convert.ToDecimal(1.18);
                             }
                             else if (item.TreeType == "I")
                             {
-                                item.Quantity = Convert.ToInt32(item.NumInSale) * Convert.ToInt32(_spl[1]);
+                                item.Quantity = Convert.ToDecimal(item.NumInSale) * Convert.ToDecimal(_spl[1]);
                                 item.LineTotal = item.Quantity * item.Price;
                                 item.GTotal = item.LineTotal * Convert.ToDecimal(1.18);
                             }

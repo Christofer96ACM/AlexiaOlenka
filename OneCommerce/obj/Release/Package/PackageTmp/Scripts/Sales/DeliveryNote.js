@@ -321,40 +321,6 @@ function Set_InitialData(result) {
     cbbListNum.EndUpdate();
     cbbListNum.SetValue(_vld[0]);
 
-    _rs = result.d.where(function (item) { return (item.Ident === "VR"); });
-    //cbeSalesPerson.ClearItems();
-    cbeOwnerCode.ClearItems();
-    //cbeSalesPerson.BeginUpdate();
-    cbeOwnerCode.BeginUpdate();
-    $.each(_rs, function (index, item) {
-        // cbeSalesPerson.InsertItem(index, item.Name, item.Code);
-        cbeOwnerCode.InsertItem(index, item.Name, item.empID);
-        if (item.Dfault === 1) {
-            _vld[2] = item.Code;
-        }
-    });
-
-    //cbeSalesPerson.EndUpdate();
-    cbeOwnerCode.EndUpdate();
-    //cbeSalesPerson.SetValue(_vld[2]);
-    cbeOwnerCode.SetValue(_vld[2]);
-
-    //OLE
-    _rs = result.d.where(function (item) { return (item.Ident === "RE"); });
-    cbeSalesPerson.ClearItems();
-    cbeSalesPerson.BeginUpdate();
-
-    $.each(_rs, function (index, item) {
-        cbeSalesPerson.InsertItem(index, item.Name, item.Code);
-
-        if (item.Dfault === 1) {
-            _vld[2] = item.Code;
-        }
-    });
-
-    cbeSalesPerson.EndUpdate();
-    cbeSalesPerson.SetValue(_vld[2]);
-    //OLE
     var _rs3 = result.d.where(function (item) { return (item.Ident === "C18"); });
     cbbMotTras.ClearItems();
     cbbMotTras.BeginUpdate();
@@ -372,6 +338,42 @@ function Set_InitialData(result) {
     });
     cbbModTras.EndUpdate();
     cbbModTras.SetSelectedIndex(0);
+
+    _rs = result.d.where(function (item) { return (item.Ident === "VR"); });
+    //cbeSalesPerson.ClearItems();
+    cbeOwnerCode.ClearItems();
+    //cbeSalesPerson.BeginUpdate();
+    cbeOwnerCode.BeginUpdate();
+    $.each(_rs, function (index, item) {
+        // cbeSalesPerson.InsertItem(index, item.Name, item.Code);
+        cbeOwnerCode.InsertItem(index, item.Name, item.empID);
+        if (item.Dfault === 1) {
+            _vld[4] = item.Code;
+        }
+    });
+
+    //cbeSalesPerson.EndUpdate();
+    cbeOwnerCode.EndUpdate();
+    //cbeSalesPerson.SetValue(_vld[2]);
+    cbeOwnerCode.SetValue(_vld[4]);
+
+    //OLE
+    _rs = result.d.where(function (item) { return (item.Ident === "RE"); });
+    cbeSalesPerson.ClearItems();
+    cbeSalesPerson.BeginUpdate();
+
+    $.each(_rs, function (index, item) {
+        cbeSalesPerson.InsertItem(index, item.Name, item.Code);
+
+        if (item.Dfault === 1) {
+            _vld[2] = item.Code;
+        }
+    });
+
+    cbeSalesPerson.EndUpdate();
+    cbeSalesPerson.SetValue(_vld[2]);
+    //OLE
+
     _rs = result.d.where(function (item) { return (item.Ident === "CP"); });
     cbbGroupNum.ClearItems();
     cbbGroupNum.BeginUpdate();
@@ -763,7 +765,7 @@ function Set_LineProduct(result) {
 }
 
 function Cal_LineTotals(s, e) {
-    var _qt = parseInt(txtQuantity.GetValue());
+    var _qt = parseFloat(txtQuantity.GetValue());
     var _pr = parseFloat(txtPrice.GetValue());
     var _cd = bteItemCode.GetText();
     var _lt = (_qt * _pr);

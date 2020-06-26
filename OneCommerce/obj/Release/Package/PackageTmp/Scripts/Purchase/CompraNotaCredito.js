@@ -298,6 +298,7 @@ function Set_InitialData(result) {
 
     cbeSalesPerson.EndUpdate();
     cbeSalesPerson.SetValue(_vld[2]);
+    //OLE
 
     var _rs2 = result.d.where(function (item) { return (item.Ident === "WH"); });
     cbbWareHouse.BeginUpdate();
@@ -615,7 +616,7 @@ function Set_LineProduct(result) {
 }
 
 function Cal_LineTotals(s, e) {
-    var _qt = parseInt(txtQuantity.GetValue());
+    var _qt = parseFloat(txtQuantity.GetValue());
     var _pr = parseFloat(txtPrice.GetValue());
     var _cd = bteItemCode.GetText();
     var _lt = (_qt * _pr);

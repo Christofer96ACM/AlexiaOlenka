@@ -96,6 +96,7 @@ function InitControls() {
 function Set_VisibleOption() {
     checkHideComp.SetEnabled(false);
     cbbTreeType.SetEnabled(false);
+    mnuOper.GetItemByName("Recursos").SetVisible(false);
     mnuOper.GetItemByName("Cancel").SetVisible(false);
     mnuOper.GetItemByName("Duplicate").SetVisible(false);
     mnuOper.GetItemByName("Export").SetVisible(false);

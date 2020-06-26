@@ -167,6 +167,8 @@ function Set_VisibleOption() {
     mnuOper.GetItemByName("OrderTo").SetVisible(false);
     mnuOper.GetItemByName("DeliveryNote").SetVisible(false);
     mnuOper.GetItemByName("Cancel").SetVisible(false);
+    mnuOper.GetItemByName("Print").SetVisible(false);
+    mnuOper.GetItemByName("Print").SetEnabled(false);
 }
 function SaveItems() {
     

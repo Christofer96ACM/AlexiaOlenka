@@ -407,6 +407,18 @@ namespace BusinessRules
             }
             
         }
+        public List<BEContratos> DXP_GET_CLIENTE_ESTADO_CUENTA(BEParameters obep)
+        {
+            using (var odr = oda.DXP_GET_CLIENTE_ESTADO_CUENTA(obep))
+            {
+                var olst = new List<BEContratos>();
+                var iLst = olst;
+                ((IList)iLst).LoadFromReader<BEContratos>(odr);
+                Dispose(false);
+                return (olst);
+            }
+
+        }
         public List<BETipoCambio> DXP_GET_TIPOCAMBIO(BEParameters obep)
         {
             using (var odr = oda.DXP_GET_TIPOCAMBIO(obep))
@@ -679,7 +691,11 @@ namespace BusinessRules
             oda.UpdateMikrotikAbonado(objs, obj);
             Dispose(false);
         }
-
+        public void UpdateUrbanizacion(BEUrbanizacion objs, object obj)
+        {
+            oda.UpdateUrbanizacion(objs, obj);
+            Dispose(false);
+        }
         public void Leer_Mikrotik_Active(BEParameters objs, object obj)
         {
             oda.Leer_Mikrotik_Active(objs, obj);
@@ -1238,6 +1254,28 @@ namespace BusinessRules
                 return (olst);
             }
         }
+        public List<BEUrbanizacion> DXP_GET_LISTA_URB(BEParameters obep)
+        {
+            using (var odr = oda.DXP_GET_LISTA_URB(obep))
+            {
+                var olst = new List<BEUrbanizacion>();
+                var iLst = olst;
+                ((IList)iLst).LoadFromReader<BEUrbanizacion>(odr);
+                Dispose(false);
+                return (olst);
+            }
+        }
+        public List<BEUrbanizacion> DXP_GET_LISTA_URB_DIST(BEParameters obep)
+        {
+            using (var odr = oda.DXP_GET_LISTA_URB_DIST(obep))
+            {
+                var olst = new List<BEUrbanizacion>();
+                var iLst = olst;
+                ((IList)iLst).LoadFromReader<BEUrbanizacion>(odr);
+                Dispose(false);
+                return (olst);
+            }
+        }
         public List<BEClientAddress> GET_GABINETES(BEParameters obep)
         {
             using (var odr = oda.GET_GABINETES(obep))
@@ -1719,6 +1757,11 @@ namespace BusinessRules
             oda.SaveListaMateriales(obj, objs);
             Dispose(false);
         }
+        public void SaveUrbanizacion(BEUrbanizacion obj, object objs)
+        {
+            oda.SaveUrbanizacion(obj, objs);
+            Dispose(false);
+        }
         public void UpdateKits(BEProduct obj, object objs)
         {
             oda.UpdateKits(obj, objs);
@@ -2150,6 +2193,21 @@ namespace BusinessRules
                 return (olst);
             }
         }
+        public void CancelInvoice(BEDocument obj, object objs)
+        {
+            oda.CancelInvoice(obj, objs);
+            Dispose(false);
+        }
+        public void CancelDownInvoice(BEDocument obj, object objs)
+        {
+            oda.CancelDownInvoice(obj, objs);
+            Dispose(false);
+        }
+        public void CancelPurchaseInvoice(BEDocument obj, object objs)
+        {
+            oda.CancelPurchaseInvoice(obj, objs);
+            Dispose(false);
+        }
         public List<BEDocumentLine> Get_OSCSP_SRCH_QUT1_OFE(BEParameters obep)
         {
             using (var odr = oda.Get_OSCSP_SRCH_QUT1_OFE(obep))
@@ -2390,6 +2448,61 @@ namespace BusinessRules
                 var olst = new List<BECloseBox>();
                 var iLst = olst;
                 ((IList)iLst).LoadFromReader<BECloseBox>(odr);
+                Dispose(false);
+                return (olst);
+            }
+        }
+        public List<BEEStadoCuenta> DXP_GET_REPORTE_CLIENTE_DETALLE(BEParameters obep)
+        {
+            using (var odr = oda.DXP_GET_REPORTE_CLIENTE_DETALLE(obep))
+            {
+                var olst = new List<BEEStadoCuenta>();
+                var iLst = olst;
+                ((IList)iLst).LoadFromReader<BEEStadoCuenta>(odr);
+                Dispose(false);
+                return (olst);
+            }
+        }
+        public List<BEEStadoCuenta> DXP_ESTADO_CUENTA_FINAL_2(BEParameters obep)
+        {
+            using (var odr = oda.DXP_ESTADO_CUENTA_FINAL_2(obep))
+            {
+                var olst = new List<BEEStadoCuenta>();
+                var iLst = olst;
+                ((IList)iLst).LoadFromReader<BEEStadoCuenta>(odr);
+                Dispose(false);
+                return (olst);
+            }
+        }
+        public List<BEEStadoCuenta> DXP_ESTADO_CUENTA_FINAL(BEParameters obep)
+        {
+            using (var odr = oda.DXP_ESTADO_CUENTA_FINAL(obep))
+            {
+                var olst = new List<BEEStadoCuenta>();
+                var iLst = olst;
+                ((IList)iLst).LoadFromReader<BEEStadoCuenta>(odr);
+                Dispose(false);
+                return (olst);
+            }
+        }
+        public List<BEEStadoCuenta> DXP_GET_REPORTE_CLIENTE(BEParameters obep)
+        {
+            using (var odr = oda.DXP_GET_REPORTE_CLIENTE(obep))
+            {
+                var olst = new List<BEEStadoCuenta>();
+                var iLst = olst;
+                ((IList)iLst).LoadFromReader<BEEStadoCuenta>(odr);
+                Dispose(false);
+                return (olst);
+            }
+        }
+        public List<BEEStadoCuenta> DXP_GET_REPORTE_CLIENTE_1(BEParameters obep)
+        {
+            using (var odr = oda.DXP_GET_REPORTE_CLIENTE_1(obep))
+            {
+                var olst = new List<BEEStadoCuenta>();
+                var iLst = olst;
+                ((IList)iLst).LoadFromReader<BEEStadoCuenta>(odr);
                 Dispose(false);
                 return (olst);
             }

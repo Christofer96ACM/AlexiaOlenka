@@ -108,9 +108,14 @@
                                         </td>
                                         <td style="width:15px;"></td>
                                         <td style="width:80px;">
-                                            <dx:ASPxTextBox ID="txttypeonu" runat="server" Width="200px" 
-                                                ClientInstanceName="txttypeonu" ClientSideEvents-KeyUp="Get_Plan2"  AutoPostBack="false">
-                                            </dx:ASPxTextBox>
+                                              <dx:ASPxComboBox ID="cbbtypeonu" runat="server" Width="100%" EnableSynchronization="False"
+                                               ClientInstanceName="cbbtypeonu" SelectedIndex="0"  ClientSideEvents-SelectedIndexChanged="Get_Plan2">
+                                               <Items>
+                                                <dx:ListEditItem Selected="True" Text="ONU+CATV" Value="ONU+CATV" />
+                                                 <dx:ListEditItem Text="ONU+DATOS" Value="ONU+DATOS" />
+                                                 </Items>
+                                                 </dx:ASPxComboBox>
+
                                         </td>
 
                                           <td style="width:20px;" colspan="3"></td>

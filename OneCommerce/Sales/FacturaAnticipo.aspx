@@ -198,7 +198,7 @@
                                                         </td>
                                                         <td style="width:200px">
                                                             <dx:ASPxTextBox ID="txtU_BPP_MDCD" runat="server" ClientInstanceName="txtU_BPP_MDCD" 
-                                                                Width="200px" ReadOnly="true">
+                                                                Width="200px" ReadOnly="false">
                                                             </dx:ASPxTextBox>
                                                         </td>
                                                     </tr>
@@ -286,7 +286,7 @@
                                                         <dx:GridViewDataTextColumn Caption="Cantidad" ShowInCustomizationForm="True" 
                                                             VisibleIndex="4" Width="70px" FieldName="Quantity">
                                                             <PropertiesTextEdit ClientInstanceName="txtQuantity" Width="100%" DisplayFormatInEditMode="true">
-                                                            <MaskSettings Mask="&lt;0..9999999&gt;" />
+                                                            
                                                                 <Style HorizontalAlign="Center" VerticalAlign="Middle" Font-Size="8pt">
                                                                 </Style>                                                                
                                                                 <ValidationSettings ErrorDisplayMode="None">

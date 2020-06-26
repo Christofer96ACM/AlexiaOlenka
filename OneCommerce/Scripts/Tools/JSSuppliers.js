@@ -18,6 +18,7 @@ $(document).ready(function () {
     }
 });
 function Set_VisibleOption() {
+    mnuOper.GetItemByName("Recursos").SetVisible(false);
     mnuOper.GetItemByName("Cancel").SetVisible(false);
     mnuOper.GetItemByName("Duplicate").SetVisible(false);
     mnuOper.GetItemByName("Export").SetVisible(false);

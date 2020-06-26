@@ -52,9 +52,9 @@ namespace BusinessEntities
         public string TaxCodeAP { get; set; }
         public string TaxCodeAR { get; set; }
         public string U_BPP_TIPEXIST { get; set; }
-        public int Quantity { get; set; }
+        public decimal Quantity { get; set; }
         public decimal Quantity2 { get; set; }
-        public int OnHand { get; set; }
+        public decimal OnHand { get; set; }
         public decimal PriceBefDi { get; set; }
         public decimal DiscPrcnt { get; set; }
         public decimal Price { get; set; }

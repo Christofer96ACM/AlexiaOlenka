@@ -34,6 +34,8 @@
                                         <Items>
                                             <dx:NavBarItem Name="Grupo de Articulos" Text="Grupo de Articulos" NavigateUrl="~/Gestion/GrupoArt.aspx">
                                             </dx:NavBarItem>
+                                             <dx:NavBarItem Name="Urbanizacion" Text="Urbanización" NavigateUrl="~/Masters/Urbanizacion.aspx">
+                                            </dx:NavBarItem>
                                            
                                         </Items>
                                     </dx:NavBarGroup>
@@ -100,6 +102,8 @@
                                             </dx:NavBarItem>
                                             <dx:NavBarItem Name="Inventario" Text="Inventario" NavigateUrl="~/Reportes/Inventario.aspx">
                                             </dx:NavBarItem>
+                                            <dx:NavBarItem Name="ReporteCliente" Text="Estado de Cuenta " NavigateUrl="~/Reportes/ReporteCliente.aspx">
+                                            </dx:NavBarItem>
                                         </Items>
                                     </dx:NavBarGroup>
                                     <dx:NavBarGroup Name="Masters" Text="Maestros">
@@ -133,8 +137,8 @@
                                             </dx:NavBarItem>
                                             <dx:NavBarItem Name="TipoCambio" Text="Tipo de Cambio"  NavigateUrl="~/Masters/TipoCambio.aspx">
                                             </dx:NavBarItem>
-                                            <%--<dx:NavBarItem Name="Recoverer" Text="Recuperar Contraseña"  NavigateUrl="~/Account/Recoverer.aspx">
-                                            </dx:NavBarItem>--%>
+                                            <dx:NavBarItem Name="Recoverer" Text="Recuperar Contraseña"  NavigateUrl="~/Account/Recoverer.aspx">
+                                            </dx:NavBarItem>
                                         </Items>
                                     </dx:NavBarGroup>
                                      <dx:NavBarGroup Name="Servicio" Text="Servicio"  Expanded="False">

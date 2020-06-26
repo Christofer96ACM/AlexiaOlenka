@@ -262,12 +262,14 @@ function insert_distrito(result) {
     cbodistrito.EndUpdate();
     cbodistrito.SetSelectedIndex(0);
 }
+
 function Set_MaintenanceStatus(enb) {
 
     cbbDocCur.SetEnabled(true);
     mnuOper.GetItemByName("Quote").SetVisible(true);
     mnuOper.GetItemByName("OrderFrom").SetVisible(false);
     mnuOper.GetItemByName("DeliveryFrom").SetVisible(false);
+    mnuOper.GetItemByName("Recursos").SetVisible(false);
 
 
     mnuOper.GetItemByName("PaymentIn").SetVisible(false);
@@ -278,7 +280,6 @@ function Set_MaintenanceStatus(enb) {
     mnuOper.GetItemByName("Export").SetVisible(false);
     mnuOper.GetItemByName("Print").SetVisible(true);
     mnuOper.GetItemByName("Cancel").SetEnabled(false);
-    mnuOper.GetItemByName("Recursos").SetVisible(false);
     //mnuOper.GetItemByName("Ticket").SetVisible(false);
     //mnuOper.GetItemByName("TicketBill").SetVisible(false);
 
@@ -414,7 +415,6 @@ function Set_InitialData(result) {
 
     cbbGroupNum.EndUpdate();
     cbbGroupNum.SetValue(_vld[3]);
-
     _rs = result.d.where(function (item) { return (item.Ident === "VR"); });
     //cbeSalesPerson.ClearItems();
     cbeOwnerCode.ClearItems();
@@ -424,7 +424,7 @@ function Set_InitialData(result) {
         // cbeSalesPerson.InsertItem(index, item.Name, item.Code);
         cbeOwnerCode.InsertItem(index, item.Name, item.empID);
         if (item.Dfault === 1) {
-            _vld[5] = item.Code;
+            _vld[4] = item.Code;
         }
     });
 
@@ -442,12 +442,13 @@ function Set_InitialData(result) {
         cbeSalesPerson.InsertItem(index, item.Name, item.Code);
 
         if (item.Dfault === 1) {
-            _vld[4] = item.Code;
+            _vld[2] = item.Code;
         }
     });
 
     cbeSalesPerson.EndUpdate();
-    cbeSalesPerson.SetValue(_vld[4]);
+    cbeSalesPerson.SetValue(_vld[2]);
+    //OLE
 
     cbbListNum.BeginUpdate();
     cbbListNum.ClearItems();
@@ -821,7 +822,7 @@ function Set_LineProduct(result) {
     });
 }
 function Cal_LineTotals(s, e) {
-    var _qt = parseInt(txtQuantity.GetValue());
+    var _qt = parseFloat(txtQuantity.GetValue());
     var _pr = parseFloat(alphanumeric(txtPrice.GetValue()));
     var _cd = bteItemCode.GetText();
     var _lt = (_qt * _pr);

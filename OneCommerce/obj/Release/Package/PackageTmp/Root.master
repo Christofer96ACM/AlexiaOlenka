@@ -34,7 +34,7 @@
                                     <AnonymousTemplate>
                                         <a href="~/Account/Login.aspx" runat="server" id="loginLink">Iniciar Sesión</a> 
 										| 
-										    <a href="~/Account/Recoverer.aspx" runat="server" id="registerLink">Cambiar Contraseña</a>
+										    <a href="~/Account/ChangePassword.aspx" runat="server" id="registerLink">Cambiar Contraseña</a>
                                     </AnonymousTemplate>
                                     <LoggedInTemplate>
                                         Bienvenido <span class="bold">
@@ -43,7 +43,7 @@
                                         <asp:LoginStatus ID="HeadLoginStatus" runat="server" style="color:black" LogoutAction="Redirect" LogoutText="Cerrar Sesión"
                                             LogoutPageUrl="~/Account/Login.aspx" />
                                         ]
-                                        [<a href="~/Account/Recoverer.aspx" runat="server" id="registerLink" style="color:black">Cambiar Contraseña</a>]
+                                        [<a href="~/Account/ChangePassword.aspx" runat="server" id="registerLink" style="color:black">Cambiar Contraseña</a>]
                                     </LoggedInTemplate>
                                 </asp:LoginView>
                             </div>

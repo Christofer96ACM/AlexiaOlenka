@@ -271,7 +271,7 @@ function Get_Movi() {
 }
 // INICIALIZA DATOS BASICOS PARA LA ORDEN DE VENTA
 function Set_InitialData(result) {
-    cbeOwnerCode.SetEnabled(false);
+    cbeOwnerCode.SetEnabled(true);
     //txtQuantityKit.SetVisible(false);
     //tetU_BF_HCFI.SetEnabled(false);
 
@@ -342,14 +342,14 @@ function Set_InitialData(result) {
         // cbeSalesPerson.InsertItem(index, item.Name, item.Code);
         cbeOwnerCode.InsertItem(index, item.Name, item.empID);
         if (item.Dfault === 1) {
-            _vld[5] = item.Code;
+            _vld[4] = item.Code;
         }
     });
 
     //cbeSalesPerson.EndUpdate();
     cbeOwnerCode.EndUpdate();
     //cbeSalesPerson.SetValue(_vld[2]);
-    cbeOwnerCode.SetValue(_vld[5]);
+    cbeOwnerCode.SetValue(_vld[4]);
 
     //OLE
     _rs = result.d.where(function (item) { return (item.Ident === "RE"); });
@@ -360,12 +360,12 @@ function Set_InitialData(result) {
         cbeSalesPerson.InsertItem(index, item.Name, item.Code);
 
         if (item.Dfault === 1) {
-            _vld[4] = item.Code;
+            _vld[2] = item.Code;
         }
     });
 
     cbeSalesPerson.EndUpdate();
-    cbeSalesPerson.SetValue(_vld[4]);
+    cbeSalesPerson.SetValue(_vld[2]);
     //OLE
 
     _rs = result.d.where(function (item) { return (item.Ident === "LP"); });
@@ -738,7 +738,7 @@ function Set_LineProduct(result) {
     });
 }
 function Cal_LineTotals(s, e) {
-    var _qt = parseInt(txtQuantity.GetValue());
+    var _qt = parseFloat(txtQuantity.GetValue());
     var _pr = parseFloat(alphanumeric(txtPrice.GetValue()));
     //alert(_pr);
     var _cd = bteItemCode.GetText();
